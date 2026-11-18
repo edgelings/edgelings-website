@@ -1,0 +1,137 @@
+/* Edgelings website. Same look as the game: dark purple night, glossy cartoon, thick ink outlines, Lilita One. */
+@font-face{font-family:"Lilita One";font-style:normal;font-weight:400;font-display:swap;src:url(/fonts/lilita-one-latin-400-normal.woff2) format("woff2");unicode-range:U+0000-00FF,U+0131,U+0152-0153,U+02BB-02BC,U+02C6,U+02DA,U+02DC,U+0304,U+0308,U+0329,U+2000-206F,U+20AC,U+2122,U+2191,U+2193,U+2212,U+2215,U+FEFF,U+FFFD}
+@font-face{font-family:"Lilita One";font-style:normal;font-weight:400;font-display:swap;src:url(/fonts/lilita-one-latin-ext-400-normal.woff2) format("woff2");unicode-range:U+0100-02BA,U+02BD-02C5,U+02C7-02CC,U+02CE-02D7,U+02DD-02FF,U+0304,U+0308,U+0329,U+1D00-1DBF,U+1E00-1E9F,U+1EF2-1EFF,U+2020,U+20A0-20AB,U+20AD-20C0,U+2113,U+2C60-2C7F,U+A720-A7FF}
+@font-face{font-family:Nunito;font-style:normal;font-weight:600;font-display:swap;src:url(/fonts/nunito-latin-600-normal.woff2) format("woff2");unicode-range:U+0000-00FF,U+0131,U+0152-0153,U+02BB-02BC,U+02C6,U+02DA,U+02DC,U+2000-206F,U+20AC,U+2122,U+2212,U+FEFF,U+FFFD}
+@font-face{font-family:Nunito;font-style:normal;font-weight:600;font-display:swap;src:url(/fonts/nunito-latin-ext-600-normal.woff2) format("woff2");unicode-range:U+0100-02BA,U+02BD-02C5,U+02C7-02CC,U+02CE-02D7,U+02DD-02FF,U+1E00-1E9F,U+1EF2-1EFF,U+20A0-20AB,U+20AD-20C0,U+2C60-2C7F,U+A720-A7FF}
+@font-face{font-family:Nunito;font-style:normal;font-weight:800;font-display:swap;src:url(/fonts/nunito-latin-800-normal.woff2) format("woff2");unicode-range:U+0000-00FF,U+0131,U+0152-0153,U+02BB-02BC,U+02C6,U+02DA,U+02DC,U+2000-206F,U+20AC,U+2122,U+2212,U+FEFF,U+FFFD}
+@font-face{font-family:Nunito;font-style:normal;font-weight:800;font-display:swap;src:url(/fonts/nunito-latin-ext-800-normal.woff2) format("woff2");unicode-range:U+0100-02BA,U+02BD-02C5,U+02C7-02CC,U+02CE-02D7,U+02DD-02FF,U+1E00-1E9F,U+1EF2-1EFF,U+20A0-20AB,U+20AD-20C0,U+2C60-2C7F,U+A720-A7FF}
+
+:root{
+  --night:#1B1233; --night2:#281446; --ink:#3a1f5c; --ink2:#6a557f;
+  --cream:#FFF8EA; --cream2:#FFF1DC; --gold:#FFE66B; --gold2:#F4A51C;
+  --orange:#FFB357; --orange2:#EC6A1A; --purple:#D08BFF; --purple2:#8A3FD6;
+  --blue:#7CCBFF; --blue2:#2D86E0; --green:#9BEA5A; --green2:#3FA63A;
+  --display:"Lilita One",system-ui,sans-serif; --body:Nunito,system-ui,-apple-system,"Segoe UI",sans-serif;
+}
+*{box-sizing:border-box}
+html{scroll-behavior:smooth}
+body{margin:0;min-height:100vh;color:#F4EEFF;font:600 17px/1.6 var(--body);
+  background:radial-gradient(900px 520px at 85% -10%,#5b2a9a 0%,transparent 60%),radial-gradient(700px 500px at -10% 30%,#1e3f8a 0%,transparent 60%),radial-gradient(800px 600px at 50% 110%,#4a1f6e 0%,transparent 65%),var(--night);
+  background-attachment:fixed}
+img{max-width:100%;display:block}
+a{color:var(--gold)}
+a:hover{color:#fff}
+.wrap{max-width:1080px;margin:0 auto;padding:0 22px}
+
+/* Stars */
+body:before{content:"";position:fixed;inset:0;pointer-events:none;z-index:-1;opacity:.55;
+  background-image:radial-gradient(1.5px 1.5px at 12% 18%,#fff 50%,transparent 51%),radial-gradient(1px 1px at 32% 8%,#fff 50%,transparent 51%),radial-gradient(1.5px 1.5px at 58% 22%,#ffe980 50%,transparent 51%),radial-gradient(1px 1px at 78% 12%,#fff 50%,transparent 51%),radial-gradient(1.5px 1.5px at 90% 40%,#cfe8ff 50%,transparent 51%),radial-gradient(1px 1px at 8% 62%,#fff 50%,transparent 51%),radial-gradient(1.5px 1.5px at 42% 78%,#ffe980 50%,transparent 51%),radial-gradient(1px 1px at 70% 88%,#fff 50%,transparent 51%)}
+
+/* Navigation */
+nav{display:flex;align-items:center;gap:18px;max-width:1080px;margin:0 auto;padding:16px 22px}
+nav .logo{display:block;margin-right:auto}
+nav .logo img{height:58px;width:auto}
+nav .links a{font:400 18px var(--display);color:#fff;text-decoration:none;margin-left:20px;letter-spacing:.3px;-webkit-text-stroke:0;text-shadow:0 2px 0 var(--ink)}
+nav .links a:hover,nav .links a[aria-current]{color:var(--gold)}
+
+/* Glossy pill, as in the game */
+.pill{position:relative;display:inline-block;font:400 20px/1 var(--display);color:#fff;text-decoration:none;padding:15px 28px;border-radius:999px;border:3px solid var(--ink);
+  background:linear-gradient(180deg,var(--gold),var(--gold2));box-shadow:0 5px 0 rgba(40,20,70,.55);text-shadow:0 2px 0 var(--ink),0 0 2px var(--ink)}
+.pill:after{content:"";position:absolute;left:14px;right:14px;top:4px;height:30%;border-radius:8px;background:rgba(255,255,255,.35)}
+.pill:hover{color:#fff;transform:translateY(-1px)}
+.pill.purple{background:linear-gradient(180deg,var(--purple),var(--purple2))}
+
+/* Hero */
+.hero{display:grid;grid-template-columns:1.05fr .95fr;gap:40px;align-items:center;padding:34px 0 40px}
+.hero .wordmark{width:min(560px,100%);height:auto;margin:0 0 6px -8px;filter:drop-shadow(0 8px 0 rgba(20,10,40,.45))}
+h1,h2,h3{font-family:var(--display);font-weight:400;line-height:1.1;letter-spacing:.3px;color:#fff;text-shadow:0 3px 0 var(--ink)}
+.hero h1{font-size:clamp(34px,5vw,54px);margin:10px 0 12px;color:var(--gold);
+  text-shadow:-2px -2px 0 var(--ink),2px -2px 0 var(--ink),-2px 2px 0 var(--ink),2px 2px 0 var(--ink),0 5px 0 var(--ink)}
+.hero .lead{font-size:20px;max-width:30em;margin:0 0 8px;color:#EDE4FF}
+.hero .tag{font:400 22px var(--display);color:var(--blue);margin:0 0 24px;text-shadow:0 2px 0 var(--ink)}
+
+/* Store badges */
+.badges{display:flex;gap:14px;flex-wrap:wrap}
+.badge{display:flex;align-items:center;gap:10px;min-width:190px;padding:10px 18px;border-radius:14px;border:3px solid var(--ink);background:#0d0a18;color:#fff;text-decoration:none;box-shadow:0 5px 0 rgba(40,20,70,.55)}
+.badge svg{flex:none}
+.badge small{display:block;font:800 11px/1.2 var(--body);text-transform:uppercase;letter-spacing:.6px;opacity:.8}
+.badge b{display:block;font:400 21px/1.15 var(--display);letter-spacing:.2px;white-space:nowrap}
+.badge.soon{opacity:.9;cursor:default}
+.badge.soon small{color:var(--gold)}
+
+/* The table scene: slimes lined up near the edge, one about to fall */
+.scene{position:relative;justify-self:center;width:min(420px,100%);aspect-ratio:1/1.02}
+.scene .icon{position:absolute;right:0;top:0;width:54%;height:auto;border-radius:22%;border:4px solid var(--ink);box-shadow:0 8px 0 rgba(20,10,40,.5);transform:rotate(6deg)}
+.scene .table{position:absolute;left:0;bottom:6%;width:86%;height:44%;border-radius:22px;border:4px solid var(--ink);background:#c98a4b url(/img/table0.webp) center/cover;box-shadow:0 10px 0 rgba(20,10,40,.5),inset 0 -10px 0 rgba(90,45,10,.25)}
+.scene .s{position:absolute;width:21%;filter:drop-shadow(0 4px 0 rgba(40,20,70,.35))}
+.scene .s1{left:6%;bottom:36%}.scene .s2{left:25%;bottom:37%}.scene .s3{left:44%;bottom:36%}
+.scene .s4{left:70%;bottom:37%;transform-origin:30% 100%;animation:teeter 2.6s ease-in-out infinite}
+.scene .coin{position:absolute;width:12%;left:8%;top:12%;animation:bob 3s ease-in-out infinite}
+@keyframes teeter{0%,100%{transform:rotate(0)}40%{transform:rotate(14deg)}55%{transform:rotate(9deg)}70%{transform:rotate(16deg)}}
+@keyframes bob{0%,100%{transform:translateY(0)}50%{transform:translateY(-10px)}}
+@media (prefers-reduced-motion:reduce){.scene .s4,.scene .coin{animation:none}}
+
+/* Feature cards: cream with ink outline, like the game's panels */
+.cards{display:grid;grid-template-columns:repeat(3,1fr);gap:20px;padding:10px 0 50px}
+.card{background:linear-gradient(180deg,var(--cream),var(--cream2));color:var(--ink);border:4px solid var(--ink);border-radius:24px;padding:22px 22px 18px;box-shadow:0 7px 0 rgba(20,10,40,.5)}
+.card img{width:74px;height:auto;margin:-6px 0 6px}
+.card h3{color:var(--ink);text-shadow:none;font-size:25px;margin:4px 0 6px}
+.card p{margin:0;color:#4b3366}
+
+.facts{display:flex;justify-content:center;gap:14px;flex-wrap:wrap;padding:0 0 50px}
+.fact{font:400 19px var(--display);color:#fff;padding:10px 20px;border-radius:999px;border:3px solid var(--ink);text-shadow:0 2px 0 var(--ink);box-shadow:0 4px 0 rgba(20,10,40,.5)}
+.fact:nth-child(4n+1){background:linear-gradient(180deg,var(--green),var(--green2))}
+.fact:nth-child(4n+2){background:linear-gradient(180deg,var(--blue),var(--blue2))}
+.fact:nth-child(4n+3){background:linear-gradient(180deg,var(--orange),var(--orange2))}
+.fact:nth-child(4n+4){background:linear-gradient(180deg,var(--purple),var(--purple2))}
+
+/* Closing band */
+.band{text-align:center;padding:36px 22px 44px;margin:0 0 30px;border-radius:30px;border:4px solid var(--ink);background:linear-gradient(180deg,#3b1f6b,#26134a);box-shadow:0 8px 0 rgba(10,5,25,.5)}
+.band h2{font-size:clamp(30px,4.4vw,44px);margin:0 0 6px;color:var(--gold);text-shadow:-2px -2px 0 var(--ink),2px -2px 0 var(--ink),-2px 2px 0 var(--ink),2px 2px 0 var(--ink),0 4px 0 var(--ink)}
+.band p{margin:0 0 22px;font-size:19px}
+.band .badges{justify-content:center}
+
+/* Text pages: privacy, terms, support */
+.page{background:linear-gradient(180deg,var(--cream),var(--cream2));color:#2f1a4a;border:4px solid var(--ink);border-radius:28px;padding:34px clamp(20px,5vw,54px) 40px;margin:18px 0 40px;box-shadow:0 8px 0 rgba(10,5,25,.5)}
+.page h1{font-size:clamp(32px,5vw,46px);margin:0 0 6px;color:var(--ink);text-shadow:none}
+.page h2{font-size:25px;color:var(--ink);text-shadow:none;margin:30px 0 8px}
+.page h3{font-size:20px;color:var(--ink);text-shadow:none;margin:20px 0 4px}
+.page p,.page li{max-width:46em}
+.page ul{padding-left:22px}
+.page li{margin:4px 0}
+.page a{color:var(--purple2);font-weight:800}
+.page a:hover{color:var(--ink)}
+.page .meta{color:var(--ink2);margin:0 0 18px}
+.page .short{background:#fff;border:3px solid var(--ink);border-radius:18px;padding:6px 22px;margin:18px 0}
+.page details{border-bottom:2px solid #e6d8c2;padding:12px 0}
+.page summary{cursor:pointer;font:400 20px var(--display);color:var(--ink)}
+.page details p{margin:8px 0 2px}
+.page .mail{display:inline-block;margin:6px 0 4px}
+
+/* Footer */
+footer{border-top:3px solid rgba(208,139,255,.25);padding:28px 0 40px;color:#CFC2EA;font-size:15px}
+footer .wrap{display:flex;gap:24px;flex-wrap:wrap;align-items:center;justify-content:space-between}
+footer .brand{display:flex;align-items:center;gap:12px}
+footer .brand img{width:44px;height:44px;border-radius:12px;border:3px solid var(--ink)}
+footer .brand b{display:block;font:400 22px var(--display);color:#fff}
+footer .flinks a{margin-right:18px;color:#fff;text-decoration:none;font-weight:800}
+footer .flinks a:hover{color:var(--gold)}
+footer .op{flex-basis:100%;margin:0;opacity:.8}
+
+@media (max-width:820px){
+  .hero{grid-template-columns:1fr;gap:24px;padding-top:14px;text-align:center}
+  .hero .wordmark{margin:0 auto 4px}
+  .hero .lead{margin-left:auto;margin-right:auto}
+  .badges{justify-content:center}
+  .scene{width:min(340px,92%)}
+  .cards{grid-template-columns:1fr}
+}
+@media (max-width:560px){
+  nav{gap:10px;padding:12px 16px}
+  nav .logo img{height:34px}
+  nav .links a{font-size:16px;margin-left:12px}
+  body{font-size:16px}
+  .badge{min-width:0;flex:1 1 150px;padding:9px 12px;gap:8px}
+  .badge b{font-size:18px}
+  .scene{margin-bottom:10px}
+}
