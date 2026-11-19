@@ -108,7 +108,7 @@ def qr(code):
 
 
 def faq_html(code):
-    return '\n'.join(f'<details id="{i}"><summary>{t(code, f"faq_{i}_q")}</summary><p>{t(code, f"faq_{i}_a")}</p></details>' for i in FAQ_IDS)
+    return '\n'.join(f'<details id="faq-{i}"><summary>{t(code, f"faq_{i}_q")}</summary><p>{t(code, f"faq_{i}_a")}</p></details>' for i in FAQ_IDS)
 
 
 def fill(code, tpl):
@@ -186,7 +186,7 @@ def shell(code, file, title, desc, key, body, translated):
     legal_p = t(code, 'foot_privacy') if code == 'en' else t(code, 'foot_privacy_en')
     legal_t = t(code, 'foot_terms') if code == 'en' else t(code, 'foot_terms_en')
     globe = '<svg viewBox="0 0 24 24" width="18" height="18" fill="none" stroke="currentColor" stroke-width="1.8" aria-hidden="true"><circle cx="12" cy="12" r="8.6"/><path d="M3.4 12h17.2M12 3.4c2.4 2.4 3.6 5.3 3.6 8.6s-1.2 6.2-3.6 8.6c-2.4-2.4-3.6-5.3-3.6-8.6S9.6 5.8 12 3.4z"/></svg>'
-    return f'''<!doctype html><html lang="{hl}"{f' class="{fcls}"' if fcls else ''}><head><meta charset="utf-8">
+    return f'''<!doctype html><html lang="{hl}"{f' class="{fcls}"' if fcls else ''}><head><meta charset="utf-8"><script>document.documentElement.classList.add('js')</script>
 <meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
 <title>{html.escape(title)}</title>
 <meta name="description" content="{html.escape(desc)}">
@@ -234,10 +234,10 @@ def shell(code, file, title, desc, key, body, translated):
 <p style="margin:0">{t(code, 'foot_tag2')}</p>
 <div class="social" id="social" hidden aria-label="{html.escape(t(code, 'social_label'))}"></div>
 </div>
-<div><h4>{t(code, 'foot_game')}</h4><ul>
+<div><h2 class="fh">{t(code, 'foot_game')}</h2><ul>
 <li><a href="{b}/">{t(code, 'nav_home')}</a></li><li><a href="{b}/#play">{t(code, 'foot_demo')}</a></li><li><a href="{b}/#video">{t(code, 'foot_trailer')}</a></li><li><a href="{b}/#faq">{t(code, 'foot_faq')}</a></li><li><a href="{b}/press.html">{t(code, 'foot_press')}</a></li><li><a href="{b}/get" data-place="footer">{t(code, 'get_btn')}</a></li>
 </ul></div>
-<div><h4>{t(code, 'foot_help')}</h4><ul>
+<div><h2 class="fh">{t(code, 'foot_help')}</h2><ul>
 <li><a href="{b}/support.html">{t(code, 'nav_support')}</a></li><li><a href="{b}/support.html#delete">{t(code, 'foot_delete')}</a></li><li><a href="/privacy.html">{legal_p}</a></li><li><a href="/terms.html">{legal_t}</a></li>
 <li><button class="linkish" type="button" data-cookies>{t(code, 'foot_cookies')}</button></li><li><a href="mailto:info@edgelings.com">info@edgelings.com</a></li>
 </ul></div>

@@ -68,15 +68,15 @@
     if (reduce) { v.removeAttribute('autoplay'); v.pause(); }
     var b = v.parentNode.querySelector('.vidctl');
     if (b) b.addEventListener('click', function () {
-      if (v.paused) { v.play(); b.textContent = 'II'; b.setAttribute('aria-label', b.getAttribute('data-pause') || 'Pause video'); }
-      else { v.pause(); b.textContent = '>'; b.setAttribute('aria-label', b.getAttribute('data-play') || 'Play video'); }
+      if (v.paused) { v.play(); b.classList.remove('paused'); b.setAttribute('aria-label', b.getAttribute('data-pause') || 'Pause video'); }
+      else { v.pause(); b.classList.add('paused'); b.setAttribute('aria-label', b.getAttribute('data-play') || 'Play video'); }
     });
-    if (reduce && b) { b.textContent = '>'; b.setAttribute('aria-label', b.getAttribute('data-play') || 'Play video'); }
+    if (reduce && b) { b.classList.add('paused'); b.setAttribute('aria-label', b.getAttribute('data-play') || 'Play video'); }
     if ('IntersectionObserver' in window && !reduce) {
       new IntersectionObserver(function (es) {
         es.forEach(function (e) {
           if (!e.isIntersecting) v.pause();
-          else if (!b || b.textContent !== '>') { var p = v.play(); if (p && p.catch) p.catch(function () {}); }
+          else if (!b || !b.classList.contains('paused')) { var p = v.play(); if (p && p.catch) p.catch(function () {}); }
         });
       }, { threshold: 0.25 }).observe(v);
     }
@@ -190,7 +190,7 @@
 
   /* ---------- FAQ opens are counted ---------- */
   $$('.faq details').forEach(function (d) {
-    d.addEventListener('toggle', function () { if (d.open) track('faq_open', { q: (d.id || '').slice(0, 40) }); });
+    d.addEventListener('toggle', function () { if (d.open) track('faq_open', { q: (d.id || '').replace(/^faq-/, '').slice(0, 40) }); });
   });
 
   /* ---------- Reveal on scroll ---------- */
