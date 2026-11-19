@@ -1,0 +1,139 @@
+{
+ "verdict": "A solid, natural pt-BR translation with good slogans and correct register, ready after small fixes. Main issues are the tier term (must be 'mundo' as in the app), 1 pronoun agreement error and a few stiff or ambiguous lines.",
+ "changes": [
+  {
+   "key": "shots_lead",
+   "old": "Deslize pelo primeiro nível de dificuldade.",
+   "new": "Deslize pelo primeiro mundo.",
+   "why": "Tier must use the app term 'mundo' (APP_GLOSSARY world), per CONTEXT decision. Also shorter and more natural.",
+   "severity": "term"
+  },
+  {
+   "key": "feat1_p",
+   "old": "6 níveis de dificuldade, do Fácil ao Insano. Avance no seu ritmo.",
+   "new": "6 mundos, do Fácil ao Insano. Avance no seu ritmo.",
+   "why": "Tier = 'mundo' as in the app. 'níveis de dificuldade' clashes with app wording.",
+   "severity": "term"
+  },
+  {
+   "key": "faq_levels_a",
+   "old": "São 1.200 fases em 6 níveis de dificuldade: Fácil, Médio, Difícil, Muito difícil, Supremo e Insano. Cada nível traz novidades, como mel, gelo, areia, trampolins, vento e slimes especiais. Novas fases chegam pelo servidor, sem precisar atualizar o app.",
+   "new": "São 1.200 fases em 6 mundos: Fácil, Médio, Difícil, Muito difícil, Supremo e Insano. Cada mundo traz novidades, como mel, gelo, areia, trampolins, vento e slimes especiais. Novas fases chegam pelo servidor, sem precisar atualizar o app.",
+   "why": "Tier = 'mundo' as in the app, so players find the same word in the game.",
+   "severity": "term"
+  },
+  {
+   "key": "press_content_v",
+   "old": "1.200 fases em 6 níveis de dificuldade, mesa diária, ligas semanais, ranking",
+   "new": "1.200 fases em 6 mundos, mesa diária, ligas semanais, ranking",
+   "why": "Tier = 'mundo' as in the app.",
+   "severity": "term"
+  },
+  {
+   "key": "press_long3",
+   "old": "São 1.200 fases em 6 níveis de dificuldade, do Fácil ao Insano. Uma mesa diária traz o mesmo desafio para todo mundo no planeta, e as ligas semanais movem quem joga entre Bronze, Prata e Ouro. O jogo inteiro funciona sem conexão.",
+   "new": "São 1.200 fases em 6 mundos, do Fácil ao Insano. Uma mesa diária traz o mesmo desafio para todo mundo no planeta, e as ligas semanais movem quem joga entre Bronze, Prata e Ouro. O jogo inteiro funciona sem conexão.",
+   "why": "Tier = 'mundo' as in the app.",
+   "severity": "term"
+  },
+  {
+   "key": "feat4_h",
+   "old": "Funda e cresça",
+   "new": "Junte e cresça",
+   "why": "APP_GLOSSARY avoids the imperative 'Funda' (reads like 'deep'/'sling'). 'Junte' matches slimes_lead.",
+   "severity": "term"
+  },
+  {
+   "key": "faq_restore_a",
+   "old": "Ele consulta a Apple ou o Google para saber quais compras permanentes estão na sua conta da loja, como Remover anúncios, e as ativa de novo. Moedas e outros itens que já foram usados não são restaurados assim. Para manter esses, faça login.",
+   "new": "Ela consulta a Apple ou o Google para saber quais compras permanentes estão na sua conta da loja, como Remover anúncios, e as ativa de novo. Moedas e outros itens que já foram usados não são restaurados assim. Para manter esses itens, faça login.",
+   "why": "Question says 'a opção', so the pronoun must be feminine 'Ela'. 'esses itens' reads cleaner.",
+   "severity": "grammar"
+  },
+  {
+   "key": "feat2_p",
+   "old": "1 mesa nova por dia, igual para todo mundo. 3 tentativas. Desafie o mundo inteiro.",
+   "new": "1 mesa nova por dia, igual para todo mundo. 3 tentativas. Vença o mundo inteiro.",
+   "why": "'Beat the world' means win, not 'challenge'. 'Vença' keeps the competitive punch.",
+   "severity": "meaning"
+  },
+  {
+   "key": "loop_honey_p",
+   "old": "Grudento. Para os slimes rapidinho.",
+   "new": "Grudento. Segura os slimes na hora.",
+   "why": "'Para os slimes' first reads as 'for the slimes' (no accent on 'para' since the reform). 'Segura' is instant to read.",
+   "severity": "style"
+  },
+  {
+   "key": "score_lead",
+   "old": "Arraste o Mossy até a borda. Quanto mais perto, mais pontos. Passou demais, ele cai.",
+   "new": "Arraste o Mossy até a borda. Quanto mais perto, mais pontos. Longe demais, ele cai.",
+   "why": "'Passou demais' is clumsy. 'Longe demais' is the natural rendering of 'Too far'.",
+   "severity": "style"
+  },
+  {
+   "key": "step3",
+   "old": "Pare perto da borda e ganhe 3 vezes os pontos.",
+   "new": "Pare o slime perto da borda e ganhe 3 vezes os pontos.",
+   "why": "'Pare perto da borda' reads as the player stopping. Naming the slime keeps 'Stop it'.",
+   "severity": "style"
+  },
+  {
+   "key": "mossy_p",
+   "old": "Calmo e tranquilo. Nasce de 2 slimes Blip.",
+   "new": "Calmo e firme. Nasce de 2 slimes Blip.",
+   "why": "'Calmo e tranquilo' is redundant. 'firme' renders 'steady'.",
+   "severity": "style"
+  },
+  {
+   "key": "magnet_p",
+   "old": "Atrai os slimes da sua espécie.",
+   "new": "Puxa para perto os slimes da mesma espécie.",
+   "why": "'da sua espécie' can be read as 'of your kind' (você). Also restores 'closer'.",
+   "severity": "style"
+  },
+  {
+   "key": "faq_slimes_a",
+   "old": "5 slimes se fundem uns nos outros: Blip, Mossy, Sunny, Pomme e King Plum. Depois chegam os slimes especiais: o Ímã atrai os da sua espécie, o Fantasma atravessa os outros, o Pesado empurra tudo e o Rojão explode no primeiro toque. O slime Mistério só revela o que é quando para.",
+   "new": "5 slimes se fundem uns nos outros: Blip, Mossy, Sunny, Pomme e King Plum. Depois chegam os slimes especiais: o Ímã atrai os da mesma espécie, o Fantasma atravessa os outros, o Pesado empurra tudo e o Rojão explode no primeiro toque. O slime Mistério só revela o que é quando para.",
+   "why": "Same ambiguity: 'sua espécie' may mean the reader's. 'mesma' is clear.",
+   "severity": "style"
+  },
+  {
+   "key": "ghost_p",
+   "old": "Atravessa os outros direto.",
+   "new": "Passa direto pelos outros.",
+   "why": "'Atravessa os outros direto' sounds awkward. 'Passa direto pelos outros' is the idiom.",
+   "severity": "style"
+  },
+  {
+   "key": "meta_support_desc",
+   "old": "Ajuda com o Edgelings: nome de jogador, progresso em um celular novo, compras, escolhas de anúncios e como excluir sua conta.",
+   "new": "Ajuda com o Edgelings: nome de jogador, progresso em um celular novo, compras, preferências de anúncios e como excluir sua conta.",
+   "why": "'escolhas de anúncios' is translationese. 'preferências de anúncios' is what Brazilian apps say.",
+   "severity": "style"
+  },
+  {
+   "key": "cookie_p",
+   "old": "Queremos usar cookies para entender como os visitantes usam este site, por exemplo, partidas na demo e cliques nos botões das lojas. Se você recusar, apenas contamos as visitas de forma anônima, sem guardar nada no seu dispositivo.",
+   "new": "Queremos usar cookies para entender como os visitantes usam este site, por exemplo, partidas na demo e cliques nos botões das lojas. Se você recusar, só contamos as visitas de forma anônima, sem guardar nada no seu dispositivo.",
+   "why": "'só contamos' is the natural spoken order. 'apenas contamos' sounds stiff. Meaning unchanged.",
+   "severity": "style"
+  },
+  {
+   "key": "faq_delete_q",
+   "old": "Como excluo minha conta?",
+   "new": "Como faço para excluir minha conta?",
+   "why": "Matches how Brazilians search and ask. 'Como excluo' sounds abrupt.",
+   "severity": "style"
+  }
+ ],
+ "glossary_changes": [
+  {
+   "term": "tier",
+   "old": "nível de dificuldade (nível)",
+   "new": "mundo",
+   "why": "CONTEXT decision: use the app's word for the 6 difficulty stages. APP_GLOSSARY has world = mundo."
+  }
+ ]
+}

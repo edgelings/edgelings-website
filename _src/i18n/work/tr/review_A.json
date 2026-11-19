@@ -1,0 +1,76 @@
+{
+ "verdict": "Accurate, consistent translation that follows the app glossary, register and suffix rules well, with correct UI labels, numbers and placeholders. A few grammar slips, 1 weakened claim ('beat the world') and unquoted Google Play menu names need fixing.",
+ "changes": [
+  {
+   "key": "faq_browser_a",
+   "old": "Evet, ilk 5 seviyeyi. Bu sayfadaki <a href=\"{base}/#play\">oynanabilir demoyu</a> açın. Tüm seviyeleri, günlük masayı ve ligleriyle oyunun tamamı telefon uygulamasında.",
+   "new": "Evet, ilk 5 seviyeyi. Bu sayfadaki <a href=\"{base}/#play\">oynanabilir demoyu</a> açın. Tüm seviyeleri, günlük masası ve ligleriyle oyunun tamamı telefon uygulamasında.",
+   "why": "List governed by 'ligleriyle' needs possessive forms: 'masayı' (accusative) is ungrammatical here, must be 'masası'.",
+   "severity": "grammar"
+  },
+  {
+   "key": "feat2_p",
+   "old": "Her gün herkes için aynı olan 1 yeni masa. 3 deneme. Dünyaya meydan okuyun.",
+   "new": "Her gün herkes için aynı olan 1 yeni masa. 3 deneme. Tüm dünyayı geride bırakın.",
+   "why": "'Meydan okuyun' means 'challenge', not 'beat'. 'Geride bırakın' keeps the meaning of beating everyone.",
+   "severity": "meaning"
+  },
+  {
+   "key": "meta_support_desc",
+   "old": "Edgelings yardım: oyuncu adı, yeni telefonda ilerleme, satın alımlar, reklam tercihleri ve hesabınızı silme.",
+   "new": "Edgelings için yardım: oyuncu adı, yeni telefonda ilerleme, satın alımlar, reklam tercihleri ve hesabınızı silme.",
+   "why": "'Edgelings yardım' is an ungrammatical noun pair. 'Edgelings için yardım' is correct and keeps Edgelings without a suffix.",
+   "severity": "grammar"
+  },
+  {
+   "key": "sup_refund_p",
+   "old": "Satın alımlar Apple ya da Google üzerinden yapılır, iadeler de öyle. iPhone ve iPad'de reportaproblem.apple.com adresine gidin. Android'de Google Play'i açın, ardından Ödemeler ve abonelikler, sonra Bütçe ve geçmiş bölümüne gidin.",
+   "new": "Satın alımlar Apple ya da Google üzerinden yapılır, iadeler de öyle. iPhone ve iPad'de reportaproblem.apple.com adresine gidin. Android'de Google Play'i açın, ardından \"Ödemeler ve abonelikler\", sonra \"Bütçe ve geçmiş\" bölümüne gidin.",
+   "why": "Menu names must be in double quotes like every other UI label on the site (GLOSSARY_WEB rule). Without quotes the sentence reads as running text.",
+   "severity": "term"
+  },
+  {
+   "key": "suggest_text",
+   "old": "Bu sayfa {lang} dilinde de mevcut.",
+   "new": "Bu sayfa {lang} olarak da mevcut.",
+   "why": "{lang} = 'Türkçe', so 'Türkçe dilinde' is redundant. 'Türkçe olarak da mevcut' is the natural form and adds no suffix to the placeholder.",
+   "severity": "style"
+  },
+  {
+   "key": "meta_index_desc",
+   "old": "iPhone, iPad ve Android için ücretsiz, kolay oynanan bir oyun. Parlak jöleleri masada fırlatın. Kenara ne kadar yakın durursa o kadar çok puan. Düşen jöle puan almaz.",
+   "new": "iPhone, iPad ve Android için ücretsiz, kolay oynanan bir oyun. Parlak jöleleri masada fırlatın. Jöle kenara ne kadar yakın durursa o kadar çok puan alır. Kenardan düşen jöle puan almaz.",
+   "why": "Second sentence had no subject and no verb after a plural object. Also 'Düşen' lost 'over the edge'.",
+   "severity": "grammar"
+  },
+  {
+   "key": "faq_devices_a",
+   "old": "App Store'dan indirilerek iPhone ve iPad'de, Google Play'den indirilerek Android telefon ve tabletlerde çalışır. Ekran düzeni katlanabilir telefonlarda da sorunsuz çalışır.",
+   "new": "App Store'dan indirilerek iPhone ve iPad'de, Google Play'den indirilerek Android telefon ve tabletlerde çalışır. Ekran düzeni katlanabilir telefonlara da uyum sağlar.",
+   "why": "'Sorunsuz' adds a claim not in English, and 'çalışır' was repeated in 2 consecutive sentences.",
+   "severity": "meaning"
+  },
+  {
+   "key": "faq_data_a",
+   "old": "Anonim bir oyuncu hesabı, oyuncu adınız, ilerlemeniz, puanlarınız ve satın alımlarınız. İstatistikler ve kişiselleştirilmiş reklamlar yalnızca kabul ederseniz çalışır. Veriler Avrupa Birliği'nde saklanır. Tüm ayrıntılar için <a href=\"/privacy.html\">Gizlilik Politikası</a> sayfasına bakın.",
+   "new": "Edgelings anonim bir oyuncu hesabı, oyuncu adınızı, ilerlemenizi, puanlarınızı ve satın alımlarınızı toplar. İstatistikler ve kişiselleştirilmiş reklamlar yalnızca kabul ederseniz çalışır. Veriler Avrupa Birliği'nde saklanır. Tüm ayrıntılar için <a href=\"/privacy.html\">Gizlilik Politikası</a> sayfasına bakın.",
+   "why": "FAQ answers must stand alone as complete sentences. The first sentence was a fragment. Facts unchanged.",
+   "severity": "style"
+  },
+  {
+   "key": "press_video_p",
+   "old": "Edgelings oyununu canlı yayınlayabilir, para kazandırılan videolar dahil oyunun videolarını yayımlayabilirsiniz. Lütfen açıklamaya edgelings.com bağlantısını ekleyin.",
+   "new": "Edgelings oyununu canlı yayınlayabilir, gelir elde edilen videolar dahil oyunun videolarını yayımlayabilirsiniz. Lütfen açıklamaya edgelings.com bağlantısını ekleyin.",
+   "why": "'Para kazandırılan' is awkward and vague for a permission statement. 'Gelir elde edilen videolar' is the usual Turkish for monetised videos.",
+   "severity": "meaning"
+  },
+  {
+   "key": "foot_help",
+   "old": "Yardım ve yasal",
+   "new": "Yardım ve yasal bilgiler",
+   "why": "'Yasal' is an adjective and cannot stand as a noun here. Still within the length limit.",
+   "severity": "grammar"
+  }
+ ],
+ "glossary_changes": []
+}

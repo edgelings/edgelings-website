@@ -1,0 +1,35 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover, user-scalable=no" />
+    <title>Edgelings demo</title>
+    <style>
+      html, body { height: 100%; margin: 0; background: #1b1233; overflow: hidden; overscroll-behavior: none; }
+      #game { position: fixed; inset: 0; touch-action: none; -webkit-user-select: none; user-select: none; }
+      /* Loading screen: shown at once, before the game code has even arrived. */
+      #loading { position: fixed; inset: 0; z-index: 10; display: flex; flex-direction: column; align-items: center; justify-content: center; gap: 26px;
+        background: radial-gradient(circle at 50% 38%, #4a2d86 0%, #1b1233 70%); transition: opacity .35s ease; }
+      #loading.done { opacity: 0; pointer-events: none; }
+      #loading .logo { width: min(78vw, 420px); height: auto; animation: bob 1.8s ease-in-out infinite; }
+      #loading .slime { width: 76px; height: auto; animation: hop .7s cubic-bezier(.3,.6,.5,1) infinite alternate; transform-origin: 50% 100%; }
+      #loading .bar { width: min(56vw, 260px); height: 14px; border-radius: 9px; background: #f3ddbf; border: 3px solid #3a1f5c; overflow: hidden; }
+      #loading .fill { width: 4%; height: 100%; border-radius: 6px; background: linear-gradient(#ffe66b, #f4a51c); transition: width .2s ease; }
+      @keyframes bob { 50% { transform: translateY(8px); } }
+      @keyframes hop { from { transform: translateY(0) scale(1.08, .9); } to { transform: translateY(-34px) scale(.96, 1.06); } }
+      @media (prefers-reduced-motion: reduce) { #loading .logo, #loading .slime { animation: none; } }
+    </style>
+    <script type="module" crossorigin src="./assets/demo-C9rWCM4L.js"></script>
+    <link rel="modulepreload" crossorigin href="./assets/preload-helper-Ct5FWWRu.js">
+    <link rel="modulepreload" crossorigin href="./assets/index-2PcP4o2V.js">
+    <link rel="stylesheet" crossorigin href="./assets/demo-x8eGkdcA.css">
+  </head>
+  <body>
+    <div id="game"></div>
+    <div id="loading" role="status" aria-label="Loading Edgelings">
+      <img class="logo" src="assets/logo.webp" alt="Edgelings" />
+      <img class="slime" src="assets/slime1.webp" alt="" />
+      <div class="bar"><div class="fill" id="loadfill"></div></div>
+    </div>
+  </body>
+</html>

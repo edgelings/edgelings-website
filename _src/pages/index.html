@@ -1,33 +1,143 @@
 <section class="hero">
 <div>
-<h1>Close to the edge.<br>Not over it.</h1>
-<p class="lead">Flick glossy slimes across the table. The closer they stop to the edge, the more they score. Over the edge scores nothing.</p>
-<p class="tag">One quick game for every short break.</p>
-{{BADGES}}
+<span class="chip">{{hero_chip}}</span>
+<h1>{{hero_h1}}</h1>
+<p class="lead">{{hero_lead}}</p>
+<p class="tag">{{hero_tag}}</p>
+<ul class="facts" aria-label="{{facts_label}}"><li>{{fact_free}}</li><li>{{fact_levels}}</li><li>{{fact_offline}}</li><li>{{fact_daily}}</li></ul>
+<div class="cta"><a class="pill green" href="#play" data-demo>{{play_demo}}</a>{{BADGES_HERO}}</div>
+{{QR}}
 </div>
-<div class="scene" aria-hidden="true">
-<img class="icon" src="/img/icon-440.webp" alt="" width="440" height="440">
-<img class="coin" src="/img/coin.webp" alt="">
-<div class="table"></div>
-<img class="s s1" src="/img/slime2.webp" alt="">
-<img class="s s2" src="/img/slime3.webp" alt="">
-<img class="s s3" src="/img/slime5.webp" alt="">
-<img class="s s4" src="/img/slime1.webp" alt="">
+<div class="heroart">
+<div class="phone">
+<video data-loop autoplay muted loop playsinline preload="metadata" poster="/media/hero.webp" aria-label="{{hero_video_aria}}"><source src="/media/hero.mp4" type="video/mp4"></video>
+<button class="vidctl" type="button" aria-label="{{pause_video}}" data-pause="{{pause_video}}" data-play="{{play_video}}">II</button>
+</div>
+<img class="float f1" src="/img/slime1.webp" alt="" width="96">
+<img class="float f2" src="/img/coin.webp" alt="" width="64">
+<img class="float f3" src="/img/slime3.webp" alt="" width="58">
 </div>
 </section>
 
-<section class="cards">
-<div class="card"><img src="/img/slime1.webp" alt="" width="74"><h3>Flick</h3><p>Pull back, aim and let go. Wind, sand, ice and trampolines change every shot.</p></div>
-<div class="card"><img src="/img/slime4.webp" alt="" width="74"><h3>Push your luck</h3><p>Stop right at the edge for the most points. Bank your score or risk 1 more shot for a bonus.</p></div>
-<div class="card"><img src="/img/slime5.webp" alt="" width="74"><h3>Climb the ranks</h3><p>Play the daily table, the same for everyone. Move up from Bronze to Gold in the weekly leagues.</p></div>
+<section class="block" id="play">
+<div class="demo">
+<div class="phone rv" id="demo-frame" data-lang="{{LANG}}" data-title="{{demo_frame_title}}">
+<img class="poster" src="/media/shot-demo.webp" alt="{{demo_poster_alt}}" loading="lazy" width="540" height="1080">
+<button class="start" type="button" aria-label="{{demo_start_aria}}"><span class="pill">{{demo_play_now}}</span><span>{{demo_free}}</span></button>
+<div class="end" id="demo-end" role="dialog" aria-label="{{demo_end_h}}">
+<img src="/img/slime5.webp" alt="" width="90">
+<h3>{{demo_end_h}}</h3>
+<p>{{demo_end_p}}</p>
+{{BADGES_DEMO}}
+<a class="pill small purple" href="{{base}}/get" data-place="demo-end">{{get_btn}}</a>
+<button class="pill small blue" type="button" data-again>{{demo_keep}}</button>
+</div>
+</div>
+<div class="side rv">
+<h2 class="big">{{demo_h2}}</h2>
+<p class="lead2">{{demo_lead}}</p>
+<ol class="steps">
+<li><b>1</b>{{step1}}</li>
+<li><b>2</b>{{step2}}</li>
+<li><b>3</b>{{step3}}</li>
+<li><b>4</b>{{step4}}</li>
+</ol>
+<div class="cta"><a class="pill green" href="#play" data-demo>{{demo_play_now}}</a><a class="pill small purple" href="{{base}}/get" data-place="demo-side">{{demo_get_full}}</a></div>
+</div>
+</div>
+</section>
+<div class="overlay" id="demo-overlay" aria-label="{{demo_frame_title}}"><button class="pill small close" type="button">{{demo_close}}</button></div>
+
+<section class="block" id="how">
+<h2 class="big rv">{{score_h2}}</h2>
+<p class="lead2 rv">{{score_lead}}</p>
+<div class="score rv">
+<div class="track" id="track" data-pts="{{score_pts}}" data-m0="{{score_msg0}}" data-m1="{{score_msg1}}" data-m2="{{score_msg2}}" data-m3="{{score_msg3}}">
+<div class="zone" style="left:0;border-left:0">x1</div>
+<div class="zone" style="left:45%">x2</div>
+<div class="zone" style="left:72%">x3</div>
+<div class="edge" aria-hidden="true"></div>
+<img class="blob" id="blob" src="/img/slime2.webp" alt="{{score_blob_alt}}" tabindex="0" draggable="false">
+</div>
+<div class="readout"><span class="pts" id="pts" aria-live="polite"></span><p id="ptsmsg"></p></div>
+</div>
 </section>
 
-<section class="facts" aria-label="At a glance">
-<span class="fact">1,200 levels</span><span class="fact">6 tiers, Easy to Crazy</span><span class="fact">Plays offline</span><span class="fact">Free to play</span>
+<section class="block" id="video">
+<h2 class="big rv">{{video_h2}}</h2>
+<p class="lead2 rv">{{video_lead}}</p>
+<div class="vgrid">
+<div class="phone rv">
+<img class="poster" src="/media/trailer.webp" alt="{{trailer_alt}}" loading="lazy" width="540" height="960">
+<button class="playbtn" type="button" data-trailer="/media/trailer.mp4" data-poster="/media/trailer.webp" aria-label="{{trailer_aria}}"><span></span></button>
+</div>
+<div class="loops">
+<div class="loop rv"><div class="phone"><video data-loop autoplay muted loop playsinline preload="none" poster="/media/loop-merge.webp" aria-label="{{loop_merge_aria}}"><source src="/media/loop-merge.mp4" type="video/mp4"></video></div><h3>{{loop_merge_h}}</h3><p>{{loop_merge_p}}</p></div>
+<div class="loop rv"><div class="phone"><video data-loop autoplay muted loop playsinline preload="none" poster="/media/loop-honey.webp" aria-label="{{loop_honey_aria}}"><source src="/media/loop-honey.mp4" type="video/mp4"></video></div><h3>{{loop_honey_h}}</h3><p>{{loop_honey_p}}</p></div>
+<div class="loop rv"><div class="phone"><video data-loop autoplay muted loop playsinline preload="none" poster="/media/loop-ice.webp" aria-label="{{loop_ice_aria}}"><source src="/media/loop-ice.mp4" type="video/mp4"></video></div><h3>{{loop_ice_h}}</h3><p>{{loop_ice_p}}</p></div>
+</div>
+</div>
 </section>
 
-<section class="band">
-<h2>Ready for the edge?</h2>
-<p>Coming soon to iPhone, iPad and Android.</p>
-{{BADGES}}
+<section class="block" id="shots">
+<h2 class="big rv">{{shots_h2}}</h2>
+<p class="lead2 rv">{{shots_lead}}</p>
+<div class="carousel rv">
+<button class="arrow l" type="button" aria-label="{{shots_prev}}">&lt;</button>
+<div class="strip" tabindex="0" aria-label="{{shots_label}}">
+<figure class="shot"><div class="phone"><img class="poster" src="/media/shot-edge.webp" alt="{{shot1_alt}}" loading="lazy" width="540" height="1080"></div><figcaption>{{shot1}}</figcaption></figure>
+<figure class="shot"><div class="phone"><img class="poster" src="/media/shot-merge.webp" alt="{{shot2_alt}}" loading="lazy" width="540" height="1080"></div><figcaption>{{shot2}}</figcaption></figure>
+<figure class="shot"><div class="phone"><img class="poster" src="/media/shot-honey.webp" alt="{{shot3_alt}}" loading="lazy" width="540" height="1080"></div><figcaption>{{shot3}}</figcaption></figure>
+<figure class="shot"><div class="phone"><img class="poster" src="/media/shot-ice.webp" alt="{{shot4_alt}}" loading="lazy" width="540" height="1080"></div><figcaption>{{shot4}}</figcaption></figure>
+<figure class="shot"><div class="phone"><img class="poster" src="/media/shot-king.webp" alt="{{shot5_alt}}" loading="lazy" width="540" height="1080"></div><figcaption>{{shot5}}</figcaption></figure>
+<figure class="shot"><div class="phone"><img class="poster" src="/media/shot-complete.webp" alt="{{shot6_alt}}" loading="lazy" width="540" height="1080"></div><figcaption>{{shot6}}</figcaption></figure>
+</div>
+<button class="arrow r" type="button" aria-label="{{shots_next}}">&gt;</button>
+</div>
+</section>
+
+<section class="block" id="features">
+<h2 class="big rv">{{feat_h2}}</h2>
+<p class="lead2 rv">{{feat_lead}}</p>
+<div class="cards">
+<div class="card rv"><img src="/img/slime1.webp" alt="" width="82" height="82" loading="lazy"><h3>{{feat1_h}}</h3><p>{{feat1_p}}</p></div>
+<div class="card rv"><img src="/img/coin.webp" alt="" width="82" height="82" loading="lazy"><h3>{{feat2_h}}</h3><p>{{feat2_p}}</p></div>
+<div class="card rv"><img src="/img/slime5.webp" alt="" width="82" height="82" loading="lazy"><h3>{{feat3_h}}</h3><p>{{feat3_p}}</p></div>
+<div class="card rv"><img src="/img/slime4.webp" alt="" width="82" height="82" loading="lazy"><h3>{{feat4_h}}</h3><p>{{feat4_p}}</p></div>
+<div class="card rv"><img src="/img/mag.webp" alt="" width="82" height="82" loading="lazy"><h3>{{feat5_h}}</h3><p>{{feat5_p}}</p></div>
+<div class="card rv"><img src="/img/slime2.webp" alt="" width="82" height="82" loading="lazy"><h3>{{feat6_h}}</h3><p>{{feat6_p}}</p></div>
+</div>
+</section>
+
+<section class="block" id="slimes">
+<h2 class="big rv">{{slimes_h2}}</h2>
+<p class="lead2 rv">{{slimes_lead}}</p>
+<div class="chain rv" aria-label="{{chain_label}}"><img src="/img/slime1.webp" alt="Blip">+<img src="/img/slime1.webp" alt="Blip">=<img src="/img/slime2.webp" alt="Mossy"><span>{{chain_then}}</span><img src="/img/slime3.webp" alt="Sunny"><img src="/img/slime4.webp" alt="Pomme"><img src="/img/slime5.webp" alt="King Plum"></div>
+<div class="cast">
+<div class="slime rv" tabindex="0"><img src="/img/slime1.webp" alt="" loading="lazy"><h3>Blip</h3><span class="tagl">{{PTS:10}}</span><p>{{blip_p}}</p></div>
+<div class="slime rv" tabindex="0"><img src="/img/slime2.webp" alt="" loading="lazy"><h3>Mossy</h3><span class="tagl">{{PTS:30}}</span><p>{{mossy_p}}</p></div>
+<div class="slime rv" tabindex="0"><img src="/img/slime3.webp" alt="" loading="lazy"><h3>Sunny</h3><span class="tagl">{{PTS:90}}</span><p>{{sunny_p}}</p></div>
+<div class="slime rv" tabindex="0"><img src="/img/slime4.webp" alt="" loading="lazy"><h3>Pomme</h3><span class="tagl">{{PTS:270}}</span><p>{{pomme_p}}</p></div>
+<div class="slime rv" tabindex="0"><img src="/img/slime5.webp" alt="" loading="lazy"><h3>King Plum</h3><span class="tagl">{{PTS:810}}</span><p>{{king_p}}</p></div>
+<div class="slime rv" tabindex="0"><img src="/img/mag.webp" alt="" loading="lazy"><h3>{{magnet_h}}</h3><span class="tagl">{{slime_special}}</span><p>{{magnet_p}}</p></div>
+<div class="slime rv" tabindex="0"><img src="/img/ghost.webp" alt="" loading="lazy"><h3>{{ghost_h}}</h3><span class="tagl">{{slime_special}}</span><p>{{ghost_p}}</p></div>
+<div class="slime rv" tabindex="0"><img src="/img/heavy.webp" alt="" loading="lazy"><h3>{{heavy_h}}</h3><span class="tagl">{{slime_special}}</span><p>{{heavy_p}}</p></div>
+<div class="slime rv" tabindex="0"><img src="/img/boom.webp" alt="" loading="lazy"><h3>{{sparkler_h}}</h3><span class="tagl">{{slime_special}}</span><p>{{sparkler_p}}</p></div>
+<div class="slime rv" tabindex="0"><img src="/img/myst.webp" alt="" loading="lazy"><h3>{{mystery_h}}</h3><span class="tagl">{{slime_surprise}}</span><p>{{mystery_p}}</p></div>
+</div>
+</section>
+
+<section class="block" id="faq">
+<h2 class="big rv">{{faq_h2}}</h2>
+<p class="lead2 rv">{{faq_lead}}</p>
+<div class="faq">
+{{FAQ}}
+</div>
+</section>
+
+<section class="band rv">
+<div class="row" aria-hidden="true"><img src="/img/slime1.webp" alt=""><img src="/img/slime2.webp" alt=""><img src="/img/slime3.webp" alt=""><img src="/img/slime4.webp" alt=""><img src="/img/slime5.webp" alt=""></div>
+<h2>{{band_h2}}</h2>
+<p>{{band_p}}</p>
+<div class="cta"><a class="pill green" href="#play" data-demo>{{play_demo}}</a>{{BADGES_BAND}}</div>
 </section>

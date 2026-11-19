@@ -1,0 +1,132 @@
+{
+ "verdict": "A strong, natural Taiwan translation with good slogans, correct 您 register and app terms. A few literal phrasings (the sling, 'far edge', the footer credit) and 2 merge term slips should be smoothed before release.",
+ "changes": [
+  {
+   "key": "foot_operated",
+   "old": "Edgelings 由 Matej Mesko 營運，斯洛維尼亞。",
+   "new": "Edgelings 由斯洛維尼亞的 Matej Mesko 營運。",
+   "why": "Trailing country after a comma is translationese. Natural Chinese puts the place before the name.",
+   "severity": "style"
+  },
+  {
+   "key": "meta_support_desc",
+   "old": "Edgelings 說明：玩家暱稱、換新手機後的進度、購買項目、廣告選項，以及如何刪除您的帳號。",
+   "new": "Edgelings 客服協助：玩家暱稱、換新手機後的進度、購買項目、廣告選項，以及如何刪除您的帳號。",
+   "why": "'Edgelings 說明' reads like a manual heading. 客服協助 matches the page and the search intent better.",
+   "severity": "style"
+  },
+  {
+   "key": "step1",
+   "old": "把史萊姆往後拉進彈弓。",
+   "new": "把彈弓上的史萊姆往後拉。",
+   "why": "'往後拉進彈弓' is unnatural. The slime sits in the sling and is pulled back.",
+   "severity": "style"
+  },
+  {
+   "key": "faq_how_a",
+   "old": "把史萊姆往後拉進彈弓再放手。瞄準桌邊附近的黃金區，可以拿到3倍分數。2隻同種的史萊姆會合體成更大的1隻。達到目標分數後，您可以收分，或冒險再彈1發，爭取10%的加成。",
+   "new": "把彈弓上的史萊姆往後拉，再放手。瞄準桌邊附近的黃金區，可以拿到3倍分數。2隻同種的史萊姆會合體成更大的1隻。達到目標分數後，您可以收分，或冒險再彈1發，爭取10%的加成。",
+   "why": "Same fix as step1: 'pull back in the sling'.",
+   "severity": "style"
+  },
+  {
+   "key": "press_long1",
+   "old": "Edgelings 是一款講究在最恰當時機停下來的休閒遊戲。您要把史萊姆往後拉進彈弓，再放手讓它滑過桌面。停在遠端桌邊附近的史萊姆最多可拿到3倍分數，衝出桌邊的史萊姆一分都拿不到。",
+   "new": "Edgelings 是一款講究在最恰當時機停下來的休閒遊戲。您要把彈弓上的史萊姆往後拉，再放手讓它滑過桌面。停在另一頭桌邊附近的史萊姆最多可拿到3倍分數，衝出桌邊的史萊姆一分都拿不到。",
+   "why": "Same sling fix. 遠端 sounds technical (remote). 另一頭 is the natural 'far edge'.",
+   "severity": "style"
+  },
+  {
+   "key": "faq_what_a",
+   "old": "Edgelings 是一款適用於 iPhone、iPad 與 Android 的休閒手機遊戲。您要把晶亮的史萊姆彈過桌面，史萊姆停得越靠近遠端的桌邊，得分越高。衝出桌邊的史萊姆一分都拿不到。",
+   "new": "Edgelings 是一款適用於 iPhone、iPad 與 Android 的休閒手機遊戲。您要把晶亮的史萊姆彈過桌面，史萊姆停得越靠近另一頭的桌邊，得分越高。衝出桌邊的史萊姆一分都拿不到。",
+   "why": "遠端 sounds technical (remote). 另一頭 is natural for 'far edge'.",
+   "severity": "style"
+  },
+  {
+   "key": "loop_merge_p",
+   "old": "2隻一樣的合成更大的1隻。",
+   "new": "2隻同種的合體成更大的1隻。",
+   "why": "Use the app term 合體 for merge, and 同種 as elsewhere on the site.",
+   "severity": "term"
+  },
+  {
+   "key": "feat4_p",
+   "old": "2隻一樣的合成更大的史萊姆。越大的史萊姆，分數高出越多。",
+   "new": "2隻同種的史萊姆會合體成更大的史萊姆。越大的史萊姆，分數高出越多。",
+   "why": "Use the app term 合體 for merge, consistent with the merge chain texts.",
+   "severity": "term"
+  },
+  {
+   "key": "faq_slimes_a",
+   "old": "有5隻史萊姆可以依序合體：Blip、Mossy、Sunny、Pomme 和 King Plum。之後還會加入特殊史萊姆：磁鐵會吸引同種史萊姆，幽靈能穿過其他史萊姆，重量級會推開一切，煙火則在第一次碰撞時爆炸。神祕史萊姆要等停下來才會現出種類。",
+   "new": "有5種史萊姆可以依序合體：Blip、Mossy、Sunny、Pomme 和 King Plum。之後還會加入特殊史萊姆：磁鐵會吸引同種史萊姆，幽靈能穿過其他史萊姆，重量級會推開一切，煙火則在第一次碰撞時爆炸。神祕史萊姆要等停下來才會現出種類。",
+   "why": "These are 5 kinds of slime, not 5 individual slimes. 5種 is accurate.",
+   "severity": "meaning"
+  },
+  {
+   "key": "shot5",
+   "old": "合出國王",
+   "new": "合出 King Plum",
+   "why": "'國王' invents a translated name. The slime names stay in English.",
+   "severity": "term"
+  },
+  {
+   "key": "shots_lead",
+   "old": "滑動瀏覽第一個世界。",
+   "new": "滑動瀏覽第1個世界。",
+   "why": "Digits for numbers, as the app writes 第{n}關.",
+   "severity": "style"
+  },
+  {
+   "key": "sparkler_p",
+   "old": "第一次碰撞就爆炸，小心使用。",
+   "new": "第一次碰撞就爆炸，小心輕放。",
+   "why": "小心輕放 is the exact Chinese 'Handle with care' label, a playful match for the English joke.",
+   "severity": "style"
+  },
+  {
+   "key": "faq_devices_a",
+   "old": "App Store 上的 iPhone 與 iPad，以及 Google Play 上的 Android 手機與平板。版面也支援摺疊手機。",
+   "new": "iPhone 與 iPad 可從 App Store 下載，Android 手機與平板可從 Google Play 下載。版面也支援摺疊手機。",
+   "why": "FAQ answers must stand alone as full sentences for search and AI assistants. The current text is a fragment.",
+   "severity": "style"
+  },
+  {
+   "key": "faq_levels_a",
+   "old": "共1200關，分為6個世界：簡單、普通、困難、超困難、終極和瘋狂。每個世界都會加入新機關，例如蜂蜜、冰面、沙地、彈跳床、風和特殊史萊姆。新關卡會從伺服器送達，不必更新 App。",
+   "new": "共1200關，分為6個世界：簡單、普通、困難、超困難、終極和瘋狂。每個世界都會加入新機關，例如蜂蜜、冰面、沙地、彈跳床、風和特殊史萊姆。新關卡會直接從伺服器加入，不必更新 App。",
+   "why": "'從伺服器送達' sounds like a parcel delivery. 直接從伺服器加入 is natural.",
+   "severity": "style"
+  },
+  {
+   "key": "sup_delete_mail",
+   "old": "<b>沒有遊戲時：</b>如果您已經沒有安裝遊戲，請寄信到 info@edgelings.com，主旨填寫「Delete my Edgelings account」，並附上您的玩家暱稱。我們會在30天內刪除帳號，並以電子郵件確認。",
+   "new": "<b>不透過遊戲：</b>如果您已經沒有安裝遊戲，請寄信到 info@edgelings.com，主旨填寫「Delete my Edgelings account」，並附上您的玩家暱稱。我們會在30天內刪除帳號，並以電子郵件確認。",
+   "why": "'沒有遊戲時' is clumsy as a heading. 不透過遊戲 pairs cleanly with 在遊戲中.",
+   "severity": "style"
+  },
+  {
+   "key": "press_meta",
+   "old": "撰寫 Edgelings 相關內容所需的一切。可免費用於報導、評測和影片。",
+   "new": "報導 Edgelings 所需的資料都在這裡。可免費用於報導、評測和影片。",
+   "why": "The current line is a literal noun phrase. This reads like a real press kit intro.",
+   "severity": "style"
+  },
+  {
+   "key": "video_h2",
+   "old": "實際遊戲畫面",
+   "new": "看看實際玩法",
+   "why": "The heading repeated 'real gameplay' from video_lead. A short invitation fits 'See it in action'.",
+   "severity": "style"
+  },
+  {
+   "key": "demo_lead",
+   "old": "正式版遊戲，直接在瀏覽器裡玩。先玩前5關，其餘關卡帶著走。",
+   "new": "正式版遊戲，直接在瀏覽器裡玩。先玩前5關，剩下的帶到手機上繼續玩。",
+   "why": "'其餘關卡帶著走' is vague in Chinese. Saying where the rest goes keeps the meaning of 'take the rest with you'.",
+   "severity": "style"
+  }
+ ],
+ "glossary_changes": []
+}

@@ -1,0 +1,104 @@
+{
+ "verdict": "Accurate, well-registered translation that is consistent with the app's UI labels and keeps the legal texts precise. The fixes needed are 'tier', which must be 'lume' as in the app and not 'treaptă', plus a few grammar slips (step3, meta_index_desc, score_msg1).",
+ "changes": [
+  {
+   "key": "feat1_p",
+   "old": "6 trepte, de la Ușor la Nebunesc. Avansați în ritmul dvs.",
+   "new": "6 lumi, de la Ușor la Nebunesc. Avansați în ritmul dvs.",
+   "why": "Tier must match the app: APP_GLOSSARY uses 'lume' for the 6 difficulty stages (decision in CONTEXT_WEB).",
+   "severity": "term"
+  },
+  {
+   "key": "faq_levels_a",
+   "old": "1.200 de niveluri, în 6 trepte de dificultate: Ușor, Mediu, Greu, Foarte greu, Suprem și Nebunesc. Fiecare treaptă aduce elemente noi, precum miere, gheață, nisip, trambuline, vânt și slime-uri speciale. Nivelurile noi sosesc de pe server, fără actualizarea aplicației.",
+   "new": "1.200 de niveluri în 6 lumi: Ușor, Mediu, Greu, Foarte greu, Suprem și Nebunesc. Fiecare lume aduce elemente noi, precum miere, gheață, nisip, trambuline, vânt și slime-uri speciale. Nivelurile noi sosesc de pe server, fără actualizarea aplicației.",
+   "why": "Tier = 'lume' as in the app.",
+   "severity": "term"
+  },
+  {
+   "key": "press_content_v",
+   "old": "1.200 de niveluri în 6 trepte, masa zilei, ligi săptămânale, clasamente",
+   "new": "1.200 de niveluri în 6 lumi, masa zilei, ligi săptămânale, clasamente",
+   "why": "Tier = 'lume' as in the app.",
+   "severity": "term"
+  },
+  {
+   "key": "press_long3",
+   "old": "Jocul are 1.200 de niveluri în 6 trepte, de la Ușor la Nebunesc. Masa zilei le oferă tuturor jucătorilor din lume aceeași provocare, iar ligile săptămânale îi mută pe jucători între Bronz, Argint și Aur. Întregul joc se poate juca offline.",
+   "new": "Jocul are 1.200 de niveluri în 6 lumi, de la Ușor la Nebunesc. Masa zilei le oferă tuturor jucătorilor din lume aceeași provocare, iar ligile săptămânale îi mută pe jucători între Bronz, Argint și Aur. Întregul joc se poate juca offline.",
+   "why": "Tier = 'lume' as in the app.",
+   "severity": "term"
+  },
+  {
+   "key": "shots_lead",
+   "old": "Glisați prin prima treaptă de dificultate.",
+   "new": "Glisați prin prima lume.",
+   "why": "Tier = 'lume' as in the app.",
+   "severity": "term"
+  },
+  {
+   "key": "score_msg1",
+   "old": "Sigur, dar puține puncte. Mai împingeți-l.",
+   "new": "În siguranță, dar puține puncte. Împingeți-l mai departe.",
+   "why": "'Sigur' reads as 'sure/certainly', not 'safe'. 'Mai împingeți-l' means 'push it again', English says 'further'.",
+   "severity": "meaning"
+  },
+  {
+   "key": "step3",
+   "old": "Opriți-l lângă margine pentru de 3 ori mai multe puncte.",
+   "new": "Opriți-l lângă margine și primiți de 3 ori mai multe puncte.",
+   "why": "'pentru de 3 ori mai multe' is ungrammatical.",
+   "severity": "grammar"
+  },
+  {
+   "key": "meta_index_desc",
+   "old": "Joc casual gratuit pentru iPhone, iPad și Android. Lansați slime-uri lucioase pe masă. Cât mai aproape de margine, cât mai multe puncte. Peste margine, zero.",
+   "new": "Joc casual gratuit pentru iPhone, iPad și Android. Lansați slime-uri lucioase. Cu cât mai aproape de margine, cu atât mai multe puncte. Peste margine, zero.",
+   "why": "'Cât mai..., cât mai...' is a wrong correlative, Romanian needs 'cu cât..., cu atât'. Dropped 'pe masă' to stay near 155 chars.",
+   "severity": "grammar"
+  },
+  {
+   "key": "meta_index_title",
+   "old": "Edgelings: slime-uri până la margine | Gratuit pe iPhone, Android",
+   "new": "Edgelings: lansați slime-uri spre margine | Gratuit pe iPhone, Android",
+   "why": "Current title has no verb, so 'flick' is lost. 'Lansați' is the app's word for flick.",
+   "severity": "meaning"
+  },
+  {
+   "key": "faq_what_a",
+   "old": "Edgelings este un joc casual pentru telefon, disponibil pe iPhone, iPad și Android. Lansați slime-uri lucioase pe o masă. Cu cât un slime se oprește mai aproape de marginea îndepărtată, cu atât primește mai multe puncte. Un slime care trece peste margine nu primește niciun punct.",
+   "new": "Edgelings este un joc casual pentru dispozitive mobile, disponibil pe iPhone, iPad și Android. Lansați slime-uri lucioase pe o masă. Cu cât un slime se oprește mai aproape de marginea îndepărtată, cu atât primește mai multe puncte. Un slime care trece peste margine nu primește niciun punct.",
+   "why": "'Pentru telefon' excludes iPad and tablets. English says 'mobile game'.",
+   "severity": "meaning"
+  },
+  {
+   "key": "video_h2",
+   "old": "Vedeți-l în acțiune",
+   "new": "Vedeți jocul în acțiune",
+   "why": "'Vedeți-l' has no antecedent in the heading.",
+   "severity": "grammar"
+  },
+  {
+   "key": "faq_kids_a",
+   "old": "Edgelings este creat pentru jucători de la 13 ani în sus. Nu conține violență și nu are chat. Numele jucătorilor sunt verificate cu o listă de cuvinte interzise. Jucătorii sub 18 ani ar trebui să întrebe un părinte înainte să cumpere ceva.",
+   "new": "Edgelings este creat pentru jucători de la 13 ani în sus. Nu conține violență și nu are chat. Numele jucătorilor sunt verificate pe baza unei liste de cuvinte interzise. Jucătorii sub 18 ani ar trebui să întrebe un părinte înainte să cumpere ceva.",
+   "why": "'Verificate cu o listă' is a calque. 'Pe baza unei liste' is the precise phrasing.",
+   "severity": "grammar"
+  },
+  {
+   "key": "faq_delete_a",
+   "old": "În joc, deschideți „Setări” și atingeți „Ștergerea contului”. Fără joc, trimiteți un e-mail la info@edgelings.com cu numele dvs. de jucător. Vedeți <a href=\"{base}/support.html#delete\">Ștergeți contul</a>.",
+   "new": "În joc, deschideți „Setări” și atingeți „Ștergerea contului”. Fără joc, trimiteți un e-mail la info@edgelings.com cu numele dvs. de jucător. Consultați secțiunea <a href=\"{base}/support.html#delete\">Ștergeți contul</a>.",
+   "why": "'Vedeți Ștergeți contul' reads like 2 clashing imperatives. 'Consultați secțiunea' fixes it.",
+   "severity": "grammar"
+  }
+ ],
+ "glossary_changes": [
+  {
+   "term": "tier",
+   "old": "treaptă (de dificultate)",
+   "new": "lume (lumi)",
+   "why": "CONTEXT_WEB decision: use the app's word for the 6 difficulty stages. APP_GLOSSARY has world = lume."
+  }
+ ]
+}

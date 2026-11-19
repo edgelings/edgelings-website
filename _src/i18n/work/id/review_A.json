@@ -1,0 +1,97 @@
+{
+ "verdict": "A precise, natural translation that follows the app terms and the Anda register well. The main fix is the tier word: the app calls the 6 stages dunia, so the site must not use tingkat, plus a few small precision and grammar points.",
+ "changes": [
+  {
+   "key": "feat1_p",
+   "old": "6 tingkat, dari Mudah sampai Gila. Naik sesuai kecepatan Anda sendiri.",
+   "new": "6 dunia, dari Mudah sampai Gila. Naik sesuai kecepatan Anda sendiri.",
+   "why": "Context rule: tier uses the app's word for the 6 stages, APP_GLOSSARY world = dunia, not tingkat.",
+   "severity": "term"
+  },
+  {
+   "key": "shots_lead",
+   "old": "Geser untuk melihat tingkat pertama.",
+   "new": "Geser untuk melihat dunia pertama.",
+   "why": "Tier = dunia as in the app.",
+   "severity": "term"
+  },
+  {
+   "key": "faq_levels_a",
+   "old": "Ada 1.200 level dalam 6 tingkat: Mudah, Sedang, Sulit, Sangat Sulit, Pamungkas, dan Gila. Setiap tingkat menambahkan tantangan baru, seperti madu, es, pasir, trampolin, angin, dan slime spesial. Level baru datang dari server tanpa perlu memperbarui aplikasi.",
+   "new": "Ada 1.200 level dalam 6 dunia: Mudah, Sedang, Sulit, Sangat Sulit, Pamungkas, dan Gila. Setiap dunia menambahkan tantangan baru, seperti madu, es, pasir, trampolin, angin, dan slime spesial. Level baru datang dari server tanpa perlu memperbarui aplikasi.",
+   "why": "Tier = dunia as in the app, so players find the same word in the game.",
+   "severity": "term"
+  },
+  {
+   "key": "press_content_v",
+   "old": "1.200 level dalam 6 tingkat, meja harian, liga mingguan, peringkat",
+   "new": "1.200 level dalam 6 dunia, meja harian, liga mingguan, peringkat",
+   "why": "Tier = dunia as in the app.",
+   "severity": "term"
+  },
+  {
+   "key": "press_long3",
+   "old": "Ada 1.200 level dalam 6 tingkat, dari Mudah sampai Gila. Meja harian memberi semua pemain di seluruh dunia tantangan yang sama, dan liga mingguan memindahkan pemain antara Perunggu, Perak, dan Emas. Seluruh game bisa dimainkan offline.",
+   "new": "Ada 1.200 level dalam 6 dunia, dari Mudah sampai Gila. Meja harian memberi semua pemain di seluruh dunia tantangan yang sama, dan liga mingguan memindahkan pemain antara liga Perunggu, Perak, dan Emas. Seluruh game bisa dimainkan offline.",
+   "why": "Tier = dunia as in the app. Glossary rule: league names follow the noun liga.",
+   "severity": "term"
+  },
+  {
+   "key": "feat2_p",
+   "old": "1 meja baru setiap hari, sama untuk semua pemain. 3 percobaan. Kalahkan dunia.",
+   "new": "1 meja baru setiap hari, sama untuk semua pemain. 3 percobaan. Kalahkan pemain sedunia.",
+   "why": "With tier = dunia, 'Kalahkan dunia' could read as 'beat the world (tier)'. 'pemain sedunia' keeps the meaning clear.",
+   "severity": "meaning"
+  },
+  {
+   "key": "hero_lead",
+   "old": "Sentil slime mengilap di atas meja. Makin dekat ke tepi slime berhenti, makin besar poinnya. Lewat tepi, poinnya nol.",
+   "new": "Sentil slime mengilap di atas meja. Makin dekat slime berhenti ke tepi, makin besar poinnya. Lewat tepi, poinnya nol.",
+   "why": "Word order 'Makin dekat ke tepi slime berhenti' is ungrammatical. Matches faq_what_a.",
+   "severity": "grammar"
+  },
+  {
+   "key": "loop_ice_p",
+   "old": "Licin. Bidik lebih pelan.",
+   "new": "Licin. Tembak lebih pelan.",
+   "why": "'Aim softer' means shoot with less force. 'Bidik lebih pelan' means aim more slowly.",
+   "severity": "meaning"
+  },
+  {
+   "key": "feat6_p",
+   "old": "Di kereta, di pesawat, atau di sudut yang tenang. Tanpa sinyal.",
+   "new": "Di kereta, di pesawat, atau di sudut yang tenang. Tak perlu sinyal.",
+   "why": "'No signal needed' is precise as 'Tak perlu sinyal'. 'Tanpa sinyal' only says 'without signal'.",
+   "severity": "meaning"
+  },
+  {
+   "key": "faq_kids_a",
+   "old": "Edgelings dibuat untuk pemain berusia 13 tahun ke atas. Tidak ada kekerasan dan tidak ada fitur chat. Nama pemain diperiksa berdasarkan daftar kata terlarang. Pemain di bawah 18 tahun sebaiknya meminta izin orang tua sebelum membeli apa pun.",
+   "new": "Edgelings dibuat untuk pemain berusia 13 tahun ke atas. Tidak ada kekerasan dan tidak ada fitur chat. Nama pemain diperiksa berdasarkan daftar kata terlarang. Pemain di bawah 18 tahun sebaiknya bertanya dulu kepada orang tua sebelum membeli apa pun.",
+   "why": "Legal-like text: English says 'ask a parent', not 'ask permission'. Keep it exact.",
+   "severity": "meaning"
+  },
+  {
+   "key": "faq_leagues_a",
+   "old": "Hasil meja harian Anda menempatkan Anda di sebuah liga: Perunggu, Perak, atau Emas. Setiap minggu, pemain terbaik naik liga dan pemain di posisi terbawah turun liga. Peringkat ditampilkan dalam tab Harian, Mingguan, dan Sepanjang masa.",
+   "new": "Hasil meja harian Anda menempatkan Anda di sebuah liga: Perunggu, Perak, atau Emas. Setiap minggu, pemain terbaik naik liga dan pemain di posisi terbawah turun liga. Peringkat tersedia dalam pilihan Harian, Mingguan, dan Sepanjang masa.",
+   "why": "'tab' is not in the English and may not match the app's UI element. Neutral wording keeps the exact labels.",
+   "severity": "meaning"
+  },
+  {
+   "key": "faq_offline_a",
+   "old": "Ya. Semua level bisa dimainkan offline, jadi tetap bisa dimainkan di kereta atau pesawat. Meja harian, peringkat, dan liga memerlukan koneksi internet. Hasil Anda dikirim begitu Anda kembali online.",
+   "new": "Ya. Semua level bisa dimainkan offline, jadi cocok dimainkan di kereta atau pesawat. Meja harian, peringkat, dan liga memerlukan koneksi internet. Hasil Anda dikirim begitu Anda kembali online.",
+   "why": "Removes the repeated 'bisa dimainkan ... tetap bisa dimainkan'.",
+   "severity": "style"
+  }
+ ],
+ "glossary_changes": [
+  {
+   "term": "tier",
+   "old": "tingkat",
+   "new": "dunia",
+   "why": "CONTEXT_WEB decision: use the APP_GLOSSARY word for the 6 difficulty stages (world = dunia), so the site matches the app."
+  }
+ ]
+}

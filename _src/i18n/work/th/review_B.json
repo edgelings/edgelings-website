@@ -1,0 +1,192 @@
+{
+ "verdict": "Solid, accurate translation with correct app terms, register and placeholders. Main fixes are a few calqued phrases and slogans (hero_tag, feat_h2), unquoted UI labels that blend into Thai text, and FAQ answers that should stand alone.",
+ "changes": [
+  {
+   "key": "hero_tag",
+   "old": "เกมสั้นๆ สำหรับพักสั้นๆ",
+   "new": "เกมสั้นๆ ไว้เล่นตอนพักเบรก",
+   "why": "\"สั้นๆ สำหรับพักสั้นๆ\" reads translated (สำหรับ). Natural slogan rhythm for a quick break game",
+   "severity": "style"
+  },
+  {
+   "key": "foot_tag2",
+   "old": "เกมสั้นๆ สำหรับพักสั้นๆ",
+   "new": "เกมสั้นๆ ไว้เล่นตอนพักเบรก",
+   "why": "Same slogan as hero_tag, keep identical",
+   "severity": "style"
+  },
+  {
+   "key": "feat_h2",
+   "old": "มีดีกว่าแค่ด่านเรียงกัน",
+   "new": "ไม่ใช่แค่ไล่เล่นทีละด่าน",
+   "why": "\"มีดีกว่าแค่ด่านเรียงกัน\" is awkward (มีดีกว่า = has better than). Natural Thai for 'more than a level list'",
+   "severity": "style"
+  },
+  {
+   "key": "suggest_text",
+   "old": "หน้านี้มีให้อ่านเป็น{lang}ด้วย",
+   "new": "หน้านี้มีฉบับภาษา{lang}ด้วย",
+   "why": "{lang} is the endonym ไทย. \"อ่านเป็นไทย\" drops ภาษา and sounds clipped. Reads as หน้านี้มีฉบับภาษาไทยด้วย",
+   "severity": "grammar"
+  },
+  {
+   "key": "step1",
+   "old": "ดึงสไลม์ถอยหลังในหนังสติ๊ก",
+   "new": "ดึงสไลม์ในหนังสติ๊กไปด้านหลัง",
+   "why": "\"ดึงสไลม์ถอยหลังในหนังสติ๊ก\" is word order calqued from English",
+   "severity": "style"
+  },
+  {
+   "key": "faq_how_a",
+   "old": "ดึงสไลม์ถอยหลังในหนังสติ๊กแล้วปล่อย เล็งให้ลงโซนทองใกล้ขอบซึ่งให้คะแนน 3 เท่า สไลม์ชนิดเดียวกัน 2 ตัวจะรวมร่างเป็นตัวที่ใหญ่ขึ้น เมื่อถึงเป้าแล้ว จะเก็บคะแนนไว้ หรือเสี่ยงดีดอีก 1 ครั้งเพื่อรับโบนัส 10% ก็ได้",
+   "new": "ดึงสไลม์ในหนังสติ๊กไปด้านหลังแล้วปล่อย เล็งให้ลงโซนทองใกล้ขอบซึ่งให้คะแนน 3 เท่า สไลม์ชนิดเดียวกัน 2 ตัวจะรวมร่างเป็นตัวที่ใหญ่ขึ้น เมื่อถึงเป้าแล้ว จะเก็บคะแนนไว้ หรือเสี่ยงดีดอีก 1 ครั้งเพื่อรับโบนัส 10% ก็ได้",
+   "why": "Same natural phrasing as step1",
+   "severity": "style"
+  },
+  {
+   "key": "press_long1",
+   "old": "Edgelings เป็นเกมแคชวลที่ว่าด้วยการหยุดให้ตรงจังหวะพอดี ผู้เล่นดึงสไลม์ถอยหลังในหนังสติ๊กแล้วปล่อยให้ไถลไปบนโต๊ะ สไลม์ที่หยุดใกล้ขอบด้านไกลจะได้คะแนนสูงสุด 3 เท่า ส่วนสไลม์ที่ตกขอบจะได้ 0 คะแนน",
+   "new": "Edgelings เป็นเกมแคชวลที่ว่าด้วยการหยุดให้ตรงจังหวะพอดี ผู้เล่นดึงสไลม์ในหนังสติ๊กไปด้านหลังแล้วปล่อยให้ไถลไปบนโต๊ะ สไลม์ที่หยุดใกล้ขอบด้านไกลจะได้คะแนนสูงสุด 3 เท่า ส่วนสไลม์ที่ตกขอบจะได้ 0 คะแนน",
+   "why": "Same natural phrasing as step1",
+   "severity": "style"
+  },
+  {
+   "key": "faq_free_a",
+   "old": "ฟรี Edgelings ดาวน์โหลดฟรีและเล่นฟรี ในเกมมีโฆษณาและมีรายการให้ซื้อตามความสมัครใจ เช่น เหรียญ แพ็กเริ่มต้น และลบโฆษณา คุณไม่จำเป็นต้องซื้ออะไรเลยเพื่อผ่านด่าน",
+   "new": "ใช่ Edgelings ดาวน์โหลดและเล่นได้ฟรี ในเกมมีโฆษณาและมีรายการให้ซื้อตามความสมัครใจ เช่น เหรียญ แพ็กเริ่มต้น และ \"ลบโฆษณา\" คุณไม่จำเป็นต้องซื้ออะไรเลยเพื่อผ่านด่าน",
+   "why": "\"ฟรี Edgelings ดาวน์โหลดฟรีและเล่นฟรี\" repeats ฟรี 3 times and the opening runs into the name. Quote the UI item so it is not read as the verb 'remove ads'",
+   "severity": "style"
+  },
+  {
+   "key": "faq_ads_a",
+   "old": "มี แบนเนอร์เล็กๆ จะแสดงบนหน้าเมนู แต่ไม่แสดงระหว่างเล่นด่าน คุณยังเลือกดูโฆษณาเพื่อรับสไลม์เพิ่มหรือโอกาสเล่นเพิ่มได้ด้วย ลบโฆษณาจะเอาแบนเนอร์ออกอย่างถาวร ส่วนโฆษณาที่คุณเลือกดูเองยังคงใช้ได้ตามเดิม",
+   "new": "มี แบนเนอร์เล็กๆ จะแสดงบนหน้าเมนู แต่ไม่แสดงระหว่างเล่นด่าน คุณยังเลือกดูโฆษณาเพื่อรับสไลม์เพิ่มหรือโอกาสเล่นเพิ่มได้ด้วย \"ลบโฆษณา\" จะเอาแบนเนอร์ออกอย่างถาวร ส่วนโฆษณาที่คุณเลือกดูเองยังคงใช้ได้ตามเดิม",
+   "why": "Bare ลบโฆษณา at sentence start reads as an instruction 'remove ads'. Quotes mark it as the purchase name, as Thai apps and help pages do",
+   "severity": "style"
+  },
+  {
+   "key": "faq_restore_q",
+   "old": "กู้คืนการซื้อทำอะไร",
+   "new": "ปุ่ม \"กู้คืนการซื้อ\" มีไว้ทำอะไร",
+   "why": "\"กู้คืนการซื้อทำอะไร\" is unnatural as a question. Quoted UI label so players find the button",
+   "severity": "style"
+  },
+  {
+   "key": "faq_delete_a",
+   "old": "ในเกม ให้เปิด ตั้งค่า แล้วแตะ ลบบัญชี หากไม่มีเกมแล้ว ให้ส่งอีเมลถึง info@edgelings.com พร้อมแจ้งชื่อผู้เล่น ดูเพิ่มเติมที่<a href=\"{base}/support.html#delete\">ลบบัญชี</a>",
+   "new": "ในเกม ให้เปิด \"ตั้งค่า\" แล้วแตะ \"ลบบัญชี\" หากไม่มีเกมแล้ว ให้ส่งอีเมลถึง info@edgelings.com พร้อมแจ้งชื่อผู้เล่น ดูเพิ่มเติมที่<a href=\"{base}/support.html#delete\">ลบบัญชี</a>",
+   "why": "Thai has no capitals or full stops, so bare UI labels blend into the sentence. Quotes as in Thai help pages. Labels unchanged from app_terms",
+   "severity": "style"
+  },
+  {
+   "key": "sup_p",
+   "old": "โปรดแจ้งชื่อผู้เล่นและรุ่นโทรศัพท์ของคุณ ดูชื่อผู้เล่นได้ในเกมที่ ตั้งค่า",
+   "new": "โปรดแจ้งชื่อผู้เล่นและรุ่นโทรศัพท์ของคุณ ดูชื่อผู้เล่นได้ในเกมที่ \"ตั้งค่า\"",
+   "why": "Quote the UI label for clarity",
+   "severity": "style"
+  },
+  {
+   "key": "sup_delete_game",
+   "old": "<b>ในเกม:</b> เปิด ตั้งค่า แตะ ลบบัญชี แล้วแตะ ลบทั้งหมด ชื่อผู้เล่น ความคืบหน้า เหรียญ และอันดับของคุณจะถูกลบอย่างถาวร โทรศัพท์ต้องเชื่อมต่ออินเทอร์เน็ตอยู่",
+   "new": "<b>ในเกม:</b> เปิด \"ตั้งค่า\" แตะ \"ลบบัญชี\" แล้วแตะ \"ลบทั้งหมด\" ชื่อผู้เล่น ความคืบหน้า เหรียญ และอันดับของคุณจะถูกลบอย่างถาวร โทรศัพท์ต้องเชื่อมต่ออินเทอร์เน็ตอยู่",
+   "why": "Quote the 3 UI labels so the steps read clearly. Labels exactly as app_terms",
+   "severity": "style"
+  },
+  {
+   "key": "sup_delete_mail",
+   "old": "<b>หากไม่มีเกมแล้ว:</b> ถ้าคุณไม่ได้ติดตั้งเกมไว้แล้ว ให้ส่งอีเมลถึง info@edgelings.com โดยใช้หัวเรื่อง \"Delete my Edgelings account\" พร้อมแจ้งชื่อผู้เล่น เราจะลบบัญชีภายใน 30 วันและยืนยันทางอีเมล",
+   "new": "<b>หากไม่มีเกมแล้ว:</b> ถ้าในเครื่องของคุณไม่ได้ติดตั้งเกมนี้แล้ว ให้ส่งอีเมลถึง info@edgelings.com โดยใช้หัวเรื่อง \"Delete my Edgelings account\" พร้อมแจ้งชื่อผู้เล่น เราจะลบบัญชีภายใน 30 วันและยืนยันทางอีเมล",
+   "why": "\"ถ้าคุณไม่ได้ติดตั้งเกมไว้แล้ว\" is clumsy (ไม่ได้...ไว้แล้ว). Same meaning, natural wording",
+   "severity": "grammar"
+  },
+  {
+   "key": "sup_refund_p",
+   "old": "การซื้อทำผ่าน Apple หรือ Google การคืนเงินจึงต้องทำผ่านช่องทางเดียวกัน บน iPhone และ iPad ไปที่ reportaproblem.apple.com บน Android เปิด Google Play แล้วไปที่ การชำระเงินและการสมัครใช้บริการ แล้วเลือก งบประมาณและประวัติ",
+   "new": "การซื้อทำผ่าน Apple หรือ Google การคืนเงินจึงต้องทำผ่านช่องทางเดียวกัน บน iPhone และ iPad ไปที่ reportaproblem.apple.com บน Android เปิด Google Play แล้วไปที่ \"การชำระเงินและการสมัครใช้บริการ\" แล้วเลือก \"งบประมาณและประวัติ\"",
+   "why": "Quote the Google Play menu names, otherwise they run into the sentence",
+   "severity": "style"
+  },
+  {
+   "key": "faq_leagues_a",
+   "old": "ผลการเล่นโต๊ะประจำวันจะจัดคุณเข้าลีก ได้แก่ ทองแดง เงิน หรือทอง ทุกสัปดาห์ ผู้เล่นที่ดีที่สุดจะได้เลื่อนขึ้น และผู้เล่นอันดับท้ายจะตกลง หน้าอันดับแสดงผลแบบรายวัน รายสัปดาห์ และตลอดกาล",
+   "new": "ผลการเล่นโต๊ะประจำวันจะจัดคุณเข้าลีก ได้แก่ ทองแดง เงิน หรือทอง ทุกสัปดาห์ ผู้เล่นที่ดีที่สุดจะได้เลื่อนชั้น และผู้เล่นอันดับท้ายๆ จะตกชั้น หน้าอันดับแสดงผลแบบรายวัน รายสัปดาห์ และตลอดกาล",
+   "why": "เลื่อนชั้น / ตกชั้น is the natural Thai league vocabulary. \"ตกลง\" can also read as 'agree'",
+   "severity": "style"
+  },
+  {
+   "key": "faq_phone_a",
+   "old": "ความคืบหน้าของคุณถูกบันทึกไว้ทั้งในโทรศัพท์และบนเซิร์ฟเวอร์ของเรา การลงชื่อเข้าใช้ด้วย Google หรือ Apple กำลังจะมา ผู้เล่นที่ลงชื่อเข้าใช้จะย้ายทุกอย่างไปยังโทรศัพท์เครื่องใหม่ได้ ทั้งชื่อ เหรียญ ด่าน สไลม์ สกิน และรายการที่ซื้อ หากไม่ได้ลงชื่อเข้าใช้ โทรศัพท์เครื่องใหม่จะเริ่มต้นใหม่ทั้งหมด",
+   "new": "ความคืบหน้าของคุณถูกบันทึกไว้ทั้งในโทรศัพท์และบนเซิร์ฟเวอร์ของเรา เร็วๆ นี้จะรองรับการลงชื่อเข้าใช้ด้วย Google หรือ Apple ผู้เล่นที่ลงชื่อเข้าใช้จะย้ายทุกอย่างไปยังโทรศัพท์เครื่องใหม่ได้ ทั้งชื่อ เหรียญ ด่าน สไลม์ สกิน และรายการที่ซื้อ หากไม่ได้ลงชื่อเข้าใช้ โทรศัพท์เครื่องใหม่จะเริ่มต้นใหม่ทั้งหมด",
+   "why": "\"...กำลังจะมา\" is a calque of 'is coming'. Same meaning, natural Thai",
+   "severity": "style"
+  },
+  {
+   "key": "faq_devices_a",
+   "old": "iPhone และ iPad ผ่าน App Store รวมถึงโทรศัพท์และแท็บเล็ต Android ผ่าน Google Play หน้าจอเกมยังรองรับโทรศัพท์จอพับได้ด้วย",
+   "new": "Edgelings เล่นได้บน iPhone และ iPad ผ่าน App Store รวมถึงโทรศัพท์และแท็บเล็ต Android ผ่าน Google Play หน้าจอเกมยังรองรับโทรศัพท์จอพับได้ด้วย",
+   "why": "FAQ answer should stand on its own for search and AI assistants. Adds the subject only",
+   "severity": "style"
+  },
+  {
+   "key": "faq_data_a",
+   "old": "บัญชีผู้เล่นแบบไม่ระบุตัวตน ชื่อผู้เล่น ความคืบหน้า คะแนน และรายการที่ซื้อ สถิติและโฆษณาที่ปรับให้เหมาะกับคุณจะทำงานก็ต่อเมื่อคุณยอมรับเท่านั้น ข้อมูลถูกจัดเก็บในสหภาพยุโรป ดูรายละเอียดทั้งหมดได้ใน<a href=\"/privacy.html\">นโยบายความเป็นส่วนตัว</a>",
+   "new": "Edgelings เก็บบัญชีผู้เล่นแบบไม่ระบุตัวตน ชื่อผู้เล่น ความคืบหน้า คะแนน และรายการที่ซื้อ สถิติและโฆษณาที่ปรับให้เหมาะกับคุณจะทำงานก็ต่อเมื่อคุณยอมรับเท่านั้น ข้อมูลถูกจัดเก็บในสหภาพยุโรป ดูรายละเอียดทั้งหมดได้ใน<a href=\"/privacy.html\">นโยบายความเป็นส่วนตัว</a>",
+   "why": "Answer opened with a bare noun list. A full sentence works standalone for search and AI. Facts unchanged",
+   "severity": "style"
+  },
+  {
+   "key": "feat3_p",
+   "old": "ไต่จากลีกทองแดงสู่ลีกเงิน และลีกทอง สัปดาห์ใหม่ โอกาสใหม่",
+   "new": "ไต่จากลีกทองแดง ขึ้นลีกเงิน สู่ลีกทอง สัปดาห์ใหม่ โอกาสใหม่",
+   "why": "Smoother climbing rhythm than \"สู่ลีกเงิน และลีกทอง\"",
+   "severity": "style"
+  },
+  {
+   "key": "sparkler_p",
+   "old": "ระเบิดทันทีที่โดนครั้งแรก ใช้อย่างระวัง",
+   "new": "ระเบิดทันทีที่โดนครั้งแรก ใช้อย่างระมัดระวัง",
+   "why": "\"ใช้อย่างระวัง\" is not idiomatic. ระมัดระวัง is the usual form",
+   "severity": "grammar"
+  },
+  {
+   "key": "score_blob_alt",
+   "old": "Mossy ลากฉันไปทางขอบสิ",
+   "new": "Mossy: ลากเราไปทางขอบสิ",
+   "why": "ฉัน leans feminine in speech. เรา is neutral and cute, matching the app rule to avoid gendered first person",
+   "severity": "style"
+  },
+  {
+   "key": "hero_video_aria",
+   "old": "ตัวอย่างการเล่น Pomme 2 ตัวรวมร่างเป็น King Plum",
+   "new": "ภาพการเล่น: Pomme 2 ตัวรวมร่างเป็น King Plum",
+   "why": "\"ตัวอย่างการเล่น\" clashes with ตัวอย่างเกม (trailer). Colon separates the label from the caption",
+   "severity": "style"
+  }
+ ],
+ "glossary_changes": [
+  {
+   "term": "One quick game for a short break.",
+   "old": "เกมสั้นๆ สำหรับพักสั้นๆ",
+   "new": "เกมสั้นๆ ไว้เล่นตอนพักเบรก",
+   "why": "More natural slogan"
+  },
+  {
+   "term": "More than a level list",
+   "old": "มีดีกว่าแค่ด่านเรียงกัน",
+   "new": "ไม่ใช่แค่ไล่เล่นทีละด่าน",
+   "why": "มีดีกว่า is awkward"
+  },
+  {
+   "term": "UI labels in running text",
+   "old": "bare label",
+   "new": "label in quotes, e.g. เปิด \"ตั้งค่า\"",
+   "why": "Thai has no capitals, labels need marking"
+  },
+  {
+   "term": "move up / move down (league)",
+   "old": "เลื่อนขึ้น / ตกลง",
+   "new": "เลื่อนชั้น / ตกชั้น",
+   "why": "Standard Thai league terms"
+  }
+ ]
+}

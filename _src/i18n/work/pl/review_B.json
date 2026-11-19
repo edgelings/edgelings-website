@@ -1,0 +1,146 @@
+{
+ "verdict": "Solid, consistent translation that respects the app terms and the impersonal register, with strong slogans. Fixes needed for the English email subject in sup_delete_mail, a broken 2 line dm_more/dm_full pair, a few calques and a weaker home page SEO title.",
+ "changes": [
+  {
+   "key": "meta_index_title",
+   "old": "Edgelings: darmowa gra z glutkami na iPhone i Android",
+   "new": "Edgelings: glutki pod krawędź | Za darmo na iPhone i Android",
+   "why": "Current title drops the core hook (stop at the edge). This keeps the hook, the free claim and both platforms, at 60 characters.",
+   "severity": "style"
+  },
+  {
+   "key": "meta_index_desc",
+   "old": "Darmowa gra casualowa na iPhone, iPad i Android. Błyszczące glutki suną po stole. Im bliżej krawędzi się zatrzymają, tym więcej punktów. Za krawędzią: zero.",
+   "new": "Darmowa gra casualowa na iPhone, iPad i Android. Pstryknięcie i błyszczący glutek mknie po stole. Im bliżej krawędzi, tym więcej punktów. Za krawędzią: zero.",
+   "why": "Current text loses the flick (the player's action). Restores it while staying impersonal and within 155 characters.",
+   "severity": "meaning"
+  },
+  {
+   "key": "hero_chip",
+   "old": "Za darmo na urządzenia iPhone, iPad i Android",
+   "new": "Za darmo na iPhone, iPad i Android",
+   "why": "\"na urządzenia\" is stiff and long for a chip. Polish sites write \"na iPhone, iPad i Android\".",
+   "severity": "style"
+  },
+  {
+   "key": "band_p",
+   "old": "Wkrótce na urządzeniach iPhone, iPad i Android. Gra jest darmowa.",
+   "new": "Już wkrótce na iPhone, iPad i Android. Za darmo.",
+   "why": "Shorter and punchier, drops stiff \"na urządzeniach\" and the flat \"Gra jest darmowa\".",
+   "severity": "style"
+  },
+  {
+   "key": "qr_text",
+   "old": "Przeglądanie na komputerze?<br>Wystarczy zeskanować kod telefonem,<br>aby pobrać Edgelings.",
+   "new": "Strona otwarta na komputerze?<br>Wystarczy zeskanować kod telefonem,<br>by pobrać Edgelings.",
+   "why": "\"Przeglądanie na komputerze?\" is translationese. Natural impersonal question.",
+   "severity": "style"
+  },
+  {
+   "key": "hero_lead",
+   "old": "Wystarczy pstryknąć błyszczącym glutkiem, by pomknął po stole. Im bliżej krawędzi się zatrzyma, tym więcej punktów. Za krawędzią nie zdobywa nic.",
+   "new": "Jedno pstryknięcie i błyszczący glutek mknie po stole. Im bliżej krawędzi się zatrzyma, tym więcej punktów. Za krawędzią: zero punktów.",
+   "why": "\"pstryknąć glutkiem\" (instrumental) means flicking with the slime. Also more rhythmic for the hero, and matches score_msg0.",
+   "severity": "grammar"
+  },
+  {
+   "key": "step3",
+   "old": "Zatrzymaj go przy krawędzi, a punkty wzrosną 3 razy.",
+   "new": "Zatrzymaj go przy krawędzi, by dostać 3 razy więcej punktów.",
+   "why": "\"punkty wzrosną 3 razy\" can read as \"rise on 3 occasions\". Unambiguous now.",
+   "severity": "meaning"
+  },
+  {
+   "key": "score_lead",
+   "old": "Przeciągnij glutka Mossy w stronę krawędzi. Im bliżej, tym więcej punktów. Za daleko i spada.",
+   "new": "Przeciągnij glutka Mossy w stronę krawędzi. Im bliżej, tym więcej punktów. Za daleko? Spada.",
+   "why": "\"Za daleko i spada\" is a calque of the English structure.",
+   "severity": "style"
+  },
+  {
+   "key": "video_lead",
+   "old": "Prawdziwa rozgrywka z pierwszych poziomów. Żadnych ustawianych ujęć.",
+   "new": "Prawdziwa rozgrywka z pierwszych poziomów. Bez reżyserowanych ujęć.",
+   "why": "\"ustawianych ujęć\" sounds odd. \"reżyserowane ujęcia\" is the usual phrase for staged footage.",
+   "severity": "style"
+  },
+  {
+   "key": "shots_lead",
+   "old": "Przegląd pierwszego świata.",
+   "new": "Przesuń, by zobaczyć pierwszy świat.",
+   "why": "Current text loses the swipe invitation and reads like a label.",
+   "severity": "style"
+  },
+  {
+   "key": "feat4_h",
+   "old": "Fuzje i wzrost",
+   "new": "Fuzja za fuzją",
+   "why": "\"Fuzje i wzrost\" sounds like an economics report. Lively heading that keeps the merge term.",
+   "severity": "style"
+  },
+  {
+   "key": "faq_levels_a",
+   "old": "Gra ma 1200 poziomów w 6 światach: Łatwy, Średni, Trudny, Ekstra trudny, Mistrzowski i Szalony. Każdy świat dodaje nowe sztuczki, takie jak miód, lód, piasek, trampoliny, wiatr i specjalne glutki. Nowe poziomy przychodzą z serwera bez aktualizacji aplikacji.",
+   "new": "Gra ma 1200 poziomów w 6 światach: Łatwy, Średni, Trudny, Ekstra trudny, Mistrzowski i Szalony. Każdy świat wprowadza nowe wyzwania, takie jak miód, lód, piasek, trampoliny, wiatr i specjalne glutki. Kolejne poziomy docierają z serwera bez aktualizacji aplikacji.",
+   "why": "\"dodaje nowe sztuczki\" and \"przychodzą z serwera\" are calques. Natural wording, same facts.",
+   "severity": "style"
+  },
+  {
+   "key": "faq_kids_a",
+   "old": "Edgelings jest przeznaczone dla graczy w wieku od 13 lat. Nie ma w nim przemocy ani czatu. Nazwy graczy są sprawdzane z listą zablokowanych słów. Osoby poniżej 18 lat powinny zapytać rodzica przed jakimkolwiek zakupem.",
+   "new": "Edgelings jest przeznaczone dla graczy w wieku od 13 lat. Nie ma w nim przemocy ani czatu. Nazwy graczy są porównywane z listą zablokowanych słów. Osoby poniżej 18 lat powinny zapytać rodzica przed jakimkolwiek zakupem.",
+   "why": "\"sprawdzane z listą\" is not idiomatic. \"porównywane z listą\" is correct.",
+   "severity": "grammar"
+  },
+  {
+   "key": "faq_restore_a",
+   "old": "Ta opcja sprawdza w Apple lub Google, jakie stałe zakupy są przypisane do konta w sklepie, na przykład „Usuń reklamy”, i ponownie je włącza. Monety i inne zużywalne przedmioty nie są w ten sposób przywracane. Zachowuje je logowanie.",
+   "new": "Ta opcja sprawdza w Apple lub Google, jakie stałe zakupy są przypisane do konta w sklepie, na przykład „Usuń reklamy”, i ponownie je włącza. Monety i inne zużywalne przedmioty nie są w ten sposób przywracane. Te zachowuje logowanie.",
+   "why": "\"Zachowuje je logowanie\" is ambiguous with the preceding sentence. \"Te\" points clearly to coins and used up items.",
+   "severity": "style"
+  },
+  {
+   "key": "meta_support_desc",
+   "old": "Pomoc w Edgelings: nazwa gracza, postępy na nowym telefonie, zakupy, wybór reklam i usuwanie konta.",
+   "new": "Pomoc w Edgelings: nazwa gracza, postępy na nowym telefonie, zakupy, ustawienia reklam i usuwanie konta.",
+   "why": "\"wybór reklam\" reads as choosing which ads to see. \"ustawienia reklam\" is what people search for.",
+   "severity": "style"
+  },
+  {
+   "key": "sup_delete_mail",
+   "old": "<b>Bez gry:</b> jeśli gra nie jest już zainstalowana, proszę napisać na info@edgelings.com z tematem „Usuń moje konto Edgelings” i podać nazwę gracza. Usuwamy konto w ciągu 30 dni i potwierdzamy to e-mailem.",
+   "new": "<b>Bez gry:</b> jeśli gra nie jest już zainstalowana, proszę wysłać e-mail na info@edgelings.com z tematem „Delete my Edgelings account” i podać w nim nazwę gracza. Usuwamy konto w ciągu 30 dni i potwierdzamy to e-mailem.",
+   "why": "Decision: the subject must stay in English so support recognises it. Also \"wysłać e-mail\" fits \"z tematem\" better than \"napisać\".",
+   "severity": "meaning"
+  },
+  {
+   "key": "press_long3",
+   "old": "Gra oferuje 1200 poziomów w 6 światach, od „Łatwy” po „Szalony”. Stół dnia stawia przed każdym graczem na świecie to samo wyzwanie, a w cotygodniowych ligach gracze przechodzą między ligami: Brąz, Srebro i Złoto. Cała gra działa offline.",
+   "new": "Gra oferuje 1200 poziomów w 6 światach, od „Łatwy” po „Szalony”. Stół dnia stawia przed każdym graczem na świecie to samo wyzwanie, a w cotygodniowych rozgrywkach gracze przechodzą między ligami: Brąz, Srebro i Złoto. Cała gra działa offline.",
+   "why": "Removes the repetition \"w cotygodniowych ligach ... między ligami\".",
+   "severity": "style"
+  },
+  {
+   "key": "press_genre_v",
+   "old": "Gra casualowa, łamigłówka fizyczna, zręcznościowa",
+   "new": "Gra casualowa, łamigłówka fizyczna, gra zręcznościowa",
+   "why": "\"zręcznościowa\" was left as a dangling adjective after a noun phrase.",
+   "severity": "grammar"
+  },
+  {
+   "key": "dm_more",
+   "old": "Kolejne poziomy: {n}",
+   "new": "Jeszcze {n} poziomów",
+   "why": "With dm_full the 2 lines read \"Kolejne poziomy: 1195 / czekają w pełnej grze\", which breaks. {n} is always 1195, so \"poziomów\" is correct and shorter.",
+   "severity": "grammar"
+  },
+  {
+   "key": "dm_full",
+   "old": "czekają w pełnej grze",
+   "new": "czeka w pełnej grze",
+   "why": "Agrees with \"Jeszcze 1195 poziomów\" (numeral 5+ takes singular neuter verb).",
+   "severity": "grammar"
+  }
+ ],
+ "glossary_changes": []
+}

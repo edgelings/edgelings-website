@@ -1,0 +1,124 @@
+# Edgelings
+
+> A free casual game for iPhone, iPad and Android. Flick glossy slimes across the table. The closer they stop to the edge, the more they score. Over the edge scores nothing.
+
+Edgelings is a casual mobile game for iPhone, iPad and Android, made by Matej Mesko in Slovenia. Players pull a slime back in a sling and let go. Slimes that stop close to the far edge of the table score the most. A slime that goes over the edge scores nothing. 2 slimes of the same kind merge into a bigger one: Blip, Mossy, Sunny, Pomme and finally King Plum.
+
+## Key facts
+
+- Price: free, with optional in-app purchases and ads (Remove ads available)
+- Platforms: iPhone, iPad, Android phones and tablets
+- Levels: 1,200 across 6 tiers (Easy, Medium, Hard, Extra Hard, Ultimate, Crazy)
+- Modes: levels, a daily table that is the same for every player, weekly leagues (Bronze, Silver, Gold), rankings
+- Offline: all levels play offline
+- Languages: English, Bahasa Indonesia, Deutsch, Español (ES), Español (LatAm), Français, Hrvatski, Italiano, Nederlands, Polski, Português (PT), Português (BR), Română, Slovenščina, Tiếng Việt, Türkçe, Русский, Українська, हिन्दी, ไทย, 日本語, 한국어, 简体中文, 繁體中文
+- Status: coming soon to the App Store and Google Play
+- Developer: Matej Mesko, Slovenia. Contact: info@edgelings.com
+
+## Pages
+
+- [Home](https://edgelings.com/): what the game is, playable demo, trailer, screenshots, features, slimes, FAQ
+- [Support and FAQ](https://edgelings.com/support.html): help, progress on a new phone, purchases, account deletion
+- [Press kit](https://edgelings.com/press.html): fact sheet, descriptions, logos, screenshots, trailer
+- [Privacy Policy](https://edgelings.com/privacy.html)
+- [Terms and Conditions](https://edgelings.com/terms.html)
+
+## Other languages
+
+- [Bahasa Indonesia](https://edgelings.com/id/)
+- [Deutsch](https://edgelings.com/de/)
+- [Español (ES)](https://edgelings.com/es/)
+- [Español (LatAm)](https://edgelings.com/es-419/)
+- [Français](https://edgelings.com/fr/)
+- [Hrvatski](https://edgelings.com/hr/)
+- [Italiano](https://edgelings.com/it/)
+- [Nederlands](https://edgelings.com/nl/)
+- [Polski](https://edgelings.com/pl/)
+- [Português (PT)](https://edgelings.com/pt/)
+- [Português (BR)](https://edgelings.com/pt-br/)
+- [Română](https://edgelings.com/ro/)
+- [Slovenščina](https://edgelings.com/sl/)
+- [Tiếng Việt](https://edgelings.com/vi/)
+- [Türkçe](https://edgelings.com/tr/)
+- [Русский](https://edgelings.com/ru/)
+- [Українська](https://edgelings.com/uk/)
+- [हिन्दी](https://edgelings.com/hi/)
+- [ไทย](https://edgelings.com/th/)
+- [日本語](https://edgelings.com/ja/)
+- [한국어](https://edgelings.com/ko/)
+- [简体中文](https://edgelings.com/zh-hans/)
+- [繁體中文](https://edgelings.com/zh-hant/)
+
+## FAQ
+
+### What is Edgelings?
+
+Edgelings is a casual mobile game for iPhone, iPad and Android. You flick glossy slimes across a table. The closer a slime stops to the far edge, the more points it scores. A slime that goes over the edge scores nothing.
+
+### How do you play?
+
+Pull the slime back in the sling and let go. Aim for the gold zone near the edge, which pays 3 times the points. 2 slimes of the same kind merge into a bigger one. When you reach the target, bank your points or risk 1 more shot for a 10% bonus.
+
+### Is Edgelings free?
+
+Yes. Edgelings is free to download and free to play. It shows ads and offers optional purchases, such as coins, a starter pack and Remove ads. You never need to buy anything to finish a level.
+
+### Which devices does it run on?
+
+iPhone and iPad from the App Store, and Android phones and tablets from Google Play. The layout also works on foldable phones.
+
+### When does Edgelings come out?
+
+Edgelings is coming soon to the App Store and Google Play. The store buttons on this site switch on the day it launches. Until then you can play the first 5 levels in your browser.
+
+### Can I play in my browser?
+
+Yes, the first 5 levels. Open the playable demo on this page. The full game with all levels, the daily table and leagues is in the phone app.
+
+### Does it work offline?
+
+Yes. All levels play offline, so it works on a train or a plane. The daily table, rankings and leagues need a connection. Your results are sent once you are back online.
+
+### How many levels are there?
+
+1,200 levels in 6 tiers: Easy, Medium, Hard, Extra Hard, Ultimate and Crazy. Each tier adds new tricks, such as honey, ice, sand, trampolines, wind and special slimes. More levels arrive from the server without an app update.
+
+### Which slimes are there?
+
+5 slimes merge into each other: Blip, Mossy, Sunny, Pomme and King Plum. Special slimes join later: Magnet pulls its own kind, Ghost passes through others, Heavy shoves everything and Sparkler explodes on first touch. A Mystery slime shows its kind when it stops.
+
+### What is the daily table?
+
+A new table every day, the same for every player in the world. You get 3 tries a day and your best score counts. Bought helpers are switched off there, so it is a fair contest.
+
+### How do the weekly leagues work?
+
+Your daily table results place you in a league: Bronze, Silver or Gold. Every week the best players move up and the last ones move down. The rankings show Daily, Weekly and All time.
+
+### Are there ads, and can I remove them?
+
+Yes. A small banner shows on menu screens, never during a level. You can also choose to watch an ad for an extra slime or an extra try. Remove ads takes the banner away for good. Ads you choose to watch stay available.
+
+### Is my progress saved if I change phones?
+
+Your progress is saved on your phone and on our server. Sign in with Google or Apple is coming, so a signed-in player can take everything to a new phone: name, coins, levels, slimes, skins and purchases. Without signing in, a new phone starts from the beginning.
+
+### What does Restore purchases do?
+
+It asks Apple or Google which permanent purchases your store account has, such as Remove ads, and switches them on again. Coins and other items that are used up are not restored this way. Signing in keeps those.
+
+### Is Edgelings suitable for children?
+
+Edgelings is made for players aged 13 and over. It has no violence and no chat. Player names are checked against a list of blocked words. Players under 18 should ask a parent before buying anything.
+
+### What data does Edgelings collect?
+
+An anonymous player account, your player name, progress, scores and purchases. Statistics and personalised ads only run if you accept. Data is stored in the European Union. The full details are in the Privacy Policy .
+
+### How do I delete my account?
+
+In the game, open Settings and tap Delete my account. Without the game, email info@edgelings.com with your player name. See Delete your account .
+
+### Who makes Edgelings?
+
+Edgelings is made and operated by Matej Mesko, an independent developer in Slovenia. Contact: info@edgelings.com.

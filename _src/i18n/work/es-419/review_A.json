@@ -1,0 +1,104 @@
+{
+ "verdict": "Accurate, natural es-419 with correct usted register and app terms almost everywhere. Must fix the English email subject in sup_delete_mail and use 'mundo' for tiers, plus a few precision fixes in the FAQ.",
+ "changes": [
+  {
+   "key": "sup_delete_mail",
+   "old": "<b>Sin el juego:</b> si ya no tiene el juego instalado, escriba a info@edgelings.com con el asunto \"Eliminar mi cuenta de Edgelings\" y su nombre de jugador. Eliminamos la cuenta en un plazo de 30 días y se lo confirmamos por correo.",
+   "new": "<b>Sin el juego:</b> si ya no tiene el juego instalado, escriba a info@edgelings.com con el asunto \"Delete my Edgelings account\" y su nombre de jugador. Eliminamos la cuenta en un plazo de 30 días y se lo confirmamos por correo.",
+   "why": "Decision: email subject stays in English exactly, support recognises it",
+   "severity": "meaning"
+  },
+  {
+   "key": "feat1_p",
+   "old": "6 niveles de dificultad, de Fácil a Locura. Avance a su propio ritmo.",
+   "new": "6 mundos, de Fácil a Locura. Avance a su propio ritmo.",
+   "why": "Tier = mundo per APP_GLOSSARY decision, matches the app",
+   "severity": "term"
+  },
+  {
+   "key": "faq_levels_a",
+   "old": "Hay 1200 niveles en 6 niveles de dificultad: Fácil, Medio, Difícil, Muy difícil, Extremo y Locura. Cada dificultad suma trucos nuevos, como miel, hielo, arena, trampolines, viento y slimes especiales. Los niveles nuevos llegan desde el servidor sin necesidad de actualizar la app.",
+   "new": "Hay 1200 niveles en 6 mundos: Fácil, Medio, Difícil, Muy difícil, Extremo y Locura. Cada mundo suma trucos nuevos, como miel, hielo, arena, trampolines, viento y slimes especiales. Los niveles nuevos llegan desde el servidor sin necesidad de actualizar la app.",
+   "why": "Tier = mundo, also removes the confusing 'niveles en niveles'",
+   "severity": "term"
+  },
+  {
+   "key": "press_content_v",
+   "old": "1200 niveles en 6 niveles de dificultad, mesa diaria, ligas semanales, ranking",
+   "new": "1200 niveles en 6 mundos, mesa diaria, ligas semanales, ranking",
+   "why": "Tier = mundo, matches the app",
+   "severity": "term"
+  },
+  {
+   "key": "press_long3",
+   "old": "Hay 1200 niveles en 6 niveles de dificultad, de Fácil a Locura. La mesa diaria plantea el mismo desafío a todos los jugadores del mundo, y las ligas semanales mueven a los jugadores entre Bronce, Plata y Oro. Todo el juego funciona sin conexión.",
+   "new": "Hay 1200 niveles en 6 mundos, de Fácil a Locura. La mesa diaria plantea el mismo desafío a todos los jugadores del mundo, y las ligas semanales mueven a los jugadores entre Bronce, Plata y Oro. Todo el juego funciona sin conexión.",
+   "why": "Tier = mundo, matches the app",
+   "severity": "term"
+  },
+  {
+   "key": "shots_lead",
+   "old": "Deslice para recorrer la primera dificultad.",
+   "new": "Deslice para recorrer el primer mundo.",
+   "why": "Tier = mundo, matches the app",
+   "severity": "term"
+  },
+  {
+   "key": "faq_what_a",
+   "old": "Edgelings es un juego casual para celulares iPhone, iPad y Android. Se lanzan slimes brillantes por una mesa. Cuanto más cerca del borde del fondo se detiene un slime, más puntos suma. Un slime que se pasa del borde no suma nada.",
+   "new": "Edgelings es un juego móvil casual para iPhone, iPad y Android. Se lanzan slimes brillantes por una mesa. Cuanto más cerca del borde del fondo se detiene un slime, más puntos suma. Un slime que se pasa del borde no suma nada.",
+   "why": "'celulares iPhone, iPad' calls the iPad a phone",
+   "severity": "meaning"
+  },
+  {
+   "key": "faq_restore_a",
+   "old": "Consulta a Apple o Google qué compras permanentes tiene su cuenta de la tienda, como \"Quitar anuncios\", y las vuelve a activar. Las monedas y otros artículos que se gastan no se restauran de esta forma. Para conservarlos, inicie sesión.",
+   "new": "Consulta a Apple o Google qué compras permanentes tiene su cuenta de la tienda, como \"Quitar anuncios\", y las vuelve a activar. Las monedas y otros artículos que se gastan no se restauran de esta forma. Esos se conservan al iniciar sesión.",
+   "why": "English states a fact, not an instruction. Sign-in is not available yet (faq_phone_a), so an imperative misleads",
+   "severity": "meaning"
+  },
+  {
+   "key": "faq_kids_a",
+   "old": "Edgelings está pensado para mayores de 13 años. No tiene violencia ni chat. Los nombres de jugador se revisan con una lista de palabras bloqueadas. Los menores de 18 años deben pedir permiso a una madre, un padre o un tutor antes de comprar algo.",
+   "new": "Edgelings está pensado para jugadores a partir de 13 años. No tiene violencia ni chat. Los nombres de jugador se revisan con una lista de palabras bloqueadas. Los menores de 18 años deben consultar a su madre o a su padre antes de comprar algo.",
+   "why": "'mayores de 13' excludes 13-year-olds. 'ask a parent' had an added guardian and 'permission'",
+   "severity": "meaning"
+  },
+  {
+   "key": "meta_index_title",
+   "old": "Edgelings: lleve los slimes al borde | Gratis en iPhone y Android",
+   "new": "Edgelings: lance slimes al borde | Gratis en iPhone y Android",
+   "why": "flick = lanzar per APP_GLOSSARY, 'lleve' loses the core action",
+   "severity": "term"
+  },
+  {
+   "key": "loop_ice_p",
+   "old": "Resbaladizo. Tire con más suavidad.",
+   "new": "Resbaladizo. Lance con más suavidad.",
+   "why": "'Tire' clashes with 'Tire del slime' (pull back). Flick = lanzar",
+   "severity": "term"
+  },
+  {
+   "key": "shot4",
+   "old": "El hielo los hace deslizar",
+   "new": "El hielo los hace deslizarse",
+   "why": "Deslizar needs the pronominal form here",
+   "severity": "grammar"
+  },
+  {
+   "key": "press_genre_v",
+   "old": "Casual, puzles de física, arcade",
+   "new": "Casual, rompecabezas de física, arcade",
+   "why": "'puzles' reads as Spain, LatAm uses rompecabezas",
+   "severity": "style"
+  }
+ ],
+ "glossary_changes": [
+  {
+   "term": "tier",
+   "old": "nivel de dificultad / dificultad",
+   "new": "mundo",
+   "why": "Post-round decision: use the APP_GLOSSARY word for the 6 stages (world = mundo)"
+  }
+ ]
+}

@@ -1,0 +1,90 @@
+{
+ "verdict": "Natural, warm and persuasive Hindi with strong slogans and consistent आप register; it reads like a native game site. Main fix is that tier must be दुनिया as in the app, plus a lost platform mention in the home SEO title and a few clunky phrasings.",
+ "changes": [
+  {
+   "key": "meta_index_title",
+   "old": "Edgelings: स्लाइम को किनारे तक सरकाएँ | मुफ़्त मोबाइल गेम",
+   "new": "Edgelings: स्लाइम किनारे तक सरकाएँ | iPhone, Android पर मुफ़्त",
+   "why": "English title names iPhone and Android, the translation dropped them. Platform names are strong search terms.",
+   "severity": "meaning"
+  },
+  {
+   "key": "meta_index_desc",
+   "old": "iPhone, iPad और Android के लिए मुफ़्त कैज़ुअल गेम। चमकदार स्लाइम को टेबल पर सरकाएँ। किनारे के जितना करीब, उतने ज़्यादा पॉइंट। पार गिरा तो कुछ नहीं।",
+   "new": "iPhone, iPad और Android के लिए मुफ़्त कैज़ुअल गेम। चमकदार स्लाइम को टेबल पर सरकाएँ। किनारे के जितना करीब, उतने ज़्यादा पॉइंट। किनारे के पार गिरा तो एक भी पॉइंट नहीं।",
+   "why": "'पार गिरा' without 'किनारे के' reads broken. Match hero_lead wording.",
+   "severity": "style"
+  },
+  {
+   "key": "shots_lead",
+   "old": "स्वाइप करें और पहले टियर की झलक देखें।",
+   "new": "स्वाइप करें और पहली दुनिया की झलक देखें।",
+   "why": "Tier must use the app word for the 6 stages (दुनिया), per the post-round decision.",
+   "severity": "term"
+  },
+  {
+   "key": "feat1_p",
+   "old": "6 टियर, आसान से क्रेज़ी तक। अपनी रफ़्तार से आगे बढ़ें।",
+   "new": "6 दुनियाएँ, आसान से क्रेज़ी तक। अपनी रफ़्तार से आगे बढ़ें।",
+   "why": "Tier = दुनिया as in the app.",
+   "severity": "term"
+  },
+  {
+   "key": "faq_levels_a",
+   "old": "Edgelings में 6 टियर में बँटे 1,200 लेवल हैं: आसान, मध्यम, मुश्किल, बहुत मुश्किल, अल्टीमेट और क्रेज़ी। हर टियर में नई चुनौतियाँ जुड़ती हैं, जैसे शहद, बर्फ़, रेत, ट्रैम्पोलिन, हवा और स्पेशल स्लाइम। नए लेवल ऐप अपडेट के बिना सीधे सर्वर से आते हैं।",
+   "new": "Edgelings में 1,200 लेवल हैं, जो 6 दुनियाओं में बँटे हैं: आसान, मध्यम, मुश्किल, बहुत मुश्किल, अल्टीमेट और क्रेज़ी। हर दुनिया में नई चुनौतियाँ जुड़ती हैं, जैसे शहद, बर्फ़, रेत, ट्रैम्पोलिन, हवा और स्पेशल स्लाइम। नए लेवल ऐप अपडेट के बिना सीधे सर्वर से आते हैं।",
+   "why": "Tier = दुनिया as in the app. Restructured to avoid a double 'में'.",
+   "severity": "term"
+  },
+  {
+   "key": "press_content_v",
+   "old": "6 टियर में 1,200 लेवल, डेली टेबल, वीकली लीग, रैंकिंग",
+   "new": "6 दुनियाओं में 1,200 लेवल, डेली टेबल, वीकली लीग, रैंकिंग",
+   "why": "Tier = दुनिया as in the app.",
+   "severity": "term"
+  },
+  {
+   "key": "press_long3",
+   "old": "इसमें 6 टियर में 1,200 लेवल हैं, आसान से क्रेज़ी तक। डेली टेबल दुनिया के हर खिलाड़ी को एक जैसी चुनौती देती है, और वीकली लीग खिलाड़ियों को ब्रॉन्ज़, सिल्वर और गोल्ड के बीच ऊपर-नीचे करती हैं। पूरा गेम ऑफ़लाइन खेला जा सकता है।",
+   "new": "इसमें 1,200 लेवल हैं, जो आसान से क्रेज़ी तक 6 दुनियाओं में बँटे हैं। डेली टेबल दुनिया के हर खिलाड़ी को एक जैसी चुनौती देती है, और वीकली लीग खिलाड़ियों को ब्रॉन्ज़, सिल्वर और गोल्ड के बीच ऊपर-नीचे करती हैं। पूरा गेम ऑफ़लाइन खेला जा सकता है।",
+   "why": "Tier = दुनिया as in the app.",
+   "severity": "term"
+  },
+  {
+   "key": "faq_leagues_a",
+   "old": "डेली टेबल के आपके नतीजों से तय होता है कि आप किस लीग में हैं: ब्रॉन्ज़, सिल्वर या गोल्ड। हर हफ़्ते सबसे अच्छे खिलाड़ी ऊपर की लीग में जाते हैं और सबसे पीछे वाले नीचे की लीग में। रैंकिंग में डेली, वीकली और ऑल टाइम, तीनों दिखते हैं।",
+   "new": "डेली टेबल के आपके नतीजों से तय होता है कि आप किस लीग में हैं: ब्रॉन्ज़, सिल्वर या गोल्ड। हर हफ़्ते सबसे अच्छे खिलाड़ी ऊपर की लीग में जाते हैं और सबसे पीछे वाले नीचे की लीग में। रैंकिंग में \"डेली\", \"वीकली\" और \"ऑल टाइम\", तीनों टैब दिखते हैं।",
+   "why": "Tab names are app UI labels; the site quotes UI labels elsewhere, so quote them here too.",
+   "severity": "term"
+  },
+  {
+   "key": "foot_operated",
+   "old": "Edgelings का संचालन Matej Mesko, स्लोवेनिया करते हैं।",
+   "new": "Edgelings का संचालन स्लोवेनिया के Matej Mesko करते हैं।",
+   "why": "'Matej Mesko, स्लोवेनिया करते हैं' is an English comma construction placed before the verb; reads unnatural.",
+   "severity": "style"
+  },
+  {
+   "key": "faq_phone_a",
+   "old": "आपकी प्रोग्रेस आपके फ़ोन और हमारे सर्वर, दोनों पर सेव होती है। Google या Apple से साइन इन की सुविधा जल्द आ रही है, जिससे साइन इन करने पर सब कुछ नए फ़ोन पर ले जाया जा सकेगा: नाम, कॉइन, लेवल, स्लाइम, स्किन और ख़रीदारी। साइन इन के बिना नए फ़ोन पर गेम शुरुआत से शुरू होता है।",
+   "new": "आपकी प्रोग्रेस आपके फ़ोन और हमारे सर्वर, दोनों पर सेव होती है। Google या Apple से साइन इन की सुविधा जल्द आ रही है, जिससे साइन इन करने पर सब कुछ नए फ़ोन पर ले जाया जा सकेगा: नाम, कॉइन, लेवल, स्लाइम, स्किन और ख़रीदारी। साइन इन के बिना नए फ़ोन पर गेम फिर से शुरू से खेलना होता है।",
+   "why": "'शुरुआत से शुरू होता है' is a clunky repetition.",
+   "severity": "style"
+  },
+  {
+   "key": "shot4",
+   "old": "बर्फ़ पर फिसलन",
+   "new": "बर्फ़ उन्हें फिसला देती है",
+   "why": "'बर्फ़ पर फिसलन' is flat and loses the action; parallel to shot3 'शहद उन्हें थाम लेता है'.",
+   "severity": "style"
+  }
+ ],
+ "glossary_changes": [
+  {
+   "term": "tier",
+   "old": "टियर",
+   "new": "दुनिया (plural दुनियाएँ, oblique दुनियाओं)",
+   "why": "Post-round decision: use the APP_GLOSSARY word for the 6 difficulty stages so the site matches the app."
+  }
+ ]
+}

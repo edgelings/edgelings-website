@@ -1,0 +1,146 @@
+{
+ "verdict": "Accurate, well-formed translation that follows the formal register, placeholders and HTML. Main fix is the tier term, which must be 'wereld' as in the app, plus a few UI labels missing quotes and 4 clumsy FAQ sentences.",
+ "changes": [
+  {
+   "key": "shots_lead",
+   "old": "Swipe door de eerste moeilijkheidsgraad.",
+   "new": "Swipe door de eerste wereld.",
+   "why": "Tier must match the app: APP_GLOSSARY uses 'wereld' for the 6 difficulty stages (context decision), so players recognise it.",
+   "severity": "term"
+  },
+  {
+   "key": "feat1_p",
+   "old": "6 moeilijkheidsgraden, van Makkelijk tot Waanzinnig. Ga omhoog in uw eigen tempo.",
+   "new": "6 werelden, van Makkelijk tot Waanzinnig. Ga omhoog in uw eigen tempo.",
+   "why": "Tier must match the app: APP_GLOSSARY uses 'wereld' for the 6 difficulty stages (context decision), so players recognise it.",
+   "severity": "term"
+  },
+  {
+   "key": "faq_levels_a",
+   "old": "Er zijn 1200 levels in 6 moeilijkheidsgraden: Makkelijk, Gemiddeld, Moeilijk, Extra moeilijk, Ultiem en Waanzinnig. Elke moeilijkheidsgraad brengt nieuwe uitdagingen, zoals honing, ijs, zand, trampolines, wind en speciale slijmpjes. Nieuwe levels komen via de server binnen, zonder app-update.",
+   "new": "Er zijn 1200 levels in 6 werelden: Makkelijk, Gemiddeld, Moeilijk, Extra moeilijk, Ultiem en Waanzinnig. Elke wereld brengt nieuwe uitdagingen, zoals honing, ijs, zand, trampolines, wind en speciale slijmpjes. Nieuwe levels komen via de server binnen, zonder app-update.",
+   "why": "Tier must match the app: APP_GLOSSARY uses 'wereld' for the 6 difficulty stages (context decision), so players recognise it.",
+   "severity": "term"
+  },
+  {
+   "key": "press_content_v",
+   "old": "1200 levels in 6 moeilijkheidsgraden, dagtafel, wekelijkse divisies, ranglijsten",
+   "new": "1200 levels in 6 werelden, dagtafel, wekelijkse divisies, ranglijsten",
+   "why": "Tier must match the app: APP_GLOSSARY uses 'wereld' for the 6 difficulty stages (context decision), so players recognise it.",
+   "severity": "term"
+  },
+  {
+   "key": "press_long3",
+   "old": "Er zijn 1200 levels in 6 moeilijkheidsgraden, van Makkelijk tot Waanzinnig. Een dagtafel geeft elke speler ter wereld dezelfde uitdaging, en in wekelijkse divisies stijgen en dalen spelers tussen Brons, Zilver en Goud. De hele game is offline te spelen.",
+   "new": "Er zijn 1200 levels in 6 werelden, van Makkelijk tot Waanzinnig. Een dagtafel geeft elke speler ter wereld dezelfde uitdaging, en in wekelijkse divisies stijgen en dalen spelers tussen Brons, Zilver en Goud. De hele game is offline te spelen.",
+   "why": "Tier must match the app: APP_GLOSSARY uses 'wereld' for the 6 difficulty stages (context decision), so players recognise it.",
+   "severity": "term"
+  },
+  {
+   "key": "meta_index_title",
+   "old": "Edgelings: schiet slijmpjes naar de rand | Gratis game",
+   "new": "Edgelings: schiet slijmpjes naar de rand | Gratis op iPhone en Android",
+   "why": "'Gratis game' drops the platforms iPhone and Android, which matter for search.",
+   "severity": "meaning"
+  },
+  {
+   "key": "faq_leagues_a",
+   "old": "Op basis van uw resultaten op de dagtafel komt u in een divisie: Brons, Zilver of Goud. Elke week promoveren de beste spelers en degraderen de laatste. De ranglijsten tonen Dag, Week en Aller tijden.",
+   "new": "Op basis van uw resultaten op de dagtafel komt u in een divisie: Brons, Zilver of Goud. Elke week promoveren de beste spelers en degraderen de laatste. De ranglijsten tonen \"Dag\", \"Week\" en \"Aller tijden\".",
+   "why": "App tab labels: put in quotes like every other UI label on the site.",
+   "severity": "term"
+  },
+  {
+   "key": "faq_restore_q",
+   "old": "Wat doet Aankopen herstellen?",
+   "new": "Wat doet \"Aankopen herstellen\"?",
+   "why": "UI label in quotes, consistent with the rest of the site.",
+   "severity": "term"
+  },
+  {
+   "key": "faq_restore_a",
+   "old": "Het vraagt Apple of Google welke permanente aankopen bij uw storeaccount horen, zoals \"Reclame verwijderen\", en zet die weer aan. Munten en andere items die verbruikt worden, worden op deze manier niet hersteld. Die blijven bewaard als u inlogt.",
+   "new": "Deze knop vraagt bij Apple of Google na welke permanente aankopen bij uw storeaccount horen, zoals \"Reclame verwijderen\", en zet die weer aan. Munten en andere items die verbruikt worden, worden op deze manier niet hersteld. Die blijven bewaard als u inlogt.",
+   "why": "'Het vraagt' has no clear subject. Name the button so the answer stands on its own.",
+   "severity": "grammar"
+  },
+  {
+   "key": "faq_slimes_a",
+   "old": "5 slijmpjes fuseren tot elkaar: Blip, Mossy, Sunny, Pomme en King Plum. Later komen er speciale slijmpjes bij: Magneet trekt slijmpjes van de eigen soort aan, Spook glipt door andere heen, Zwaargewicht duwt alles opzij en Vuurwerk ontploft bij de eerste aanraking. Een Mysterie-slijmpje laat pas zien wat het is als het stilstaat.",
+   "new": "Er zijn 5 slijmpjes die door fusie in elkaar overgaan: Blip, Mossy, Sunny, Pomme en King Plum. Later komen er speciale slijmpjes bij: Magneet trekt slijmpjes van de eigen soort aan, Spook glipt door andere heen, Zwaargewicht duwt alles opzij en Vuurwerk ontploft bij de eerste aanraking. Een Mysterie-slijmpje laat pas zien wat het is als het stilstaat.",
+   "why": "'fuseren tot elkaar' is not idiomatic Dutch and unclear.",
+   "severity": "grammar"
+  },
+  {
+   "key": "faq_ads_a",
+   "old": "Ja. Op menuschermen staat een kleine banner, nooit tijdens een level. U kunt ook zelf kiezen om reclame te kijken voor een extra slijmpje of een extra poging. Met \"Reclame verwijderen\" verdwijnt de banner voorgoed. Reclame die u zelf kiest te kijken, blijft beschikbaar.",
+   "new": "Ja. Op menuschermen staat een kleine banner, nooit tijdens een level. U kunt ook zelf kiezen om reclame te kijken voor een extra slijmpje of een extra poging. Met \"Reclame verwijderen\" verdwijnt de banner voorgoed. U kunt wel altijd zelf kiezen om reclame te kijken.",
+   "why": "'die u zelf kiest te kijken' is ungrammatical. Meaning kept: optional ads stay available.",
+   "severity": "grammar"
+  },
+  {
+   "key": "step3",
+   "old": "Stop vlak bij de rand voor 3 keer zoveel punten.",
+   "new": "Laat het vlak bij de rand stoppen voor 3 keer zoveel punten.",
+   "why": "'Stop vlak bij de rand' reads as 'you stop'. The slime must stop.",
+   "severity": "grammar"
+  },
+  {
+   "key": "faq_how_a",
+   "old": "Trek het slijmpje terug in de katapult en laat los. Mik op de goudzone vlak bij de rand, die 3 keer zoveel punten oplevert. 2 slijmpjes van dezelfde soort fuseren tot 1 groter slijmpje. Als u het doel hebt bereikt, kunt u uw punten pakken of nog 1 schot wagen voor 10% bonus.",
+   "new": "Trek het slijmpje terug in de katapult en laat los. Mik op de goudzone vlak bij de rand, die 3 keer zoveel punten oplevert. 2 slijmpjes van dezelfde soort fuseren tot 1 groter slijmpje. Als u het doel hebt bereikt, kunt u uw punten pakken of nog 1 schot wagen voor een bonus van 10%.",
+   "why": "'voor 10% bonus' is clumsy Dutch.",
+   "severity": "grammar"
+  },
+  {
+   "key": "faq_phone_a",
+   "old": "Uw voortgang wordt op uw telefoon en op onze server opgeslagen. Inloggen met Google of Apple komt eraan. Wie is ingelogd, kan dan alles meenemen naar een nieuwe telefoon: naam, munten, levels, slijmpjes, skins en aankopen. Zonder inloggen begint een nieuwe telefoon weer bij het begin.",
+   "new": "Uw voortgang wordt op uw telefoon en op onze server opgeslagen. Inloggen met Google of Apple komt eraan. Wie is ingelogd, kan dan alles meenemen naar een nieuwe telefoon: naam, munten, levels, slijmpjes, skins en aankopen. Zonder inloggen begint u op een nieuwe telefoon weer vanaf het begin.",
+   "why": "'begint een nieuwe telefoon bij het begin' is a calque with a repeated root and a phone as subject.",
+   "severity": "style"
+  },
+  {
+   "key": "fact_offline",
+   "old": "Speelt offline",
+   "new": "Ook offline",
+   "why": "'Speelt offline' without subject is a calque. Short and natural.",
+   "severity": "style"
+  },
+  {
+   "key": "feat6_h",
+   "old": "Speelt offline",
+   "new": "Offline spelen",
+   "why": "'Speelt offline' without subject is a calque.",
+   "severity": "style"
+  },
+  {
+   "key": "demo_free",
+   "old": "Gratis demo. 5 levels. Niets downloaden.",
+   "new": "Gratis demo. 5 levels. Zonder download.",
+   "why": "'Niets downloaden.' reads like an instruction. 'Zonder download' is the usual phrase.",
+   "severity": "style"
+  },
+  {
+   "key": "press_genre_v",
+   "old": "Casual, physics puzzle, arcade",
+   "new": "Casual, physicspuzzel, arcade",
+   "why": "'physics puzzle' left in English. Dutch press writes a compound.",
+   "severity": "style"
+  },
+  {
+   "key": "faq_how_q",
+   "old": "Hoe speelt u het?",
+   "new": "Hoe speelt u Edgelings?",
+   "why": "FAQ question should stand on its own for search and AI assistants.",
+   "severity": "style"
+  }
+ ],
+ "glossary_changes": [
+  {
+   "term": "tier",
+   "old": "moeilijkheidsgraad",
+   "new": "wereld, werelden",
+   "why": "APP_GLOSSARY uses 'wereld' for the 6 difficulty stages. The context decision says the site must match the app."
+  }
+ ]
+}

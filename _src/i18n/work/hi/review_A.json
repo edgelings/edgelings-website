@@ -1,0 +1,83 @@
+{
+ "verdict": "Accurate, polite and gender-neutral translation that matches the app terms well, with legal-like texts precise. Main fix: 'tier' must be दुनिया as in the app (5 texts), plus 1 dropped platform fact in the home title and 2 small grammar slips.",
+ "changes": [
+  {
+   "key": "meta_index_title",
+   "old": "Edgelings: स्लाइम को किनारे तक सरकाएँ | मुफ़्त मोबाइल गेम",
+   "new": "Edgelings: स्लाइम को किनारे तक सरकाएँ | iPhone, Android पर मुफ़्त",
+   "why": "English says 'Free on iPhone and Android'; the platforms were dropped",
+   "severity": "meaning"
+  },
+  {
+   "key": "shots_lead",
+   "old": "स्वाइप करें और पहले टियर की झलक देखें।",
+   "new": "स्वाइप करें और पहली दुनिया की झलक देखें।",
+   "why": "Decision: 'tier' uses the app word दुनिया (world), not टियर",
+   "severity": "term"
+  },
+  {
+   "key": "feat1_p",
+   "old": "6 टियर, आसान से क्रेज़ी तक। अपनी रफ़्तार से आगे बढ़ें।",
+   "new": "6 दुनिया, आसान से क्रेज़ी तक। अपनी रफ़्तार से आगे बढ़ें।",
+   "why": "tier = दुनिया as in the app",
+   "severity": "term"
+  },
+  {
+   "key": "faq_levels_a",
+   "old": "Edgelings में 6 टियर में बँटे 1,200 लेवल हैं: आसान, मध्यम, मुश्किल, बहुत मुश्किल, अल्टीमेट और क्रेज़ी। हर टियर में नई चुनौतियाँ जुड़ती हैं, जैसे शहद, बर्फ़, रेत, ट्रैम्पोलिन, हवा और स्पेशल स्लाइम। नए लेवल ऐप अपडेट के बिना सीधे सर्वर से आते हैं।",
+   "new": "Edgelings में 6 दुनियाओं में बँटे 1,200 लेवल हैं: आसान, मध्यम, मुश्किल, बहुत मुश्किल, अल्टीमेट और क्रेज़ी। हर दुनिया में नई चुनौतियाँ जुड़ती हैं, जैसे शहद, बर्फ़, रेत, ट्रैम्पोलिन, हवा और स्पेशल स्लाइम। नए लेवल ऐप अपडेट के बिना सीधे सर्वर से आते हैं।",
+   "why": "tier = दुनिया as in the app, so players recognise the 6 stages",
+   "severity": "term"
+  },
+  {
+   "key": "press_content_v",
+   "old": "6 टियर में 1,200 लेवल, डेली टेबल, वीकली लीग, रैंकिंग",
+   "new": "6 दुनियाओं में 1,200 लेवल, डेली टेबल, वीकली लीग, रैंकिंग",
+   "why": "tier = दुनिया as in the app",
+   "severity": "term"
+  },
+  {
+   "key": "press_long3",
+   "old": "इसमें 6 टियर में 1,200 लेवल हैं, आसान से क्रेज़ी तक। डेली टेबल दुनिया के हर खिलाड़ी को एक जैसी चुनौती देती है, और वीकली लीग खिलाड़ियों को ब्रॉन्ज़, सिल्वर और गोल्ड के बीच ऊपर-नीचे करती हैं। पूरा गेम ऑफ़लाइन खेला जा सकता है।",
+   "new": "इसमें 6 दुनियाओं में 1,200 लेवल हैं, आसान से क्रेज़ी तक। डेली टेबल दुनिया के हर खिलाड़ी को एक जैसी चुनौती देती है, और वीकली लीग खिलाड़ियों को ब्रॉन्ज़, सिल्वर और गोल्ड के बीच ऊपर-नीचे करती हैं। पूरा गेम ऑफ़लाइन खेला जा सकता है।",
+   "why": "tier = दुनिया as in the app",
+   "severity": "term"
+  },
+  {
+   "key": "faq_leagues_a",
+   "old": "डेली टेबल के आपके नतीजों से तय होता है कि आप किस लीग में हैं: ब्रॉन्ज़, सिल्वर या गोल्ड। हर हफ़्ते सबसे अच्छे खिलाड़ी ऊपर की लीग में जाते हैं और सबसे पीछे वाले नीचे की लीग में। रैंकिंग में डेली, वीकली और ऑल टाइम, तीनों दिखते हैं।",
+   "new": "डेली टेबल के आपके नतीजों से तय होता है कि आप किस लीग में हैं: ब्रॉन्ज़, सिल्वर या गोल्ड। हर हफ़्ते सबसे अच्छे खिलाड़ी ऊपर की लीग में जाते हैं और सबसे पीछे वाले नीचे की लीग में। रैंकिंग में \"डेली\", \"वीकली\" और \"ऑल टाइम\", तीनों दिखते हैं।",
+   "why": "Daily, Weekly, All time are app tab names: put them in quotes like the other UI labels on the site",
+   "severity": "term"
+  },
+  {
+   "key": "faq_restore_a",
+   "old": "यह Apple या Google से पूछता है कि आपके स्टोर अकाउंट में कौन-सी स्थायी ख़रीदारी हैं, जैसे \"विज्ञापन हटाएँ\", और उन्हें फिर से चालू कर देता है। कॉइन और इस्तेमाल होकर ख़त्म होने वाली दूसरी चीज़ें इस तरह वापस नहीं आतीं। साइन इन करने पर वे सुरक्षित रहती हैं।",
+   "new": "यह Apple या Google से पूछता है कि आपके स्टोर अकाउंट में कौन-सी स्थायी ख़रीदारियाँ हैं, जैसे \"विज्ञापन हटाएँ\", और उन्हें फिर से चालू कर देता है। कॉइन और इस्तेमाल होकर ख़त्म होने वाली दूसरी चीज़ें इस तरह वापस नहीं आतीं। साइन इन करने पर वे सुरक्षित रहती हैं।",
+   "why": "Plural verb हैं needs the plural noun ख़रीदारियाँ",
+   "severity": "grammar"
+  },
+  {
+   "key": "foot_operated",
+   "old": "Edgelings का संचालन Matej Mesko, स्लोवेनिया करते हैं।",
+   "new": "Edgelings का संचालन स्लोवेनिया के Matej Mesko करते हैं।",
+   "why": "'Matej Mesko, स्लोवेनिया करते हैं' is broken word order",
+   "severity": "grammar"
+  },
+  {
+   "key": "loop_ice_p",
+   "old": "फिसलन भरी। हल्के हाथ से चलाएँ।",
+   "new": "फिसलन भरी। हल्के हाथ से सरकाएँ।",
+   "why": "'चलाएँ' is vague; use the glossary verb सरकाना for the shot",
+   "severity": "term"
+  }
+ ],
+ "glossary_changes": [
+  {
+   "term": "tier",
+   "old": "टियर",
+   "new": "दुनिया (plural oblique दुनियाओं)",
+   "why": "Post-round decision: use the app's word for the 6 difficulty stages (APP_GLOSSARY: world = दुनिया)"
+  }
+ ]
+}

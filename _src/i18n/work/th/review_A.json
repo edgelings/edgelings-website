@@ -1,0 +1,144 @@
+{
+ "verdict": "Accurate, complete translation that follows the app terms and register, with correct placeholders and HTML. Main fixes: a misleading league verb (ตกลง), bare UI labels that read as ordinary verbs (ลบโฆษณา), and a few precision and grammar slips in the support and FAQ texts.",
+ "changes": [
+  {
+   "key": "faq_leagues_a",
+   "old": "ผลการเล่นโต๊ะประจำวันจะจัดคุณเข้าลีก ได้แก่ ทองแดง เงิน หรือทอง ทุกสัปดาห์ ผู้เล่นที่ดีที่สุดจะได้เลื่อนขึ้น และผู้เล่นอันดับท้ายจะตกลง หน้าอันดับแสดงผลแบบรายวัน รายสัปดาห์ และตลอดกาล",
+   "new": "ผลการเล่นโต๊ะประจำวันจะจัดคุณเข้าลีก ได้แก่ ทองแดง เงิน หรือทอง ทุกสัปดาห์ ผู้เล่นที่ดีที่สุดจะได้เลื่อนชั้น และผู้เล่นอันดับท้ายๆ จะตกชั้น หน้าอันดับแสดงผลแบบรายวัน รายสัปดาห์ และตลอดกาล",
+   "why": "'ตกลง' reads as 'agree'. League movement in Thai games is เลื่อนชั้น / ตกชั้น",
+   "severity": "meaning"
+  },
+  {
+   "key": "sup_delete_game",
+   "old": "<b>ในเกม:</b> เปิด ตั้งค่า แตะ ลบบัญชี แล้วแตะ ลบทั้งหมด ชื่อผู้เล่น ความคืบหน้า เหรียญ และอันดับของคุณจะถูกลบอย่างถาวร โทรศัพท์ต้องเชื่อมต่ออินเทอร์เน็ตอยู่",
+   "new": "<b>ในเกม:</b> เปิด \"ตั้งค่า\" แตะ \"ลบบัญชี\" แล้วแตะ \"ลบทั้งหมด\" ชื่อผู้เล่น ความคืบหน้า เหรียญ และอันดับของคุณจะถูกลบอย่างถาวร ขั้นตอนนี้โทรศัพท์ต้องเชื่อมต่ออินเทอร์เน็ต",
+   "why": "'for this' was lost, the online requirement read as a general condition. UI labels quoted so the bare verbs are not read as running text",
+   "severity": "meaning"
+  },
+  {
+   "key": "sup_delete_note",
+   "old": "การลบบัญชีไม่ได้ยกเลิกหรือคืนเงินค่ารายการที่ซื้อ การคืนเงินดำเนินการโดย Apple หรือ Google ดูด้านล่าง",
+   "new": "การลบบัญชีจะไม่ยกเลิกการซื้อและไม่คืนเงิน การคืนเงินดำเนินการโดย Apple หรือ Google ดูด้านล่าง",
+   "why": "'ไม่ได้ยกเลิกหรือคืนเงินค่ารายการที่ซื้อ' is clumsy and blurs 'cancel purchases'. Legal-like text, made precise",
+   "severity": "grammar"
+  },
+  {
+   "key": "sup_delete_mail",
+   "old": "<b>หากไม่มีเกมแล้ว:</b> ถ้าคุณไม่ได้ติดตั้งเกมไว้แล้ว ให้ส่งอีเมลถึง info@edgelings.com โดยใช้หัวเรื่อง \"Delete my Edgelings account\" พร้อมแจ้งชื่อผู้เล่น เราจะลบบัญชีภายใน 30 วันและยืนยันทางอีเมล",
+   "new": "<b>หากไม่มีเกมแล้ว:</b> ถ้าคุณไม่ได้ติดตั้งเกมนี้ในเครื่องแล้ว ให้ส่งอีเมลถึง info@edgelings.com โดยใช้หัวเรื่อง \"Delete my Edgelings account\" พร้อมแจ้งชื่อผู้เล่น เราจะลบบัญชีภายใน 30 วันและยืนยันทางอีเมล",
+   "why": "'ไม่ได้ติดตั้งเกมไว้แล้ว' is ungrammatical (ไว้ + แล้ว clash)",
+   "severity": "grammar"
+  },
+  {
+   "key": "faq_ads_a",
+   "old": "มี แบนเนอร์เล็กๆ จะแสดงบนหน้าเมนู แต่ไม่แสดงระหว่างเล่นด่าน คุณยังเลือกดูโฆษณาเพื่อรับสไลม์เพิ่มหรือโอกาสเล่นเพิ่มได้ด้วย ลบโฆษณาจะเอาแบนเนอร์ออกอย่างถาวร ส่วนโฆษณาที่คุณเลือกดูเองยังคงใช้ได้ตามเดิม",
+   "new": "มี แบนเนอร์เล็กๆ จะแสดงบนหน้าเมนู แต่ไม่แสดงระหว่างเล่นด่าน คุณยังเลือกดูโฆษณาเพื่อรับสไลม์เพิ่มหรือโอกาสเล่นเพิ่มได้ด้วย การซื้อ \"ลบโฆษณา\" จะเอาแบนเนอร์ออกอย่างถาวร ส่วนโฆษณาที่คุณเลือกดูเองยังคงใช้ได้ตามเดิม",
+   "why": "Bare 'ลบโฆษณาจะเอาแบนเนอร์ออก' reads as 'removing ads removes the banner', not as the product name",
+   "severity": "meaning"
+  },
+  {
+   "key": "faq_free_a",
+   "old": "ฟรี Edgelings ดาวน์โหลดฟรีและเล่นฟรี ในเกมมีโฆษณาและมีรายการให้ซื้อตามความสมัครใจ เช่น เหรียญ แพ็กเริ่มต้น และลบโฆษณา คุณไม่จำเป็นต้องซื้ออะไรเลยเพื่อผ่านด่าน",
+   "new": "ฟรี Edgelings ดาวน์โหลดฟรีและเล่นฟรี ในเกมมีโฆษณาและมีรายการให้ซื้อตามความสมัครใจ เช่น เหรียญ แพ็กเริ่มต้น และ \"ลบโฆษณา\" คุณไม่จำเป็นต้องซื้ออะไรเลยเพื่อผ่านด่าน",
+   "why": "Product name ลบโฆษณา reads as a verb in the list. Quoted as the app label",
+   "severity": "term"
+  },
+  {
+   "key": "faq_restore_q",
+   "old": "กู้คืนการซื้อทำอะไร",
+   "new": "\"กู้คืนการซื้อ\" ใช้ทำอะไร",
+   "why": "Bare label as subject is ungrammatical. Quote the app button and add ใช้",
+   "severity": "grammar"
+  },
+  {
+   "key": "faq_restore_a",
+   "old": "ระบบจะสอบถาม Apple หรือ Google ว่าบัญชีสโตร์ของคุณมีรายการซื้อถาวรอะไรบ้าง เช่น ลบโฆษณา แล้วเปิดใช้งานให้อีกครั้ง เหรียญและไอเทมอื่นที่ใช้หมดไปแล้วจะไม่ถูกกู้คืนด้วยวิธีนี้ การลงชื่อเข้าใช้จะช่วยเก็บรายการเหล่านั้นไว้",
+   "new": "ระบบจะสอบถาม Apple หรือ Google ว่าบัญชีสโตร์ของคุณมีรายการซื้อถาวรอะไรบ้าง เช่น \"ลบโฆษณา\" แล้วเปิดใช้งานให้อีกครั้ง เหรียญและไอเทมอื่นที่ใช้หมดไปแล้วจะไม่ถูกกู้คืนด้วยวิธีนี้ การลงชื่อเข้าใช้จะช่วยเก็บรายการเหล่านั้นไว้",
+   "why": "Product name quoted so it is not read as 'delete ads'",
+   "severity": "term"
+  },
+  {
+   "key": "faq_delete_a",
+   "old": "ในเกม ให้เปิด ตั้งค่า แล้วแตะ ลบบัญชี หากไม่มีเกมแล้ว ให้ส่งอีเมลถึง info@edgelings.com พร้อมแจ้งชื่อผู้เล่น ดูเพิ่มเติมที่<a href=\"{base}/support.html#delete\">ลบบัญชี</a>",
+   "new": "ในเกม ให้เปิด \"ตั้งค่า\" แล้วแตะ \"ลบบัญชี\" หากไม่มีเกมแล้ว ให้ส่งอีเมลถึง info@edgelings.com พร้อมแจ้งชื่อผู้เล่น ดูเพิ่มเติมที่<a href=\"{base}/support.html#delete\">ลบบัญชี</a>",
+   "why": "UI labels quoted, consistent with the other support texts, so players find the exact buttons",
+   "severity": "style"
+  },
+  {
+   "key": "sup_p",
+   "old": "โปรดแจ้งชื่อผู้เล่นและรุ่นโทรศัพท์ของคุณ ดูชื่อผู้เล่นได้ในเกมที่ ตั้งค่า",
+   "new": "โปรดแจ้งชื่อผู้เล่นและรุ่นโทรศัพท์ของคุณ ดูชื่อผู้เล่นได้ในเกมที่ \"ตั้งค่า\"",
+   "why": "UI label quoted, consistent with the other support texts",
+   "severity": "style"
+  },
+  {
+   "key": "sup_refund_p",
+   "old": "การซื้อทำผ่าน Apple หรือ Google การคืนเงินจึงต้องทำผ่านช่องทางเดียวกัน บน iPhone และ iPad ไปที่ reportaproblem.apple.com บน Android เปิด Google Play แล้วไปที่ การชำระเงินและการสมัครใช้บริการ แล้วเลือก งบประมาณและประวัติ",
+   "new": "การซื้อทำผ่าน Apple หรือ Google การคืนเงินจึงต้องทำผ่านช่องทางเดียวกัน บน iPhone และ iPad ไปที่ reportaproblem.apple.com บน Android เปิด Google Play แล้วไปที่ \"การชำระเงินและการสมัครใช้บริการ\" แล้วเลือก \"งบประมาณและประวัติ\"",
+   "why": "Menu names quoted so the long Thai labels are clearly separated from the sentence",
+   "severity": "style"
+  },
+  {
+   "key": "faq_levels_a",
+   "old": "มี 1,200 ด่านใน 6 โลก ได้แก่ ง่าย ปานกลาง ยาก ยากมาก ขั้นสุด และบ้าคลั่ง แต่ละโลกมีลูกเล่นใหม่เพิ่มเข้ามา เช่น น้ำผึ้ง น้ำแข็ง ทราย แทรมโพลีน ลม และสไลม์พิเศษ ด่านใหม่ส่งมาจากเซิร์ฟเวอร์ได้โดยไม่ต้องอัปเดตแอป",
+   "new": "มี 1,200 ด่านใน 6 โลก ได้แก่ ง่าย ปานกลาง ยาก ยากมาก ขั้นสุด และบ้าคลั่ง แต่ละโลกมีลูกเล่นใหม่เพิ่มเข้ามา เช่น น้ำผึ้ง น้ำแข็ง ทราย แทรมโพลีน ลม และสไลม์พิเศษ ด่านเพิ่มเติมจะส่งมาจากเซิร์ฟเวอร์โดยไม่ต้องอัปเดตแอป",
+   "why": "'ด่านใหม่ส่งมาจากเซิร์ฟเวอร์ได้' weakens the fact to a possibility. English states more levels do arrive",
+   "severity": "meaning"
+  },
+  {
+   "key": "faq_slimes_a",
+   "old": "สไลม์ 5 ตัวที่รวมร่างต่อกันได้ คือ Blip, Mossy, Sunny, Pomme และ King Plum ต่อมาจะมีสไลม์พิเศษเข้าร่วม แม่เหล็กดึงสไลม์ชนิดเดียวกันเข้าหา ผีทะลุผ่านตัวอื่น ตัวหนักผลักทุกอย่าง และพลุระเบิดทันทีที่โดนครั้งแรก ส่วนสไลม์ปริศนาจะเผยชนิดของตัวเองเมื่อหยุด",
+   "new": "มีสไลม์ 5 ตัวที่รวมร่างต่อกันได้ ได้แก่ Blip, Mossy, Sunny, Pomme และ King Plum ต่อมาจะมีสไลม์พิเศษเข้าร่วม แม่เหล็กดึงสไลม์ชนิดเดียวกันเข้าหา ผีทะลุผ่านตัวอื่น ตัวหนักผลักทุกอย่าง และพลุระเบิดทันทีที่โดนครั้งแรก ส่วนสไลม์ปริศนาจะเผยชนิดของตัวเองเมื่อหยุด",
+   "why": "First sentence was a fragment without a verb",
+   "severity": "grammar"
+  },
+  {
+   "key": "suggest_text",
+   "old": "หน้านี้มีให้อ่านเป็น{lang}ด้วย",
+   "new": "หน้านี้มีเวอร์ชัน{lang}ด้วย",
+   "why": "With {lang} = ไทย the old text gives 'อ่านเป็นไทย', missing ภาษา. เวอร์ชัน{lang} works for both ไทย and ภาษาไทย",
+   "severity": "grammar"
+  },
+  {
+   "key": "hero_video_aria",
+   "old": "ตัวอย่างการเล่น Pomme 2 ตัวรวมร่างเป็น King Plum",
+   "new": "ภาพการเล่นจริง: Pomme 2 ตัวรวมร่างเป็น King Plum",
+   "why": "Label ran into the sentence with no separator. Also 'ตัวอย่างการเล่น' clashes with ตัวอย่างเกม (trailer). Uses the glossary term for gameplay",
+   "severity": "term"
+  },
+  {
+   "key": "score_blob_alt",
+   "old": "Mossy ลากฉันไปทางขอบสิ",
+   "new": "Mossy: ลากเราไปทางขอบสิ",
+   "why": "Glossary avoids ฉัน outside the delete button. เรา is neutral and cute for a slime speaking. Colon marks the speaker",
+   "severity": "style"
+  },
+  {
+   "key": "feat3_p",
+   "old": "ไต่จากลีกทองแดงสู่ลีกเงิน และลีกทอง สัปดาห์ใหม่ โอกาสใหม่",
+   "new": "ไต่จากลีกทองแดง สู่ลีกเงิน แล้วไปถึงลีกทอง สัปดาห์ใหม่ โอกาสใหม่",
+   "why": "'สู่ลีกเงิน และลีกทอง' reads as climbing to Silver and Gold at once, not step by step",
+   "severity": "grammar"
+  }
+ ],
+ "glossary_changes": [
+  {
+   "term": "UI labels in running text",
+   "old": "bare label between spaces (แตะ ลบบัญชี)",
+   "new": "label in double quotes (แตะ \"ลบบัญชี\")",
+   "why": "Several Thai labels are plain verbs (ลบโฆษณา, กู้คืนการซื้อ) and become ambiguous in sentences. Quotes keep the exact app text findable"
+  },
+  {
+   "term": "move up / move down (leagues)",
+   "old": "เลื่อนขึ้น / ตกลง",
+   "new": "เลื่อนชั้น / ตกชั้น",
+   "why": "ตกลง means 'agree'. เลื่อนชั้น / ตกชั้น is the standard league wording"
+  },
+  {
+   "term": "Delete my account (button)",
+   "old": "APP_GLOSSARY register note says ลบบัญชีของฉัน",
+   "new": "ลบบัญชี (as in app_terms.json)",
+   "why": "APP_GLOSSARY and app_terms.json disagree. The website correctly follows app_terms.json. The APP_GLOSSARY note should be checked against the live app"
+  }
+ ]
+}

@@ -1,0 +1,111 @@
+{
+ "verdict": "Lively, idiomatic French with strong slogans, correct vouvoiement and clean typography. Fix the English email subject in sup_delete_mail, use \"monde\" for tiers as the app does, and polish a few phrases (feat4_h, loop_ice_p, faq_phone_a).",
+ "changes": [
+  {
+   "key": "sup_delete_mail",
+   "old": "<b>Sans le jeu :</b> si le jeu n'est plus installé, écrivez à info@edgelings.com avec l'objet « Supprimer mon compte Edgelings » et votre pseudo. Nous supprimons le compte sous 30 jours et vous le confirmons par e-mail.",
+   "new": "<b>Sans le jeu :</b> si le jeu n'est plus installé, écrivez à info@edgelings.com avec l'objet « Delete my Edgelings account » et votre pseudo. Nous supprimons le compte sous 30 jours et vous le confirmons par e-mail.",
+   "why": "Team decision: the email subject stays in English exactly, inside French quotes, so support recognises it.",
+   "severity": "meaning"
+  },
+  {
+   "key": "feat1_p",
+   "old": "6 paliers, de Facile à Fou. Progressez à votre rythme.",
+   "new": "6 mondes, de Facile à Fou. Progressez à votre rythme.",
+   "why": "Decision: tier uses the APP_GLOSSARY word (world = monde), so the site matches the app.",
+   "severity": "term"
+  },
+  {
+   "key": "shots_lead",
+   "old": "Faites défiler le premier palier.",
+   "new": "Faites défiler le premier monde.",
+   "why": "Tier = monde per APP_GLOSSARY and team decision.",
+   "severity": "term"
+  },
+  {
+   "key": "faq_levels_a",
+   "old": "Edgelings compte 1 200 niveaux répartis en 6 paliers : Facile, Moyen, Difficile, Très difficile, Ultime et Fou. Chaque palier apporte de nouvelles subtilités, comme le miel, la glace, le sable, les trampolines, le vent et les slimes spéciaux. De nouveaux niveaux arrivent depuis le serveur, sans mise à jour de l'app.",
+   "new": "Edgelings compte 1 200 niveaux répartis en 6 mondes : Facile, Moyen, Difficile, Très difficile, Ultime et Fou. Chaque monde apporte de nouvelles subtilités, comme le miel, la glace, le sable, les trampolines, le vent et les slimes spéciaux. De nouveaux niveaux arrivent depuis le serveur, sans mise à jour de l'app.",
+   "why": "Tier = monde per APP_GLOSSARY and team decision.",
+   "severity": "term"
+  },
+  {
+   "key": "press_content_v",
+   "old": "1 200 niveaux en 6 paliers, table du jour, ligues hebdomadaires, classements",
+   "new": "1 200 niveaux en 6 mondes, table du jour, ligues hebdomadaires, classements",
+   "why": "Tier = monde per APP_GLOSSARY and team decision.",
+   "severity": "term"
+  },
+  {
+   "key": "press_long3",
+   "old": "Le jeu compte 1 200 niveaux répartis en 6 paliers, de Facile à Fou. La table du jour lance le même défi à tous les joueurs du monde, et les ligues hebdomadaires font passer les joueurs entre Bronze, Argent et Or. Tout le jeu fonctionne hors ligne.",
+   "new": "Le jeu compte 1 200 niveaux répartis en 6 mondes, de Facile à Fou. La table du jour lance le même défi à tous les joueurs du monde, et les ligues hebdomadaires font passer les joueurs entre Bronze, Argent et Or. Tout le jeu fonctionne hors ligne.",
+   "why": "Tier = monde per APP_GLOSSARY and team decision.",
+   "severity": "term"
+  },
+  {
+   "key": "feat4_h",
+   "old": "Fusionnez, grossissez",
+   "new": "Fusionner pour grandir",
+   "why": "\"Grossissez\" addresses the reader and reads as \"gain weight\", unintended and off-putting. Infinitive keeps the slimes as subject.",
+   "severity": "style"
+  },
+  {
+   "key": "faq_phone_a",
+   "old": "Votre progression est enregistrée sur votre téléphone et sur notre serveur. La connexion avec Google ou Apple arrive bientôt. Elle permettra de tout retrouver sur un nouveau téléphone : pseudo, pièces, niveaux, slimes, skins et achats. Sans connexion, un nouveau téléphone repart de zéro.",
+   "new": "Votre progression est enregistrée sur votre téléphone et sur notre serveur. La connexion avec Google ou Apple arrive bientôt. Elle permettra de tout retrouver sur un nouveau téléphone : pseudo, pièces, niveaux, slimes, skins et achats. Sans connexion à un compte, la progression repart de zéro sur un nouveau téléphone.",
+   "why": "\"Sans connexion\" can be read as \"offline\". English means without signing in, and a phone does not itself restart from zero, the progress does.",
+   "severity": "meaning"
+  },
+  {
+   "key": "loop_ice_p",
+   "old": "Glissante. Visez en douceur.",
+   "new": "Glissante. Tirez moins fort.",
+   "why": "\"Aim softer\" means shoot with less force. \"Visez en douceur\" is unclear in French.",
+   "severity": "meaning"
+  },
+  {
+   "key": "faq_free_a",
+   "old": "Oui. Edgelings est gratuit à télécharger et gratuit à jouer. Le jeu affiche des pubs et propose des achats facultatifs, comme des pièces, le « Pack de départ » ou « Supprimer les pubs ». Vous n'avez jamais besoin d'acheter quoi que ce soit pour terminer un niveau.",
+   "new": "Oui. Edgelings se télécharge et se joue gratuitement. Le jeu affiche des pubs et propose des achats facultatifs, comme des pièces, le « Pack de départ » ou « Supprimer les pubs ». Vous n'avez jamais besoin d'acheter quoi que ce soit pour terminer un niveau.",
+   "why": "\"Gratuit à jouer\" is translationese of \"free to play\".",
+   "severity": "style"
+  },
+  {
+   "key": "faq_lead",
+   "old": "Tout sur le jeu, en 1 seul endroit.",
+   "new": "Tout sur le jeu, au même endroit.",
+   "why": "\"En 1 seul endroit\" reads oddly because of the forced digit. \"Au même endroit\" is the natural phrase with the same meaning.",
+   "severity": "style"
+  },
+  {
+   "key": "demo_h2",
+   "old": "Essayez sans attendre",
+   "new": "Essayez ici, tout de suite",
+   "why": "\"Sans attendre\" drops \"right here\", the point of the in-page demo.",
+   "severity": "style"
+  },
+  {
+   "key": "press_long1",
+   "old": "Edgelings est un jeu casual où tout se joue sur l'art de s'arrêter au bon moment. Vous tirez un slime en arrière dans un lance-pierre, puis vous le lâchez sur une table. Un slime arrêté près du bord opposé rapporte jusqu'à 3 fois plus de points. Un slime qui passe par-dessus bord ne rapporte rien.",
+   "new": "Edgelings est un jeu casual où tout l'art consiste à s'arrêter pile au bon moment. Vous tirez un slime en arrière dans un lance-pierre, puis vous le lâchez sur une table. Un slime arrêté près du bord opposé rapporte jusqu'à 3 fois plus de points. Un slime qui passe par-dessus bord ne rapporte rien.",
+   "why": "\"Tout se joue sur l'art de\" is heavy, and \"exactly\" was lost. \"Pile au bon moment\" restores it and reads like press copy.",
+   "severity": "style"
+  },
+  {
+   "key": "sup_p",
+   "old": "Indiquez votre pseudo et le modèle de votre téléphone. Votre pseudo se trouve dans le jeu, sous « Réglages ».",
+   "new": "Indiquez votre pseudo et le modèle de votre téléphone. Votre pseudo se trouve dans le jeu, dans « Réglages ».",
+   "why": "French apps say \"dans Réglages\", not \"sous Réglages\".",
+   "severity": "style"
+  }
+ ],
+ "glossary_changes": [
+  {
+   "term": "tier",
+   "old": "palier",
+   "new": "monde",
+   "why": "Team decision: tier uses the APP_GLOSSARY word for the 6 difficulty stages (world = monde)."
+  }
+ ]
+}

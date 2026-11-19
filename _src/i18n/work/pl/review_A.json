@@ -1,0 +1,110 @@
+{
+ "verdict": "Accurate, precise translation that follows the app glossary, register and UI labels closely. A few fixes needed: the English deletion email subject, the broken dm_more/dm_full pair, and some small meaning and grammar slips.",
+ "changes": [
+  {
+   "key": "sup_delete_mail",
+   "old": "<b>Bez gry:</b> jeśli gra nie jest już zainstalowana, proszę napisać na info@edgelings.com z tematem „Usuń moje konto Edgelings” i podać nazwę gracza. Usuwamy konto w ciągu 30 dni i potwierdzamy to e-mailem.",
+   "new": "<b>Bez gry:</b> jeśli gra nie jest już zainstalowana, proszę napisać na info@edgelings.com z tematem „Delete my Edgelings account” i podać nazwę gracza. Usuwamy konto w ciągu 30 dni i potwierdzamy to e-mailem.",
+   "why": "Decision: subject stays in English exactly, inside Polish quotes, so support recognises it",
+   "severity": "meaning"
+  },
+  {
+   "key": "dm_more",
+   "old": "Kolejne poziomy: {n}",
+   "new": "Jeszcze {n} poziomów",
+   "why": "Shown with dm_full: 'Kolejne poziomy: 1195 / czekają w pełnej grze' is broken. With {n}=1195 genitive plural is correct",
+   "severity": "grammar"
+  },
+  {
+   "key": "dm_full",
+   "old": "czekają w pełnej grze",
+   "new": "czeka w pełnej grze",
+   "why": "Agrees with 'Jeszcze 1195 poziomów' (numeral 5+ takes singular verb)",
+   "severity": "grammar"
+  },
+  {
+   "key": "step3",
+   "old": "Zatrzymaj go przy krawędzi, a punkty wzrosną 3 razy.",
+   "new": "Zatrzymaj go przy krawędzi: 3 razy więcej punktów.",
+   "why": "'punkty wzrosną 3 razy' reads as 'points rise on 3 occasions'. English means triple points",
+   "severity": "meaning"
+  },
+  {
+   "key": "meta_support_desc",
+   "old": "Pomoc w Edgelings: nazwa gracza, postępy na nowym telefonie, zakupy, wybór reklam i usuwanie konta.",
+   "new": "Pomoc w Edgelings: nazwa gracza, postępy na nowym telefonie, zakupy, ustawienia reklam i usuwanie konta.",
+   "why": "'wybór reklam' means a selection of ads. English means the player's ad choices (consent)",
+   "severity": "meaning"
+  },
+  {
+   "key": "feat2_p",
+   "old": "1 nowy stół dziennie, ten sam dla wszystkich. 3 próby. Cały świat do pokonania.",
+   "new": "1 nowy stół dziennie, ten sam dla wszystkich. 3 próby. Rywalizacja z graczami z całego świata.",
+   "why": "'świat' is the app term for tier, 'cały świat do pokonania' can read as 'a whole tier to beat'",
+   "severity": "term"
+  },
+  {
+   "key": "shot4",
+   "old": "Lód je rozpędza",
+   "new": "Na lodzie suną dalej",
+   "why": "Ice does not speed slimes up, it makes them slide (hero/feature copy says sunie/śliski)",
+   "severity": "meaning"
+  },
+  {
+   "key": "score_blob_alt",
+   "old": "Mossy, przeciągnij mnie w stronę krawędzi",
+   "new": "Mossy: przeciągnij mnie w stronę krawędzi",
+   "why": "With a comma it reads as a request addressed to Mossy. Mossy is the speaker",
+   "severity": "meaning"
+  },
+  {
+   "key": "faq_what_a",
+   "old": "Edgelings to casualowa gra mobilna na urządzenia iPhone, iPad i Android. Polega na pstrykaniu błyszczących glutków po stole. Im bliżej dalszej krawędzi glutek się zatrzyma, tym więcej punktów zdobywa. Glutek, który spadnie za krawędź, nie zdobywa nic.",
+   "new": "Edgelings to casualowa gra mobilna na urządzenia iPhone, iPad i Android. Polega na pstrykaniu błyszczącymi glutkami po stole. Im bliżej dalszej krawędzi glutek się zatrzyma, tym więcej punktów zdobywa. Glutek, który spadnie za krawędź, nie zdobywa nic.",
+   "why": "Consistency with hero_lead 'pstryknąć glutkiem': pstrykać takes instrumental, verbal noun keeps it",
+   "severity": "grammar"
+  },
+  {
+   "key": "faq_kids_a",
+   "old": "Edgelings jest przeznaczone dla graczy w wieku od 13 lat. Nie ma w nim przemocy ani czatu. Nazwy graczy są sprawdzane z listą zablokowanych słów. Osoby poniżej 18 lat powinny zapytać rodzica przed jakimkolwiek zakupem.",
+   "new": "Edgelings jest przeznaczone dla graczy w wieku od 13 lat. Nie ma w nim przemocy ani czatu. Nazwy graczy są porównywane z listą zablokowanych słów. Osoby poniżej 18 lat powinny zapytać rodzica przed jakimkolwiek zakupem.",
+   "why": "'sprawdzać z listą' is not idiomatic, 'porównywać z listą' is precise",
+   "severity": "grammar"
+  },
+  {
+   "key": "press_video_p",
+   "old": "Edgelings można streamować i publikować z gry filmy, także monetyzowane. Prosimy o link do edgelings.com w opisie.",
+   "new": "Można streamować Edgelings i publikować filmy z gry, także monetyzowane. Prosimy o link do edgelings.com w opisie.",
+   "why": "Awkward split word order 'publikować z gry filmy'",
+   "severity": "grammar"
+  },
+  {
+   "key": "press_long3",
+   "old": "Gra oferuje 1200 poziomów w 6 światach, od „Łatwy” po „Szalony”. Stół dnia stawia przed każdym graczem na świecie to samo wyzwanie, a w cotygodniowych ligach gracze przechodzą między ligami: Brąz, Srebro i Złoto. Cała gra działa offline.",
+   "new": "Gra oferuje 1200 poziomów w 6 światach, od „Łatwy” po „Szalony”. Stół dnia stawia przed każdym graczem na świecie to samo wyzwanie, a w cotygodniowych rozgrywkach gracze przechodzą między ligami: Brąz, Srebro i Złoto. Cała gra działa offline.",
+   "why": "Avoids 'ligach ... ligami' repetition",
+   "severity": "style"
+  },
+  {
+   "key": "qr_text",
+   "old": "Przeglądanie na komputerze?<br>Wystarczy zeskanować kod telefonem,<br>aby pobrać Edgelings.",
+   "new": "Na komputerze?<br>Wystarczy zeskanować kod telefonem,<br>aby pobrać Edgelings.",
+   "why": "'Przeglądanie na komputerze?' is clunky nominal translationese, short form is natural and still neutral",
+   "severity": "style"
+  }
+ ],
+ "glossary_changes": [
+  {
+   "term": "flick (a slime)",
+   "old": "(not listed, mixed pstryknąć glutkiem / pstrykanie glutków)",
+   "new": "pstrykać/pstryknąć glutkiem (instrumental), pstrykanie glutkami",
+   "why": "One construction everywhere"
+  },
+  {
+   "term": "account deletion email subject",
+   "old": "„Usuń moje konto Edgelings”",
+   "new": "„Delete my Edgelings account” (kept in English)",
+   "why": "Post-round decision in CONTEXT_WEB.md"
+  }
+ ]
+}

@@ -1,0 +1,111 @@
+{
+ "verdict": "A strong, natural and well-registered translation with good slogans and correct app terms. Fix the English email subject in sup_delete_mail, 2 small meaning slips (faq_restore_a, faq_what_a 'disponível') and a few style polish points.",
+ "changes": [
+  {
+   "key": "sup_delete_mail",
+   "old": "<b>Sem o jogo:</b> se já não tiver o jogo instalado, envie um email para info@edgelings.com com o assunto \"Eliminar a minha conta Edgelings\" e o seu nome de jogador. Eliminamos a conta no prazo de 30 dias e confirmamos por email.",
+   "new": "<b>Sem o jogo:</b> se já não tiver o jogo instalado, envie um email para info@edgelings.com com o assunto \"Delete my Edgelings account\" e o seu nome de jogador. Eliminamos a conta no prazo de 30 dias e confirmamos por email.",
+   "why": "Decision: the email subject must stay in English exactly, support recognises it",
+   "severity": "meaning"
+  },
+  {
+   "key": "faq_restore_a",
+   "old": "Pergunta à Apple ou à Google que compras permanentes tem a sua conta da loja, como Remover anúncios, e volta a ativá-las. As moedas e outros itens já gastos não são restaurados desta forma. Para os manter, inicie sessão.",
+   "new": "Pergunta à Apple ou à Google que compras permanentes tem a sua conta da loja, como Remover anúncios, e volta a ativá-las. As moedas e outros itens já gastos não são restaurados desta forma. O início de sessão mantém-nos.",
+   "why": "English states a fact (signing in keeps those). An instruction to sign in is misleading while sign-in is still coming",
+   "severity": "meaning"
+  },
+  {
+   "key": "faq_what_a",
+   "old": "O Edgelings é um jogo casual para telemóvel, disponível para iPhone, iPad e Android. Lança slimes brilhantes por uma mesa. Quanto mais perto da borda do fundo um slime para, mais pontos faz. Um slime que cai da borda não conta nada.",
+   "new": "O Edgelings é um jogo casual de telemóvel para iPhone, iPad e Android. Lançam-se slimes brilhantes por uma mesa. Quanto mais perto da borda do fundo um slime para, mais pontos faz. Um slime que cai da borda não faz pontos.",
+   "why": "'disponível' claims it is out (it is coming soon). 'Lança' reads as tu imperative, impersonal form keeps register. 'não faz pontos' matches 'scores nothing'",
+   "severity": "meaning"
+  },
+  {
+   "key": "feat2_p",
+   "old": "1 mesa nova por dia, igual para todos. 3 tentativas. Desafie o mundo.",
+   "new": "1 mesa nova por dia, igual para todos. 3 tentativas. Vença o mundo inteiro.",
+   "why": "'Desafie' (challenge) loses 'beat'",
+   "severity": "meaning"
+  },
+  {
+   "key": "hero_lead",
+   "old": "Lance slimes brilhantes pela mesa. Quanto mais perto da borda param, mais pontos fazem. Borda fora, não contam nada.",
+   "new": "Lance slimes brilhantes pela mesa. Quanto mais perto da borda pararem, mais pontos fazem. Borda fora, valem zero.",
+   "why": "Subjunctive reads more natural, 'valem zero' is punchier than 'não contam nada'",
+   "severity": "style"
+  },
+  {
+   "key": "meta_index_desc",
+   "old": "Jogo casual grátis para iPhone, iPad e Android. Lance slimes brilhantes pela mesa. Quanto mais perto da borda param, mais pontos fazem. Borda fora, zero.",
+   "new": "Jogo casual grátis para iPhone, iPad e Android. Lance slimes brilhantes pela mesa. Quanto mais perto da borda pararem, mais pontos fazem. Borda fora, zero.",
+   "why": "Consistent with hero_lead, natural subjunctive",
+   "severity": "style"
+  },
+  {
+   "key": "score_msg0",
+   "old": "Borda fora. Não conta nada.",
+   "new": "Borda fora. Vale zero.",
+   "why": "Punchier, consistent with hero_lead",
+   "severity": "style"
+  },
+  {
+   "key": "press_long1",
+   "old": "O Edgelings é um jogo casual sobre parar exatamente no momento certo. Puxa-se um slime para trás numa fisga e larga-se pela mesa. Um slime perto da borda do fundo faz até 3 vezes os pontos. Um slime que cai da borda não conta nada.",
+   "new": "O Edgelings é um jogo casual sobre parar exatamente no momento certo. Puxa-se um slime para trás numa fisga e larga-se pela mesa. Um slime perto da borda do fundo faz até 3 vezes os pontos. Um slime que cai da borda não faz pontos.",
+   "why": "'não conta nada' is vague, 'não faz pontos' matches 'scores nothing'",
+   "severity": "style"
+  },
+  {
+   "key": "score_lead",
+   "old": "Arraste o Mossy em direção à borda. Mais perto vale mais. Longe demais, e cai.",
+   "new": "Arraste o Mossy em direção à borda. Mais perto vale mais. Longe demais e cai.",
+   "why": "Comma before 'e' is unnatural here",
+   "severity": "grammar"
+  },
+  {
+   "key": "step3",
+   "old": "Pare-o perto da borda e ganhe 3 vezes os pontos.",
+   "new": "Faça-o parar perto da borda e ganhe 3 vezes os pontos.",
+   "why": "The player does not stop the slime directly, 'Faça-o parar' sounds natural",
+   "severity": "style"
+  },
+  {
+   "key": "sunny_p",
+   "old": "Cornos pequenos, sorriso enorme. Adora a zona dourada.",
+   "new": "Corninhos e um sorriso enorme. Adora a zona dourada.",
+   "why": "'Cornos' carries a vulgar connotation in PT (cuckold). Diminutive keeps 'little' and sounds cute",
+   "severity": "style"
+  },
+  {
+   "key": "facts_label",
+   "old": "Num relance",
+   "new": "Em resumo",
+   "why": "'Num relance' means 'in an instant', not 'at a glance'",
+   "severity": "style"
+  },
+  {
+   "key": "foot_help",
+   "old": "Ajuda e legal",
+   "new": "Ajuda e informação legal",
+   "why": "'legal' alone as a noun is translationese",
+   "severity": "style"
+  },
+  {
+   "key": "faq_phone_a",
+   "old": "O seu progresso fica guardado no seu telemóvel e no nosso servidor. O início de sessão com Google ou Apple está a chegar, e com sessão iniciada poderá levar tudo para um novo telemóvel: nome, moedas, níveis, slimes, skins e compras. Sem iniciar sessão, um novo telemóvel começa do início.",
+   "new": "O seu progresso fica guardado no seu telemóvel e no nosso servidor. O início de sessão com Google ou Apple está a chegar, e com sessão iniciada poderá levar tudo para um novo telemóvel: nome, moedas, níveis, slimes, skins e compras. Sem iniciar sessão, um novo telemóvel começa do zero.",
+   "why": "Avoids 'início' twice with 'início de sessão', 'do zero' is idiomatic",
+   "severity": "style"
+  },
+  {
+   "key": "press_price_v",
+   "old": "Grátis, com compras na app opcionais e anúncios",
+   "new": "Grátis, com anúncios e compras opcionais na app",
+   "why": "Word order 'compras na app opcionais' is awkward",
+   "severity": "style"
+  }
+ ],
+ "glossary_changes": []
+}

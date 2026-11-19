@@ -1,0 +1,111 @@
+{
+ "verdict": "Solid, accurate and consistent with the app, with polite siz register applied cleanly and slogans that work. Mainly SEO lengths on the home page and a few literal calques need fixing to read like a native Turkish game site.",
+ "changes": [
+  {
+   "key": "meta_index_title",
+   "old": "Edgelings: jöleleri kenara fırlatın | iPhone ve Android'de ücretsiz",
+   "new": "Edgelings: jöleleri kenara fırlatın | Ücretsiz mobil oyun",
+   "why": "67 characters, over the 60 limit, so search engines cut it. Shorter title keeps the hook, devices stay in the description.",
+   "severity": "length"
+  },
+  {
+   "key": "meta_index_desc",
+   "old": "iPhone, iPad ve Android için ücretsiz, kolay oynanan bir oyun. Parlak jöleleri masada fırlatın. Kenara ne kadar yakın durursa o kadar çok puan. Düşen jöle puan almaz.",
+   "new": "iPhone, iPad ve Android için ücretsiz, kolay bir oyun. Parlak jöleleri masada fırlatın. Kenara ne kadar yakın durursa o kadar çok puan. Düşen jöle puan almaz.",
+   "why": "166 characters, over the 155 limit. Trimmed without losing a fact.",
+   "severity": "length"
+  },
+  {
+   "key": "meta_support_desc",
+   "old": "Edgelings yardım: oyuncu adı, yeni telefonda ilerleme, satın alımlar, reklam tercihleri ve hesabınızı silme.",
+   "new": "Edgelings için yardım: oyuncu adı, yeni telefonda ilerleme, satın alımlar, reklam tercihleri ve hesap silme.",
+   "why": "'Edgelings yardım' is ungrammatical, needs 'için'. 'Hesap silme' reads more natural in a list of topics.",
+   "severity": "grammar"
+  },
+  {
+   "key": "suggest_text",
+   "old": "Bu sayfa {lang} dilinde de mevcut.",
+   "new": "Bu sayfanın {lang} sürümü de var.",
+   "why": "With {lang} = Türkçe the current text reads 'Türkçe dilinde', which is redundant. This works with any language name and needs no suffix on the placeholder.",
+   "severity": "style"
+  },
+  {
+   "key": "cookie_h",
+   "old": "Çerezler, sizin seçiminiz",
+   "new": "Çerezler: karar sizin",
+   "why": "'Çerezler, sizin seçiminiz' is a literal calque. 'Karar sizin' is the idiomatic Turkish phrase for 'your choice'.",
+   "severity": "style"
+  },
+  {
+   "key": "demo_lead",
+   "old": "Gerçek oyun, tarayıcınızda. İlk 5 seviyeyi oynayın, gerisini yanınızda götürün.",
+   "new": "Gerçek oyun, tarayıcınızda. İlk 5 seviyeyi oynayın, gerisini cebinizde götürün.",
+   "why": "'Yanınızda götürün' sounds like carrying luggage. 'Cebinizde' gives the intended mobile sense naturally.",
+   "severity": "style"
+  },
+  {
+   "key": "step4",
+   "old": "Puanınızı garantileyin ya da bonus için 1 atışla daha risk alın.",
+   "new": "Puanınızı garantileyin ya da bonus için riske girip 1 atış daha yapın.",
+   "why": "'1 atışla daha risk alın' is awkward Turkish. This reads naturally and keeps the meaning.",
+   "severity": "style"
+  },
+  {
+   "key": "faq_how_a",
+   "old": "Jöleyi sapanda geri çekip bırakın. Kenarın yakınındaki altın bölgeye nişan alın, orası 3 kat puan getirir. Aynı türden 2 jöle birleşerek daha büyük bir jöle olur. Hedefe ulaştığınızda puanlarınızı garantileyin ya da %10 bonus için 1 atışla daha risk alın.",
+   "new": "Jöleyi sapanda geri çekip bırakın. Kenarın yakınındaki altın bölgeye nişan alın, orası 3 kat puan getirir. Aynı türden 2 jöle birleşerek daha büyük bir jöle olur. Hedefe ulaştığınızda puanlarınızı garantileyin ya da %10 bonus için riske girip 1 atış daha yapın.",
+   "why": "Same awkward '1 atışla daha risk alın' as step4. Keep both consistent.",
+   "severity": "style"
+  },
+  {
+   "key": "video_h2",
+   "old": "Oyunu iş başında izleyin",
+   "new": "Oynanışı izleyin",
+   "why": "'İş başında' is a calque of 'in action' and sounds like a workplace. Short, natural heading.",
+   "severity": "style"
+  },
+  {
+   "key": "loop_merge_p",
+   "old": "Aynı türden 2 jöle, daha büyük bir jöle olur.",
+   "new": "Aynı türden 2 jöle daha büyük bir jöle olur.",
+   "why": "The comma between subject and verb is wrong in Turkish. Also matches feat4_p.",
+   "severity": "grammar"
+  },
+  {
+   "key": "faq_devices_a",
+   "old": "App Store'dan indirilerek iPhone ve iPad'de, Google Play'den indirilerek Android telefon ve tabletlerde çalışır. Ekran düzeni katlanabilir telefonlarda da sorunsuz çalışır.",
+   "new": "App Store'dan indirilerek iPhone ve iPad'de, Google Play'den indirilerek Android telefon ve tabletlerde çalışır. Ekran düzeni katlanabilir telefonlara da uyum sağlar.",
+   "why": "'Çalışır' twice in a row, and 'sorunsuz' is added. 'Uyum sağlar' fixes both.",
+   "severity": "style"
+  },
+  {
+   "key": "sup_meta",
+   "old": "Bir sorunuz, bir hata ya da bildirmek istediğiniz bir oyuncu adı mı var? Bize e-posta gönderin. Yanıtlarımız İngilizcedir.",
+   "new": "Bir sorunuz, bir hata ya da bildirmek istediğiniz bir oyuncu adı mı var? Bize e-posta gönderin. İngilizce yanıt veriyoruz.",
+   "why": "'Yanıtlarımız İngilizcedir' is stiff and bureaucratic. Natural, same fact.",
+   "severity": "style"
+  },
+  {
+   "key": "sup_refund_p",
+   "old": "Satın alımlar Apple ya da Google üzerinden yapılır, iadeler de öyle. iPhone ve iPad'de reportaproblem.apple.com adresine gidin. Android'de Google Play'i açın, ardından Ödemeler ve abonelikler, sonra Bütçe ve geçmiş bölümüne gidin.",
+   "new": "Satın alımlar Apple ya da Google üzerinden yapılır, iadeler de öyle. iPhone ve iPad'de reportaproblem.apple.com adresine gidin. Android'de Google Play'i açın, ardından \"Ödemeler ve abonelikler\", sonra \"Bütçe ve geçmiş\" bölümüne gidin.",
+   "why": "The web glossary puts UI labels in sentences in double quotes. Google Play menu names should follow that so readers spot them.",
+   "severity": "term"
+  },
+  {
+   "key": "press_long1",
+   "old": "Edgelings, tam doğru anda durmayı konu alan, kolay oynanan bir oyun. Bir jöleyi sapanda geri çeker ve masa boyunca bırakırsınız. Uzak kenara yakın duran jöle 3 kata kadar puan kazanır. Kenardan düşen jöle hiç puan kazanmaz.",
+   "new": "Edgelings, tam doğru anda durmayı konu alan, kolay oynanan bir oyun. Bir jöleyi sapanda geri çekip masada kaymaya bırakırsınız. Uzak kenara yakın duran jöle 3 kata kadar puan kazanır. Kenardan düşen jöle hiç puan kazanmaz.",
+   "why": "'Masa boyunca bırakırsınız' is a literal calque of 'let it go across a table'. Clearer for journalists.",
+   "severity": "style"
+  },
+  {
+   "key": "press_video_p",
+   "old": "Edgelings oyununu canlı yayınlayabilir, para kazandırılan videolar dahil oyunun videolarını yayımlayabilirsiniz. Lütfen açıklamaya edgelings.com bağlantısını ekleyin.",
+   "new": "Edgelings oyununu canlı yayınlayabilir, para kazanılan videolar dahil oyunun videolarını yayımlayabilirsiniz. Lütfen açıklamaya edgelings.com bağlantısını ekleyin.",
+   "why": "'Para kazandırılan' is unusual. Turkish creators say 'para kazanılan videolar'.",
+   "severity": "style"
+  }
+ ],
+ "glossary_changes": []
+}

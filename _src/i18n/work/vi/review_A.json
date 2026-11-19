@@ -1,0 +1,83 @@
+{
+ "verdict": "Accurate, natural translation with correct register, placeholders, HTML and app button names. The main fix is the tier term, which must be thế giới as in the app, plus 1 meaning slip and quote style in sup_delete_mail.",
+ "changes": [
+  {
+   "key": "shots_lead",
+   "old": "Lướt qua cấp độ đầu tiên.",
+   "new": "Lướt qua thế giới đầu tiên.",
+   "why": "Tier must use the app's word for the 6 stages (APP_GLOSSARY: world = thế giới), per CONTEXT decision.",
+   "severity": "term"
+  },
+  {
+   "key": "feat1_p",
+   "old": "6 cấp độ, từ Dễ đến Điên rồ. Tiến lên theo nhịp của riêng bạn.",
+   "new": "6 thế giới, từ Dễ đến Điên rồ. Tiến lên theo nhịp của riêng bạn.",
+   "why": "Tier = thế giới as in the app.",
+   "severity": "term"
+  },
+  {
+   "key": "faq_levels_a",
+   "old": "1.200 màn chia thành 6 cấp độ: Dễ, Vừa, Khó, Siêu khó, Tối thượng và Điên rồ. Mỗi cấp độ thêm những thử thách mới, như mật ong, băng, cát, bạt nhún, gió và slime đặc biệt. Màn mới được tải từ máy chủ mà không cần cập nhật ứng dụng.",
+   "new": "1.200 màn chia thành 6 thế giới: Dễ, Vừa, Khó, Siêu khó, Tối thượng và Điên rồ. Mỗi thế giới thêm những thử thách mới, như mật ong, băng, cát, bạt nhún, gió và slime đặc biệt. Màn mới được tải từ máy chủ mà không cần cập nhật ứng dụng.",
+   "why": "Tier = thế giới as in the app.",
+   "severity": "term"
+  },
+  {
+   "key": "press_content_v",
+   "old": "1.200 màn chia thành 6 cấp độ, bàn hằng ngày, hạng đấu hằng tuần, bảng xếp hạng",
+   "new": "1.200 màn chia thành 6 thế giới, bàn hằng ngày, hạng đấu hằng tuần, bảng xếp hạng",
+   "why": "Tier = thế giới as in the app.",
+   "severity": "term"
+  },
+  {
+   "key": "press_long3",
+   "old": "Game có 1.200 màn chia thành 6 cấp độ, từ Dễ đến Điên rồ. Bàn hằng ngày mang đến cùng một thử thách cho mọi người chơi trên thế giới, còn các hạng đấu hằng tuần đưa người chơi lên xuống giữa hạng Đồng, Bạc và Vàng. Toàn bộ game đều chơi được khi không có mạng.",
+   "new": "Game có 1.200 màn chia thành 6 thế giới, từ Dễ đến Điên rồ. Bàn hằng ngày mang đến cùng một thử thách cho mọi người chơi trên thế giới, còn các hạng đấu hằng tuần đưa người chơi lên xuống giữa hạng Đồng, Bạc và Vàng. Toàn bộ game đều chơi được khi không có mạng.",
+   "why": "Tier = thế giới as in the app.",
+   "severity": "term"
+  },
+  {
+   "key": "sup_delete_mail",
+   "old": "<b>Không cần game:</b> nếu bạn không còn cài game, hãy gửi email tới info@edgelings.com với tiêu đề \"Delete my Edgelings account\" kèm tên người chơi của bạn. Chúng tôi sẽ xóa tài khoản trong vòng 30 ngày và xác nhận qua email.",
+   "new": "<b>Khi không còn game:</b> nếu bạn không còn cài game, hãy gửi email tới info@edgelings.com với tiêu đề “Delete my Edgelings account” kèm tên người chơi của bạn. Chúng tôi sẽ xóa tài khoản trong vòng 30 ngày và xác nhận qua email.",
+   "why": "\"Không cần game\" means \"no need for the game\", not \"without the game installed\". Subject must stand in Vietnamese quotes “ ” as used elsewhere on the site.",
+   "severity": "meaning"
+  },
+  {
+   "key": "feat4_p",
+   "old": "2 slime cùng loại gộp thành 1 slime lớn hơn. Slime càng lớn, điểm càng cao vượt trội.",
+   "new": "2 slime cùng loại gộp thành 1 slime lớn hơn. Slime càng lớn, điểm càng cao hơn hẳn.",
+   "why": "\"điểm càng cao vượt trội\" is ungrammatical. \"hơn hẳn\" carries \"far more\" naturally.",
+   "severity": "grammar"
+  },
+  {
+   "key": "faq_leagues_a",
+   "old": "Kết quả ở bàn hằng ngày sẽ xếp bạn vào một hạng: Đồng, Bạc hoặc Vàng. Mỗi tuần, những người chơi giỏi nhất được lên hạng và những người đứng cuối bị xuống hạng. Bảng xếp hạng có 3 mục: Ngày, Tuần và Tổng.",
+   "new": "Kết quả ở bàn hằng ngày sẽ xếp bạn vào một hạng: Đồng, Bạc hoặc Vàng. Mỗi tuần, những người chơi giỏi nhất được lên hạng và những người đứng cuối bị xuống hạng. Bảng xếp hạng có các thẻ “Ngày”, “Tuần” và “Tổng”.",
+   "why": "Tab names are app UI labels: quote them like other UI labels on the site, and drop the added count \"3 mục\".",
+   "severity": "term"
+  },
+  {
+   "key": "sup_refund_p",
+   "old": "Giao dịch mua được thực hiện qua Apple hoặc Google, nên việc hoàn tiền cũng vậy. Trên iPhone và iPad, hãy truy cập reportaproblem.apple.com. Trên Android, mở Google Play, chọn Thanh toán và gói thuê bao, rồi chọn Ngân sách và nhật ký.",
+   "new": "Giao dịch mua được thực hiện qua Apple hoặc Google, nên việc hoàn tiền cũng vậy. Trên iPhone và iPad, hãy truy cập reportaproblem.apple.com. Trên Android, mở Google Play, chọn “Thanh toán và gói thuê bao”, rồi chọn “Ngân sách và nhật ký”.",
+   "why": "Menu names in “ ” quotes, consistent with how the site marks UI labels.",
+   "severity": "style"
+  },
+  {
+   "key": "faq_free_a",
+   "old": "Có. Edgelings miễn phí để tải về và miễn phí để chơi. Game có hiển thị quảng cáo và có các giao dịch mua tùy chọn, như xu, “Gói khởi đầu” và “Gỡ quảng cáo”. Bạn không bao giờ phải mua gì để hoàn thành một màn.",
+   "new": "Có. Edgelings được tải về và chơi hoàn toàn miễn phí. Game có hiển thị quảng cáo và có các giao dịch mua tùy chọn, như xu, “Gói khởi đầu” và “Gỡ quảng cáo”. Bạn không bao giờ phải mua gì để hoàn thành một màn.",
+   "why": "\"miễn phí để tải về và miễn phí để chơi\" is translationese.",
+   "severity": "style"
+  }
+ ],
+ "glossary_changes": [
+  {
+   "term": "tier",
+   "old": "cấp độ",
+   "new": "thế giới",
+   "why": "APP_GLOSSARY uses thế giới for the 6 difficulty stages, and CONTEXT says the site must match the app."
+  }
+ ]
+}

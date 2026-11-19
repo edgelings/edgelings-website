@@ -1,0 +1,76 @@
+{
+ "verdict": "Accurate, consistent with the app and the glossary, and the placeholders, HTML and style rules all pass. The fixes are small: 2 name/term mismatches, 3 meaning nuances in FAQ and feature texts, and a few clumsy sentences.",
+ "changes": [
+  {
+   "key": "demo_end_p",
+   "old": "还有 1195 关、每日一桌和每周联赛，正在应用里等着您。",
+   "new": "还有 1195 关、每日一桌和每周联赛在应用里等着您。",
+   "why": "Comma between subject and predicate is ungrammatical in Chinese.",
+   "severity": "grammar"
+  },
+  {
+   "key": "shot5",
+   "old": "合成国王",
+   "new": "合成 King Plum",
+   "why": "'The King' is King Plum, a name that stays in English. 国王 invents a new name.",
+   "severity": "term"
+  },
+  {
+   "key": "king_p",
+   "old": "2 只 Pomme，1 顶王冠。皇家合成。",
+   "new": "2 只 Pomme，1 顶王冠。王者合成。",
+   "why": "Match the app's merge shout term 王者合成 (APP_GLOSSARY).",
+   "severity": "term"
+  },
+  {
+   "key": "feat4_p",
+   "old": "2 只相同的史莱姆合成 1 只更大的。越大的史莱姆，得分越高。",
+   "new": "2 只相同的史莱姆合成 1 只更大的。史莱姆越大，得分就高得多。",
+   "why": "'far more' was lost. 越大…越高 only says 'more'.",
+   "severity": "meaning"
+  },
+  {
+   "key": "faq_free_a",
+   "old": "是的。Edgelings 可免费下载、免费游玩。游戏中有广告，并提供可选的购买项目，例如金币、新手礼包和“移除广告”。通关任何一关都无需购买任何东西。",
+   "new": "是的。Edgelings 可免费下载、免费游玩。游戏中有广告，并提供可选的购买项目，例如金币、新手礼包和“移除广告”。无需购买任何东西，也能通过每一关。",
+   "why": "Double 任何 is clumsy and reads as translationese.",
+   "severity": "grammar"
+  },
+  {
+   "key": "faq_devices_a",
+   "old": "支持通过 App Store 下载的 iPhone 和 iPad，以及通过 Google Play 下载的 Android 手机和平板。游戏界面也适配折叠屏手机。",
+   "new": "iPhone 和 iPad 可通过 App Store 下载，Android 手机和平板可通过 Google Play 下载。游戏界面也适配折叠屏手机。",
+   "why": "Current wording says the devices are downloaded from the App Store. The game is downloaded, not the device.",
+   "severity": "grammar"
+  },
+  {
+   "key": "faq_restore_a",
+   "old": "它会向 Apple 或 Google 查询您的应用商店账号拥有哪些永久购买项目（例如“移除广告”），并重新开启。金币和其他会被消耗的物品无法通过这种方式恢复，登录账号才能保留这些内容。",
+   "new": "它会向 Apple 或 Google 查询您的应用商店账号拥有哪些永久购买项目（例如“移除广告”），并重新开启。金币和其他会被消耗的物品无法通过这种方式恢复，登录账号后即可保留这些内容。",
+   "why": "才能 claims sign-in is the only way, English only says signing in keeps them. Precision text.",
+   "severity": "meaning"
+  },
+  {
+   "key": "faq_delete_a",
+   "old": "在游戏中打开“设置”，点击“删除我的账号”。如果无法打开游戏，请发送邮件至 info@edgelings.com 并附上您的玩家昵称。详见<a href=\"{base}/support.html#delete\">删除账号</a>。",
+   "new": "在游戏中打开“设置”，点击“删除我的账号”。如果没有安装游戏，请发送邮件至 info@edgelings.com 并附上您的玩家昵称。详见<a href=\"{base}/support.html#delete\">删除账号</a>。",
+   "why": "'Without the game' means not having the game installed (see sup_delete_mail), not being unable to open it.",
+   "severity": "meaning"
+  },
+  {
+   "key": "press_content_v",
+   "old": "1200 关，6 个世界，每日一桌，每周联赛，排行榜",
+   "new": "6 个世界共 1200 关、每日一桌、每周联赛、排行榜",
+   "why": "'1,200 levels in 6 tiers' is one item, and list items take 、 not ，.",
+   "severity": "grammar"
+  },
+  {
+   "key": "foot_help",
+   "old": "帮助与法律",
+   "new": "帮助与法律信息",
+   "why": "帮助与法律 reads as 'help and law'. Chinese sites write 法律信息.",
+   "severity": "style"
+  }
+ ],
+ "glossary_changes": []
+}

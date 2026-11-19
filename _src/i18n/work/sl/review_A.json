@@ -1,0 +1,125 @@
+{
+ "verdict": "Solid, accurate translation with correct vikanje, app terms and placeholders. Main fixes: the English email subject decision, 'svet' for tiers as in the app, and a few grammar points (comparative correlative, indefinite adjective).",
+ "changes": [
+  {
+   "key": "sup_delete_mail",
+   "old": "<b>Brez igre:</b> če igre nimate več nameščene, pišite na info@edgelings.com z zadevo „Izbriši moj račun Edgelings“ in navedite svoje ime igralca. Račun izbrišemo v 30 dneh in izbris potrdimo po e-pošti.",
+   "new": "<b>Brez igre:</b> če igre nimate več nameščene, pišite na info@edgelings.com z zadevo „Delete my Edgelings account“ in navedite svoje ime igralca. Račun izbrišemo v 30 dneh in izbris potrdimo po e-pošti.",
+   "why": "Post-round decision: the email subject must stay in English exactly, so support recognises it.",
+   "severity": "meaning"
+  },
+  {
+   "key": "shots_lead",
+   "old": "Podrsajte skozi prvo težavnostno raven.",
+   "new": "Podrsajte skozi prvi svet.",
+   "why": "Decision: tier = the app's word for the 6 difficulty stages, which is 'svet' in APP_GLOSSARY.",
+   "severity": "term"
+  },
+  {
+   "key": "feat1_p",
+   "old": "6 težavnostnih ravni, od Lahko do Noro. Napredujte v svojem tempu.",
+   "new": "6 svetov, od Lahko do Noro. Napredujte v svojem tempu.",
+   "why": "Tier = 'svet' as in the app.",
+   "severity": "term"
+  },
+  {
+   "key": "faq_levels_a",
+   "old": "Igra ima 1200 stopenj v 6 težavnostnih ravneh: Lahko, Srednje, Težko, Zelo težko, Ekstremno in Noro. Vsaka raven prinaša nove izzive, kot so med, led, pesek, trampolini, veter in posebneži. Nove stopnje prihajajo s strežnika, brez posodobitve aplikacije.",
+   "new": "Igra ima 1200 stopenj v 6 svetovih: Lahko, Srednje, Težko, Zelo težko, Ekstremno in Noro. Vsak svet prinaša nove izzive, kot so med, led, pesek, trampolini, veter in posebneži. Nove stopnje prihajajo s strežnika, brez posodobitve aplikacije.",
+   "why": "Tier = 'svet' as in the app.",
+   "severity": "term"
+  },
+  {
+   "key": "press_content_v",
+   "old": "1200 stopenj v 6 težavnostnih ravneh, dnevna miza, tedenske lige, lestvice",
+   "new": "1200 stopenj v 6 svetovih, dnevna miza, tedenske lige, lestvice",
+   "why": "Tier = 'svet' as in the app.",
+   "severity": "term"
+  },
+  {
+   "key": "press_long3",
+   "old": "Igra ima 1200 stopenj v 6 težavnostnih ravneh, od Lahko do Noro. Dnevna miza vsem igralcem na svetu postavi enak izziv, tedenske lige pa igralce premikajo med ligami Bronasta, Srebrna in Zlata. Celotno igro lahko igrate brez povezave.",
+   "new": "Igra ima 1200 stopenj v 6 svetovih, od Lahko do Noro. Dnevna miza vsem igralcem na svetu postavi enak izziv, tedenske lige pa igralce premikajo med ligami Bronasta, Srebrna in Zlata. Celotno igro lahko igrate brez povezave.",
+   "why": "Tier = 'svet' as in the app.",
+   "severity": "term"
+  },
+  {
+   "key": "meta_index_desc",
+   "old": "Brezplačna sproščena igra za iPhone, iPad in Android. Frcnite bleščeče sluzke čez mizo. Bližje robu se ustavijo, več točk dobijo. Čez rob ni točk.",
+   "new": "Brezplačna sproščena igra za iPhone, iPad in Android. Frcnite bleščeče sluzke čez mizo. Čim bližje robu se ustavijo, tem več točk dobijo. Čez rob ni točk.",
+   "why": "Comparative correlative needs 'čim ... tem' (or 'bližje ko'). Without it the sentence is ungrammatical.",
+   "severity": "grammar"
+  },
+  {
+   "key": "hero_lead",
+   "old": "Frcnite bleščeče sluzke čez mizo. Bližje robu se ustavijo, več točk dobijo. Čez rob ni točk.",
+   "new": "Frcnite bleščeče sluzke čez mizo. Čim bližje robu se ustavijo, tem več točk dobijo. Čez rob ni točk.",
+   "why": "Same comparative correlative fix.",
+   "severity": "grammar"
+  },
+  {
+   "key": "faq_what_a",
+   "old": "Edgelings je sproščena mobilna igra za iPhone, iPad in Android. Bleščeče sluzke frcate čez mizo. Bližje skrajnemu robu se sluzek ustavi, več točk dobi. Sluzek, ki pade čez rob, ne dobi nobene točke.",
+   "new": "Edgelings je sproščena mobilna igra za iPhone, iPad in Android. Bleščeče sluzke frcate čez mizo. Čim bližje skrajnemu robu se sluzek ustavi, tem več točk dobi. Sluzek, ki pade čez rob, ne dobi nobene točke.",
+   "why": "Same comparative correlative fix.",
+   "severity": "grammar"
+  },
+  {
+   "key": "score_lead",
+   "old": "Povlecite sluzka Mossy proti robu. Bližje pomeni več točk. Predaleč in pade.",
+   "new": "Povlecite sluzka Mossy proti robu. Bližje pomeni več točk. Če ga potisnete predaleč, pade.",
+   "why": "'Predaleč in pade' is an English calque and not grammatical Slovenian.",
+   "severity": "grammar"
+  },
+  {
+   "key": "faq_who_a",
+   "old": "Igro Edgelings ustvarja in upravlja Matej Mesko, neodvisni razvijalec iz Slovenije. Kontakt: info@edgelings.com.",
+   "new": "Igro Edgelings ustvarja in upravlja Matej Mesko, neodvisen razvijalec iz Slovenije. Kontakt: info@edgelings.com.",
+   "why": "'an independent developer' needs the indefinite adjective form 'neodvisen'.",
+   "severity": "grammar"
+  },
+  {
+   "key": "press_dev_v",
+   "old": "Matej Mesko, neodvisni razvijalec, Slovenija",
+   "new": "Matej Mesko, neodvisen razvijalec, Slovenija",
+   "why": "Indefinite adjective form, consistent with faq_who_a.",
+   "severity": "grammar"
+  },
+  {
+   "key": "faq_ads_a",
+   "old": "Da. Na zaslonih menija se prikazuje majhna pasica, med stopnjo pa nikoli. Ogled oglasa lahko izberete tudi sami, za dodatnega sluzka ali dodaten poskus. Nakup „Odstrani oglase“ pasico odstrani za vedno. Oglasi, ki si jih izberete sami, ostanejo na voljo.",
+   "new": "Da. Na zaslonih menija se prikazuje majhna pasica, med stopnjo pa nikoli. Ogled oglasa lahko izberete tudi sami, za dodatnega sluzka ali dodaten poskus. Nakup „Odstrani oglase“ pasico odstrani za vedno. Oglasi, ki si jih ogledate po lastni izbiri, ostanejo na voljo.",
+   "why": "'ki si jih izberete sami' drops 'watch'. Precise: ads you choose to watch.",
+   "severity": "meaning"
+  },
+  {
+   "key": "sup_delete_note",
+   "old": "Izbris računa ne prekliče nakupov in ne povrne denarja zanje. Vračila urejata Apple in Google, glejte spodaj.",
+   "new": "Izbris računa ne prekliče nakupov in ne povrne denarja zanje. Vračila ureja Apple oziroma Google, glejte spodaj.",
+   "why": "English says Apple or Google (whichever store was used), not both together. 'oziroma' keeps that.",
+   "severity": "meaning"
+  },
+  {
+   "key": "sup_refund_p",
+   "old": "Nakupe obdelata Apple in Google, zato urejata tudi vračila. Na napravah iPhone in iPad obiščite reportaproblem.apple.com. V napravi Android odprite Google Play, nato Plačila in naročnine in nato Proračun in zgodovina.",
+   "new": "Nakupe obdela Apple oziroma Google, ki ureja tudi vračila. Na napravah iPhone in iPad obiščite reportaproblem.apple.com. V napravi Android odprite Google Play, nato „Plačila in naročnine“ in nato „Proračun in zgodovina“.",
+   "why": "Apple or Google, not both. Google Play menu names quoted like all other UI labels on the site.",
+   "severity": "meaning"
+  },
+  {
+   "key": "faq_leagues_a",
+   "old": "Rezultati na dnevni mizi vas uvrstijo v eno od lig: Bronasta, Srebrna ali Zlata. Vsak teden se najboljši igralci uvrstijo višje, zadnji pa nižje. Lestvice prikazujejo zavihke Dnevna, Tedenska in Vseh časov.",
+   "new": "Rezultati na dnevni mizi vas uvrstijo v eno od lig: Bronasta, Srebrna ali Zlata. Vsak teden se najboljši igralci uvrstijo višje, zadnji pa nižje. Lestvice prikazujejo zavihke „Dnevna“, „Tedenska“ in „Vseh časov“.",
+   "why": "Tab names are app UI labels: quote them as elsewhere on the site (consistency).",
+   "severity": "style"
+  }
+ ],
+ "glossary_changes": [
+  {
+   "term": "tier (difficulty)",
+   "old": "težavnostna raven (6 težavnostnih ravni)",
+   "new": "svet (6 svetov, v 6 svetovih)",
+   "why": "Post-round decision: use the app's word for the 6 difficulty stages, APP_GLOSSARY has world = svet."
+  }
+ ]
+}

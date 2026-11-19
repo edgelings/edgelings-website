@@ -1,0 +1,32 @@
+# zh-Hant merge log
+
+- foot_operated (A): accepted. Trailing country after the verb is ungrammatical, place moved before the name.
+- foot_operated (B): accepted. Same fix as A.
+- loop_merge_p (A): adapted. 合體 accepted, but 同種 (from B) used instead of 一樣的 for consistency with faq_how_a.
+- loop_merge_p (B): accepted. App term 合體 plus 同種 as elsewhere on the site.
+- feat4_p (A): adapted. 合體 and 同種 applied, wording merged with B.
+- feat4_p (B): adapted. 合體 and 同種 kept, but "更大的史萊姆" after "史萊姆會" repeated the noun, final uses 合體成更大的1隻.
+- mossy_p (A): accepted. merge = 合體 per APP_GLOSSARY, 合體而成 reads naturally.
+- shot5 (A): accepted. King Plum stays in English, 國王 half-translated a fixed name.
+- shot5 (B): accepted. Same fix as A.
+- faq_slimes_a (A): adapted. 5種 accepted, kept the original sentence frame (有...可以) as in B for minimal change.
+- faq_slimes_a (B): accepted. 5 kinds, not 5 individual slimes.
+- faq_restore_a (A): accepted. 才能 added an exclusivity claim the English does not make.
+- faq_delete_a (A): adapted. Precision fix accepted, written as 如果您已經沒有安裝遊戲 to match sup_delete_mail exactly.
+- sup_delete_mail (A): rejected. 未安裝遊戲時 repeats the clause that follows. B's heading is the better pair with 在遊戲中.
+- sup_delete_mail (B): accepted. 不透過遊戲 pairs cleanly with the sup_delete_game heading 在遊戲中.
+- faq_devices_a (A): adapted. Subject Edgelings added to answer the question 支援哪些裝置 on its own, but 支援 App Store 上的 iPhone was awkward.
+- faq_devices_a (B): adapted. Full-sentence structure with 可從...下載 kept, combined with A's subject: Edgelings 支援 iPhone 與 iPad，可從 App Store 下載...
+- faq_levels_a (A): accepted. Removes parcel word 送達 and restores "more" (更多關卡).
+- faq_levels_a (B): adapted. 直接從伺服器加入 used, but with A's 更多關卡 to keep "More levels".
+- meta_support_desc (B): accepted. 客服協助 matches the page name 客服 and search intent.
+- step1 (B): accepted. The slime sits in the sling and is pulled back, 往後拉進彈弓 was unnatural.
+- faq_how_a (B): accepted. Same sling fix as step1.
+- press_long1 (B): accepted. Sling fix, and 另一頭 instead of the technical 遠端 for "far edge".
+- faq_what_a (B): accepted. 另一頭 instead of 遠端 for "far edge".
+- shots_lead (B): accepted. Worlds are numbered stages like 第{n}關 in the app, so 第1個世界 matches. 第一次 (first touch) stays as an idiom.
+- sparkler_p (B): accepted. 小心輕放 is the real "Handle with care" label, a playful match for the joke.
+- press_meta (B): adapted. Livelier "it is all here" framing accepted, but B's 報導 then repeated in the next sentence, final uses 撰寫 Edgelings 相關內容所需的資料，全都在這裡。
+- video_h2 (B): accepted. An invitation fits "See it in action" and no longer repeats video_lead.
+- demo_lead (B): accepted. 帶著走 was vague, the rest of the game continues on the phone app (no new fact, the game is mobile only).
+- slimes_lead (editor): changed 一樣的 to 同種的 for consistency with the accepted merge texts (loop_merge_p, feat4_p, faq_how_a).

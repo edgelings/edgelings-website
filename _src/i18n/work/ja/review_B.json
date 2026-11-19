@@ -1,0 +1,118 @@
+{
+ "verdict": "A strong, natural Japanese website with good slogans, clean SEO titles and polite FAQ answers that read like a local studio's site. The main fix is tier as ティア instead of the app's ワールド in 5 texts, plus a few small wording and consistency edits.",
+ "changes": [
+  {
+   "key": "shots_lead",
+   "old": "最初のティアをスワイプでチェック。",
+   "new": "最初のワールドをスワイプでチェック。",
+   "why": "CONTEXT decision: tier uses the app's word for the 6 stages, ワールド in APP_GLOSSARY, so players find the same name in the app.",
+   "severity": "term"
+  },
+  {
+   "key": "feat1_p",
+   "old": "「かんたん」から「クレイジー」まで6つのティア。自分のペースで進めます。",
+   "new": "「かんたん」から「クレイジー」まで6つのワールド。自分のペースで進めます。",
+   "why": "CONTEXT decision: tier uses the app's word for the 6 stages, ワールド in APP_GLOSSARY, so players find the same name in the app.",
+   "severity": "term"
+  },
+  {
+   "key": "faq_levels_a",
+   "old": "「かんたん」「ふつう」「むずかしい」「激ムズ」「究極」「クレイジー」の6つのティアに、全部で1,200レベルあります。ティアが進むごとに、ハチミツ、氷、砂、トランポリン、風、スペシャルスライムなどの新しいしかけが登場します。新しいレベルはアプリを更新しなくても、サーバーから追加されます。",
+   "new": "「かんたん」「ふつう」「むずかしい」「激ムズ」「究極」「クレイジー」の6つのワールドに、全部で1,200レベルあります。ワールドが進むごとに、ハチミツ、氷、砂、トランポリン、風、スペシャルスライムなどの新しいしかけが登場します。新しいレベルはアプリを更新しなくても、サーバーから追加されます。",
+   "why": "CONTEXT decision: tier uses the app's word for the 6 stages, ワールド in APP_GLOSSARY, so players find the same name in the app.",
+   "severity": "term"
+  },
+  {
+   "key": "press_content_v",
+   "old": "6つのティアに1,200レベル、デイリーテーブル、ウィークリーリーグ、ランキング",
+   "new": "6つのワールドに1,200レベル、デイリーテーブル、ウィークリーリーグ、ランキング",
+   "why": "CONTEXT decision: tier uses the app's word for the 6 stages, ワールド in APP_GLOSSARY, so players find the same name in the app.",
+   "severity": "term"
+  },
+  {
+   "key": "press_long3",
+   "old": "「かんたん」から「クレイジー」まで、6つのティアに1,200レベルを収録。デイリーテーブルでは世界中のプレイヤーが同じ課題に挑み、ウィークリーリーグではプレイヤーがブロンズ、シルバー、ゴールドの間を昇格・降格します。ゲームはすべてオフラインで遊べます。",
+   "new": "「かんたん」から「クレイジー」まで、6つのワールドに1,200レベルを収録。デイリーテーブルでは世界中のプレイヤーが同じ課題に挑み、ウィークリーリーグではプレイヤーがブロンズ、シルバー、ゴールドの間を昇格・降格します。ゲームはすべてオフラインで遊べます。",
+   "why": "CONTEXT decision: tier uses the app's word for the 6 stages, ワールド in APP_GLOSSARY, so players find the same name in the app.",
+   "severity": "term"
+  },
+  {
+   "key": "cookie_p",
+   "old": "このサイトがどのように使われているか（デモのプレイやストアへのクリックなど）を知るために、Cookieを使用させてください。同意しない場合は、あなたの端末に何も保存せず、訪問数を匿名でカウントするだけです。",
+   "new": "このサイトの利用状況（デモのプレイやストアへのクリックなど）を把握するため、Cookieを使用したいと考えています。同意しない場合は、あなたの端末に何も保存せず、訪問数を匿名でカウントするだけです。",
+   "why": "「使用させてください」sounds like pleading. 「使用したいと考えています」is the standard, calm wording of Japanese consent banners. Meaning unchanged.",
+   "severity": "style"
+  },
+  {
+   "key": "cookie_h",
+   "old": "Cookieの利用について",
+   "new": "Cookieの利用はお選びいただけます",
+   "why": "Current heading drops 'your choice', the point of the banner. This keeps it short and polite.",
+   "severity": "meaning"
+  },
+  {
+   "key": "demo_end_p",
+   "old": "アプリでは、残り1,195レベルにデイリーテーブル、ウィークリーリーグが待っています。",
+   "new": "アプリでは、残り1,195レベルとデイリーテーブル、ウィークリーリーグが待っています。",
+   "why": "「レベルに…、…」list reads awkwardly. 「と」 gives a clean list.",
+   "severity": "grammar"
+  },
+  {
+   "key": "score_msg2",
+   "old": "いい感じ。ポイント2倍です。",
+   "new": "ふちに近づいてきました。ポイント2倍です。",
+   "why": "'Getting closer' is lost in 「いい感じ」. The toy should tell the player they are approaching the edge.",
+   "severity": "meaning"
+  },
+  {
+   "key": "hero_lead",
+   "old": "ツヤツヤのスライムをテーブルの上に飛ばそう。ふちの近くで止まるほど高得点。落ちたら0点です。",
+   "new": "ツヤツヤのスライムをテーブルの上に飛ばそう。ふちの近くで止まるほど高得点。落ちたら0点。",
+   "why": "Mixed 〜そう / 〜です in a 3 line lead. Ending on the noun keeps the punchy hero rhythm.",
+   "severity": "style"
+  },
+  {
+   "key": "step4",
+   "old": "スコアをキープするか、ボーナスを狙ってもう1ショットにチャレンジ。",
+   "new": "スコアをキープするか、ボーナスをねらってもう1ショットにチャレンジ。",
+   "why": "Same verb is written ねらう elsewhere on the site and in the app (ねらいガイド). Keep 1 spelling.",
+   "severity": "style"
+  },
+  {
+   "key": "faq_how_a",
+   "old": "スライムをスリングで引っぱって、指を離します。ふちの近くにあるゴールドゾーンをねらいましょう。ここで止まるとポイントが3倍になります。同じ種類のスライム2匹は合体して、もっと大きなスライムになります。目標に届いたら、ポイントをキープするか、10%のボーナスを狙ってもう1ショットにチャレンジするかを選べます。",
+   "new": "スライムをスリングで引っぱって、指を離します。ふちの近くにあるゴールドゾーンをねらいましょう。ここで止まるとポイントが3倍になります。同じ種類のスライム2匹は合体して、もっと大きなスライムになります。目標に届いたら、ポイントをキープするか、10%のボーナスをねらってもう1ショットにチャレンジするかを選べます。",
+   "why": "Consistency with ねらいましょう in the same answer and with the app's ねらい.",
+   "severity": "style"
+  },
+  {
+   "key": "faq_free_a",
+   "old": "はい。Edgelingsはダウンロードもプレイも無料です。広告が表示され、コイン、スターターパック、「広告を削除」などの任意の購入アイテムがあります。レベルをクリアするために何かを購入する必要は一切ありません。",
+   "new": "はい。Edgelingsはダウンロードもプレイも無料です。広告が表示されるほか、コイン、スターターパック、「広告を削除」などの任意のアプリ内課金があります。レベルをクリアするために何かを購入する必要は一切ありません。",
+   "why": "「広告を削除」is not an item, so 「購入アイテム」 is imprecise. 「アプリ内課金」 is the usual Japanese term and matches press_price_v.",
+   "severity": "style"
+  },
+  {
+   "key": "faq_daily_a",
+   "old": "毎日新しく登場するテーブルで、世界中のすべてのプレイヤーが同じテーブルに挑みます。挑戦は1日3回で、ベストスコアが記録されます。購入したお助けアイテムは使えないので、公平な勝負になります。",
+   "new": "毎日新しく登場するテーブルで、世界中のすべてのプレイヤーが同じテーブルに挑みます。挑戦は1日3回で、ベストスコアが採用されます。購入したお助けアイテムは使えないので、公平な勝負になります。",
+   "why": "'your best score counts': 「採用されます」 says the best try is the one that counts. 「記録されます」 only says it is stored.",
+   "severity": "meaning"
+  },
+  {
+   "key": "sup_meta",
+   "old": "ご質問、不具合、報告したいプレイヤー名はありませんか？メールでご連絡ください。返信は英語になります。",
+   "new": "ご質問、不具合のご報告、プレイヤー名の通報は、メールでご連絡ください。返信は英語になります。",
+   "why": "「不具合、報告したいプレイヤー名はありませんか」 is ungrammatical as a list under 1 predicate. This is the natural support page wording.",
+   "severity": "grammar"
+  }
+ ],
+ "glossary_changes": [
+  {
+   "term": "tier",
+   "old": "ティア",
+   "new": "ワールド",
+   "why": "CONTEXT decision: use the APP_GLOSSARY word for the 6 difficulty stages."
+  }
+ ]
+}

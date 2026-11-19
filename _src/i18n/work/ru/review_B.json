@@ -1,0 +1,110 @@
+{
+ "verdict": "Solid, natural Russian with correct app terms and register. Fix the English email subject in sup_delete_mail (project decision), sharpen the hero slogan with the idiom «через край», and smooth the repeated clumsy merge phrase «в 1 крупнее».",
+ "changes": [
+  {
+   "key": "sup_delete_mail",
+   "old": "<b>Без игры:</b> если игра больше не установлена, напишите на info@edgelings.com с темой «Удалить мой аккаунт Edgelings» и укажите имя игрока. Мы удалим аккаунт в течение 30 дней и подтвердим это по почте.",
+   "new": "<b>Без игры:</b> если игра больше не установлена, напишите на info@edgelings.com с темой «Delete my Edgelings account» и укажите имя игрока. Мы удалим аккаунт в течение 30 дней и подтвердим это по почте.",
+   "why": "Project decision: the email subject stays in English exactly, so support recognises it",
+   "severity": "meaning"
+  },
+  {
+   "key": "hero_h1",
+   "old": "Ближе к краю.<br>Но не за край.",
+   "new": "Ближе к краю.<br>Но не через край.",
+   "why": "«через край» is a set idiom (going too far), so the slogan gets a real play on words. «не за край» sounds clumsy",
+   "severity": "style"
+  },
+  {
+   "key": "foot_tag1",
+   "old": "Ближе к краю. Но не за край.",
+   "new": "Ближе к краю. Но не через край.",
+   "why": "Same slogan as hero_h1",
+   "severity": "style"
+  },
+  {
+   "key": "meta_index_title",
+   "old": "Edgelings: слаймы у края | Бесплатно на iPhone и Android",
+   "new": "Edgelings: бросайте слаймов к краю | Бесплатно на iPhone и Android",
+   "why": "Keeps the 'flick' action, which makes the title clearer and more clickable. 66 characters, same as English",
+   "severity": "style"
+  },
+  {
+   "key": "suggest_text",
+   "old": "Эта страница доступна и в версии: {lang}.",
+   "new": "Эта страница доступна также на языке: {lang}.",
+   "why": "«в версии: Русский» reads like a machine. This version is natural with any language name after the colon",
+   "severity": "style"
+  },
+  {
+   "key": "score_lead",
+   "old": "Тяните Mossy к краю. Чем ближе, тем больше очков. Слишком далеко, и он упадёт.",
+   "new": "Тяните Mossy к краю. Чем ближе, тем больше очков. Перестараетесь, и он упадёт.",
+   "why": "«Слишком далеко, и он упадёт» is a calque of English. «Перестараетесь» is natural and playful, gender-neutral",
+   "severity": "style"
+  },
+  {
+   "key": "video_h2",
+   "old": "Посмотрите в деле",
+   "new": "Посмотрите игру в деле",
+   "why": "«Посмотрите в деле» has no object and sounds unfinished",
+   "severity": "style"
+  },
+  {
+   "key": "loop_merge_p",
+   "old": "2 одинаковых слайма дают 1 крупнее.",
+   "new": "2 одинаковых слайма объединяются в более крупного.",
+   "why": "«дают 1 крупнее» is clumsy with the digit. Natural phrasing, keeps the meaning",
+   "severity": "style"
+  },
+  {
+   "key": "feat4_p",
+   "old": "2 одинаковых слайма дают 1 крупнее. А крупные слаймы приносят куда больше очков.",
+   "new": "2 одинаковых слайма объединяются в более крупного. А крупные слаймы приносят куда больше очков.",
+   "why": "Same fix as loop_merge_p, consistent merge wording",
+   "severity": "style"
+  },
+  {
+   "key": "faq_how_a",
+   "old": "Оттяните слайма в рогатке и отпустите. Цельтесь в золотую зону у края: она даёт в 3 раза больше очков. 2 одинаковых слайма объединяются в 1 крупнее. Когда цель уровня достигнута, заберите очки или рискните ещё 1 броском ради бонуса 10%.",
+   "new": "Оттяните слайма в рогатке и отпустите. Цельтесь в золотую зону у края: она даёт в 3 раза больше очков. 2 одинаковых слайма объединяются в более крупного. Когда цель уровня достигнута, заберите очки или рискните ещё 1 броском ради бонуса 10%.",
+   "why": "«объединяются в 1 крупнее» is ungrammatical sounding. Same wording as the other merge texts",
+   "severity": "grammar"
+  },
+  {
+   "key": "press_long2",
+   "old": "2 одинаковых слайма объединяются в 1 крупнее, от малыша Blip до King Plum. На следующих столах появляются мёд, лёд, песок, батуты, колышки, ветер и особые слаймы, такие как Магнит, Призрак, Тяжеловес и Хлопушка.",
+   "new": "2 одинаковых слайма объединяются в более крупного, от малыша Blip до King Plum. На следующих столах появляются мёд, лёд, песок, батуты, колышки, ветер и особые слаймы, такие как Магнит, Призрак, Тяжеловес и Хлопушка.",
+   "why": "«в 1 крупнее» is clumsy. Same merge wording everywhere",
+   "severity": "style"
+  },
+  {
+   "key": "faq_ads_a",
+   "old": "Да. Небольшой баннер показывается на экранах меню и никогда во время уровня. Кроме того, можно по желанию посмотреть рекламу ради дополнительного слайма или дополнительной попытки. Покупка «Убрать рекламу» убирает баннер навсегда. Рекламу по желанию по-прежнему можно смотреть.",
+   "new": "Да. Небольшой баннер показывается на экранах меню и никогда во время уровня. Кроме того, можно по желанию посмотреть рекламу ради дополнительного слайма или дополнительной попытки. Покупка «Убрать рекламу» навсегда отключает баннер. Рекламу по желанию по-прежнему можно смотреть.",
+   "why": "«Убрать рекламу» убирает is a clumsy repetition. Meaning unchanged",
+   "severity": "style"
+  },
+  {
+   "key": "dm_more",
+   "old": "Уровней впереди: {n}",
+   "new": "Ещё {n} уровней ждут вас",
+   "why": "More inviting than a counter label, reads well with the next line «в полной версии». {n} is always 1195, so «уровней» is correct. Shorter than English",
+   "severity": "style"
+  }
+ ],
+ "glossary_changes": [
+  {
+   "term": "Close to the edge. Not over it.",
+   "old": "Ближе к краю. Но не за край.",
+   "new": "Ближе к краю. Но не через край.",
+   "why": "Idiom «через край» gives a real slogan with wordplay"
+  },
+  {
+   "term": "merge into a bigger one",
+   "old": "объединяются в 1 крупнее",
+   "new": "объединяются в более крупного",
+   "why": "Natural phrasing, used consistently on all merge texts"
+  }
+ ]
+}

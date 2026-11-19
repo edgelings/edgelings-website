@@ -1,0 +1,103 @@
+{
+ "verdict": "Accurate, complete and well registered translation with exact app UI names and precise legal texts. Main fixes: use the app's 월드 for tiers instead of 난이도, and render 'glossy' as 반짝이는 rather than the added 'squishy'.",
+ "changes": [
+  {
+   "key": "meta_index_title",
+   "old": "Edgelings: 슬라임을 테이블 끝까지 | iPhone, Android 무료",
+   "new": "Edgelings: 슬라임을 테이블 끝으로 튕기세요 | iPhone, Android 무료",
+   "why": "Title dropped the core verb 'flick' (튕기다 per glossary). Restores the action, still under 60 chars.",
+   "severity": "meaning"
+  },
+  {
+   "key": "meta_index_desc",
+   "old": "iPhone, iPad, Android용 무료 캐주얼 게임. 말랑한 슬라임을 테이블 위로 튕기세요. 끝에 가까이 멈출수록 점수가 올라가고, 떨어지면 0점이에요.",
+   "new": "iPhone, iPad, Android용 무료 캐주얼 게임. 반짝이는 슬라임을 테이블 위로 튕기세요. 끝에 가까이 멈출수록 점수가 올라가고, 떨어지면 0점이에요.",
+   "why": "'glossy' is a visual trait (반짝이는), 말랑한 means 'squishy' and adds a fact. Same fix in all 4 texts using glossy.",
+   "severity": "meaning"
+  },
+  {
+   "key": "meta_og_alt",
+   "old": "말랑한 슬라임 5마리가 있는 Edgelings 로고",
+   "new": "반짝이는 슬라임 5마리가 있는 Edgelings 로고",
+   "why": "Alt text describes the image: glossy = 반짝이는, not squishy.",
+   "severity": "meaning"
+  },
+  {
+   "key": "hero_lead",
+   "old": "말랑한 슬라임을 테이블 위로 튕기세요. 끝에 가까이 멈출수록 점수가 올라가요. 끝을 넘어가면 0점이에요.",
+   "new": "반짝이는 슬라임을 테이블 위로 튕기세요. 끝에 가까이 멈출수록 점수가 올라가요. 끝을 넘어가면 0점이에요.",
+   "why": "glossy = 반짝이는, consistent with other texts.",
+   "severity": "meaning"
+  },
+  {
+   "key": "faq_what_a",
+   "old": "Edgelings는 iPhone, iPad, Android용 캐주얼 모바일 게임이에요. 말랑한 슬라임을 테이블 위로 튕기는데, 슬라임이 반대편 끝에 가까이 멈출수록 점수가 높아져요. 끝을 넘어간 슬라임은 0점이에요.",
+   "new": "Edgelings는 iPhone, iPad, Android용 캐주얼 모바일 게임이에요. 반짝이는 슬라임을 테이블 위로 튕기는데, 슬라임이 반대편 끝에 가까이 멈출수록 점수가 높아져요. 끝을 넘어간 슬라임은 0점이에요.",
+   "why": "glossy = 반짝이는. FAQ is read by search and AI, keep the fact exact.",
+   "severity": "meaning"
+  },
+  {
+   "key": "shots_lead",
+   "old": "첫 번째 난이도를 넘겨 보세요.",
+   "new": "첫 번째 월드 화면을 넘겨 보세요.",
+   "why": "CONTEXT decision: tier = the app's word for the 6 stages, APP_GLOSSARY uses 월드. Also '난이도를 넘겨 보세요' reads as 'get past the first difficulty', not 'swipe through screenshots of it'.",
+   "severity": "term"
+  },
+  {
+   "key": "feat1_p",
+   "old": "쉬움부터 크레이지까지 6단계 난이도. 내 속도에 맞춰 올라가세요.",
+   "new": "쉬움부터 크레이지까지 6개 월드. 내 속도에 맞춰 올라가세요.",
+   "why": "tier = 월드 as in the app (APP_GLOSSARY).",
+   "severity": "term"
+  },
+  {
+   "key": "faq_levels_a",
+   "old": "6단계 난이도에 걸쳐 1,200개 레벨이 있어요. 난이도는 쉬움, 보통, 어려움, 매우 어려움, 극한, 크레이지예요. 난이도마다 꿀, 얼음, 모래, 트램펄린, 바람, 스페셜 슬라임 같은 새로운 장치가 추가돼요. 새 레벨은 앱 업데이트 없이 서버에서 추가돼요.",
+   "new": "6개 월드에 걸쳐 1,200개 레벨이 있어요. 월드는 쉬움, 보통, 어려움, 매우 어려움, 극한, 크레이지예요. 월드마다 꿀, 얼음, 모래, 트램펄린, 바람, 스페셜 슬라임 같은 새로운 장치가 추가돼요. 더 많은 레벨이 앱 업데이트 없이 서버를 통해 계속 추가돼요.",
+   "why": "tier = 월드 as in the app. 'More levels arrive' is about additional levels, '새 레벨은' plus a second identical '추가돼요' sentence read flat.",
+   "severity": "term"
+  },
+  {
+   "key": "press_content_v",
+   "old": "6단계 난이도의 1,200개 레벨, 오늘의 테이블, 주간 리그, 랭킹",
+   "new": "6개 월드의 1,200개 레벨, 오늘의 테이블, 주간 리그, 랭킹",
+   "why": "tier = 월드 as in the app.",
+   "severity": "term"
+  },
+  {
+   "key": "press_long3",
+   "old": "쉬움부터 크레이지까지 6단계 난이도에 걸쳐 1,200개 레벨이 있어요. 오늘의 테이블은 전 세계 모든 플레이어에게 같은 도전을 주고, 주간 리그에서는 플레이어들이 브론즈, 실버, 골드 사이를 오가요. 게임 전체를 오프라인으로 플레이할 수 있어요.",
+   "new": "쉬움부터 크레이지까지 6개 월드에 걸쳐 1,200개 레벨이 있어요. 오늘의 테이블은 전 세계 모든 플레이어에게 같은 도전을 주고, 주간 리그에서는 플레이어들이 브론즈, 실버, 골드 사이를 오가요. 게임 전체를 오프라인으로 플레이할 수 있어요.",
+   "why": "tier = 월드 as in the app.",
+   "severity": "term"
+  },
+  {
+   "key": "faq_ads_a",
+   "old": "네, 있어요. 메뉴 화면에 작은 배너가 나오지만 레벨 플레이 중에는 절대 나오지 않아요. 원하면 광고를 보고 슬라임이나 기회를 1번 더 얻을 수도 있어요. 광고 제거를 구매하면 배너가 영구히 사라져요. 직접 선택해서 보는 광고는 계속 이용할 수 있어요.",
+   "new": "네, 있어요. 메뉴 화면에 작은 배너가 나오지만 레벨 플레이 중에는 절대 나오지 않아요. 원하면 광고를 보고 슬라임 1마리나 기회 1번을 더 얻을 수도 있어요. 광고 제거를 구매하면 배너가 영구히 사라져요. 직접 선택해서 보는 광고는 계속 이용할 수 있어요.",
+   "why": "'슬라임이나 기회를 1번 더' counts the slime with 번 (wrong counter, slimes take 마리). Each reward gets its own counter.",
+   "severity": "grammar"
+  },
+  {
+   "key": "faq_daily_a",
+   "old": "매일 새로 나오는 테이블로, 전 세계 모든 플레이어에게 똑같아요. 기회는 하루 3번이고 가장 좋은 기록이 반영돼요. 구매한 도우미는 이곳에서 꺼지기 때문에 공정한 대결이 돼요.",
+   "new": "매일 새로 나오는 테이블로, 전 세계 모든 플레이어에게 똑같아요. 기회는 하루 3번이고 가장 좋은 기록이 반영돼요. 오늘의 테이블에서는 구매한 도우미가 꺼지기 때문에 공정한 대결이 돼요.",
+   "why": "'이곳에서' is vague on a web page (could read as 'on this site'). Name the mode explicitly.",
+   "severity": "style"
+  }
+ ],
+ "glossary_changes": [
+  {
+   "term": "tier (website)",
+   "old": "난이도 / N단계 난이도",
+   "new": "월드 / N개 월드",
+   "why": "CONTEXT decision: use the APP_GLOSSARY word for the 6 difficulty stages, which is 월드."
+  },
+  {
+   "term": "glossy (slimes)",
+   "old": "말랑한",
+   "new": "반짝이는",
+   "why": "glossy is a shine, not softness. 말랑한 adds a trait the English does not state."
+  }
+ ]
+}

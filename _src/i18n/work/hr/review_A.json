@@ -1,0 +1,95 @@
+{
+ "verdict": "Accurate, complete and consistent with the app: placeholders, HTML, numbers, plurals with real values and UI labels from app_terms.json are all correct, and \"Ultimate\" correctly follows app_terms (Ekstremno). A few precision and grammar fixes are needed, mainly the email subject quotes and word in sup_delete_mail, the verbless faq_data_a and some slightly off meanings (shots_lead, slimes_lead, cookie_p).",
+ "changes": [
+  {
+   "key": "meta_index_desc",
+   "old": "Besplatna casual igra za iPhone, iPad i Android. Gurnite sjajne sluziće preko stola. Što bliže rubu stanu, to više bodova. Preko ruba nema ništa.",
+   "new": "Besplatna casual igra za iPhone, iPad i Android. Gurnite sjajne sluziće preko stola. Što bliže rubu stanu, to više bodova. Preko ruba nema bodova.",
+   "why": "\"Preko ruba nema ništa\" is vague (\"there is nothing beyond the edge\"). English means it scores nothing.",
+   "severity": "meaning"
+  },
+  {
+   "key": "score_lead",
+   "old": "Povucite sluzića Mossy prema rubu. Bliže donosi više. Predaleko i pada.",
+   "new": "Povucite sluzića Mossy prema rubu. Bliže donosi više. Predaleko i padne.",
+   "why": "\"Predaleko i pada\" is ungrammatical aspect. Perfective \"padne\" reads naturally.",
+   "severity": "grammar"
+  },
+  {
+   "key": "shots_lead",
+   "old": "Prođite kroz prvi svijet.",
+   "new": "Listajte snimke prvog svijeta.",
+   "why": "\"Prođite kroz prvi svijet\" means play through the first world. English means swipe through the screenshots of it.",
+   "severity": "meaning"
+  },
+  {
+   "key": "slimes_lead",
+   "old": "Spojite 2 ista i otkrijte sljedećeg. Dodirnite sluzića da vam se javi.",
+   "new": "Spojite 2 ista i otkrijte sljedećeg. Dodirnite sluzića da vas pozdravi.",
+   "why": "\"say hello\" is a greeting. \"da vam se javi\" sounds like it will contact you.",
+   "severity": "meaning"
+  },
+  {
+   "key": "cookie_p",
+   "old": "Željeli bismo koristiti kolačiće kako bismo vidjeli na koji način posjetitelji koriste ovu stranicu, primjerice igranje demoa i klikove na trgovine. Ako odbijete, posjete brojimo samo anonimno i ništa se ne sprema na vaš uređaj.",
+   "new": "Željeli bismo koristiti kolačiće kako bismo vidjeli na koji način posjetitelji koriste ovu stranicu, primjerice igranje demoa i klikove na gumbe trgovina. Ako odbijete, posjete brojimo samo anonimno i ništa se ne sprema na vaš uređaj.",
+   "why": "Consent text precision: \"klikove na trgovine\" is unclear. These are clicks on the store buttons.",
+   "severity": "meaning"
+  },
+  {
+   "key": "faq_what_a",
+   "old": "Edgelings je casual igra za iPhone, iPad i Android. Gurate sjajne sluziće preko stola. Što bliže dalekom rubu sluzić stane, to više bodova donosi. Sluzić koji padne preko ruba ne donosi nijedan bod.",
+   "new": "Edgelings je casual igra za mobitele, za iPhone, iPad i Android. Gurate sjajne sluziće preko stola. Što bliže suprotnom rubu sluzić stane, to više bodova donosi. Sluzić koji padne preko ruba ne donosi nijedan bod.",
+   "why": "\"mobile\" was dropped. \"dalekom rubu\" is unidiomatic for the far edge of a table, \"suprotnom rubu\" is natural.",
+   "severity": "meaning"
+  },
+  {
+   "key": "press_long1",
+   "old": "Edgelings je casual igra o zaustavljanju u pravom trenutku. Sluzića povučete u praćki unatrag i pustite ga preko stola. Sluzić blizu dalekog ruba donosi do 3 puta više bodova. Sluzić koji padne preko ruba ne donosi nijedan bod.",
+   "new": "Edgelings je casual igra o zaustavljanju u pravom trenutku. Sluzića povučete u praćki unatrag i pustite ga preko stola. Sluzić blizu suprotnog ruba donosi do 3 puta više bodova. Sluzić koji padne preko ruba ne donosi nijedan bod.",
+   "why": "\"dalekog ruba\" is unidiomatic. Same fix as faq_what_a for consistency.",
+   "severity": "style"
+  },
+  {
+   "key": "faq_data_a",
+   "old": "Anonimni račun igrača, vaše ime igrača, napredak, rezultate i kupnje. Statistika i personalizirani oglasi rade samo ako to prihvatite. Podaci se pohranjuju u Europskoj uniji. Sve pojedinosti nalaze se u <a href=\"/privacy.html\">Pravilima privatnosti</a>.",
+   "new": "Edgelings prikuplja anonimni račun igrača, vaše ime igrača, napredak, rezultate i kupnje. Statistika i personalizirani oglasi rade samo ako to prihvatite. Podaci se pohranjuju u Europskoj uniji. Sve pojedinosti nalaze se u <a href=\"/privacy.html\">Pravilima privatnosti</a>.",
+   "why": "First sentence is a bare list in the accusative with no verb, ungrammatical as a stand-alone FAQ answer. Added the verb.",
+   "severity": "grammar"
+  },
+  {
+   "key": "sup_delete_mail",
+   "old": "<b>Bez igre:</b> ako igru više nemate instaliranu, pošaljite e-poruku na info@edgelings.com s naslovom \"Delete my Edgelings account\" i svojim imenom igrača. Račun brišemo u roku od 30 dana i to potvrđujemo e-poštom.",
+   "new": "<b>Bez igre:</b> ako igru više nemate instaliranu, pošaljite e-poruku na info@edgelings.com s predmetom „Delete my Edgelings account” i svojim imenom igrača. Račun brišemo u roku od 30 dana i to potvrđujemo e-poštom.",
+   "why": "Email subject in Croatian is \"predmet\", not \"naslov\". Decision requires the local quotes „…”, not straight quotes.",
+   "severity": "term"
+  },
+  {
+   "key": "press_meta",
+   "old": "Sve što vam treba za pisanje o igri Edgelings. Slobodno koristite za članke, recenzije i videe.",
+   "new": "Sve što vam treba za pisanje o igri Edgelings. Materijale slobodno koristite za članke, recenzije i videe.",
+   "why": "\"Slobodno koristite\" lacks an object, so it is unclear what may be used. Added \"Materijale\".",
+   "severity": "grammar"
+  }
+ ],
+ "glossary_changes": [
+  {
+   "term": "Ultimate (tier)",
+   "old": "APP_GLOSSARY.md: Ultimativno",
+   "new": "Ekstremno",
+   "why": "app_terms.json (the exact app text) says Ekstremno and the site uses it. Note it in GLOSSARY_WEB.md so the conflict with APP_GLOSSARY.md is not reverted."
+  },
+  {
+   "term": "email subject",
+   "old": "naslov",
+   "new": "predmet",
+   "why": "Standard Croatian email client term for the subject line."
+  },
+  {
+   "term": "far edge",
+   "old": "daleki rub",
+   "new": "suprotni rub",
+   "why": "Natural Croatian for the far edge of a table."
+  }
+ ]
+}

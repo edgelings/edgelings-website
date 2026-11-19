@@ -1,0 +1,103 @@
+{
+ "verdict": "Accurate, precise and well written translation that follows the app terms, Sie register and style rules almost everywhere. Main fix: 'tier' must be 'Welt' as in the app, plus a few grammar and precision points (slogan case, Mossy pronoun, phone progress sentence, ads wording).",
+ "changes": [
+  {
+   "key": "shots_lead",
+   "old": "Wischen Sie durch die erste Stufe.",
+   "new": "Wischen Sie durch die erste Welt.",
+   "why": "tier must match the app: APP_GLOSSARY uses Welt for the 6 difficulty stages (CONTEXT decision on tier)",
+   "severity": "term"
+  },
+  {
+   "key": "feat1_p",
+   "old": "6 Stufen, von Leicht bis Verrückt. Steigen Sie in Ihrem eigenen Tempo auf.",
+   "new": "6 Welten, von Leicht bis Verrückt. Steigen Sie in Ihrem eigenen Tempo auf.",
+   "why": "tier = Welt as in the app",
+   "severity": "term"
+  },
+  {
+   "key": "faq_levels_a",
+   "old": "1.200 Level in 6 Stufen: Leicht, Mittel, Schwer, Extra schwer, Ultimativ und Verrückt. Jede Stufe bringt neue Tricks, zum Beispiel Honig, Eis, Sand, Trampoline, Wind und Spezial-Slimes. Neue Level kommen vom Server, ganz ohne App-Update.",
+   "new": "1.200 Level in 6 Welten: Leicht, Mittel, Schwer, Extra schwer, Ultimativ und Verrückt. Jede Welt bringt neue Tricks, zum Beispiel Honig, Eis, Sand, Trampoline, Wind und Spezial-Slimes. Neue Level kommen vom Server, ganz ohne App-Update.",
+   "why": "tier = Welt as in the app, so players find the same word in game",
+   "severity": "term"
+  },
+  {
+   "key": "press_content_v",
+   "old": "1.200 Level in 6 Stufen, Tagestisch, wöchentliche Ligen, Ranglisten",
+   "new": "1.200 Level in 6 Welten, Tagestisch, wöchentliche Ligen, Ranglisten",
+   "why": "tier = Welt as in the app",
+   "severity": "term"
+  },
+  {
+   "key": "press_long3",
+   "old": "Es gibt 1.200 Level in 6 Stufen, von Leicht bis Verrückt. Ein Tagestisch stellt alle weltweit vor dieselbe Herausforderung, und in wöchentlichen Ligen geht es zwischen Bronze, Silber und Gold auf und ab. Das gesamte Spiel ist offline spielbar.",
+   "new": "Es gibt 1.200 Level in 6 Welten, von Leicht bis Verrückt. Ein Tagestisch stellt alle weltweit vor dieselbe Herausforderung, und in wöchentlichen Ligen geht es zwischen Bronze, Silber und Gold auf und ab. Das gesamte Spiel ist offline spielbar.",
+   "why": "tier = Welt as in the app",
+   "severity": "term"
+  },
+  {
+   "key": "hero_h1",
+   "old": "Nah an die Kante.<br>Nicht drüber.",
+   "new": "Bis an die Kante.<br>Nicht drüber.",
+   "why": "'nah an die Kante' mixes location and direction (standard: nah an der Kante / bis an die Kante). 'Bis an die Kante' is correct, punchy and states the game goal",
+   "severity": "grammar"
+  },
+  {
+   "key": "foot_tag1",
+   "old": "Nah an die Kante. Nicht drüber.",
+   "new": "Bis an die Kante. Nicht drüber.",
+   "why": "same slogan as hero_h1, keep identical",
+   "severity": "grammar"
+  },
+  {
+   "key": "score_lead",
+   "old": "Ziehen Sie Mossy Richtung Kante. Je näher, desto mehr Punkte. Zu weit, und es fällt.",
+   "new": "Ziehen Sie Mossy Richtung Kante. Je näher, desto mehr Punkte. Zu weit, und er fällt.",
+   "why": "Mossy is a Slime (der Slime), so 'er', not 'es'. Consistent with shot4_alt and mystery_p",
+   "severity": "grammar"
+  },
+  {
+   "key": "faq_phone_a",
+   "old": "Ihr Spielstand wird auf Ihrem Handy und auf unserem Server gespeichert. Die Anmeldung mit Google oder Apple kommt bald. Wer angemeldet ist, kann dann alles auf ein neues Handy mitnehmen: Name, Münzen, Level, Slimes, Skins und Käufe. Ohne Anmeldung beginnt ein neues Handy wieder von vorn.",
+   "new": "Ihr Spielstand wird auf Ihrem Handy und auf unserem Server gespeichert. Die Anmeldung mit Google oder Apple kommt bald. Wer angemeldet ist, kann dann alles auf ein neues Handy mitnehmen: Name, Münzen, Level, Slimes, Skins und Käufe. Ohne Anmeldung beginnt das Spiel auf einem neuen Handy wieder von vorn.",
+   "why": "'ein neues Handy beginnt von vorn' is illogical German. It is the game progress that starts over on the new phone",
+   "severity": "meaning"
+  },
+  {
+   "key": "faq_ads_a",
+   "old": "Ja. Auf den Menübildschirmen erscheint ein kleines Banner, aber nie während eines Levels. Sie können sich außerdem freiwillig ein Video ansehen, um einen Extra-Slime oder einen Extra-Versuch zu bekommen. „Werbung entfernen“ blendet das Banner dauerhaft aus. Freiwillige Werbevideos bleiben weiterhin verfügbar.",
+   "new": "Ja. Auf den Menübildschirmen erscheint ein kleines Banner, aber nie während eines Levels. Sie können sich außerdem freiwillig Werbung ansehen, um einen Extra-Slime oder einen Extra-Versuch zu bekommen. „Werbung entfernen“ blendet das Banner dauerhaft aus. Freiwillig angesehene Werbung bleibt weiterhin verfügbar.",
+   "why": "English says 'watch an ad', not 'a video'. Keep it precise and do not imply the format",
+   "severity": "meaning"
+  },
+  {
+   "key": "faq_data_a",
+   "old": "Ein anonymes Spielkonto, Ihren Spielernamen, Ihren Spielstand, Ihre Punktzahlen und Ihre Käufe. Statistiken und personalisierte Werbung laufen nur, wenn Sie zustimmen. Die Daten werden in der Europäischen Union gespeichert. Alle Details finden Sie in der <a href=\"/privacy.html\">Datenschutzerklärung</a>.",
+   "new": "Edgelings erhebt ein anonymes Spielkonto, Ihren Spielernamen, Ihren Spielstand, Ihre Punktzahlen und Ihre Käufe. Statistiken und personalisierte Werbung laufen nur, wenn Sie zustimmen. Die Daten werden in der Europäischen Union gespeichert. Alle Details finden Sie in der <a href=\"/privacy.html\">Datenschutzerklärung</a>.",
+   "why": "FAQ answers must be complete sentences that stand alone for search engines and AI assistants. The first sentence had no verb",
+   "severity": "style"
+  },
+  {
+   "key": "feat2_p",
+   "old": "Jeden Tag 1 neuer Tisch, für alle gleich. 3 Versuche. Schlagen Sie die Welt.",
+   "new": "Jeden Tag 1 neuer Tisch, für alle gleich. 3 Versuche. Messen Sie sich mit der ganzen Welt.",
+   "why": "'Schlagen Sie die Welt' is a calque. 'Messen Sie sich mit der ganzen Welt' is natural and keeps the competitive meaning",
+   "severity": "style"
+  }
+ ],
+ "glossary_changes": [
+  {
+   "term": "tier",
+   "old": "Stufe",
+   "new": "Welt",
+   "why": "APP_GLOSSARY uses Welt for the 6 difficulty stages, CONTEXT decision says the site must match"
+  },
+  {
+   "term": "Close to the edge. Not over it.",
+   "old": "Nah an die Kante. Nicht drüber.",
+   "new": "Bis an die Kante. Nicht drüber.",
+   "why": "grammatically correct directional phrase"
+  }
+ ]
+}

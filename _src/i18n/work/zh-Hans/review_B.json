@@ -1,0 +1,180 @@
+{
+ "verdict": "A clean, accurate translation with correct register, terms and punctuation that mostly reads naturally. The main slogan is too explanatory to work as a headline, and a handful of lines (sling action, King Plum name, footer labels, a {lang} spacing bug) need fixing.",
+ "changes": [
+  {
+   "key": "hero_h1",
+   "old": "贴着边缘停，<br>千万别掉下去。",
+   "new": "贴近边缘，<br>绝不越界。",
+   "why": "Current line is long and explanatory. A 4+4 parallel couplet is a real Chinese slogan, punchier and keeps both halves (close to the edge, not over it).",
+   "severity": "style"
+  },
+  {
+   "key": "foot_tag1",
+   "old": "贴着边缘停，千万别掉下去。",
+   "new": "贴近边缘，绝不越界。",
+   "why": "Same slogan as hero_h1, kept identical.",
+   "severity": "style"
+  },
+  {
+   "key": "suggest_text",
+   "old": "本页面也有 {lang} 版本。",
+   "new": "本页面也有{lang}版本。",
+   "why": "{lang} is a Chinese label here (简体中文), so per glossary no spaces around it. \"也有 简体中文 版本\" looks broken.",
+   "severity": "grammar"
+  },
+  {
+   "key": "foot_help",
+   "old": "帮助与法律",
+   "new": "帮助与法律信息",
+   "why": "\"帮助与法律\" reads as a literal fragment. 法律信息 is the usual footer heading.",
+   "severity": "style"
+  },
+  {
+   "key": "foot_privacy",
+   "old": "隐私",
+   "new": "隐私政策",
+   "why": "Bare 隐私 is not used as a link label on Chinese sites. Matches foot_privacy_en.",
+   "severity": "style"
+  },
+  {
+   "key": "foot_terms",
+   "old": "条款",
+   "new": "使用条款",
+   "why": "Bare 条款 is unclear. Matches foot_terms_en and sup_name_p.",
+   "severity": "style"
+  },
+  {
+   "key": "facts_label",
+   "old": "一览",
+   "new": "速览",
+   "why": "一览 alone sounds unfinished. 速览 is the natural label for an at-a-glance strip.",
+   "severity": "style"
+  },
+  {
+   "key": "step1",
+   "old": "把史莱姆拉回弹弓。",
+   "new": "把弹弓上的史莱姆往后拉。",
+   "why": "拉回弹弓 means pulling it back into the sling. The slime is already in the sling and is pulled back. Same fix advised in faq_how_a and press_long1.",
+   "severity": "meaning"
+  },
+  {
+   "key": "faq_how_a",
+   "old": "把史莱姆拉回弹弓，然后松手。瞄准边缘附近的金色区，那里的得分是 3 倍。2 只相同的史莱姆会合成 1 只更大的。达到目标分数后，可以选择收分，也可以冒险再弹 1 次，赢取 10% 的额外奖励。",
+   "new": "把弹弓上的史莱姆往后拉，然后松手。瞄准边缘附近的金色区，那里的得分是 3 倍。2 只相同的史莱姆会合成 1 只更大的。达到目标分数后，可以选择收分，也可以冒险再弹 1 次，赢取 10% 的额外奖励。",
+   "why": "Same sling fix as step1.",
+   "severity": "meaning"
+  },
+  {
+   "key": "press_long1",
+   "old": "Edgelings 是一款讲究“停得恰到好处”的休闲游戏。玩家把史莱姆拉回弹弓，再松手让它滑过桌面。停在远处桌边附近的史莱姆最多可获得 3 倍分数，掉出桌边的史莱姆得 0 分。",
+   "new": "Edgelings 是一款讲究“停得恰到好处”的休闲游戏。玩家把弹弓上的史莱姆往后拉，再松手让它滑过桌面。停在远处桌边附近的史莱姆最多可获得 3 倍分数，掉出桌边的史莱姆得 0 分。",
+   "why": "Same sling fix as step1.",
+   "severity": "meaning"
+  },
+  {
+   "key": "demo_end_p",
+   "old": "还有 1195 关、每日一桌和每周联赛，正在应用里等着您。",
+   "new": "还有 1195 关、每日一桌和每周联赛在应用里等着您。",
+   "why": "The comma before 正在 splits subject and verb, unnatural in Chinese.",
+   "severity": "grammar"
+  },
+  {
+   "key": "video_h2",
+   "old": "看看实际效果",
+   "new": "实机演示",
+   "why": "看看实际效果 sounds like a product review. 实机演示 is what Chinese game sites use for gameplay video sections.",
+   "severity": "style"
+  },
+  {
+   "key": "shot5",
+   "old": "合成国王",
+   "new": "合成 King Plum",
+   "why": "Slime names stay in English per context. 国王 invents a new name players will not find in the app.",
+   "severity": "term"
+  },
+  {
+   "key": "king_p",
+   "old": "2 只 Pomme，1 顶王冠。皇家合成。",
+   "new": "2 只 Pomme，1 顶王冠。王者合成。",
+   "why": "The app shouts 王者合成！ for this merge. Reuse it so site and app match.",
+   "severity": "term"
+  },
+  {
+   "key": "feat_lead",
+   "old": "上手很快，停在边缘很难。",
+   "new": "一学就会，停在边缘却很难。",
+   "why": "Current line loses the contrast punch. 一学就会 + 却 gives the tagline rhythm of the English.",
+   "severity": "style"
+  },
+  {
+   "key": "feat4_p",
+   "old": "2 只相同的史莱姆合成 1 只更大的。越大的史莱姆，得分越高。",
+   "new": "2 只相同的史莱姆合成 1 只更大的。更大的史莱姆得分高得多。",
+   "why": "\"far more\" was lost. 高得多 restores it.",
+   "severity": "meaning"
+  },
+  {
+   "key": "faq_free_a",
+   "old": "是的。Edgelings 可免费下载、免费游玩。游戏中有广告，并提供可选的购买项目，例如金币、新手礼包和“移除广告”。通关任何一关都无需购买任何东西。",
+   "new": "是的。Edgelings 可免费下载、免费游玩。游戏中有广告，并提供可选的购买项目，例如金币、新手礼包和“移除广告”。任何关卡都无需付费即可通关。",
+   "why": "\"通关任何一关都无需购买任何东西\" repeats 任何 and reads clumsy.",
+   "severity": "style"
+  },
+  {
+   "key": "faq_ads_a",
+   "old": "有。菜单界面会显示一个小横幅广告，关卡进行中绝不会出现。您也可以自愿观看广告，换取 1 只额外的史莱姆或 1 次额外机会。购买“移除广告”后，横幅广告将永久消失。自愿观看的奖励广告仍可照常观看。",
+   "new": "有。菜单界面会显示一个小横幅广告，关卡进行中绝不会出现。您也可以自愿观看广告，换取 1 只额外的史莱姆或 1 次额外机会。购买“移除广告”后，横幅广告将永久消失。您自愿选择观看的广告仍然可用。",
+   "why": "\"自愿观看的奖励广告仍可照常观看\" repeats 观看 and adds 奖励. Closer and smoother.",
+   "severity": "style"
+  },
+  {
+   "key": "faq_delete_a",
+   "old": "在游戏中打开“设置”，点击“删除我的账号”。如果无法打开游戏，请发送邮件至 info@edgelings.com 并附上您的玩家昵称。详见<a href=\"{base}/support.html#delete\">删除账号</a>。",
+   "new": "在游戏中打开“设置”，点击“删除我的账号”。如果没有安装游戏，请发送邮件至 info@edgelings.com 并附上您的玩家昵称。详见<a href=\"{base}/support.html#delete\">删除账号</a>。",
+   "why": "\"Without the game\" means not installed (see sup_delete_mail), not unable to open it.",
+   "severity": "meaning"
+  },
+  {
+   "key": "sup_delete_mail",
+   "old": "<b>不通过游戏：</b>如果您已卸载游戏，请发送邮件至 info@edgelings.com，邮件主题写“Delete my Edgelings account”，并附上您的玩家昵称。我们会在 30 天内删除账号，并通过邮件确认。",
+   "new": "<b>在游戏外：</b>如果您已卸载游戏，请发送邮件至 info@edgelings.com，邮件主题写“Delete my Edgelings account”，并附上您的玩家昵称。我们会在 30 天内删除账号，并通过邮件确认。",
+   "why": "不通过游戏 is translationese. 在游戏外 pairs with 在游戏中 in sup_delete_game.",
+   "severity": "style"
+  },
+  {
+   "key": "sup_meta",
+   "old": "有问题、发现 Bug 或要举报玩家昵称？请给我们发邮件。我们使用英文回复。",
+   "new": "有问题、发现 Bug 或要举报玩家昵称？请给我们发邮件。我们会用英文回复。",
+   "why": "使用英文回复 is stiff. 会用英文回复 is the natural support phrasing.",
+   "severity": "style"
+  },
+  {
+   "key": "dm_first",
+   "old": "玩前 {n} 关",
+   "new": "试玩前 {n} 关",
+   "why": "玩前 {n} 关 reads abrupt. 试玩 matches dm_demo.",
+   "severity": "style"
+  },
+  {
+   "key": "dm_level",
+   "old": "玩第 {n} 关",
+   "new": "开始第 {n} 关",
+   "why": "The app's Play button is 开始. Also more natural than 玩第 {n} 关.",
+   "severity": "term"
+  }
+ ],
+ "glossary_changes": [
+  {
+   "term": "Close to the edge. Not over it.",
+   "old": "贴着边缘停，千万别掉下去。",
+   "new": "贴近边缘，绝不越界。",
+   "why": "Real 4+4 slogan, shorter and punchier."
+  },
+  {
+   "term": "Video section heading (See it in action)",
+   "old": "看看实际效果",
+   "new": "实机演示",
+   "why": "Standard term on Chinese game sites."
+  }
+ ]
+}

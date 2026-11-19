@@ -1,0 +1,83 @@
+{
+ "verdict": "Strong, natural Spanish of Spain with consistent usted register, correct app terms and punchy slogans that work. Only 2 meaning fixes are essential (the English email subject decision and the Mossy alt text), the rest is polish.",
+ "changes": [
+  {
+   "key": "sup_delete_mail",
+   "old": "<b>Sin el juego:</b> si ya no tiene el juego instalado, escriba a info@edgelings.com con el asunto \"Eliminar mi cuenta de Edgelings\" e indique su nombre de jugador. Eliminamos la cuenta en un plazo de 30 días y se lo confirmamos por correo electrónico.",
+   "new": "<b>Sin el juego:</b> si ya no tiene el juego instalado, escriba a info@edgelings.com con el asunto «Delete my Edgelings account» e indique su nombre de jugador. Eliminamos la cuenta en un plazo de 30 días y se lo confirmamos por correo electrónico.",
+   "why": "Project decision: the subject stays in English exactly, inside Spanish quotes, so English-speaking support recognises it.",
+   "severity": "meaning"
+  },
+  {
+   "key": "score_blob_alt",
+   "old": "Mossy, arrástreme hacia el borde",
+   "new": "Soy Mossy: arrástreme hacia el borde",
+   "why": "In Spanish the comma makes Mossy the one being addressed (asking Mossy to drag the reader). The slime is the speaker.",
+   "severity": "meaning"
+  },
+  {
+   "key": "faq_what_a",
+   "old": "Edgelings es un juego casual para móviles iPhone, iPad y Android. Se lanzan slimes brillantes por una mesa. Cuanto más cerca del borde del fondo se para un slime, más puntos consigue. Un slime que cae por el borde no suma nada.",
+   "new": "Edgelings es un juego casual para iPhone, iPad y Android. Se lanzan slimes brillantes por una mesa. Cuanto más cerca del borde del fondo se pare un slime, más puntos consigue. Un slime que cae por el borde no suma nada.",
+   "why": "iPad is not a 'móvil'. 'Cuanto más... se pare' needs the subjunctive to sound natural.",
+   "severity": "grammar"
+  },
+  {
+   "key": "faq_restore_a",
+   "old": "Consulta a Apple o Google qué compras permanentes tiene su cuenta de la tienda, como Quitar anuncios, y las vuelve a activar. Las monedas y otros artículos que se gastan no se recuperan de esta forma. Para conservarlos, inicie sesión.",
+   "new": "Consulta a Apple o Google qué compras permanentes tiene su cuenta de la tienda, como Quitar anuncios, y las vuelve a activar. Las monedas y otros artículos que se gastan no se recuperan de esta forma. Esos se conservan al iniciar sesión.",
+   "why": "English states a fact, not an instruction. Sign-in is not live yet (faq_phone_a), so telling the reader to sign in now is misleading.",
+   "severity": "meaning"
+  },
+  {
+   "key": "badge_ios_pre",
+   "old": "Descárgalo en el",
+   "new": "Descargar en el",
+   "why": "Apple's current Spanish badge reads 'Descargar en el App Store'. Also avoids the tuteo of 'Descárgalo', which breaks the usted register of the site.",
+   "severity": "style"
+  },
+  {
+   "key": "score_msg1",
+   "old": "Seguro, pero pocos puntos. Llévelo más lejos.",
+   "new": "A salvo, pero con pocos puntos. Llévelo más lejos.",
+   "why": "'Seguro' at the start reads as 'surely'. 'A salvo' is unambiguous and sounds like game copy.",
+   "severity": "style"
+  },
+  {
+   "key": "loop_ice_p",
+   "old": "Resbala. Tire con más suavidad.",
+   "new": "Resbaladizo. Tire con más suavidad.",
+   "why": "Parallel with 'Pegajosa' in loop_honey_p (adjective describing the surface). 'Resbala' alone sounds flat.",
+   "severity": "style"
+  },
+  {
+   "key": "step2",
+   "old": "Suelte y mire cómo se desliza.",
+   "new": "Suéltelo y vea cómo se desliza.",
+   "why": "More natural with the object pronoun, and 'vea' reads better than 'mire' here.",
+   "severity": "style"
+  },
+  {
+   "key": "faq_who_q",
+   "old": "¿Quién crea Edgelings?",
+   "new": "¿Quién está detrás de Edgelings?",
+   "why": "'¿Quién crea Edgelings?' sounds translated. This is the idiomatic question in Spain for 'who makes it'.",
+   "severity": "style"
+  },
+  {
+   "key": "sup_refund_p",
+   "old": "Las compras se hacen a través de Apple o Google, así que los reembolsos también. En iPhone y iPad, vaya a reportaproblem.apple.com. En Android, abra Google Play y luego Pagos y suscripciones, y después Presupuesto e historial.",
+   "new": "Las compras se hacen a través de Apple o Google, así que los reembolsos también. En iPhone y iPad, vaya a reportaproblem.apple.com. En Android, abra Google Play, entre en Pagos y suscripciones y luego en Presupuesto e historial.",
+   "why": "'y luego..., y después' chain is clumsy. Same menu names, smoother path.",
+   "severity": "style"
+  }
+ ],
+ "glossary_changes": [
+  {
+   "term": "Download on the (App Store)",
+   "old": "Descárgalo en el",
+   "new": "Descargar en el",
+   "why": "Matches Apple's current Spanish badge and keeps the usted register."
+  }
+ ]
+}

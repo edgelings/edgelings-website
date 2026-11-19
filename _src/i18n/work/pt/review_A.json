@@ -1,0 +1,97 @@
+{
+ "verdict": "Accurate, idiomatic European Portuguese with correct formal register and app terms throughout. Fix the English email subject in sup_delete_mail, the restore and daily table precision points, and the vague 'não conta nada' before release.",
+ "changes": [
+  {
+   "key": "sup_delete_mail",
+   "old": "<b>Sem o jogo:</b> se já não tiver o jogo instalado, envie um email para info@edgelings.com com o assunto \"Eliminar a minha conta Edgelings\" e o seu nome de jogador. Eliminamos a conta no prazo de 30 dias e confirmamos por email.",
+   "new": "<b>Sem o jogo:</b> se já não tiver o jogo instalado, envie um email para info@edgelings.com com o assunto «Delete my Edgelings account» e o seu nome de jogador. Eliminamos a conta no prazo de 30 dias e confirmamos por email.",
+   "why": "Decision: subject stays in English exactly, in PT quotes, so English support recognises it",
+   "severity": "meaning"
+  },
+  {
+   "key": "faq_restore_a",
+   "old": "Pergunta à Apple ou à Google que compras permanentes tem a sua conta da loja, como Remover anúncios, e volta a ativá-las. As moedas e outros itens já gastos não são restaurados desta forma. Para os manter, inicie sessão.",
+   "new": "Pergunta à Apple ou à Google que compras permanentes tem a sua conta da loja, como Remover anúncios, e volta a ativá-las. As moedas e outros itens já gastos não são restaurados desta forma. O início de sessão mantém-nos.",
+   "why": "EN states a fact, not an instruction. Sign in is not available yet (faq_phone_a), so the imperative would mislead",
+   "severity": "meaning"
+  },
+  {
+   "key": "faq_daily_a",
+   "old": "Uma mesa nova todos os dias, igual para todos os jogadores do mundo. Tem 3 tentativas por dia e conta a sua melhor pontuação. As ajudas compradas ficam desligadas, para que a competição seja justa.",
+   "new": "Uma mesa nova todos os dias, igual para todos os jogadores do mundo. Tem 3 tentativas por dia e conta a sua melhor pontuação. Nesta mesa, as ajudas compradas ficam desligadas, para que a competição seja justa.",
+   "why": "'there' lost: helpers are off only on the daily table, not everywhere",
+   "severity": "meaning"
+  },
+  {
+   "key": "faq_what_a",
+   "old": "O Edgelings é um jogo casual para telemóvel, disponível para iPhone, iPad e Android. Lança slimes brilhantes por uma mesa. Quanto mais perto da borda do fundo um slime para, mais pontos faz. Um slime que cai da borda não conta nada.",
+   "new": "O Edgelings é um jogo casual para telemóvel, disponível para iPhone, iPad e Android. Basta lançar slimes brilhantes por uma mesa. Quanto mais perto da borda do fundo um slime para, mais pontos faz. Um slime que cai da borda não faz pontos.",
+   "why": "Subjectless 'Lança' reads as 'it/he throws'. 'não conta nada' is vague for 'scores nothing'",
+   "severity": "grammar"
+  },
+  {
+   "key": "press_long1",
+   "old": "O Edgelings é um jogo casual sobre parar exatamente no momento certo. Puxa-se um slime para trás numa fisga e larga-se pela mesa. Um slime perto da borda do fundo faz até 3 vezes os pontos. Um slime que cai da borda não conta nada.",
+   "new": "O Edgelings é um jogo casual sobre parar exatamente no momento certo. Puxa-se um slime para trás numa fisga e larga-se pela mesa. Um slime perto da borda do fundo faz até 3 vezes os pontos. Um slime que cai da borda não faz pontos.",
+   "why": "'scores nothing' = 'não faz pontos', consistent with 'faz pontos' in the same text",
+   "severity": "meaning"
+  },
+  {
+   "key": "hero_lead",
+   "old": "Lance slimes brilhantes pela mesa. Quanto mais perto da borda param, mais pontos fazem. Borda fora, não contam nada.",
+   "new": "Lance slimes brilhantes pela mesa. Quanto mais perto da borda param, mais pontos fazem. Borda fora, não fazem pontos.",
+   "why": "'não contam nada' is vague. Match 'fazem pontos' of the previous sentence",
+   "severity": "meaning"
+  },
+  {
+   "key": "score_msg0",
+   "old": "Borda fora. Não conta nada.",
+   "new": "Borda fora. Não faz pontos.",
+   "why": "'Não conta nada' is vague for 'scores nothing'. Same wording as the other texts",
+   "severity": "meaning"
+  },
+  {
+   "key": "feat2_p",
+   "old": "1 mesa nova por dia, igual para todos. 3 tentativas. Desafie o mundo.",
+   "new": "1 mesa nova por dia, igual para todos. 3 tentativas. Vença toda a gente.",
+   "why": "'Beat' is win, not challenge. 'o mundo' also clashes with 'mundo' = tier on the same page",
+   "severity": "term"
+  },
+  {
+   "key": "foot_help",
+   "old": "Ajuda e legal",
+   "new": "Ajuda e informação legal",
+   "why": "'legal' alone is not a noun in PT (and reads as Brazilian 'cool'). 24 chars, within the limit",
+   "severity": "grammar"
+  },
+  {
+   "key": "score_lead",
+   "old": "Arraste o Mossy em direção à borda. Mais perto vale mais. Longe demais, e cai.",
+   "new": "Arraste o Mossy em direção à borda. Mais perto vale mais. Longe demais e cai.",
+   "why": "No comma before 'e' here",
+   "severity": "grammar"
+  },
+  {
+   "key": "sunny_p",
+   "old": "Cornos pequenos, sorriso enorme. Adora a zona dourada.",
+   "new": "Corninhos, sorriso enorme. Adora a zona dourada.",
+   "why": "'Cornos' has a vulgar double meaning in PT. Diminutive keeps the cute tone",
+   "severity": "style"
+  },
+  {
+   "key": "mossy_p",
+   "old": "Calmo e certinho. Nasce de 2 Blips.",
+   "new": "Calmo e firme. Nasce de 2 Blips.",
+   "why": "'certinho' is colloquial and closer to 'neat/proper' than 'steady'",
+   "severity": "style"
+  }
+ ],
+ "glossary_changes": [
+  {
+   "term": "scores nothing",
+   "old": "não conta nada",
+   "new": "não faz pontos",
+   "why": "Precise and consistent with 'faz pontos' used for scoring elsewhere"
+  }
+ ]
+}

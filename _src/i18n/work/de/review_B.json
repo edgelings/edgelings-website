@@ -1,0 +1,152 @@
+{
+ "verdict": "Strong, natural German with the correct Sie register, good slogans and clean placeholders. Main fix is 'tier', which must be 'Welt' as in the app, plus a few stiff or literal lines.",
+ "changes": [
+  {
+   "key": "shots_lead",
+   "old": "Wischen Sie durch die erste Stufe.",
+   "new": "Wischen Sie durch die erste Welt.",
+   "why": "App calls the 6 difficulty stages Welt (APP_GLOSSARY world), tier must match the app",
+   "severity": "term"
+  },
+  {
+   "key": "feat1_p",
+   "old": "6 Stufen, von Leicht bis Verrückt. Steigen Sie in Ihrem eigenen Tempo auf.",
+   "new": "6 Welten, von Leicht bis Verrückt. Steigen Sie in Ihrem eigenen Tempo auf.",
+   "why": "tier = Welt as in the app",
+   "severity": "term"
+  },
+  {
+   "key": "faq_levels_a",
+   "old": "1.200 Level in 6 Stufen: Leicht, Mittel, Schwer, Extra schwer, Ultimativ und Verrückt. Jede Stufe bringt neue Tricks, zum Beispiel Honig, Eis, Sand, Trampoline, Wind und Spezial-Slimes. Neue Level kommen vom Server, ganz ohne App-Update.",
+   "new": "1.200 Level in 6 Welten: Leicht, Mittel, Schwer, Extra schwer, Ultimativ und Verrückt. Jede Welt bringt neue Tricks, zum Beispiel Honig, Eis, Sand, Trampoline, Wind und Spezial-Slimes. Weitere Level kommen vom Server, ganz ohne App-Update.",
+   "why": "tier = Welt as in the app, 'More levels' = Weitere (more precise than Neue)",
+   "severity": "term"
+  },
+  {
+   "key": "press_content_v",
+   "old": "1.200 Level in 6 Stufen, Tagestisch, wöchentliche Ligen, Ranglisten",
+   "new": "1.200 Level in 6 Welten, Tagestisch, wöchentliche Ligen, Ranglisten",
+   "why": "tier = Welt as in the app",
+   "severity": "term"
+  },
+  {
+   "key": "press_long3",
+   "old": "Es gibt 1.200 Level in 6 Stufen, von Leicht bis Verrückt. Ein Tagestisch stellt alle weltweit vor dieselbe Herausforderung, und in wöchentlichen Ligen geht es zwischen Bronze, Silber und Gold auf und ab. Das gesamte Spiel ist offline spielbar.",
+   "new": "Es gibt 1.200 Level in 6 Welten, von Leicht bis Verrückt. Ein Tagestisch stellt alle weltweit vor dieselbe Herausforderung, und in wöchentlichen Ligen geht es zwischen Bronze, Silber und Gold auf und ab. Das gesamte Spiel ist offline spielbar.",
+   "why": "tier = Welt as in the app",
+   "severity": "term"
+  },
+  {
+   "key": "score_lead",
+   "old": "Ziehen Sie Mossy Richtung Kante. Je näher, desto mehr Punkte. Zu weit, und es fällt.",
+   "new": "Ziehen Sie Mossy Richtung Kante. Je näher, desto mehr Punkte. Zu weit, und er fällt.",
+   "why": "der Slime is masculine, elsewhere slimes are 'er' (mystery_p, shot4_alt)",
+   "severity": "grammar"
+  },
+  {
+   "key": "home_aria",
+   "old": "Edgelings Startseite",
+   "new": "Edgelings-Startseite",
+   "why": "German compound needs a hyphen",
+   "severity": "grammar"
+  },
+  {
+   "key": "score_msg0",
+   "old": "Über die Kante. Das gibt null Punkte.",
+   "new": "Über die Kante. Das gibt 0 Punkte.",
+   "why": "digits for numbers, matches meta_index_desc '0 Punkte'",
+   "severity": "style"
+  },
+  {
+   "key": "feat_lead",
+   "old": "Schnell gelernt. Schwer, an der Kante aufzuhören.",
+   "new": "Schnell gelernt. An der Kante schwer zu stoppen.",
+   "why": "more slogan-like and fluent, keeps the double meaning (stop the slime, stop playing)",
+   "severity": "style"
+  },
+  {
+   "key": "feat3_p",
+   "old": "Von Bronze über Silber bis Gold. Neue Woche, neue Chance.",
+   "new": "Steigen Sie von Bronze über Silber bis Gold auf. Neue Woche, neue Chance.",
+   "why": "'Climb' was lost, the verb gives the line its drive",
+   "severity": "style"
+  },
+  {
+   "key": "slimes_h2",
+   "old": "Die Slimes",
+   "new": "Das sind die Slimes",
+   "why": "'Die Slimes' is a flat label, 'Meet the slimes' is an introduction",
+   "severity": "style"
+  },
+  {
+   "key": "slimes_lead",
+   "old": "Verschmelzen Sie 2 gleiche, um den nächsten zu entdecken. Tippen Sie auf einen Slime, um Hallo zu sagen.",
+   "new": "Verschmelzen Sie 2 gleiche Slimes, um den nächsten zu entdecken. Tippen Sie einen Slime an und sagen Sie Hallo.",
+   "why": "'2 gleiche' without noun reads clipped, second sentence less stiff",
+   "severity": "style"
+  },
+  {
+   "key": "loop_merge_p",
+   "old": "2 gleiche werden zu einem größeren.",
+   "new": "Aus 2 gleichen wird ein größerer.",
+   "why": "more idiomatic than 'werden zu einem größeren'",
+   "severity": "style"
+  },
+  {
+   "key": "feat4_p",
+   "old": "2 gleiche werden zu einem größeren Slime. Größere Slimes bringen viel mehr Punkte.",
+   "new": "Aus 2 gleichen wird ein größerer Slime. Größere Slimes bringen viel mehr Punkte.",
+   "why": "more idiomatic, consistent with loop_merge_p",
+   "severity": "style"
+  },
+  {
+   "key": "sparkler_p",
+   "old": "Explodiert bei der ersten Berührung. Vorsicht damit.",
+   "new": "Explodiert bei der ersten Berührung. Mit Vorsicht zu genießen.",
+   "why": "'Vorsicht damit' sounds clipped, idiom fits 'Handle with care'",
+   "severity": "style"
+  },
+  {
+   "key": "mystery_p",
+   "old": "Zeigt erst, was er ist, wenn er stoppt.",
+   "new": "Zeigt erst beim Stoppen, was in ihm steckt.",
+   "why": "smoother, avoids er/er repetition",
+   "severity": "style"
+  },
+  {
+   "key": "faq_phone_a",
+   "old": "Ihr Spielstand wird auf Ihrem Handy und auf unserem Server gespeichert. Die Anmeldung mit Google oder Apple kommt bald. Wer angemeldet ist, kann dann alles auf ein neues Handy mitnehmen: Name, Münzen, Level, Slimes, Skins und Käufe. Ohne Anmeldung beginnt ein neues Handy wieder von vorn.",
+   "new": "Ihr Spielstand wird auf Ihrem Handy und auf unserem Server gespeichert. Die Anmeldung mit Google oder Apple kommt bald. Wer angemeldet ist, kann dann alles auf ein neues Handy mitnehmen: Name, Münzen, Level, Slimes, Skins und Käufe. Ohne Anmeldung fängt das Spiel auf einem neuen Handy wieder von vorn an.",
+   "why": "'ein neues Handy beginnt von vorn' is a literal calque, the game starts over",
+   "severity": "style"
+  },
+  {
+   "key": "score_h2",
+   "old": "So funktioniert die Wertung",
+   "new": "So gibt es Punkte",
+   "why": "livelier heading than the dry 'Wertung'",
+   "severity": "style"
+  },
+  {
+   "key": "meta_index_title",
+   "old": "Edgelings: Slimes an die Kante | Gratis für iPhone und Android",
+   "new": "Edgelings: Slimes an die Kante | Kostenlos für iPhone und Android",
+   "why": "German searchers type 'kostenlos' far more than 'gratis', 65 chars",
+   "severity": "style"
+  }
+ ],
+ "glossary_changes": [
+  {
+   "term": "tier",
+   "old": "Stufe",
+   "new": "Welt",
+   "why": "CONTEXT_WEB decision: use the app word for the 6 difficulty stages, APP_GLOSSARY has world = Welt"
+  },
+  {
+   "term": "Quick to learn. Hard to stop at the edge.",
+   "old": "Schnell gelernt. Schwer, an der Kante aufzuhören.",
+   "new": "Schnell gelernt. An der Kante schwer zu stoppen.",
+   "why": "more fluent slogan, double meaning kept"
+  }
+ ]
+}

@@ -1,0 +1,124 @@
+{
+ "verdict": "Accurate, complete and well localised translation with correct app UI labels, placeholders and HTML. The main fix is replacing ティア with the app's ワールド for tiers (5 texts), plus a few precision and grammar touches.",
+ "changes": [
+  {
+   "key": "shots_lead",
+   "old": "最初のティアをスワイプでチェック。",
+   "new": "最初のワールドをスワイプでチェック。",
+   "why": "Decision after round 1: \"tier\" must use the APP_GLOSSARY word for the 6 difficulty stages, which is ワールド, not ティア.",
+   "severity": "term"
+  },
+  {
+   "key": "feat1_p",
+   "old": "「かんたん」から「クレイジー」まで6つのティア。自分のペースで進めます。",
+   "new": "「かんたん」から「クレイジー」まで6つのワールド。自分のペースで進めます。",
+   "why": "Decision after round 1: \"tier\" must use the APP_GLOSSARY word for the 6 difficulty stages, which is ワールド, not ティア.",
+   "severity": "term"
+  },
+  {
+   "key": "faq_levels_a",
+   "old": "「かんたん」「ふつう」「むずかしい」「激ムズ」「究極」「クレイジー」の6つのティアに、全部で1,200レベルあります。ティアが進むごとに、ハチミツ、氷、砂、トランポリン、風、スペシャルスライムなどの新しいしかけが登場します。新しいレベルはアプリを更新しなくても、サーバーから追加されます。",
+   "new": "「かんたん」「ふつう」「むずかしい」「激ムズ」「究極」「クレイジー」の6つのワールドに、全部で1,200レベルあります。ワールドが進むごとに、ハチミツ、氷、砂、トランポリン、風、スペシャルスライムなどの新しいしかけが登場します。新しいレベルはアプリを更新しなくても、サーバーから追加されます。",
+   "why": "Decision after round 1: \"tier\" must use the APP_GLOSSARY word for the 6 difficulty stages, which is ワールド, not ティア.",
+   "severity": "term"
+  },
+  {
+   "key": "press_content_v",
+   "old": "6つのティアに1,200レベル、デイリーテーブル、ウィークリーリーグ、ランキング",
+   "new": "6つのワールドに1,200レベル、デイリーテーブル、ウィークリーリーグ、ランキング",
+   "why": "Decision after round 1: \"tier\" must use the APP_GLOSSARY word for the 6 difficulty stages, which is ワールド, not ティア.",
+   "severity": "term"
+  },
+  {
+   "key": "press_long3",
+   "old": "「かんたん」から「クレイジー」まで、6つのティアに1,200レベルを収録。デイリーテーブルでは世界中のプレイヤーが同じ課題に挑み、ウィークリーリーグではプレイヤーがブロンズ、シルバー、ゴールドの間を昇格・降格します。ゲームはすべてオフラインで遊べます。",
+   "new": "「かんたん」から「クレイジー」まで、6つのワールドに1,200レベルを収録。デイリーテーブルでは世界中のプレイヤーが同じ課題に挑み、ウィークリーリーグではプレイヤーがブロンズ、シルバー、ゴールドの間を昇格・降格します。ゲームはすべてオフラインで遊べます。",
+   "why": "Decision after round 1: \"tier\" must use the APP_GLOSSARY word for the 6 difficulty stages, which is ワールド, not ティア.",
+   "severity": "term"
+  },
+  {
+   "key": "score_msg2",
+   "old": "いい感じ。ポイント2倍です。",
+   "new": "ふちに近づいてきました。ポイント2倍です。",
+   "why": "\"Getting closer\" was lost. いい感じ only says \"nice\".",
+   "severity": "meaning"
+  },
+  {
+   "key": "faq_ads_a",
+   "old": "はい、あります。メニュー画面に小さなバナーが表示されますが、レベルのプレイ中には表示されません。また、広告を見てスライムや挑戦を1回追加することもできます。「広告を削除」を購入すると、バナーは永久に消えます。自分で選んで見る広告は、購入後も引き続き利用できます。",
+   "new": "はい、あります。メニュー画面に小さなバナーが表示されますが、レベルのプレイ中には表示されません。また、広告を見て、スライムを1匹追加したり、挑戦を1回増やしたりすることもできます。「広告を削除」を購入すると、バナーは永久に消えます。自分で選んで見る広告は、購入後も引き続き利用できます。",
+   "why": "\"スライムや挑戦を1回追加\" is ambiguous and ungrammatical for 2 separate rewards (an extra slime or an extra try). Split clearly.",
+   "severity": "grammar"
+  },
+  {
+   "key": "faq_daily_a",
+   "old": "毎日新しく登場するテーブルで、世界中のすべてのプレイヤーが同じテーブルに挑みます。挑戦は1日3回で、ベストスコアが記録されます。購入したお助けアイテムは使えないので、公平な勝負になります。",
+   "new": "毎日新しく登場するテーブルで、世界中のすべてのプレイヤーが同じテーブルに挑みます。挑戦は1日3回で、ベストスコアが採用されます。購入したお助けアイテムは使えないので、公平な勝負になります。",
+   "why": "\"your best score counts\" means it is the score used for the result. 記録されます only says it is saved. 採用されます is precise.",
+   "severity": "meaning"
+  },
+  {
+   "key": "step4",
+   "old": "スコアをキープするか、ボーナスを狙ってもう1ショットにチャレンジ。",
+   "new": "スコアをキープするか、ボーナスをねらってもう1ショットにチャレンジ。",
+   "why": "The app writes ねらう in hiragana (ねらいガイド, ねらい線) and the site uses ねらえ / ねらいましょう elsewhere. Keep one spelling.",
+   "severity": "term"
+  },
+  {
+   "key": "faq_how_a",
+   "old": "スライムをスリングで引っぱって、指を離します。ふちの近くにあるゴールドゾーンをねらいましょう。ここで止まるとポイントが3倍になります。同じ種類のスライム2匹は合体して、もっと大きなスライムになります。目標に届いたら、ポイントをキープするか、10%のボーナスを狙ってもう1ショットにチャレンジするかを選べます。",
+   "new": "スライムをスリングで引っぱって、指を離します。ふちの近くにあるゴールドゾーンをねらいましょう。ここで止まるとポイントが3倍になります。同じ種類のスライム2匹は合体して、もっと大きなスライムになります。目標に届いたら、ポイントをキープするか、10%のボーナスをねらってもう1ショットにチャレンジするかを選べます。",
+   "why": "Same spelling fix: 狙って to ねらって, consistent with the app and the rest of the site.",
+   "severity": "term"
+  },
+  {
+   "key": "demo_end_p",
+   "old": "アプリでは、残り1,195レベルにデイリーテーブル、ウィークリーリーグが待っています。",
+   "new": "アプリでは、残り1,195レベル、デイリーテーブル、ウィークリーリーグが待っています。",
+   "why": "Mixed list markers (に then 、) read as a grammar slip. Use one list form.",
+   "severity": "grammar"
+  },
+  {
+   "key": "cookie_p",
+   "old": "このサイトがどのように使われているか（デモのプレイやストアへのクリックなど）を知るために、Cookieを使用させてください。同意しない場合は、あなたの端末に何も保存せず、訪問数を匿名でカウントするだけです。",
+   "new": "訪問者がこのサイトをどのように利用しているか（デモのプレイやストアへのリンクのクリックなど）を知るために、Cookieを使用させてください。同意しない場合は、あなたの端末に何も保存せず、訪問数を匿名でカウントするだけです。",
+   "why": "ストアへのクリック is not grammatical Japanese (one clicks a link, not \"to the store\"). Also restores \"visitors\" from the English for precision.",
+   "severity": "grammar"
+  },
+  {
+   "key": "cookie_h",
+   "old": "Cookieの利用について",
+   "new": "Cookieの利用はお選びいただけます",
+   "why": "\"your choice\" was dropped. The heading should say the visitor decides.",
+   "severity": "meaning"
+  },
+  {
+   "key": "foot_help",
+   "old": "ヘルプと規約",
+   "new": "ヘルプと法的情報",
+   "why": "\"legal\" covers the Privacy Policy as well as the Terms. 規約 alone narrows it to terms.",
+   "severity": "meaning"
+  },
+  {
+   "key": "faq_delete_a",
+   "old": "ゲーム内で「設定」を開き、「アカウントを削除」をタップしてください。ゲームがない場合は、プレイヤー名を添えてinfo@edgelings.comまでメールでご連絡ください。詳しくは<a href=\"{base}/support.html#delete\">アカウントの削除</a>をご覧ください。",
+   "new": "ゲーム内で「設定」を開き、「アカウントを削除」をタップしてください。ゲームが手元にない場合は、プレイヤー名を添えてinfo@edgelings.comまでメールでご連絡ください。詳しくは<a href=\"{base}/support.html#delete\">アカウントの削除</a>をご覧ください。",
+   "why": "ゲームがない場合 is unclear (sounds like the game does not exist). 手元にない is the natural, precise wording.",
+   "severity": "grammar"
+  }
+ ],
+ "glossary_changes": [
+  {
+   "term": "tier",
+   "old": "ティア",
+   "new": "ワールド",
+   "why": "Round 1 decision: use the APP_GLOSSARY word for the 6 difficulty stages so the site matches the app."
+  },
+  {
+   "term": "aim (ねらう)",
+   "old": "ねらう / 狙う mixed",
+   "new": "ねらう (hiragana)",
+   "why": "Matches the app (ねらいガイド, ねらい線) and most site texts."
+  }
+ ]
+}

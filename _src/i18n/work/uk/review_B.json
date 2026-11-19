@@ -1,0 +1,97 @@
+{
+ "verdict": "A strong, natural Ukrainian translation with the correct register, app terms and slogans that work. Fix the English email subject in sup_delete_mail and the missing dash after 'це', and smooth a few calqued lines (merge, score_lead, feat2_p).",
+ "changes": [
+  {
+   "key": "sup_delete_mail",
+   "old": "<b>Без гри:</b> якщо гру більше не встановлено, напишіть на info@edgelings.com з темою \"Видалити мій акаунт Edgelings\" і вкажіть своє ім'я гравця. Ми видалимо акаунт протягом 30 днів і підтвердимо це електронною поштою.",
+   "new": "<b>Без гри:</b> якщо гру більше не встановлено, напишіть на info@edgelings.com з темою \"Delete my Edgelings account\" і вкажіть своє ім'я гравця. Ми видалимо акаунт протягом 30 днів і підтвердимо це електронною поштою.",
+   "why": "Agreed decision: the subject stays in English exactly, so English-speaking support recognises it.",
+   "severity": "meaning"
+  },
+  {
+   "key": "faq_what_a",
+   "old": "Edgelings це казуальна мобільна гра для iPhone, iPad і Android. Ви запускаєте блискучі слайми по столу. Що ближче до дальнього краю зупиниться слайм, то більше балів він приносить. Слайм, який падає за край, не приносить нічого.",
+   "new": "Edgelings є казуальною мобільною грою для iPhone, iPad і Android. Ви запускаєте блискучі слайми по столу. Що ближче до дальнього краю зупиниться слайм, то більше балів він приносить. Слайм, який падає за край, не приносить нічого.",
+   "why": "'Edgelings це гра' needs a dash in Ukrainian, dashes are banned, so rephrase without 'це'.",
+   "severity": "grammar"
+  },
+  {
+   "key": "press_long1",
+   "old": "Edgelings це казуальна гра про те, як зупинитися точно в потрібний момент. Ви відтягуєте слайма в рогатці й запускаєте його по столу. Слайм біля дальнього краю приносить до 3 разів більше балів. Слайм, який падає за край, не приносить нічого.",
+   "new": "Edgelings є казуальною грою про те, як зупинитися точно в потрібний момент. Ви відтягуєте слайма в рогатці й запускаєте його по столу. Слайм біля дальнього краю приносить до 3 разів більше балів. Слайм, який падає за край, не приносить нічого.",
+   "why": "Same missing dash after 'Edgelings це'.",
+   "severity": "grammar"
+  },
+  {
+   "key": "feat2_p",
+   "old": "1 новий стіл щодня, однаковий для всіх. 3 спроби. Перевершіть увесь світ.",
+   "new": "1 новий стіл щодня, однаковий для всіх. 3 спроби. Обіграйте гравців з усього світу.",
+   "why": "'Перевершіть увесь світ' is stiff and 'світ' is also the tier word, so it can read as 'beat the whole tier'.",
+   "severity": "style"
+  },
+  {
+   "key": "score_lead",
+   "old": "Тягніть Mossy до краю. Що ближче, то більше балів. Задалеко, і він падає.",
+   "new": "Тягніть Mossy до краю. Що ближче, то більше балів. Перестараєтеся, і він упаде.",
+   "why": "'Задалеко, і він падає' is calqued. The new line sounds natural and keeps 'too far, it falls'.",
+   "severity": "style"
+  },
+  {
+   "key": "score_blob_alt",
+   "old": "Mossy, тягніть мене до краю",
+   "new": "Mossy: потягніть мене до краю",
+   "why": "With a comma it reads as the visitor telling Mossy to drag. The colon makes Mossy the speaker, as in English.",
+   "severity": "meaning"
+  },
+  {
+   "key": "loop_merge_p",
+   "old": "2 однакові слайми дають більшого.",
+   "new": "2 однакові слайми стають одним більшим.",
+   "why": "'дають більшого' sounds unfinished and odd. This is natural and short.",
+   "severity": "style"
+  },
+  {
+   "key": "feat4_p",
+   "old": "2 однакові слайми дають більшого. Більші слайми приносять набагато більше балів.",
+   "new": "2 однакові слайми стають одним більшим. Більші слайми приносять набагато більше балів.",
+   "why": "Same fix as loop_merge_p, keep the 2 lines identical.",
+   "severity": "style"
+  },
+  {
+   "key": "shots_lead",
+   "old": "Гортайте перший світ.",
+   "new": "Гортайте скриншоти першого світу.",
+   "why": "You swipe through screenshots, not through the tier itself.",
+   "severity": "style"
+  },
+  {
+   "key": "band_p",
+   "old": "Незабаром на iPhone, iPad і Android. Грати безкоштовно.",
+   "new": "Незабаром на iPhone, iPad і Android. Грати можна безкоштовно.",
+   "why": "'Грати безкоштовно' reads like a button label in the infinitive. A full sentence fits the band.",
+   "severity": "style"
+  },
+  {
+   "key": "faq_free_a",
+   "old": "Так. Edgelings можна безкоштовно завантажити і грати безкоштовно. У грі є реклама і необов'язкові покупки, наприклад монети, Стартовий набір і Прибрати рекламу. Щоб пройти рівень, нічого купувати не потрібно.",
+   "new": "Так. І завантаження, і гра в Edgelings безкоштовні. У грі є реклама і необов'язкові покупки, наприклад монети, Стартовий набір і покупка Прибрати рекламу. Щоб пройти рівень, ніколи нічого не потрібно купувати.",
+   "why": "Removes the 'безкоштовно... безкоштовно' repetition, makes the UI label Прибрати рекламу fit the list as a purchase, and restores 'never'.",
+   "severity": "style"
+  },
+  {
+   "key": "sup_refund_p",
+   "old": "Покупки проходять через Apple або Google, тож і повернення коштів теж. На iPhone та iPad перейдіть на reportaproblem.apple.com. На Android відкрийте Google Play, потім Платежі й підписки, потім Бюджет та історія.",
+   "new": "Покупки проходять через Apple або Google, тому повернення коштів теж. На iPhone та iPad перейдіть на reportaproblem.apple.com. На Android відкрийте Google Play, потім Платежі й підписки, потім Бюджет та історія.",
+   "why": "'тож і ... теж' says 'also' twice.",
+   "severity": "grammar"
+  }
+ ],
+ "glossary_changes": [
+  {
+   "term": "Sparkler",
+   "old": "Петарда (APP_GLOSSARY.md table)",
+   "new": "Іскорка",
+   "why": "app_terms.json and the whole site use Іскорка. The APP_GLOSSARY table conflicts, so align it with the exact app label."
+  }
+ ]
+}

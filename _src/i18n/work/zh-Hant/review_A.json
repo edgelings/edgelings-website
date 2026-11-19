@@ -1,0 +1,83 @@
+{
+ "verdict": "A precise, consistent translation that matches the app terms, register (您) and UI labels well, with correct placeholders, HTML and punctuation. A few fixes are needed: merge must be 合體 everywhere, 1 ungrammatical footer line, and small precision points in the FAQ and account deletion texts.",
+ "changes": [
+  {
+   "key": "foot_operated",
+   "old": "Edgelings 由 Matej Mesko 營運，斯洛維尼亞。",
+   "new": "Edgelings 由斯洛維尼亞的 Matej Mesko 營運。",
+   "why": "Trailing ', 斯洛維尼亞' after the verb is ungrammatical in Chinese. Move the country into an attributive phrase.",
+   "severity": "grammar"
+  },
+  {
+   "key": "loop_merge_p",
+   "old": "2隻一樣的合成更大的1隻。",
+   "new": "2隻一樣的合體成更大的1隻。",
+   "why": "APP_GLOSSARY: merge = 合體. 合成 is used here, inconsistent with the app and other site texts.",
+   "severity": "term"
+  },
+  {
+   "key": "feat4_p",
+   "old": "2隻一樣的合成更大的史萊姆。越大的史萊姆，分數高出越多。",
+   "new": "2隻一樣的合體成更大的史萊姆。越大的史萊姆，分數高出越多。",
+   "why": "merge = 合體 per APP_GLOSSARY, not 合成.",
+   "severity": "term"
+  },
+  {
+   "key": "mossy_p",
+   "old": "沉穩可靠，由2隻 Blip 合成。",
+   "new": "沉穩可靠，由2隻 Blip 合體而成。",
+   "why": "merge = 合體 per APP_GLOSSARY, not 合成.",
+   "severity": "term"
+  },
+  {
+   "key": "shot5",
+   "old": "合出國王",
+   "new": "合出 King Plum",
+   "why": "'the King' is King Plum, whose name stays in English. 國王 half-translates a fixed slime name.",
+   "severity": "term"
+  },
+  {
+   "key": "faq_slimes_a",
+   "old": "有5隻史萊姆可以依序合體：Blip、Mossy、Sunny、Pomme 和 King Plum。之後還會加入特殊史萊姆：磁鐵會吸引同種史萊姆，幽靈能穿過其他史萊姆，重量級會推開一切，煙火則在第一次碰撞時爆炸。神祕史萊姆要等停下來才會現出種類。",
+   "new": "共有5種史萊姆會依序合體：Blip、Mossy、Sunny、Pomme 和 King Plum。之後還會加入特殊史萊姆：磁鐵會吸引同種史萊姆，幽靈能穿過其他史萊姆，重量級會推開一切，煙火則在第一次碰撞時爆炸。神祕史萊姆要等停下來才會現出種類。",
+   "why": "These are 5 kinds, not 5 individual slimes. 5種 is precise, 5隻 reads as 5 single slimes.",
+   "severity": "meaning"
+  },
+  {
+   "key": "faq_restore_a",
+   "old": "它會向 Apple 或 Google 查詢您的商店帳號有哪些永久購買項目，例如「移除廣告」，並重新啟用。金幣和其他會用完的項目無法用這個方式恢復，登入帳號才能保留這些項目。",
+   "new": "它會向 Apple 或 Google 查詢您的商店帳號有哪些永久購買項目，例如「移除廣告」，並重新啟用。金幣和其他會用完的項目無法用這個方式恢復，登入帳號則可保留這些項目。",
+   "why": "'Signing in keeps those' does not say it is the only way. 才能 adds an exclusivity claim. 則可 is exact.",
+   "severity": "meaning"
+  },
+  {
+   "key": "faq_delete_a",
+   "old": "在遊戲中開啟「設定」，點選「刪除我的帳號」。如果沒有遊戲，請寄信到 info@edgelings.com 並附上您的玩家暱稱。請參閱<a href=\"{base}/support.html#delete\">刪除帳號</a>。",
+   "new": "在遊戲中開啟「設定」，點選「刪除我的帳號」。如果您已沒有安裝遊戲，請寄信到 info@edgelings.com 並附上您的玩家暱稱。請參閱<a href=\"{base}/support.html#delete\">刪除帳號</a>。",
+   "why": "如果沒有遊戲 is vague and unnatural. Match the support page wording (no longer installed) for precision.",
+   "severity": "grammar"
+  },
+  {
+   "key": "sup_delete_mail",
+   "old": "<b>沒有遊戲時：</b>如果您已經沒有安裝遊戲，請寄信到 info@edgelings.com，主旨填寫「Delete my Edgelings account」，並附上您的玩家暱稱。我們會在30天內刪除帳號，並以電子郵件確認。",
+   "new": "<b>未安裝遊戲時：</b>如果您已經沒有安裝遊戲，請寄信到 info@edgelings.com，主旨填寫「Delete my Edgelings account」，並附上您的玩家暱稱。我們會在30天內刪除帳號，並以電子郵件確認。",
+   "why": "沒有遊戲時 is awkward as a heading. 未安裝遊戲時 is the natural, precise label.",
+   "severity": "style"
+  },
+  {
+   "key": "faq_devices_a",
+   "old": "App Store 上的 iPhone 與 iPad，以及 Google Play 上的 Android 手機與平板。版面也支援摺疊手機。",
+   "new": "Edgelings 支援 App Store 上的 iPhone 與 iPad，以及 Google Play 上的 Android 手機與平板。版面也支援摺疊手機。",
+   "why": "FAQ answers must stand alone for search and AI. The current answer is a sentence fragment with no subject.",
+   "severity": "style"
+  },
+  {
+   "key": "faq_levels_a",
+   "old": "共1200關，分為6個世界：簡單、普通、困難、超困難、終極和瘋狂。每個世界都會加入新機關，例如蜂蜜、冰面、沙地、彈跳床、風和特殊史萊姆。新關卡會從伺服器送達，不必更新 App。",
+   "new": "共1200關，分為6個世界：簡單、普通、困難、超困難、終極和瘋狂。每個世界都會加入新機關，例如蜂蜜、冰面、沙地、彈跳床、風和特殊史萊姆。更多關卡會直接從伺服器加入，不必更新 App。",
+   "why": "新關卡會從伺服器送達 is translationese (送達 is for parcels) and drops 'more'.",
+   "severity": "style"
+  }
+ ],
+ "glossary_changes": []
+}

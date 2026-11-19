@@ -1,0 +1,185 @@
+{
+ "verdict": "Solid, natural Croatian translation that is consistent with the app. The slogans work well. Fixes needed: an over-long home SEO title, a few calques and fragments in FAQ and feature texts, and the decision about the email subject in Croatian quotes.",
+ "changes": [
+  {
+   "key": "meta_index_title",
+   "old": "Edgelings: gurnite sluziće do ruba | Besplatno za iPhone i Android",
+   "new": "Edgelings: sluzići do ruba | Besplatno za iPhone i Android",
+   "why": "Current title is 66 characters, over the 60 limit, and gets cut in search results. Shorter version keeps the keywords.",
+   "severity": "length"
+  },
+  {
+   "key": "meta_index_desc",
+   "old": "Besplatna casual igra za iPhone, iPad i Android. Gurnite sjajne sluziće preko stola. Što bliže rubu stanu, to više bodova. Preko ruba nema ništa.",
+   "new": "Besplatna casual igra za iPhone, iPad i Android. Gurnite sjajne sluziće preko stola. Što bliže rubu stanu, to više bodova donose. Preko ruba nema bodova.",
+   "why": "\"Preko ruba nema ništa\" sounds like nothing exists beyond the edge. Now says it scores nothing, matching hero_lead.",
+   "severity": "style"
+  },
+  {
+   "key": "hero_tag",
+   "old": "Brza partija za kratki predah.",
+   "new": "Brza partija za kratak predah.",
+   "why": "Indefinite \"kratak\" is the correct form here. \"kratki\" sounds like a calque.",
+   "severity": "grammar"
+  },
+  {
+   "key": "foot_tag2",
+   "old": "Brza partija za kratki predah.",
+   "new": "Brza partija za kratak predah.",
+   "why": "Same as hero_tag.",
+   "severity": "grammar"
+  },
+  {
+   "key": "foot_help",
+   "old": "Pomoć i pravno",
+   "new": "Pomoć i pravila",
+   "why": "\"pravno\" used as a noun is translationese. \"Pomoć i pravila\" is natural and about the same length.",
+   "severity": "style"
+  },
+  {
+   "key": "cookie_p",
+   "old": "Željeli bismo koristiti kolačiće kako bismo vidjeli na koji način posjetitelji koriste ovu stranicu, primjerice igranje demoa i klikove na trgovine. Ako odbijete, posjete brojimo samo anonimno i ništa se ne sprema na vaš uređaj.",
+   "new": "Željeli bismo upotrebljavati kolačiće da vidimo kako posjetitelji koriste ovu stranicu, primjerice koliko se igra demo i klika na trgovine. Ako odbijete, posjete brojimo samo anonimno i ništa se ne sprema na vaš uređaj.",
+   "why": "Removes the koristiti/koriste repetition. The examples now fit the sentence grammatically. Meaning is unchanged.",
+   "severity": "style"
+  },
+  {
+   "key": "demo_lead",
+   "old": "Prava igra, u vašem pregledniku. Odigrajte prvih 5 razina, a ostatak ponesite sa sobom.",
+   "new": "Prava igra, ravno u pregledniku. Odigrajte prvih 5 razina, a ostatak ponesite sa sobom.",
+   "why": "Livelier, with no unnecessary pronoun (glossary: avoid pronouns where possible).",
+   "severity": "style"
+  },
+  {
+   "key": "score_lead",
+   "old": "Povucite sluzića Mossy prema rubu. Bliže donosi više. Predaleko i pada.",
+   "new": "Povucite sluzića Mossy prema rubu. Bliže donosi više. Ako ode predaleko, pada.",
+   "why": "\"Predaleko i pada\" is a word-for-word calque.",
+   "severity": "style"
+  },
+  {
+   "key": "shots_lead",
+   "old": "Prođite kroz prvi svijet.",
+   "new": "Prelistajte prvi svijet.",
+   "why": "\"Prođite kroz prvi svijet\" reads like playing through the world. The English means swiping through the screenshots.",
+   "severity": "meaning"
+  },
+  {
+   "key": "feat_lead",
+   "old": "Lako se nauči. Teško se stane na rubu.",
+   "new": "Brzo se nauči. Teško je stati na rubu.",
+   "why": "\"Teško se stane\" is clumsy. \"Teško je stati\" also keeps the wordplay of being hard to stop.",
+   "severity": "style"
+  },
+  {
+   "key": "feat1_p",
+   "old": "6 svjetova, od svijeta Lako do svijeta Ludo. Napredujte svojim tempom.",
+   "new": "6 svjetova, od „Lako” do „Ludo”. Napredujte svojim tempom.",
+   "why": "\"od svijeta Lako do svijeta Ludo\" is heavy and repetitive. The quoted UI names read naturally.",
+   "severity": "style"
+  },
+  {
+   "key": "feat6_p",
+   "old": "Vlak, avion ili mirni kutak. Signal nije potreban.",
+   "new": "Vlak, avion ili miran kutak. Signal nije potreban.",
+   "why": "Indefinite \"miran\" is correct here.",
+   "severity": "grammar"
+  },
+  {
+   "key": "faq_devices_a",
+   "old": "Na iPhoneu i iPadu putem App Storea te na Android mobitelima i tabletima putem Google Playa. Prikaz radi i na preklopnim mobitelima.",
+   "new": "Edgelings radi na iPhoneu i iPadu putem App Storea te na Android mobitelima i tabletima putem Google Playa. Prikaz radi i na preklopnim mobitelima.",
+   "why": "FAQ answer should be a full sentence for search engines and AI assistants.",
+   "severity": "style"
+  },
+  {
+   "key": "faq_leagues_a",
+   "old": "Rezultati na dnevnom stolu svrstavaju vas u ligu: Bronca, Srebro ili Zlato. Svaki tjedan najbolji igrači idu ligu više, a posljednji ligu niže. Ljestvice prikazuju poretke „Dnevno”, „Tjedno” i „Ukupno”.",
+   "new": "Rezultati na dnevnom stolu svrstavaju vas u ligu: Bronca, Srebro ili Zlato. Svaki tjedan najbolji igrači prelaze u višu ligu, a posljednji u nižu. Ljestvice prikazuju poretke „Dnevno”, „Tjedno” i „Ukupno”.",
+   "why": "\"idu ligu više\" is colloquial. This version is clear and standard.",
+   "severity": "style"
+  },
+  {
+   "key": "faq_ads_a",
+   "old": "Da. Mali banner prikazuje se na zaslonima izbornika, nikad tijekom razine. Možete i sami odabrati gledanje oglasa za dodatnog sluzića ili dodatni pokušaj. Opcija „Ukloni oglase” trajno uklanja banner. Oglasi koje sami odaberete gledati ostaju dostupni.",
+   "new": "Da. Mali banner prikazuje se na zaslonima izbornika, nikad tijekom razine. Možete i sami odabrati gledanje oglasa za dodatnog sluzića ili dodatni pokušaj. Opcija „Ukloni oglase” trajno uklanja banner. Oglasi koje sami odlučite pogledati i dalje su dostupni.",
+   "why": "\"koje sami odaberete gledati\" is awkward.",
+   "severity": "style"
+  },
+  {
+   "key": "faq_data_a",
+   "old": "Anonimni račun igrača, vaše ime igrača, napredak, rezultate i kupnje. Statistika i personalizirani oglasi rade samo ako to prihvatite. Podaci se pohranjuju u Europskoj uniji. Sve pojedinosti nalaze se u <a href=\"/privacy.html\">Pravilima privatnosti</a>.",
+   "new": "Edgelings prikuplja anonimni račun igrača, vaše ime igrača, napredak, rezultate i kupnje. Statistika i personalizirani oglasi rade samo ako to prihvatite. Podaci se pohranjuju u Europskoj uniji. Sve pojedinosti nalaze se u <a href=\"/privacy.html\">Pravilima privatnosti</a>.",
+   "why": "The first sentence was an accusative fragment with no verb. It needs to stand alone as an FAQ answer.",
+   "severity": "grammar"
+  },
+  {
+   "key": "sup_p",
+   "old": "Navedite svoje ime igrača i model mobitela. Ime igrača pronaći ćete u igri pod „Postavke”.",
+   "new": "Navedite svoje ime igrača i model mobitela. Ime igrača pronaći ćete u igri, u izborniku „Postavke”.",
+   "why": "\"pod „Postavke”\" breaks case agreement. \"u izborniku „Postavke”\" keeps the exact label in nominative.",
+   "severity": "grammar"
+  },
+  {
+   "key": "sup_delete_mail",
+   "old": "<b>Bez igre:</b> ako igru više nemate instaliranu, pošaljite e-poruku na info@edgelings.com s naslovom \"Delete my Edgelings account\" i svojim imenom igrača. Račun brišemo u roku od 30 dana i to potvrđujemo e-poštom.",
+   "new": "<b>Bez igre:</b> ako igru više nemate instaliranu, pošaljite e-poruku na info@edgelings.com s predmetom „Delete my Edgelings account” i svojim imenom igrača. Račun brišemo u roku od 30 dana i to potvrđujemo e-poštom.",
+   "why": "Decision: the subject goes inside Croatian quotes „…”. The email subject field is \"predmet\", not \"naslov\".",
+   "severity": "term"
+  },
+  {
+   "key": "sup_refund_p",
+   "old": "Kupnje idu preko Applea ili Googlea, pa tako i povrat novca. Na iPhoneu i iPadu idite na reportaproblem.apple.com. Na Androidu otvorite Google Play, zatim Plaćanja i pretplate, pa Proračun i povijest.",
+   "new": "Kupnje idu preko Applea ili Googlea, pa tako i povrat novca. Na iPhoneu i iPadu idite na reportaproblem.apple.com. Na Androidu otvorite Google Play, zatim „Plaćanja i pretplate”, pa „Proračun i povijest”.",
+   "why": "Quotes around the Google Play menu names, as the site does for other UI labels.",
+   "severity": "style"
+  },
+  {
+   "key": "press_meta",
+   "old": "Sve što vam treba za pisanje o igri Edgelings. Slobodno koristite za članke, recenzije i videe.",
+   "new": "Sve što vam treba za pisanje o igri Edgelings. Materijale slobodno koristite za članke, recenzije i videe.",
+   "why": "The object was missing. Now says what is free to use.",
+   "severity": "grammar"
+  },
+  {
+   "key": "press_long3",
+   "old": "Igra ima 1200 razina u 6 svjetova, od svijeta Lako do svijeta Ludo. Dnevni stol svim igračima na svijetu daje isti izazov, a tjedne lige premještaju igrače između liga Bronca, Srebro i Zlato. Cijela igra radi bez interneta.",
+   "new": "Igra ima 1200 razina u 6 svjetova, od „Lako” do „Ludo”. Dnevni stol svim igračima na svijetu daje isti izazov, a tjedne lige premještaju igrače između liga Bronca, Srebro i Zlato. Cijela igra radi bez interneta.",
+   "why": "Same change as feat1_p, for consistency and flow.",
+   "severity": "style"
+  },
+  {
+   "key": "get_opening",
+   "old": "Otvaram trgovinu",
+   "new": "Otvaranje trgovine",
+   "why": "The verbal noun is the standard Croatian form for a status message. 1st person \"Otvaram\" reads like a translation.",
+   "severity": "style"
+  }
+ ],
+ "glossary_changes": [
+  {
+   "term": "One quick game for a short break.",
+   "old": "Brza partija za kratki predah.",
+   "new": "Brza partija za kratak predah.",
+   "why": "The indefinite adjective form is correct here."
+  },
+  {
+   "term": "Help and legal (footer)",
+   "old": "Pomoć i pravno",
+   "new": "Pomoć i pravila",
+   "why": "\"pravno\" used as a noun is unnatural."
+  },
+  {
+   "term": "email subject",
+   "old": "naslov",
+   "new": "predmet",
+   "why": "Standard Croatian email field name."
+  },
+  {
+   "term": "Ultimate (tier)",
+   "old": "APP_GLOSSARY lists Ultimativno",
+   "new": "Ekstremno (as app_terms.json and the site use)",
+   "why": "APP_GLOSSARY and app_terms disagree. The site correctly follows app_terms, so align the glossary note."
+  }
+ ]
+}

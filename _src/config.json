@@ -1,0 +1,10 @@
+{
+  "_note": "Public settings for the website. Paste the store links into stores once the game is live, then run python _src/build.py. Set smartBanner to true once the App Store page is public.",
+  "stores": { "ios": "", "android": "" },
+  "appStoreId": "6836491444",
+  "smartBanner": false,
+  "supabaseUrl": "https://shiavdrqiqgbykxnojxb.supabase.co",
+  "supabaseKey": "sb_publishable_vEkBn7DSm08ejU6imB4Euw_sNA6s7sh",
+  "posthogKey": "phc_vgib6vGn6im2s5AANKwtnKQj7fVi6nKzRb6sn5qszNGx",
+  "posthogHost": "https://eu.i.posthog.com"
+}

@@ -1,0 +1,145 @@
+{
+ "verdict": "A careful, mostly accurate translation that follows the app terms and the ви register well. The main fixes are the English email subject in sup_delete_mail, the ambiguity of 'світ' (tier) versus the real world, and consistent animate forms of слайм.",
+ "changes": [
+  {
+   "key": "meta_index_title",
+   "old": "Edgelings: слайми біля краю | Безкоштовно на iPhone і Android",
+   "new": "Edgelings: запускайте слаймів до краю | Безкоштовно на iPhone і Android",
+   "why": "The verb 'flick' was lost. The title now says what you do in the game. Animate plural as in the glossary.",
+   "severity": "meaning"
+  },
+  {
+   "key": "meta_index_desc",
+   "old": "Безкоштовна казуальна гра для iPhone, iPad і Android. Запускайте блискучі слайми по столу: що ближче до краю, то більше балів. За краєм нуль.",
+   "new": "Безкоштовна казуальна гра для iPhone, iPad і Android. Запускайте блискучих слаймів по столу: що ближче до краю, то більше балів. За краєм нуль.",
+   "why": "The glossary treats слайм as animate. Use the same plural accusative everywhere, as in magnet_p (слаймів).",
+   "severity": "grammar"
+  },
+  {
+   "key": "hero_lead",
+   "old": "Запускайте блискучі слайми по столу. Що ближче до краю зупиниться слайм, то більше балів. За краєм він не приносить нічого.",
+   "new": "Запускайте блискучих слаймів по столу. Що ближче до краю зупиниться слайм, то більше балів. За краєм він не приносить нічого.",
+   "why": "Animate plural accusative, consistent with magnet_p and faq_slimes_a.",
+   "severity": "grammar"
+  },
+  {
+   "key": "faq_what_a",
+   "old": "Edgelings це казуальна мобільна гра для iPhone, iPad і Android. Ви запускаєте блискучі слайми по столу. Що ближче до дальнього краю зупиниться слайм, то більше балів він приносить. Слайм, який падає за край, не приносить нічого.",
+   "new": "Edgelings є казуальною мобільною грою для iPhone, iPad і Android. Ви запускаєте блискучих слаймів по столу. Що ближче до дальнього краю зупиниться слайм, то більше балів він приносить. Слайм, який падає за край, не приносить нічого.",
+   "why": "'Edgelings це' needs a dash in Ukrainian, and dashes are banned, so rephrase. Animate plural accusative.",
+   "severity": "grammar"
+  },
+  {
+   "key": "press_long1",
+   "old": "Edgelings це казуальна гра про те, як зупинитися точно в потрібний момент. Ви відтягуєте слайма в рогатці й запускаєте його по столу. Слайм біля дальнього краю приносить до 3 разів більше балів. Слайм, який падає за край, не приносить нічого.",
+   "new": "Edgelings є казуальною грою про те, як зупинитися точно в потрібний момент. Ви відтягуєте слайма в рогатці й запускаєте його по столу. Слайм біля дальнього краю приносить до 3 разів більше балів. Слайм, який падає за край, не приносить нічого.",
+   "why": "'Edgelings це' without the required dash is a punctuation error. Rephrase so no dash is needed.",
+   "severity": "grammar"
+  },
+  {
+   "key": "sup_delete_mail",
+   "old": "<b>Без гри:</b> якщо гру більше не встановлено, напишіть на info@edgelings.com з темою \"Видалити мій акаунт Edgelings\" і вкажіть своє ім'я гравця. Ми видалимо акаунт протягом 30 днів і підтвердимо це електронною поштою.",
+   "new": "<b>Без гри:</b> якщо гру більше не встановлено, напишіть на info@edgelings.com з темою \"Delete my Edgelings account\" і вкажіть своє ім'я гравця. Ми видалимо акаунт протягом 30 днів і підтвердимо це електронною поштою.",
+   "why": "Decision after the translation round: the email subject stays in English exactly, so support recognises it.",
+   "severity": "meaning"
+  },
+  {
+   "key": "faq_ads_a",
+   "old": "Так. Невеликий банер з'являється на екранах меню, але ніколи під час рівня. Також можна за бажанням переглянути рекламу, щоб отримати додатковий слайм або додаткову спробу. Покупка Прибрати рекламу назавжди прибирає банер. Рекламу, яку ви переглядаєте за бажанням, і далі можна дивитися.",
+   "new": "Так. Невеликий банер з'являється на екранах меню, але ніколи під час рівня. Також можна за бажанням переглянути рекламу, щоб отримати додаткового слайма або додаткову спробу. Покупка Прибрати рекламу назавжди прибирає банер. Рекламу, яку ви переглядаєте за бажанням, і далі можна дивитися.",
+   "why": "Glossary: accusative singular is 'слайма' (animate).",
+   "severity": "grammar"
+  },
+  {
+   "key": "feat2_p",
+   "old": "1 новий стіл щодня, однаковий для всіх. 3 спроби. Перевершіть увесь світ.",
+   "new": "1 новий стіл щодня, однаковий для всіх. 3 спроби. Обійдіть гравців з усього світу.",
+   "why": "'світ' is the app term for a tier, so 'Перевершіть увесь світ' can read as 'beat the whole tier'. Make it clearly the players of the world.",
+   "severity": "term"
+  },
+  {
+   "key": "faq_daily_a",
+   "old": "Це новий стіл щодня, однаковий для всіх гравців у світі. Щодня у вас є 3 спроби, і зараховується найкращий результат. Куплені помічники там вимкнені, тож змагання чесне.",
+   "new": "Це новий стіл щодня, однаковий для всіх гравців в усьому світі. Щодня у вас є 3 спроби, і зараховується найкращий результат. Куплені помічники там вимкнені, тож змагання чесне.",
+   "why": "'у світі' can also mean 'in the tier' because світ is the tier term. 'в усьому світі' removes the ambiguity.",
+   "severity": "term"
+  },
+  {
+   "key": "press_long3",
+   "old": "У грі 1 200 рівнів у 6 світах, від світу Легкий до світу Шалений. Стіл дня дає всім гравцям у світі однакове випробування, а щотижневі ліги переміщують гравців між Бронзою, Сріблом і Золотом. Уся гра працює офлайн.",
+   "new": "У грі 1 200 рівнів у 6 світах, від світу Легкий до світу Шалений. Стіл дня дає всім гравцям в усьому світі однакове випробування, а щотижневі ліги переміщують гравців між Бронзою, Сріблом і Золотом. Уся гра працює офлайн.",
+   "why": "Same ambiguity: 'у світі' right after '6 світах' reads as a tier. Use 'в усьому світі'.",
+   "severity": "term"
+  },
+  {
+   "key": "shots_lead",
+   "old": "Гортайте перший світ.",
+   "new": "Гортайте скриншоти першого світу.",
+   "why": "'Гортайте перший світ' says you swipe through the tier itself. The English means the screenshots of the first tier.",
+   "severity": "meaning"
+  },
+  {
+   "key": "score_blob_alt",
+   "old": "Mossy, тягніть мене до краю",
+   "new": "Mossy: тягніть мене до краю",
+   "why": "With a comma the name reads as a vocative, as if the reader tells Mossy to drag. The English is Mossy speaking.",
+   "severity": "meaning"
+  },
+  {
+   "key": "faq_free_a",
+   "old": "Так. Edgelings можна безкоштовно завантажити і грати безкоштовно. У грі є реклама і необов'язкові покупки, наприклад монети, Стартовий набір і Прибрати рекламу. Щоб пройти рівень, нічого купувати не потрібно.",
+   "new": "Так. Edgelings можна безкоштовно завантажити, і грати в неї теж безкоштовно. У грі є реклама і необов'язкові покупки, наприклад монети, Стартовий набір і Прибрати рекламу. Щоб пройти рівень, нічого купувати не потрібно.",
+   "why": "'грати' needs an object (грати в неї). The original 'можна завантажити і грати безкоштовно' is ungrammatical.",
+   "severity": "grammar"
+  },
+  {
+   "key": "faq_delete_a",
+   "old": "У грі відкрийте Налаштування і натисніть Видалити мій акаунт. Якщо гри немає, напишіть на info@edgelings.com і вкажіть своє ім'я гравця. Докладніше: <a href=\"{base}/support.html#delete\">Видалити акаунт</a>.",
+   "new": "У грі відкрийте Налаштування і натисніть Видалити мій акаунт. Якщо гру вже видалено, напишіть на info@edgelings.com і вкажіть своє ім'я гравця. Докладніше: <a href=\"{base}/support.html#delete\">Видалити акаунт</a>.",
+   "why": "'Якщо гри немає' is vague. The case is that the game is no longer installed, as sup_delete_mail says.",
+   "severity": "meaning"
+  },
+  {
+   "key": "faq_kids_a",
+   "old": "Гра Edgelings розрахована на вік від 13 років. У ній немає насильства і немає чату. Імена гравців перевіряються за списком заборонених слів. Якщо вам менше 18 років, запитайте батьків, перш ніж щось купувати.",
+   "new": "Гра Edgelings розрахована на гравців віком від 13 років. У ній немає насильства і немає чату. Імена гравців перевіряються за списком заборонених слів. Якщо вам менше 18 років, запитайте батьків, перш ніж щось купувати.",
+   "why": "More precise for a legal-like text: 'made for players aged 13 and over'.",
+   "severity": "meaning"
+  },
+  {
+   "key": "loop_merge_p",
+   "old": "2 однакові слайми дають більшого.",
+   "new": "2 однакові слайми зливаються в більшого.",
+   "why": "'дають більшого' is an awkward ellipsis. 'зливаються в' matches the merge term and faq_how_a.",
+   "severity": "style"
+  },
+  {
+   "key": "feat4_p",
+   "old": "2 однакові слайми дають більшого. Більші слайми приносять набагато більше балів.",
+   "new": "2 однакові слайми зливаються в більшого слайма. Більші слайми приносять набагато більше балів.",
+   "why": "Same fix as loop_merge_p, uses the glossary verb зливатися.",
+   "severity": "style"
+  },
+  {
+   "key": "dm_get",
+   "old": "Отримати повну гру",
+   "new": "Завантажити повну гру",
+   "why": "The same English 'Get the full game' is 'Завантажити повну гру' in demo_get_full. Use 1 wording.",
+   "severity": "term"
+  }
+ ],
+ "glossary_changes": [
+  {
+   "term": "Sparkler",
+   "old": "Петарда (APP_GLOSSARY.md)",
+   "new": "Іскорка (as app_terms.json)",
+   "why": "APP_GLOSSARY.md lists Петарда but app_terms.json, the exact UI text, has Іскорка. The site correctly uses Іскорка. The app glossary should be aligned so the 2 sources agree."
+  },
+  {
+   "term": "world (the real world, not a tier)",
+   "old": "світ",
+   "new": "увесь світ / в усьому світі / з усього світу",
+   "why": "Since світ is the tier term, the real world must always be marked with усь- to avoid ambiguity."
+  }
+ ]
+}

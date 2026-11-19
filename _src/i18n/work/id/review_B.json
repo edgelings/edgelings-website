@@ -1,0 +1,97 @@
+{
+ "verdict": "A strong, natural Indonesian translation with good slogans, consistent Anda register and correct app terms. Only 2 small meaning slips (loop_ice_p, feat6_p), 1 grammar fix and some polish are needed.",
+ "changes": [
+  {
+   "key": "loop_ice_p",
+   "old": "Licin. Bidik lebih pelan.",
+   "new": "Licin. Tembak lebih pelan.",
+   "why": "'Aim softer' means shoot with less force. 'Bidik lebih pelan' reads as 'aim more slowly', which is wrong.",
+   "severity": "meaning"
+  },
+  {
+   "key": "feat6_p",
+   "old": "Di kereta, di pesawat, atau di sudut yang tenang. Tanpa sinyal.",
+   "new": "Di kereta, di pesawat, atau di sudut yang tenang. Tak perlu sinyal.",
+   "why": "'No signal needed' is not 'without signal'. 'Tak perlu sinyal' keeps the meaning and sounds natural.",
+   "severity": "meaning"
+  },
+  {
+   "key": "faq_what_a",
+   "old": "Edgelings adalah game mobile kasual untuk iPhone, iPad, dan Android. Anda menyentil slime mengilap di atas meja. Makin dekat slime berhenti ke tepi seberang, makin besar poinnya. Slime yang melewati tepi tidak mendapat poin sama sekali.",
+   "new": "Edgelings adalah game mobile kasual untuk iPhone, iPad, dan Android. Anda menyentil slime mengilap di atas meja. Makin dekat ke tepi seberang slime berhenti, makin besar poinnya. Slime yang melewati tepi tidak mendapat poin sama sekali.",
+   "why": "'berhenti ke tepi' is ungrammatical. Word order now matches hero_lead.",
+   "severity": "grammar"
+  },
+  {
+   "key": "king_p",
+   "old": "2 slime Pomme, 1 mahkota. Gabungan kerajaan.",
+   "new": "2 slime Pomme, 1 mahkota. Gabungan sang raja.",
+   "why": "'Gabungan kerajaan' sounds like a merger of kingdoms. 'Gabungan sang raja' carries 'the royal merge' as a playful line.",
+   "severity": "style"
+  },
+  {
+   "key": "feat4_h",
+   "old": "Gabungkan dan tumbuh",
+   "new": "Gabung dan tumbuh",
+   "why": "Mixed transitive 'Gabungkan' with intransitive 'tumbuh' feels off. 'Gabung dan tumbuh' is a tight, parallel heading (glossary: gabung as shout).",
+   "severity": "style"
+  },
+  {
+   "key": "feat1_p",
+   "old": "6 tingkat, dari Mudah sampai Gila. Naik sesuai kecepatan Anda sendiri.",
+   "new": "6 tingkat, dari Mudah sampai Gila. Naik sesuai ritme Anda sendiri.",
+   "why": "'sesuai kecepatan Anda sendiri' is translationese of 'at your own pace'. 'ritme' is what Indonesian copy uses.",
+   "severity": "style"
+  },
+  {
+   "key": "step1",
+   "old": "Tarik slime ke belakang di ketapel.",
+   "new": "Tarik mundur slime di ketapel.",
+   "why": "'Tarik slime ke belakang di ketapel' is clunky. Shorter and natural for a how-to step.",
+   "severity": "style"
+  },
+  {
+   "key": "step3",
+   "old": "Hentikan di dekat tepi untuk poin 3 kali lipat.",
+   "new": "Buat slime berhenti di dekat tepi untuk poin 3 kali lipat.",
+   "why": "'Hentikan' without object suggests the player stops it by hand. The player makes it stop by the shot.",
+   "severity": "style"
+  },
+  {
+   "key": "faq_offline_a",
+   "old": "Ya. Semua level bisa dimainkan offline, jadi tetap bisa dimainkan di kereta atau pesawat. Meja harian, peringkat, dan liga memerlukan koneksi internet. Hasil Anda dikirim begitu Anda kembali online.",
+   "new": "Ya. Semua level bisa dimainkan offline, jadi tetap bisa main di kereta atau pesawat. Meja harian, peringkat, dan liga memerlukan koneksi internet. Hasil Anda dikirim begitu Anda kembali online.",
+   "why": "Removes the repeated 'bisa dimainkan' in 1 sentence.",
+   "severity": "style"
+  },
+  {
+   "key": "faq_devices_a",
+   "old": "iPhone dan iPad lewat App Store, serta ponsel dan tablet Android lewat Google Play. Tampilannya juga berfungsi di ponsel lipat.",
+   "new": "iPhone dan iPad lewat App Store, serta ponsel dan tablet Android lewat Google Play. Tampilannya juga pas di ponsel lipat.",
+   "why": "'berfungsi' for a layout is stiff. 'pas' is natural for 'the layout works'.",
+   "severity": "style"
+  },
+  {
+   "key": "sup_p",
+   "old": "Sertakan nama pemain dan model ponsel Anda. Nama pemain Anda bisa dilihat di game, di menu Pengaturan.",
+   "new": "Mohon sertakan nama pemain dan model ponsel Anda. Nama pemain Anda bisa dilihat di game, di menu Pengaturan.",
+   "why": "English has 'Please'. A bare imperative to customers in support copy sounds curt with the Anda register.",
+   "severity": "style"
+  },
+  {
+   "key": "cookie_h",
+   "old": "Cookie, Anda yang memilih",
+   "new": "Cookie, pilihan Anda",
+   "why": "Closer to 'your choice', shorter and smoother than 'Anda yang memilih'.",
+   "severity": "style"
+  },
+  {
+   "key": "press_long3",
+   "old": "Ada 1.200 level dalam 6 tingkat, dari Mudah sampai Gila. Meja harian memberi semua pemain di seluruh dunia tantangan yang sama, dan liga mingguan memindahkan pemain antara Perunggu, Perak, dan Emas. Seluruh game bisa dimainkan offline.",
+   "new": "Ada 1.200 level dalam 6 tingkat, dari Mudah sampai Gila. Meja harian memberi semua pemain di seluruh dunia tantangan yang sama, dan liga mingguan memindahkan pemain di antara liga Perunggu, Perak, dan Emas. Seluruh game bisa dimainkan offline.",
+   "why": "APP_GLOSSARY: leagues follow 'liga'. 'di antara' is the correct form here.",
+   "severity": "term"
+  }
+ ],
+ "glossary_changes": []
+}

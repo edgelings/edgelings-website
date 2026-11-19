@@ -1,0 +1,90 @@
+{
+ "verdict": "Accurate, natural and well typeset translation that respects the vouvoiement, the app terms and non-breaking spaces. Main fixes: the deletion email subject must stay in English and 'tier' must follow the app word monde instead of palier.",
+ "changes": [
+  {
+   "key": "sup_delete_mail",
+   "old": "<b>Sans le jeu :</b> si le jeu n'est plus installé, écrivez à info@edgelings.com avec l'objet « Supprimer mon compte Edgelings » et votre pseudo. Nous supprimons le compte sous 30 jours et vous le confirmons par e-mail.",
+   "new": "<b>Sans le jeu :</b> si le jeu n'est plus installé, écrivez à info@edgelings.com avec l'objet « Delete my Edgelings account » et votre pseudo. Nous supprimons le compte sous 30 jours et vous le confirmons par e-mail.",
+   "why": "Decision: the email subject stays in English exactly, inside French quotes, so English support recognises it.",
+   "severity": "meaning"
+  },
+  {
+   "key": "shots_lead",
+   "old": "Faites défiler le premier palier.",
+   "new": "Faites défiler le premier monde.",
+   "why": "Decision: tier uses the app word, APP_GLOSSARY world = monde.",
+   "severity": "term"
+  },
+  {
+   "key": "feat1_p",
+   "old": "6 paliers, de Facile à Fou. Progressez à votre rythme.",
+   "new": "6 mondes, de Facile à Fou. Progressez à votre rythme.",
+   "why": "Tier = monde as in the app (APP_GLOSSARY).",
+   "severity": "term"
+  },
+  {
+   "key": "faq_levels_a",
+   "old": "Edgelings compte 1 200 niveaux répartis en 6 paliers : Facile, Moyen, Difficile, Très difficile, Ultime et Fou. Chaque palier apporte de nouvelles subtilités, comme le miel, la glace, le sable, les trampolines, le vent et les slimes spéciaux. De nouveaux niveaux arrivent depuis le serveur, sans mise à jour de l'app.",
+   "new": "Edgelings compte 1 200 niveaux répartis en 6 mondes : Facile, Moyen, Difficile, Très difficile, Ultime et Fou. Chaque monde apporte de nouvelles subtilités, comme le miel, la glace, le sable, les trampolines, le vent et les slimes spéciaux. De nouveaux niveaux arrivent depuis le serveur, sans mise à jour de l'app.",
+   "why": "Tier = monde as in the app.",
+   "severity": "term"
+  },
+  {
+   "key": "press_content_v",
+   "old": "1 200 niveaux en 6 paliers, table du jour, ligues hebdomadaires, classements",
+   "new": "1 200 niveaux en 6 mondes, table du jour, ligues hebdomadaires, classements",
+   "why": "Tier = monde as in the app.",
+   "severity": "term"
+  },
+  {
+   "key": "press_long3",
+   "old": "Le jeu compte 1 200 niveaux répartis en 6 paliers, de Facile à Fou. La table du jour lance le même défi à tous les joueurs du monde, et les ligues hebdomadaires font passer les joueurs entre Bronze, Argent et Or. Tout le jeu fonctionne hors ligne.",
+   "new": "Le jeu compte 1 200 niveaux répartis en 6 mondes, de Facile à Fou. La table du jour lance le même défi à tous les joueurs du monde, et les ligues hebdomadaires font passer les joueurs entre Bronze, Argent et Or. Tout le jeu fonctionne hors ligne.",
+   "why": "Tier = monde as in the app.",
+   "severity": "term"
+  },
+  {
+   "key": "faq_slimes_a",
+   "old": "Il existe 5 slimes qui fusionnent entre eux : Blip, Mossy, Sunny, Pomme et King Plum. Des slimes spéciaux arrivent ensuite : Aimant attire ceux de son espèce, Fantôme passe à travers les autres, Costaud pousse tout et Pétard explose au premier contact. Un slime Mystère révèle son espèce quand il s'arrête.",
+   "new": "Il existe 5 slimes qui fusionnent entre eux : Blip, Mossy, Sunny, Pomme et King Plum. Des slimes spéciaux arrivent ensuite : l'Aimant attire ceux de son espèce, le Fantôme passe à travers les autres, le Costaud pousse tout et le Pétard explose au premier contact. Un slime Mystère révèle son espèce quand il s'arrête.",
+   "why": "French common nouns used as sentence subjects need the article (Aimant attire... reads ungrammatical). App words kept.",
+   "severity": "grammar"
+  },
+  {
+   "key": "dm_more",
+   "old": "{n} niveaux vous attendent",
+   "new": "Encore {n} niveaux",
+   "why": "English says more levels. Current text drops 'more'. Reads with dm_full: Encore 1195 niveaux / dans le jeu complet. Also shorter.",
+   "severity": "meaning"
+  },
+  {
+   "key": "demo_h2",
+   "old": "Essayez sans attendre",
+   "new": "Essayez ici même",
+   "why": "English 'right here' (in the browser) is lost in 'sans attendre'.",
+   "severity": "meaning"
+  },
+  {
+   "key": "sup_refund_p",
+   "old": "Les achats passent par Apple ou Google, les remboursements aussi. Sur iPhone et iPad, rendez-vous sur reportaproblem.apple.com. Sur Android, ouvrez Google Play, puis Paiements et abonnements, puis Budget et historique.",
+   "new": "Les achats passent par Apple ou Google, les remboursements aussi. Sur iPhone et iPad, rendez-vous sur reportaproblem.apple.com. Sur Android, ouvrez Google Play, puis « Paiements et abonnements », puis « Budget et historique ».",
+   "why": "Menu names quoted like the other UI labels on the site (« Réglages »), so readers find them.",
+   "severity": "style"
+  },
+  {
+   "key": "hero_video_aria",
+   "old": "Gameplay : 2 slimes Pomme fusionnent en King Plum",
+   "new": "Gameplay : 2 slimes Pomme fusionnent en un slime King Plum",
+   "why": "APP_GLOSSARY: slime names preceded by the noun (un slime {slime}), as done for Pomme in the same sentence.",
+   "severity": "term"
+  }
+ ],
+ "glossary_changes": [
+  {
+   "term": "tier",
+   "old": "palier",
+   "new": "monde",
+   "why": "Decision after translation round: use the APP_GLOSSARY word for the 6 difficulty stages (world = monde) so the site matches the app."
+  }
+ ]
+}

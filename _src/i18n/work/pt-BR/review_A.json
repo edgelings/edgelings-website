@@ -1,0 +1,104 @@
+{
+ "verdict": "Accurate, natural pt-BR translation with correct você register, app UI names and HTML. Main fix: the 6 tiers must be 'mundos' as in the app, plus small precision issues in faq_restore_a, faq_kids_a and the Magnet texts.",
+ "changes": [
+  {
+   "key": "feat1_p",
+   "old": "6 níveis de dificuldade, do Fácil ao Insano. Avance no seu ritmo.",
+   "new": "6 mundos, do Fácil ao Insano. Avance no seu ritmo.",
+   "why": "CONTEXT decision: tier uses the app word for the 6 stages, APP_GLOSSARY 'world' = mundo.",
+   "severity": "term"
+  },
+  {
+   "key": "shots_lead",
+   "old": "Deslize pelo primeiro nível de dificuldade.",
+   "new": "Deslize pelo primeiro mundo.",
+   "why": "Tier = mundo, as in the app.",
+   "severity": "term"
+  },
+  {
+   "key": "faq_levels_a",
+   "old": "São 1.200 fases em 6 níveis de dificuldade: Fácil, Médio, Difícil, Muito difícil, Supremo e Insano. Cada nível traz novidades, como mel, gelo, areia, trampolins, vento e slimes especiais. Novas fases chegam pelo servidor, sem precisar atualizar o app.",
+   "new": "São 1.200 fases em 6 mundos: Fácil, Médio, Difícil, Muito difícil, Supremo e Insano. Cada mundo traz novidades, como mel, gelo, areia, trampolins, vento e slimes especiais. Novas fases chegam pelo servidor, sem precisar atualizar o app.",
+   "why": "Tier = mundo, as in the app. Players will look for 'mundo' in the game.",
+   "severity": "term"
+  },
+  {
+   "key": "press_content_v",
+   "old": "1.200 fases em 6 níveis de dificuldade, mesa diária, ligas semanais, ranking",
+   "new": "1.200 fases em 6 mundos, mesa diária, ligas semanais, ranking",
+   "why": "Tier = mundo, as in the app.",
+   "severity": "term"
+  },
+  {
+   "key": "press_long3",
+   "old": "São 1.200 fases em 6 níveis de dificuldade, do Fácil ao Insano. Uma mesa diária traz o mesmo desafio para todo mundo no planeta, e as ligas semanais movem quem joga entre Bronze, Prata e Ouro. O jogo inteiro funciona sem conexão.",
+   "new": "São 1.200 fases em 6 mundos, do Fácil ao Insano. Uma mesa diária traz o mesmo desafio para todo mundo no planeta, e as ligas semanais movem quem joga entre Bronze, Prata e Ouro. O jogo inteiro funciona sem conexão.",
+   "why": "Tier = mundo, as in the app.",
+   "severity": "term"
+  },
+  {
+   "key": "faq_restore_a",
+   "old": "Ele consulta a Apple ou o Google para saber quais compras permanentes estão na sua conta da loja, como Remover anúncios, e as ativa de novo. Moedas e outros itens que já foram usados não são restaurados assim. Para manter esses, faça login.",
+   "new": "Essa opção consulta a Apple ou o Google para saber quais compras permanentes estão na sua conta da loja, como Remover anúncios, e as ativa de novo. Moedas e outros itens consumíveis não são restaurados dessa forma. Com login, esses itens ficam guardados.",
+   "why": "'Ele' did not agree with 'a opção' in the question. 'Itens que já foram usados' wrongly limits it to spent items, English means consumables (unspent coins are not restored either). Last sentence was turned into advice, English states a fact.",
+   "severity": "meaning"
+  },
+  {
+   "key": "faq_kids_a",
+   "old": "O Edgelings foi feito para quem tem 13 anos ou mais. Não tem violência nem chat. Os nomes de jogador são verificados em uma lista de palavras bloqueadas. Quem tem menos de 18 anos deve falar com o pai ou a mãe antes de comprar qualquer coisa.",
+   "new": "O Edgelings foi feito para quem tem 13 anos ou mais. Não tem violência nem chat. Os nomes de jogador são comparados com uma lista de palavras bloqueadas. Quem tem menos de 18 anos deve pedir permissão ao pai ou à mãe antes de comprar qualquer coisa.",
+   "why": "'Ask a parent' before buying means asking permission, 'falar com' is weaker. 'Comparados com' is the precise sense of 'checked against'.",
+   "severity": "meaning"
+  },
+  {
+   "key": "feat2_p",
+   "old": "1 mesa nova por dia, igual para todo mundo. 3 tentativas. Desafie o mundo inteiro.",
+   "new": "1 mesa nova por dia, igual para todo mundo. 3 tentativas. Vença o mundo inteiro.",
+   "why": "'Beat the world' means win, not challenge.",
+   "severity": "meaning"
+  },
+  {
+   "key": "magnet_p",
+   "old": "Atrai os slimes da sua espécie.",
+   "new": "Atrai para perto os slimes da mesma espécie.",
+   "why": "'Closer' was lost, and 'sua espécie' reads as 'your kind' in the você register.",
+   "severity": "meaning"
+  },
+  {
+   "key": "faq_slimes_a",
+   "old": "5 slimes se fundem uns nos outros: Blip, Mossy, Sunny, Pomme e King Plum. Depois chegam os slimes especiais: o Ímã atrai os da sua espécie, o Fantasma atravessa os outros, o Pesado empurra tudo e o Rojão explode no primeiro toque. O slime Mistério só revela o que é quando para.",
+   "new": "5 slimes se fundem uns nos outros: Blip, Mossy, Sunny, Pomme e King Plum. Depois chegam os slimes especiais: o Ímã atrai os da mesma espécie, o Fantasma atravessa os outros, o Pesado empurra tudo e o Rojão explode no primeiro toque. O slime Mistério só revela o que é quando para.",
+   "why": "'Da sua espécie' is ambiguous with você (could mean the player's kind). Same fix as magnet_p.",
+   "severity": "meaning"
+  },
+  {
+   "key": "feat4_h",
+   "old": "Funda e cresça",
+   "new": "Fundir e crescer",
+   "why": "APP_GLOSSARY avoids the imperative 'Funda' for merge. Infinitive keeps the app verb fundir-se.",
+   "severity": "term"
+  },
+  {
+   "key": "press_long1",
+   "old": "Edgelings é um jogo casual sobre parar no momento exato. Você puxa um slime para trás em um estilingue e o solta pela mesa. Um slime perto da borda oposta faz até 3 vezes os pontos. Um slime que passa da borda não vale nada.",
+   "new": "O Edgelings é um jogo casual sobre parar no momento exato. Você puxa um slime para trás em um estilingue e o solta pela mesa. Um slime perto da borda oposta faz até 3 vezes os pontos. Um slime que passa da borda não vale nada.",
+   "why": "APP_GLOSSARY and the rest of the site use 'o Edgelings' with the article.",
+   "severity": "grammar"
+  },
+  {
+   "key": "mossy_p",
+   "old": "Calmo e tranquilo. Nasce de 2 slimes Blip.",
+   "new": "Calmo e firme. Nasce de 2 slimes Blip.",
+   "why": "'Steady' is firme or constante. 'Calmo e tranquilo' repeats the same idea and loses 'steady'.",
+   "severity": "style"
+  }
+ ],
+ "glossary_changes": [
+  {
+   "term": "tier",
+   "old": "nível de dificuldade (nível)",
+   "new": "mundo",
+   "why": "CONTEXT_WEB decision: use the APP_GLOSSARY word for the 6 difficulty stages, which is 'world' = mundo in pt-BR."
+  }
+ ]
+}

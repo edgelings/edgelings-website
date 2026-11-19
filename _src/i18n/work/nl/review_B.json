@@ -1,0 +1,242 @@
+{
+ "verdict": "Solid, correct and consistent translation with the right formal register and app terms. Main fixes: use 'wereld' for tier per the decision, restore the platforms in the home SEO title, fix a few calques and 2 ungrammatical FAQ sentences, and sharpen the hero slogan.",
+ "changes": [
+  {
+   "key": "meta_index_title",
+   "old": "Edgelings: schiet slijmpjes naar de rand | Gratis game",
+   "new": "Edgelings: schiet slijmpjes naar de rand | Gratis op iPhone en Android",
+   "why": "English title names the platforms, translation dropped them. Platform words matter for search. 70 chars, same as English.",
+   "severity": "meaning"
+  },
+  {
+   "key": "meta_index_desc",
+   "old": "Gratis casual game voor iPhone, iPad en Android. Schiet glanzende slijmpjes over tafel. Hoe dichter bij de rand, hoe meer punten. Over de rand scoort niets.",
+   "new": "Gratis casual game voor iPhone, iPad en Android. Schiet glanzende slijmpjes over de tafel. Hoe dichter bij de rand, hoe meer punten. Over de rand levert niets op.",
+   "why": "'Over de rand scoort niets' is stiff. Match hero_lead wording.",
+   "severity": "style"
+  },
+  {
+   "key": "hero_h1",
+   "old": "Tot aan de rand.<br>Niet eroverheen.",
+   "new": "Tot op het randje.<br>Niet eroverheen.",
+   "why": "'Tot op het randje' is a real Dutch idiom (a close call), punchier and more playful than the literal 'Tot aan de rand'.",
+   "severity": "style"
+  },
+  {
+   "key": "foot_tag1",
+   "old": "Tot aan de rand. Niet eroverheen.",
+   "new": "Tot op het randje. Niet eroverheen.",
+   "why": "Same slogan as hero_h1.",
+   "severity": "style"
+  },
+  {
+   "key": "fact_offline",
+   "old": "Speelt offline",
+   "new": "Ook offline",
+   "why": "'Speelt offline' is a calque of 'plays offline'. Shorter than English.",
+   "severity": "style"
+  },
+  {
+   "key": "feat6_h",
+   "old": "Speelt offline",
+   "new": "Ook offline te spelen",
+   "why": "Same calque as fact_offline.",
+   "severity": "style"
+  },
+  {
+   "key": "demo_free",
+   "old": "Gratis demo. 5 levels. Niets downloaden.",
+   "new": "Gratis demo. 5 levels. Zonder download.",
+   "why": "'Niets downloaden' sounds like an instruction. 'Zonder download' is the natural phrase.",
+   "severity": "style"
+  },
+  {
+   "key": "demo_h2",
+   "old": "Probeer het meteen hier",
+   "new": "Probeer het hier meteen",
+   "why": "Word order 'meteen hier' is unnatural.",
+   "severity": "style"
+  },
+  {
+   "key": "step3",
+   "old": "Stop vlak bij de rand voor 3 keer zoveel punten.",
+   "new": "Laat het vlak bij de rand stoppen voor 3 keer zoveel punten.",
+   "why": "'Stop vlak bij de rand' lacks the object and reads as if the player stops.",
+   "severity": "grammar"
+  },
+  {
+   "key": "step4",
+   "old": "Pak uw score, of waag nog 1 schot voor een bonus.",
+   "new": "Pak uw score of waag nog 1 schot voor een bonus.",
+   "why": "No comma before 'of' in Dutch here.",
+   "severity": "style"
+  },
+  {
+   "key": "score_lead",
+   "old": "Sleep Mossy naar de rand. Hoe dichterbij, hoe meer punten. Te ver en het valt eraf.",
+   "new": "Sleep Mossy naar de rand. Hoe dichterbij, hoe meer punten. Te ver, dan valt het eraf.",
+   "why": "'Te ver en het valt eraf' is an English construction.",
+   "severity": "style"
+  },
+  {
+   "key": "score_msg2",
+   "old": "Het komt dichterbij: 2 keer zoveel punten.",
+   "new": "Al dichterbij: 2 keer zoveel punten.",
+   "why": "'Het komt dichterbij' sounds like something approaching the player. 'Al dichterbij' is short and natural.",
+   "severity": "style"
+  },
+  {
+   "key": "video_h2",
+   "old": "Zie het in actie",
+   "new": "Bekijk het in actie",
+   "why": "'Zie het in actie' is an anglicism.",
+   "severity": "style"
+  },
+  {
+   "key": "loop_honey_p",
+   "old": "Plakkerig. Slijmpjes stoppen er snel.",
+   "new": "Plakkerig. Remt slijmpjes snel af.",
+   "why": "'Slijmpjes stoppen er snel' is incomplete and clumsy.",
+   "severity": "style"
+  },
+  {
+   "key": "shots_lead",
+   "old": "Swipe door de eerste moeilijkheidsgraad.",
+   "new": "Swipe door de eerste wereld.",
+   "why": "Decision: tier uses the app word for the 6 stages, which is 'wereld' in APP_GLOSSARY. Also shorter.",
+   "severity": "term"
+  },
+  {
+   "key": "feat_lead",
+   "old": "Snel geleerd. Lastig om precies bij de rand te stoppen.",
+   "new": "Snel geleerd. Lastig om op tijd te stoppen.",
+   "why": "'Op tijd stoppen' keeps the English double meaning (stopping the slime and stopping playing). Current text loses the wordplay and is long.",
+   "severity": "style"
+  },
+  {
+   "key": "feat1_p",
+   "old": "6 moeilijkheidsgraden, van Makkelijk tot Waanzinnig. Ga omhoog in uw eigen tempo.",
+   "new": "6 werelden, van Makkelijk tot Waanzinnig. Ga verder in uw eigen tempo.",
+   "why": "Tier = 'wereld' as in the app. 'Ga omhoog' is unnatural.",
+   "severity": "term"
+  },
+  {
+   "key": "feat3_p",
+   "old": "Klim op van Brons naar Zilver naar Goud. Nieuwe week, nieuwe kans.",
+   "new": "Klim van Brons via Zilver naar Goud. Nieuwe week, nieuwe kans.",
+   "why": "'van ... naar ... naar' is an English pattern, 'via' is natural Dutch.",
+   "severity": "style"
+  },
+  {
+   "key": "heavy_p",
+   "old": "Duwt alles opzij wat in de weg ligt.",
+   "new": "Duwt alles uit de weg.",
+   "why": "Shorter and punchier than 'Duwt alles opzij wat in de weg ligt'.",
+   "severity": "style"
+  },
+  {
+   "key": "faq_how_q",
+   "old": "Hoe speelt u het?",
+   "new": "Hoe speelt u Edgelings?",
+   "why": "'Hoe speelt u het?' is awkward and vague for a standalone FAQ question read by search engines.",
+   "severity": "style"
+  },
+  {
+   "key": "faq_how_a",
+   "old": "Trek het slijmpje terug in de katapult en laat los. Mik op de goudzone vlak bij de rand, die 3 keer zoveel punten oplevert. 2 slijmpjes van dezelfde soort fuseren tot 1 groter slijmpje. Als u het doel hebt bereikt, kunt u uw punten pakken of nog 1 schot wagen voor 10% bonus.",
+   "new": "Trek het slijmpje terug in de katapult en laat los. Mik op de goudzone vlak bij de rand, die 3 keer zoveel punten oplevert. 2 slijmpjes van dezelfde soort fuseren tot 1 groter slijmpje. Als u het doel hebt bereikt, kunt u uw punten pakken of nog 1 schot wagen voor een bonus van 10%.",
+   "why": "'voor 10% bonus' lacks the article, 'een bonus van 10%' is natural.",
+   "severity": "grammar"
+  },
+  {
+   "key": "faq_devices_q",
+   "old": "Op welke apparaten werkt het?",
+   "new": "Op welke apparaten werkt Edgelings?",
+   "why": "Standalone FAQ question, better for search with the name.",
+   "severity": "style"
+  },
+  {
+   "key": "faq_levels_a",
+   "old": "Er zijn 1200 levels in 6 moeilijkheidsgraden: Makkelijk, Gemiddeld, Moeilijk, Extra moeilijk, Ultiem en Waanzinnig. Elke moeilijkheidsgraad brengt nieuwe uitdagingen, zoals honing, ijs, zand, trampolines, wind en speciale slijmpjes. Nieuwe levels komen via de server binnen, zonder app-update.",
+   "new": "Er zijn 1200 levels in 6 werelden: Makkelijk, Gemiddeld, Moeilijk, Extra moeilijk, Ultiem en Waanzinnig. Elke wereld brengt nieuwe uitdagingen, zoals honing, ijs, zand, trampolines, wind en speciale slijmpjes. Nieuwe levels komen via de server binnen, zonder app-update.",
+   "why": "Tier = 'wereld' as in the app.",
+   "severity": "term"
+  },
+  {
+   "key": "faq_slimes_a",
+   "old": "5 slijmpjes fuseren tot elkaar: Blip, Mossy, Sunny, Pomme en King Plum. Later komen er speciale slijmpjes bij: Magneet trekt slijmpjes van de eigen soort aan, Spook glipt door andere heen, Zwaargewicht duwt alles opzij en Vuurwerk ontploft bij de eerste aanraking. Een Mysterie-slijmpje laat pas zien wat het is als het stilstaat.",
+   "new": "De fusieketen telt 5 slijmpjes: Blip, Mossy, Sunny, Pomme en King Plum. Later komen er speciale slijmpjes bij: Magneet trekt slijmpjes van de eigen soort aan, Spook glipt door andere heen, Zwaargewicht duwt alles opzij en Vuurwerk ontploft bij de eerste aanraking. Een Mysterie-slijmpje laat pas zien wat het is als het stilstaat.",
+   "why": "'fuseren tot elkaar' is not idiomatic and unclear. Uses the site's own term 'fusieketen'.",
+   "severity": "grammar"
+  },
+  {
+   "key": "faq_leagues_a",
+   "old": "Op basis van uw resultaten op de dagtafel komt u in een divisie: Brons, Zilver of Goud. Elke week promoveren de beste spelers en degraderen de laatste. De ranglijsten tonen Dag, Week en Aller tijden.",
+   "new": "Op basis van uw resultaten op de dagtafel komt u in een divisie: Brons, Zilver of Goud. Elke week promoveren de beste spelers en degraderen de laatste. De ranglijsten tonen \"Dag\", \"Week\" en \"Aller tijden\".",
+   "why": "App tab names are quoted elsewhere on the site (web glossary rule). Quote them here too.",
+   "severity": "term"
+  },
+  {
+   "key": "faq_ads_a",
+   "old": "Ja. Op menuschermen staat een kleine banner, nooit tijdens een level. U kunt ook zelf kiezen om reclame te kijken voor een extra slijmpje of een extra poging. Met \"Reclame verwijderen\" verdwijnt de banner voorgoed. Reclame die u zelf kiest te kijken, blijft beschikbaar.",
+   "new": "Ja. Op menuschermen staat een kleine banner, nooit tijdens een level. U kunt ook zelf kiezen om reclame te kijken voor een extra slijmpje of een extra poging. Met \"Reclame verwijderen\" verdwijnt de banner voorgoed. Vrijwillig reclame kijken blijft mogelijk.",
+   "why": "'Reclame die u zelf kiest te kijken' is ungrammatical (missing 'om'). New sentence keeps the meaning precisely.",
+   "severity": "grammar"
+  },
+  {
+   "key": "faq_phone_a",
+   "old": "Uw voortgang wordt op uw telefoon en op onze server opgeslagen. Inloggen met Google of Apple komt eraan. Wie is ingelogd, kan dan alles meenemen naar een nieuwe telefoon: naam, munten, levels, slijmpjes, skins en aankopen. Zonder inloggen begint een nieuwe telefoon weer bij het begin.",
+   "new": "Uw voortgang wordt op uw telefoon en op onze server opgeslagen. Inloggen met Google of Apple komt eraan. Wie is ingelogd, kan dan alles meenemen naar een nieuwe telefoon: naam, munten, levels, slijmpjes, skins en aankopen. Zonder inloggen begint u op een nieuwe telefoon weer bij het begin.",
+   "why": "'een nieuwe telefoon begint' makes the phone the player. Address stays formal and neutral.",
+   "severity": "style"
+  },
+  {
+   "key": "faq_restore_q",
+   "old": "Wat doet Aankopen herstellen?",
+   "new": "Wat doet \"Aankopen herstellen\"?",
+   "why": "App button names are quoted elsewhere (faq_restore_a, faq_free_a). Unquoted it reads as broken grammar.",
+   "severity": "term"
+  },
+  {
+   "key": "press_content_v",
+   "old": "1200 levels in 6 moeilijkheidsgraden, dagtafel, wekelijkse divisies, ranglijsten",
+   "new": "1200 levels in 6 werelden, dagtafel, wekelijkse divisies, ranglijsten",
+   "why": "Tier = 'wereld' as in the app.",
+   "severity": "term"
+  },
+  {
+   "key": "press_long1",
+   "old": "Edgelings is een casual game die draait om precies op het juiste moment stoppen. De speler trekt een slijmpje terug in een katapult en laat het los over een tafel. Een slijmpje vlak bij de rand aan de overkant scoort tot 3 keer zoveel punten. Een slijmpje dat over de rand gaat, scoort niets.",
+   "new": "Edgelings is een casual game die draait om stoppen op precies het juiste moment. De speler trekt een slijmpje terug in een katapult en laat het los over een tafel. Een slijmpje vlak bij de rand aan de overkant scoort tot 3 keer zoveel punten. Een slijmpje dat over de rand gaat, scoort niets.",
+   "why": "Word order 'om precies op het juiste moment stoppen' is heavy, the new order reads naturally.",
+   "severity": "style"
+  },
+  {
+   "key": "press_long3",
+   "old": "Er zijn 1200 levels in 6 moeilijkheidsgraden, van Makkelijk tot Waanzinnig. Een dagtafel geeft elke speler ter wereld dezelfde uitdaging, en in wekelijkse divisies stijgen en dalen spelers tussen Brons, Zilver en Goud. De hele game is offline te spelen.",
+   "new": "Er zijn 1200 levels in 6 werelden, van Makkelijk tot Waanzinnig. Een dagtafel geeft elke speler ter wereld dezelfde uitdaging, en in wekelijkse divisies stijgen en dalen spelers tussen Brons, Zilver en Goud. De hele game is offline te spelen.",
+   "why": "Tier = 'wereld' as in the app.",
+   "severity": "term"
+  }
+ ],
+ "glossary_changes": [
+  {
+   "term": "Close to the edge. Not over it.",
+   "old": "Tot aan de rand. Niet eroverheen.",
+   "new": "Tot op het randje. Niet eroverheen.",
+   "why": "Idiomatic and punchier slogan."
+  },
+  {
+   "term": "tier",
+   "old": "moeilijkheidsgraad",
+   "new": "wereld, werelden",
+   "why": "Post-round decision: use the app's word for the 6 stages (APP_GLOSSARY: world = wereld)."
+  },
+  {
+   "term": "Plays offline",
+   "old": "Speelt offline",
+   "new": "Ook offline / Ook offline te spelen",
+   "why": "Avoid calque."
+  }
+ ]
+}

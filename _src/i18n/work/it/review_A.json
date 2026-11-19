@@ -1,0 +1,96 @@
+{
+ "verdict": "Accurate, idiomatic translation with correct Lei register, app terms and HTML throughout. 2 brief decisions were missed (English email subject in sup_delete_mail, tier = mondo), plus a few small precision fixes.",
+ "changes": [
+  {
+   "key": "sup_delete_mail",
+   "old": "<b>Senza il gioco:</b> se non ha più il gioco installato, scriva a info@edgelings.com con oggetto “Eliminare il mio account Edgelings” e il suo nome giocatore. Eliminiamo l'account entro 30 giorni e lo confermiamo via email.",
+   "new": "<b>Senza il gioco:</b> se non ha più il gioco installato, scriva a info@edgelings.com con oggetto “Delete my Edgelings account” e il suo nome giocatore. Eliminiamo l'account entro 30 giorni e lo confermiamo via email.",
+   "why": "Decision: the email subject must stay in English exactly, so support recognises it.",
+   "severity": "meaning"
+  },
+  {
+   "key": "feat1_p",
+   "old": "6 fasce di difficoltà, da Facile a Folle. Avanzi al suo ritmo.",
+   "new": "6 mondi, da Facile a Folle. Avanzi al suo ritmo.",
+   "why": "Decision: tier uses the app's word (mondo), not fascia di difficoltà.",
+   "severity": "term"
+  },
+  {
+   "key": "shots_lead",
+   "old": "Scorra le immagini della prima fascia di difficoltà.",
+   "new": "Scorra le immagini del primo mondo.",
+   "why": "Tier = mondo as in the app.",
+   "severity": "term"
+  },
+  {
+   "key": "faq_levels_a",
+   "old": "1.200 livelli in 6 fasce di difficoltà: Facile, Medio, Difficile, Extra difficile, Estremo e Folle. Ogni fascia aggiunge nuove insidie, come miele, ghiaccio, sabbia, trampolini, vento e slime speciali. Nuovi livelli arrivano dal server senza bisogno di aggiornare l'app.",
+   "new": "1.200 livelli in 6 mondi: Facile, Medio, Difficile, Extra difficile, Estremo e Folle. Ogni mondo aggiunge nuove insidie, come miele, ghiaccio, sabbia, trampolini, vento e slime speciali. Nuovi livelli arrivano dal server senza bisogno di aggiornare l'app.",
+   "why": "Tier = mondo as in the app.",
+   "severity": "term"
+  },
+  {
+   "key": "press_content_v",
+   "old": "1.200 livelli in 6 fasce di difficoltà, tavolo del giorno, leghe settimanali, classifiche",
+   "new": "1.200 livelli in 6 mondi, tavolo del giorno, leghe settimanali, classifiche",
+   "why": "Tier = mondo as in the app.",
+   "severity": "term"
+  },
+  {
+   "key": "press_long3",
+   "old": "Ci sono 1.200 livelli in 6 fasce di difficoltà, da Facile a Folle. Il tavolo del giorno offre a tutti i giocatori del mondo la stessa sfida, e le leghe settimanali spostano i giocatori tra Bronzo, Argento e Oro. L'intero gioco funziona offline.",
+   "new": "Ci sono 1.200 livelli in 6 mondi, da Facile a Folle. Il tavolo del giorno offre a tutti i giocatori del mondo la stessa sfida, e le leghe settimanali spostano i giocatori tra Bronzo, Argento e Oro. L'intero gioco funziona offline.",
+   "why": "Tier = mondo as in the app.",
+   "severity": "term"
+  },
+  {
+   "key": "feat2_p",
+   "old": "1 nuovo tavolo al giorno, uguale per tutti. 3 tentativi. Sfidi il mondo.",
+   "new": "1 nuovo tavolo al giorno, uguale per tutti. 3 tentativi. Batta tutti.",
+   "why": "'Beat the world' means beat everyone, 'Sfidi' only means challenge. Also avoids 'mondo', now the tier word.",
+   "severity": "meaning"
+  },
+  {
+   "key": "faq_daily_a",
+   "old": "È un nuovo tavolo ogni giorno, uguale per tutti i giocatori del mondo. Ha 3 tentativi al giorno e conta il suo punteggio migliore. Gli aiuti acquistati lì sono disattivati, così la sfida è alla pari.",
+   "new": "È un nuovo tavolo ogni giorno, uguale per tutti i giocatori del mondo. Ha 3 tentativi al giorno e conta il suo punteggio migliore. Lì gli aiuti acquistati sono disattivati, così la sfida è alla pari.",
+   "why": "'aiuti acquistati lì' reads as 'helpers bought there'. Move 'Lì' to the front so it means switched off on the daily table.",
+   "severity": "grammar"
+  },
+  {
+   "key": "king_p",
+   "old": "2 Pomme, 1 corona. La fusione reale.",
+   "new": "2 Pomme, 1 corona. La fusione regale.",
+   "why": "'reale' is ambiguous (real or royal), 'regale' means royal.",
+   "severity": "meaning"
+  },
+  {
+   "key": "press_genre_v",
+   "old": "Casual, puzzle fisico, arcade",
+   "new": "Casual, puzzle basato sulla fisica, arcade",
+   "why": "'puzzle fisico' suggests a physical, real-world puzzle. 'basato sulla fisica' is the usual genre wording.",
+   "severity": "meaning"
+  },
+  {
+   "key": "meta_index_title",
+   "old": "Edgelings: slime fino al bordo | Gratis su iPhone e Android",
+   "new": "Edgelings: lanci gli slime fino al bordo | Gratis su iPhone e Android",
+   "why": "Current title drops the verb 'flick', so it does not say what the game is. Lei form kept.",
+   "severity": "meaning"
+  }
+ ],
+ "glossary_changes": [
+  {
+   "term": "tier",
+   "old": "fascia di difficoltà",
+   "new": "mondo",
+   "why": "Decision after the translation round: use the app's word for the 6 difficulty stages (APP_GLOSSARY: world = mondo)."
+  },
+  {
+   "term": "Delete my Edgelings account (email subject)",
+   "old": "Eliminare il mio account Edgelings",
+   "new": "“Delete my Edgelings account” (kept in English)",
+   "why": "Decision: support recognises the English subject."
+  }
+ ]
+}

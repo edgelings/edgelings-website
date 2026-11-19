@@ -1,0 +1,117 @@
+{
+ "verdict": "Lively, natural Italian with strong slogans and a consistent Lei register, close to ready. Must fix the English email subject in sup_delete_mail and use the app word 'mondo' for tier, the rest are polish.",
+ "changes": [
+  {
+   "key": "sup_delete_mail",
+   "old": "<b>Senza il gioco:</b> se non ha più il gioco installato, scriva a info@edgelings.com con oggetto “Eliminare il mio account Edgelings” e il suo nome giocatore. Eliminiamo l'account entro 30 giorni e lo confermiamo via email.",
+   "new": "<b>Senza il gioco:</b> se non ha più il gioco installato, scriva a info@edgelings.com con oggetto “Delete my Edgelings account”, indicando il suo nome giocatore. Eliminiamo l'account entro 30 giorni e lo confermiamo via email.",
+   "why": "Decision: the email subject must stay in English exactly, support recognises only that subject. Comma also makes clear the name goes in the email, not the subject.",
+   "severity": "meaning"
+  },
+  {
+   "key": "feat1_p",
+   "old": "6 fasce di difficoltà, da Facile a Folle. Avanzi al suo ritmo.",
+   "new": "6 mondi, da Facile a Folle. Avanzi al suo ritmo.",
+   "why": "Decision: tier uses the app word (mondo), so the site matches the app. Also shorter and punchier.",
+   "severity": "term"
+  },
+  {
+   "key": "shots_lead",
+   "old": "Scorra le immagini della prima fascia di difficoltà.",
+   "new": "Scorra le immagini del primo mondo.",
+   "why": "tier = mondo as in the app. Shorter, less heavy.",
+   "severity": "term"
+  },
+  {
+   "key": "faq_levels_a",
+   "old": "1.200 livelli in 6 fasce di difficoltà: Facile, Medio, Difficile, Extra difficile, Estremo e Folle. Ogni fascia aggiunge nuove insidie, come miele, ghiaccio, sabbia, trampolini, vento e slime speciali. Nuovi livelli arrivano dal server senza bisogno di aggiornare l'app.",
+   "new": "1.200 livelli in 6 mondi: Facile, Medio, Difficile, Extra difficile, Estremo e Folle. Ogni mondo aggiunge nuove insidie, come miele, ghiaccio, sabbia, trampolini, vento e slime speciali. Nuovi livelli arrivano dal server senza bisogno di aggiornare l'app.",
+   "why": "tier = mondo as in the app.",
+   "severity": "term"
+  },
+  {
+   "key": "press_content_v",
+   "old": "1.200 livelli in 6 fasce di difficoltà, tavolo del giorno, leghe settimanali, classifiche",
+   "new": "1.200 livelli in 6 mondi, tavolo del giorno, leghe settimanali, classifiche",
+   "why": "tier = mondo as in the app.",
+   "severity": "term"
+  },
+  {
+   "key": "press_long3",
+   "old": "Ci sono 1.200 livelli in 6 fasce di difficoltà, da Facile a Folle. Il tavolo del giorno offre a tutti i giocatori del mondo la stessa sfida, e le leghe settimanali spostano i giocatori tra Bronzo, Argento e Oro. L'intero gioco funziona offline.",
+   "new": "Ci sono 1.200 livelli in 6 mondi, da Facile a Folle. Il tavolo del giorno offre a tutti i giocatori del mondo la stessa sfida, e le leghe settimanali spostano i giocatori tra Bronzo, Argento e Oro. L'intero gioco funziona offline.",
+   "why": "tier = mondo as in the app.",
+   "severity": "term"
+  },
+  {
+   "key": "meta_index_title",
+   "old": "Edgelings: slime fino al bordo | Gratis su iPhone e Android",
+   "new": "Edgelings: slime al limite | Gratis su iPhone e Android",
+   "why": "'slime fino al bordo' has no verb and reads like a fragment. 'al limite' is a natural Italian play on 'on the edge', 55 characters.",
+   "severity": "style"
+  },
+  {
+   "key": "demo_end_p",
+   "old": "Altri 1.195 livelli, il tavolo del giorno e le leghe settimanali sono pronti nell'app.",
+   "new": "Altri 1.195 livelli, il tavolo del giorno e le leghe settimanali la aspettano nell'app.",
+   "why": "'sono pronti' is flat. 'la aspettano' renders 'are waiting' and is more inviting, Lei kept.",
+   "severity": "style"
+  },
+  {
+   "key": "demo_lead",
+   "old": "Il vero gioco, direttamente nel browser. Giochi i primi 5 livelli, poi porti il resto con sé.",
+   "new": "Il vero gioco, direttamente nel browser. Giochi i primi 5 livelli, poi si porti il resto in tasca.",
+   "why": "'porti il resto con sé' is literal. 'si porti il resto in tasca' is idiomatic and hints at the phone.",
+   "severity": "style"
+  },
+  {
+   "key": "score_lead",
+   "old": "Trascini Mossy verso il bordo. Più è vicino, più guadagna. Troppo in là e cade.",
+   "new": "Trascini Mossy verso il bordo. Più è vicino, più punti fa. Troppo in là e cade.",
+   "why": "'più guadagna' has an unclear subject (the reader or Mossy). 'più punti fa' matches hero_lead and the FAQ.",
+   "severity": "style"
+  },
+  {
+   "key": "video_h2",
+   "old": "Guardi il gioco in azione",
+   "new": "Il gioco in azione",
+   "why": "Shorter, punchier heading. 'Guardi il gioco in azione' reads like an instruction.",
+   "severity": "style"
+  },
+  {
+   "key": "band_p",
+   "old": "Presto su iPhone, iPad e Android. Gratuito.",
+   "new": "Presto su iPhone, iPad e Android. Si gioca gratis.",
+   "why": "'Gratuito.' alone is dry and has no clear noun. 'Si gioca gratis' renders 'Free to play' naturally.",
+   "severity": "style"
+  },
+  {
+   "key": "sunny_p",
+   "old": "Cornetti piccoli, sorriso grande. Adora la zona d'oro.",
+   "new": "Piccole corna, gran sorriso. Adora la zona d'oro.",
+   "why": "Better rhythm for the contrast. 'Cornetti' also suggests croissants.",
+   "severity": "style"
+  },
+  {
+   "key": "faq_daily_a",
+   "old": "È un nuovo tavolo ogni giorno, uguale per tutti i giocatori del mondo. Ha 3 tentativi al giorno e conta il suo punteggio migliore. Gli aiuti acquistati lì sono disattivati, così la sfida è alla pari.",
+   "new": "È un nuovo tavolo ogni giorno, uguale per tutti i giocatori del mondo. Ha 3 tentativi al giorno e conta il suo punteggio migliore. Lì gli aiuti acquistati sono disattivati, così la sfida è alla pari.",
+   "why": "'aiuti acquistati lì' can be read as 'helpers bought there'. Moving 'Lì' first removes the ambiguity.",
+   "severity": "style"
+  }
+ ],
+ "glossary_changes": [
+  {
+   "term": "tier",
+   "old": "fascia di difficoltà",
+   "new": "mondo",
+   "why": "CONTEXT_WEB decision: use the APP_GLOSSARY word for the 6 difficulty stages (world = mondo) so the site matches the app."
+  },
+  {
+   "term": "Delete my Edgelings account (email subject)",
+   "old": "Eliminare il mio account Edgelings",
+   "new": "“Delete my Edgelings account” (kept in English)",
+   "why": "Decision: support recognises only the English subject."
+  }
+ ]
+}

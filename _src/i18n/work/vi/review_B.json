@@ -1,0 +1,132 @@
+{
+ "verdict": "A natural, lively Vietnamese translation with strong slogans and precise legal texts. The main fix is the tier term, which must be thế giới as in the app, plus 1 mistranslated label and a few literal phrasings.",
+ "changes": [
+  {
+   "key": "meta_index_title",
+   "old": "Edgelings: búng slime sát mép | Miễn phí iPhone, Android",
+   "new": "Edgelings: búng slime sát mép | Miễn phí trên iPhone, Android",
+   "why": "'Miễn phí iPhone' can read as 'free iPhone' in a search result, 'trên' removes the ambiguity",
+   "severity": "style"
+  },
+  {
+   "key": "shots_lead",
+   "old": "Lướt qua cấp độ đầu tiên.",
+   "new": "Lướt xem thế giới đầu tiên.",
+   "why": "Context decision: tier must use the app word for the 6 stages, APP_GLOSSARY says thế giới, not cấp độ",
+   "severity": "term"
+  },
+  {
+   "key": "feat1_p",
+   "old": "6 cấp độ, từ Dễ đến Điên rồ. Tiến lên theo nhịp của riêng bạn.",
+   "new": "6 thế giới, từ Dễ đến Điên rồ. Tiến lên theo nhịp của riêng bạn.",
+   "why": "Context decision: tier must use the app word for the 6 stages, APP_GLOSSARY says thế giới, not cấp độ",
+   "severity": "term"
+  },
+  {
+   "key": "faq_levels_a",
+   "old": "1.200 màn chia thành 6 cấp độ: Dễ, Vừa, Khó, Siêu khó, Tối thượng và Điên rồ. Mỗi cấp độ thêm những thử thách mới, như mật ong, băng, cát, bạt nhún, gió và slime đặc biệt. Màn mới được tải từ máy chủ mà không cần cập nhật ứng dụng.",
+   "new": "1.200 màn chia thành 6 thế giới: Dễ, Vừa, Khó, Siêu khó, Tối thượng và Điên rồ. Mỗi thế giới thêm những thử thách mới, như mật ong, băng, cát, bạt nhún, gió và slime đặc biệt. Màn mới được tải từ máy chủ mà không cần cập nhật ứng dụng.",
+   "why": "Context decision: tier must use the app word for the 6 stages, APP_GLOSSARY says thế giới, not cấp độ",
+   "severity": "term"
+  },
+  {
+   "key": "press_content_v",
+   "old": "1.200 màn chia thành 6 cấp độ, bàn hằng ngày, hạng đấu hằng tuần, bảng xếp hạng",
+   "new": "1.200 màn chia thành 6 thế giới, bàn hằng ngày, hạng đấu hằng tuần, bảng xếp hạng",
+   "why": "Context decision: tier must use the app word for the 6 stages, APP_GLOSSARY says thế giới, not cấp độ",
+   "severity": "term"
+  },
+  {
+   "key": "press_long3",
+   "old": "Game có 1.200 màn chia thành 6 cấp độ, từ Dễ đến Điên rồ. Bàn hằng ngày mang đến cùng một thử thách cho mọi người chơi trên thế giới, còn các hạng đấu hằng tuần đưa người chơi lên xuống giữa hạng Đồng, Bạc và Vàng. Toàn bộ game đều chơi được khi không có mạng.",
+   "new": "Game có 1.200 màn chia thành 6 thế giới, từ Dễ đến Điên rồ. Bàn hằng ngày mang đến cùng một thử thách cho mọi người chơi trên thế giới, còn các hạng đấu hằng tuần đưa người chơi lên xuống giữa hạng Đồng, Bạc và Vàng. Toàn bộ game đều chơi được khi không có mạng.",
+   "why": "Context decision: tier must use the app word for the 6 stages, APP_GLOSSARY says thế giới, not cấp độ",
+   "severity": "term"
+  },
+  {
+   "key": "sup_delete_mail",
+   "old": "<b>Không cần game:</b> nếu bạn không còn cài game, hãy gửi email tới info@edgelings.com với tiêu đề \"Delete my Edgelings account\" kèm tên người chơi của bạn. Chúng tôi sẽ xóa tài khoản trong vòng 30 ngày và xác nhận qua email.",
+   "new": "<b>Khi không còn game:</b> nếu bạn không còn cài game, hãy gửi email tới info@edgelings.com với tiêu đề \"Delete my Edgelings account\" kèm tên người chơi của bạn. Chúng tôi sẽ xóa tài khoản trong vòng 30 ngày và xác nhận qua email.",
+   "why": "'Không cần game' means 'no game needed', the label means the player no longer has the game",
+   "severity": "meaning"
+  },
+  {
+   "key": "faq_delete_a",
+   "old": "Trong game, mở “Cài đặt” và chạm vào “Xóa tài khoản”. Nếu không còn game, hãy gửi email tới info@edgelings.com kèm tên người chơi của bạn. Xem thêm tại <a href=\"{base}/support.html#delete\">Xóa tài khoản</a>.",
+   "new": "Trong game, mở “Cài đặt” và chạm vào “Xóa tài khoản”. Nếu đã gỡ game, hãy gửi email tới info@edgelings.com kèm tên người chơi của bạn. Xem thêm tại <a href=\"{base}/support.html#delete\">Xóa tài khoản</a>.",
+   "why": "'Nếu không còn game' is vague, 'đã gỡ game' says it plainly and matches the support page",
+   "severity": "style"
+  },
+  {
+   "key": "demo_lead",
+   "old": "Đúng game thật, ngay trên trình duyệt. Chơi 5 màn đầu, rồi mang phần còn lại theo bạn.",
+   "new": "Game thật, ngay trên trình duyệt. Chơi 5 màn đầu, rồi chơi tiếp phần còn lại trong ứng dụng.",
+   "why": "'Đúng game thật' and 'mang phần còn lại theo bạn' are literal and read as translation",
+   "severity": "style"
+  },
+  {
+   "key": "video_h2",
+   "old": "Xem game hoạt động",
+   "new": "Xem tận mắt cách chơi",
+   "why": "'Xem game hoạt động' is a calque of 'in action', unnatural as a heading",
+   "severity": "style"
+  },
+  {
+   "key": "feat4_p",
+   "old": "2 slime cùng loại gộp thành 1 slime lớn hơn. Slime càng lớn, điểm càng cao vượt trội.",
+   "new": "2 slime cùng loại gộp thành 1 slime lớn hơn. Slime càng lớn, điểm càng cao hơn hẳn.",
+   "why": "'điểm càng cao vượt trội' is awkward, 'cao hơn hẳn' is the natural way to say 'far more'",
+   "severity": "style"
+  },
+  {
+   "key": "foot_operated",
+   "old": "Edgelings do Matej Mesko, Slovenia, vận hành.",
+   "new": "Edgelings do Matej Mesko tại Slovenia vận hành.",
+   "why": "Commas around Slovenia break the sentence, 'tại Slovenia' flows naturally",
+   "severity": "style"
+  },
+  {
+   "key": "score_blob_alt",
+   "old": "Mossy, kéo mình về phía mép đi",
+   "new": "Mình là Mossy, kéo mình về phía mép đi",
+   "why": "'Mossy, kéo mình...' reads as speaking to Mossy, the English has Mossy speaking",
+   "severity": "style"
+  },
+  {
+   "key": "sunny_p",
+   "old": "Sừng nhỏ, nụ cười to. Mê vùng vàng.",
+   "new": "Sừng nhỏ xíu, cười toe toét. Mê vùng vàng.",
+   "why": "Livelier character line, 'nụ cười to' is flat and literal",
+   "severity": "style"
+  },
+  {
+   "key": "press_meta",
+   "old": "Mọi thứ bạn cần để viết về Edgelings. Được dùng miễn phí cho bài viết, bài đánh giá và video.",
+   "new": "Mọi thứ bạn cần để viết về Edgelings. Bạn có thể dùng miễn phí cho bài viết, bài đánh giá và video.",
+   "why": "Subjectless 'Được dùng miễn phí' sounds stiff",
+   "severity": "style"
+  },
+  {
+   "key": "press_long1",
+   "old": "Edgelings là game giải trí xoay quanh việc dừng lại đúng khoảnh khắc. Bạn kéo một viên slime lùi lại trên ná rồi thả cho nó trượt trên mặt bàn. Slime dừng gần mép bàn phía xa có thể nhận tới gấp 3 lần điểm. Slime rơi khỏi mép sẽ không được điểm nào.",
+   "new": "Edgelings là game giải trí xoay quanh việc dừng lại đúng lúc. Bạn kéo một viên slime lùi lại trên ná rồi thả cho nó trượt trên mặt bàn. Slime dừng gần mép bàn phía xa có thể nhận tới gấp 3 lần điểm. Slime rơi khỏi mép sẽ không được điểm nào.",
+   "why": "'đúng khoảnh khắc' without a modifier is incomplete, 'đúng lúc' is the idiom",
+   "severity": "style"
+  },
+  {
+   "key": "press_video_p",
+   "old": "Bạn được phép phát trực tiếp Edgelings và đăng video về game, kể cả video có kiếm tiền. Vui lòng gắn liên kết tới edgelings.com trong phần mô tả.",
+   "new": "Bạn được phép phát trực tiếp Edgelings và đăng video về game, kể cả video bật kiếm tiền. Vui lòng gắn liên kết tới edgelings.com trong phần mô tả.",
+   "why": "'video bật kiếm tiền' is the standard YouTube term in Vietnamese",
+   "severity": "style"
+  }
+ ],
+ "glossary_changes": [
+  {
+   "term": "tier",
+   "old": "cấp độ",
+   "new": "thế giới",
+   "why": "CONTEXT decision: use the APP_GLOSSARY word for the 6 difficulty stages so the site matches the app"
+  }
+ ]
+}

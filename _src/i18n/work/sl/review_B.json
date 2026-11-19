@@ -1,0 +1,104 @@
+{
+ "verdict": "A natural, well-pitched Slovenian translation with strong slogans, correct vikanje and app terms throughout. The one must-fix is the English email subject in sup_delete_mail, plus a recurring correlative comparative calque and a few small style polishes.",
+ "changes": [
+  {
+   "key": "sup_delete_mail",
+   "old": "<b>Brez igre:</b> če igre nimate več nameščene, pišite na info@edgelings.com z zadevo „Izbriši moj račun Edgelings“ in navedite svoje ime igralca. Račun izbrišemo v 30 dneh in izbris potrdimo po e-pošti.",
+   "new": "<b>Brez igre:</b> če igre nimate več nameščene, pišite na info@edgelings.com z zadevo „Delete my Edgelings account“ in navedite svoje ime igralca. Račun izbrišemo v 30 dneh in izbris potrdimo po e-pošti.",
+   "why": "Decision: the email subject stays in English exactly, so support recognises it.",
+   "severity": "meaning"
+  },
+  {
+   "key": "meta_index_desc",
+   "old": "Brezplačna sproščena igra za iPhone, iPad in Android. Frcnite bleščeče sluzke čez mizo. Bližje robu se ustavijo, več točk dobijo. Čez rob ni točk.",
+   "new": "Brezplačna sproščena igra za iPhone, iPad in Android. Frcnite bleščeče sluzke čez mizo. Bližje ko se ustavijo robu, več točk prinesejo. Čez rob ni točk.",
+   "why": "Correlative comparative needs 'ko' in Slovenian ('Bližje ko ..., več ...'). Without it the sentence reads as a calque.",
+   "severity": "grammar"
+  },
+  {
+   "key": "hero_lead",
+   "old": "Frcnite bleščeče sluzke čez mizo. Bližje robu se ustavijo, več točk dobijo. Čez rob ni točk.",
+   "new": "Frcnite bleščeče sluzke čez mizo. Bližje ko se ustavijo robu, več točk prinesejo. Čez rob ni točk.",
+   "why": "Same correlative fix as meta_index_desc, 'prinesejo' sounds more natural for points.",
+   "severity": "grammar"
+  },
+  {
+   "key": "faq_what_a",
+   "old": "Edgelings je sproščena mobilna igra za iPhone, iPad in Android. Bleščeče sluzke frcate čez mizo. Bližje skrajnemu robu se sluzek ustavi, več točk dobi. Sluzek, ki pade čez rob, ne dobi nobene točke.",
+   "new": "Edgelings je sproščena mobilna igra za iPhone, iPad in Android. Bleščeče sluzke frcate čez mizo. Bližje ko se sluzek ustavi skrajnemu robu, več točk dobi. Sluzek, ki pade čez rob, ne dobi nobene točke.",
+   "why": "Correlative comparative needs 'ko'.",
+   "severity": "grammar"
+  },
+  {
+   "key": "shot1",
+   "old": "Ciljajte zlato cono",
+   "new": "Ciljajte na zlato cono",
+   "why": "'Ciljati' takes 'na' in standard Slovenian.",
+   "severity": "grammar"
+  },
+  {
+   "key": "faq_how_a",
+   "old": "Povlecite sluzka nazaj v frači in ga spustite. Ciljajte zlato cono blizu roba, ki prinese 3-krat več točk. 2 sluzka iste vrste se združita v večjega. Ko dosežete cilj, točke unovčite ali tvegajte še 1 strel za bonus v višini 10 %.",
+   "new": "Povlecite sluzka nazaj v frači in ga spustite. Ciljajte na zlato cono blizu roba, ki prinese 3-krat več točk. 2 sluzka iste vrste se združita v večjega. Ko dosežete cilj, točke unovčite ali tvegajte še 1 strel za bonus v višini 10 %.",
+   "why": "'Ciljati' takes 'na', consistent with shot1.",
+   "severity": "grammar"
+  },
+  {
+   "key": "score_lead",
+   "old": "Povlecite sluzka Mossy proti robu. Bližje pomeni več točk. Predaleč in pade.",
+   "new": "Povlecite sluzka Mossy proti robu. Bližje pomeni več točk. Če ga potisnete predaleč, pade.",
+   "why": "'Predaleč in pade' is an English calque and reads awkwardly.",
+   "severity": "style"
+  },
+  {
+   "key": "loop_ice_p",
+   "old": "Spolzek. Ciljajte nežneje.",
+   "new": "Spolzek. Frcnite nežneje.",
+   "why": "'Aim softer' means a softer flick here. 'Frcniti' is the app term, 'ciljajte nežneje' sounds odd.",
+   "severity": "style"
+  },
+  {
+   "key": "demo_lead",
+   "old": "Prava igra, v vašem brskalniku. Igrajte prvih 5 stopenj, ostale pa vzemite s seboj.",
+   "new": "Prava igra kar v vašem brskalniku. Igrajte prvih 5 stopenj, ostale pa vzemite s seboj.",
+   "why": "The comma copies English punctuation. 'Kar v vašem brskalniku' is natural and more persuasive.",
+   "severity": "style"
+  },
+  {
+   "key": "faq_daily_a",
+   "old": "Dnevna miza je vsak dan nova miza, enaka za vse igralce na svetu. Na dan imate 3 poskuse, šteje pa najboljši rezultat. Kupljeni pripomočki so tam izklopljeni, zato je tekmovanje pošteno.",
+   "new": "Dnevna miza je vsak dan nova, enaka za vse igralce na svetu. Na dan imate 3 poskuse, šteje pa najboljši rezultat. Kupljeni pripomočki so tam izklopljeni, zato je tekmovanje pošteno.",
+   "why": "Removes the repetition 'miza ... nova miza'.",
+   "severity": "style"
+  },
+  {
+   "key": "faq_kids_a",
+   "old": "Igra Edgelings je namenjena osebam, starim 13 let ali več. V njej ni nasilja in ni klepeta. Imena igralcev se preverjajo na seznamu prepovedanih besed. Osebe, mlajše od 18 let, naj se pred vsakim nakupom posvetujejo s staršem.",
+   "new": "Igra Edgelings je namenjena osebam, starim 13 let ali več. V njej ni nasilja in ni klepeta. Imena igralcev se preverjajo na seznamu prepovedanih besed. Osebe, mlajše od 18 let, naj se pred vsakim nakupom posvetujejo s starši.",
+   "why": "'S staršem' sounds unnatural. 'S starši' is the generic everyday form for 'a parent'.",
+   "severity": "style"
+  },
+  {
+   "key": "press_long1",
+   "old": "Edgelings je sproščena igra o tem, kako se ustaviti v pravem trenutku. Sluzka povlečete nazaj v frači in ga spustite čez mizo. Sluzek blizu skrajnega roba prinese do 3-krat več točk. Sluzek, ki pade čez rob, ne dobi nobene točke.",
+   "new": "Edgelings je sproščena igra o tem, kako se ustaviti natanko v pravem trenutku. Sluzka povlečete nazaj v frači in ga spustite čez mizo. Sluzek blizu skrajnega roba prinese do 3-krat več točk. Sluzek, ki pade čez rob, ne dobi nobene točke.",
+   "why": "'Exactly' was lost.",
+   "severity": "meaning"
+  },
+  {
+   "key": "cookie_p",
+   "old": "Piškotke bi radi uporabljali, da vidimo, kako obiskovalci uporabljajo to spletno mesto, na primer igranje demo različice in klike na trgovine. Če jih zavrnete, obiske štejemo le anonimno, na vaši napravi pa ne shranimo ničesar.",
+   "new": "Piškotke bi radi uporabljali, da vidimo, kako obiskovalci uporabljajo to spletno mesto, na primer igranje demo različice in klike na povezave do trgovin. Če jih zavrnete, obiske štejemo le anonimno, na vaši napravi pa ne shranimo ničesar.",
+   "why": "'Klike na trgovine' is vague. Store clicks are clicks on the store links.",
+   "severity": "style"
+  },
+  {
+   "key": "trailer_alt",
+   "old": "Napovednik za Edgelings",
+   "new": "Napovednik igre Edgelings",
+   "why": "'Napovednik igre' is the natural phrasing, 'za Edgelings' reads as translated.",
+   "severity": "style"
+  }
+ ],
+ "glossary_changes": []
+}

@@ -1,0 +1,55 @@
+{
+ "verdict": "Accurate, consistent translation that follows the app terms and usted register throughout. Fix the English email subject in sup_delete_mail and a few precision points in the FAQ (iPad as a phone, 13 and over, restore purchases).",
+ "changes": [
+  {
+   "key": "sup_delete_mail",
+   "old": "<b>Sin el juego:</b> si ya no tiene el juego instalado, escriba a info@edgelings.com con el asunto \"Eliminar mi cuenta de Edgelings\" e indique su nombre de jugador. Eliminamos la cuenta en un plazo de 30 días y se lo confirmamos por correo electrónico.",
+   "new": "<b>Sin el juego:</b> si ya no tiene el juego instalado, escriba a info@edgelings.com con el asunto «Delete my Edgelings account» e indique su nombre de jugador. Eliminamos la cuenta en un plazo de 30 días y se lo confirmamos por correo electrónico.",
+   "why": "Decision: the subject stays in English exactly, so support recognises it. Use Spanish angle quotes.",
+   "severity": "term"
+  },
+  {
+   "key": "faq_what_a",
+   "old": "Edgelings es un juego casual para móviles iPhone, iPad y Android. Se lanzan slimes brillantes por una mesa. Cuanto más cerca del borde del fondo se para un slime, más puntos consigue. Un slime que cae por el borde no suma nada.",
+   "new": "Edgelings es un juego casual para iPhone, iPad y Android. Se lanzan slimes brillantes por una mesa. Cuanto más cerca del borde del fondo se para un slime, más puntos consigue. Un slime que cae por el borde no suma nada.",
+   "why": "iPad is not a phone. 'móviles iPhone, iPad y Android' is factually wrong. English says mobile game, the platforms already say it.",
+   "severity": "meaning"
+  },
+  {
+   "key": "faq_kids_a",
+   "old": "Edgelings está pensado para mayores de 13 años. No tiene violencia ni chat. Los nombres de jugador se comprueban con una lista de palabras bloqueadas. Los menores de 18 años deberían pedir permiso a su padre, madre o tutor antes de comprar nada.",
+   "new": "Edgelings está pensado para jugar a partir de los 13 años. No tiene violencia ni chat. Los nombres de jugador se comprueban con una lista de palabras bloqueadas. Los menores de 18 años deberían pedir permiso a su padre, madre o tutor antes de comprar nada.",
+   "why": "'mayores de 13' strictly means older than 13 (14+). English says 13 and over.",
+   "severity": "meaning"
+  },
+  {
+   "key": "faq_restore_a",
+   "old": "Consulta a Apple o Google qué compras permanentes tiene su cuenta de la tienda, como Quitar anuncios, y las vuelve a activar. Las monedas y otros artículos que se gastan no se recuperan de esta forma. Para conservarlos, inicie sesión.",
+   "new": "Consulta a Apple o Google qué compras permanentes tiene su cuenta de la tienda, como Quitar anuncios, y las vuelve a activar. Las monedas y otros artículos que se gastan no se recuperan de esta forma. Esos se conservan si inicia sesión.",
+   "why": "English states a fact (signing in keeps those). An instruction to sign in is not possible yet, sign in is only coming soon.",
+   "severity": "meaning"
+  },
+  {
+   "key": "faq_offline_a",
+   "old": "Sí. Todos los niveles se pueden jugar sin conexión, así que puede jugar en el tren o en el avión. La mesa diaria, el ranking y las ligas necesitan conexión. Sus resultados se envían en cuanto vuelve a estar en línea.",
+   "new": "Sí. Todos los niveles se pueden jugar sin conexión, así que puede jugar en el tren o en el avión. La mesa diaria, el ranking y las ligas necesitan conexión. Sus resultados se envían en cuanto vuelva a estar en línea.",
+   "why": "'en cuanto' with a future event takes the subjunctive.",
+   "severity": "grammar"
+  },
+  {
+   "key": "faq_slimes_a",
+   "old": "Hay 5 slimes que se fusionan entre sí: Blip, Mossy, Sunny, Pomme y King Plum. Más adelante llegan los especiales: Imán atrae a los de su clase, Fantasma atraviesa a los demás, Pesado arrolla todo y Petardo explota al primer contacto. Un slime Misterio revela su clase cuando se para.",
+   "new": "Hay 5 slimes que se fusionan entre sí: Blip, Mossy, Sunny, Pomme y King Plum. Más adelante llegan los especiales: el Imán atrae a los de su clase, el Fantasma atraviesa a los demás, el Pesado lo arrolla todo y el Petardo explota al primer contacto. Un slime Misterio revela su clase cuando se para.",
+   "why": "Without articles, 'Pesado arrolla todo' reads as an adjective and the sentence is unnatural. Spanish needs the article before these names. 'lo arrolla todo' is the correct construction.",
+   "severity": "grammar"
+  },
+  {
+   "key": "meta_index_desc",
+   "old": "Juego casual gratis para iPhone, iPad y Android. Lance slimes brillantes por la mesa. Cuanto más cerca del borde se paren, más puntos. Si caen, cero.",
+   "new": "Juego casual gratis para iPhone, iPad y Android. Lance slimes brillantes por la mesa. Cuanto más cerca del borde se paren, más puntos. Si se pasan, cero.",
+   "why": "'Si caen' alone does not say over the edge. 'Si se pasan' does, echoes the slogan and stays within 155 characters.",
+   "severity": "meaning"
+  }
+ ],
+ "glossary_changes": []
+}

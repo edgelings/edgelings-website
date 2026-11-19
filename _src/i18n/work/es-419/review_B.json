@@ -1,0 +1,117 @@
+{
+ "verdict": "A strong, natural and persuasive es-419 translation with good slogans, correct usted register and neutral vocabulary. Fix the English email subject, use the app's 'mundo' for tiers and correct 2 small grammar slips.",
+ "changes": [
+  {
+   "key": "sup_delete_mail",
+   "old": "<b>Sin el juego:</b> si ya no tiene el juego instalado, escriba a info@edgelings.com con el asunto \"Eliminar mi cuenta de Edgelings\" y su nombre de jugador. Eliminamos la cuenta en un plazo de 30 días y se lo confirmamos por correo.",
+   "new": "<b>Sin el juego:</b> si ya no tiene el juego instalado, escriba a info@edgelings.com con el asunto \"Delete my Edgelings account\" y su nombre de jugador. Eliminamos la cuenta en un plazo de 30 días y se lo confirmamos por correo.",
+   "why": "Project decision: the email subject stays in English, exactly as support recognises it.",
+   "severity": "meaning"
+  },
+  {
+   "key": "faq_what_a",
+   "old": "Edgelings es un juego casual para celulares iPhone, iPad y Android. Se lanzan slimes brillantes por una mesa. Cuanto más cerca del borde del fondo se detiene un slime, más puntos suma. Un slime que se pasa del borde no suma nada.",
+   "new": "Edgelings es un juego móvil casual para iPhone, iPad y Android. Se lanzan slimes brillantes por una mesa. Cuanto más cerca del borde del fondo se detiene un slime, más puntos suma. Un slime que se pasa del borde no suma nada.",
+   "why": "iPad is not a celular. 'Juego móvil' is the natural LatAm term and good for search.",
+   "severity": "meaning"
+  },
+  {
+   "key": "feat1_p",
+   "old": "6 niveles de dificultad, de Fácil a Locura. Avance a su propio ritmo.",
+   "new": "6 mundos, de Fácil a Locura. Avance a su propio ritmo.",
+   "why": "Tier must use the app's word (mundo), per decisions. Also avoids '1200 niveles' next to '6 niveles de dificultad'.",
+   "severity": "term"
+  },
+  {
+   "key": "faq_levels_a",
+   "old": "Hay 1200 niveles en 6 niveles de dificultad: Fácil, Medio, Difícil, Muy difícil, Extremo y Locura. Cada dificultad suma trucos nuevos, como miel, hielo, arena, trampolines, viento y slimes especiales. Los niveles nuevos llegan desde el servidor sin necesidad de actualizar la app.",
+   "new": "Hay 1200 niveles en 6 mundos: Fácil, Medio, Difícil, Muy difícil, Extremo y Locura. Cada mundo suma trucos nuevos, como miel, hielo, arena, trampolines, viento y slimes especiales. Los niveles nuevos llegan desde el servidor sin necesidad de actualizar la app.",
+   "why": "Tier = mundo as in the app. Removes the clumsy 'niveles en 6 niveles'.",
+   "severity": "term"
+  },
+  {
+   "key": "press_content_v",
+   "old": "1200 niveles en 6 niveles de dificultad, mesa diaria, ligas semanales, ranking",
+   "new": "1200 niveles en 6 mundos, mesa diaria, ligas semanales, ranking",
+   "why": "Tier = mundo as in the app, shorter and clearer.",
+   "severity": "term"
+  },
+  {
+   "key": "press_long3",
+   "old": "Hay 1200 niveles en 6 niveles de dificultad, de Fácil a Locura. La mesa diaria plantea el mismo desafío a todos los jugadores del mundo, y las ligas semanales mueven a los jugadores entre Bronce, Plata y Oro. Todo el juego funciona sin conexión.",
+   "new": "Hay 1200 niveles en 6 mundos, de Fácil a Locura. La mesa diaria plantea el mismo desafío a todos los jugadores del mundo, y las ligas semanales mueven a los jugadores entre Bronce, Plata y Oro. Todo el juego funciona sin conexión.",
+   "why": "Tier = mundo as in the app.",
+   "severity": "term"
+  },
+  {
+   "key": "shots_lead",
+   "old": "Deslice para recorrer la primera dificultad.",
+   "new": "Deslice para recorrer el primer mundo.",
+   "why": "'La primera dificultad' sounds odd. Tier = mundo as in the app.",
+   "severity": "term"
+  },
+  {
+   "key": "shot4",
+   "old": "El hielo los hace deslizar",
+   "new": "El hielo los hace deslizarse",
+   "why": "Pronominal verb needed: 'hace deslizarse'.",
+   "severity": "grammar"
+  },
+  {
+   "key": "faq_offline_a",
+   "old": "Sí. Todos los niveles se juegan sin conexión, así que puede jugar en el tren o en el avión. La mesa diaria, el ranking y las ligas necesitan conexión. Sus resultados se envían en cuanto vuelve a estar en línea.",
+   "new": "Sí. Todos los niveles se juegan sin conexión, así que puede jugar en el tren o en el avión. La mesa diaria, el ranking y las ligas necesitan conexión. Sus resultados se envían en cuanto vuelva a estar en línea.",
+   "why": "'En cuanto' with a future event requires subjunctive.",
+   "severity": "grammar"
+  },
+  {
+   "key": "meta_index_title",
+   "old": "Edgelings: lleve los slimes al borde | Gratis en iPhone y Android",
+   "new": "Edgelings: lance slimes al borde | Gratis en iPhone y Android",
+   "why": "'Lanzar' is the app's verb for flick and is punchier than 'lleve'. Shorter for search.",
+   "severity": "style"
+  },
+  {
+   "key": "loop_ice_p",
+   "old": "Resbaladizo. Tire con más suavidad.",
+   "new": "Resbaladizo. Lance con menos fuerza.",
+   "why": "'Tire' clashes with 'Tire del slime' (pull) in step1. 'Lanzar' is the glossary verb for the shot.",
+   "severity": "style"
+  },
+  {
+   "key": "faq_leagues_a",
+   "old": "Según sus resultados en la mesa diaria, se le asigna una liga: Bronce, Plata u Oro. Cada semana, los mejores suben de liga y los últimos bajan. El ranking se puede ver como Diario, Semanal e Histórico.",
+   "new": "Según sus resultados en la mesa diaria, se le asigna una liga: Bronce, Plata u Oro. Cada semana, los mejores suben de liga y los últimos bajan. En el ranking puede ver Diario, Semanal e Histórico.",
+   "why": "'Se puede ver como' reads as translationese.",
+   "severity": "style"
+  },
+  {
+   "key": "faq_daily_a",
+   "old": "Es una mesa nueva cada día, la misma para todos los jugadores del mundo. Tiene 3 intentos al día y cuenta su mejor puntaje. Las ayudas compradas se desactivan ahí, así que la competencia es justa.",
+   "new": "Es una mesa nueva cada día, la misma para todos los jugadores del mundo. Tiene 3 intentos al día y cuenta su mejor puntaje. En esa mesa se desactivan las ayudas compradas, así que la competencia es justa.",
+   "why": "'Ahí' is vague in a standalone FAQ answer, clearer reference for people and search.",
+   "severity": "style"
+  },
+  {
+   "key": "press_genre_v",
+   "old": "Casual, puzles de física, arcade",
+   "new": "Casual, puzzles de física, arcade",
+   "why": "'Puzles' is the Spain spelling. LatAm gaming press writes 'puzzles'.",
+   "severity": "style"
+  }
+ ],
+ "glossary_changes": [
+  {
+   "term": "tier",
+   "old": "nivel de dificultad / dificultad",
+   "new": "mundo",
+   "why": "Project decision: tiers use the app's word. APP_GLOSSARY uses 'mundo' for the 6 stages."
+  },
+  {
+   "term": "puzzle (genre)",
+   "old": "puzles",
+   "new": "puzzles",
+   "why": "LatAm spelling."
+  }
+ ]
+}
