@@ -200,7 +200,7 @@
   "sup_delete_mail": "<b>게임 없이:</b> 게임이 더 이상 설치되어 있지 않다면, 제목을 \"Delete my Edgelings account\"로 하고 플레이어 이름을 적어 info@edgelings.com으로 이메일을 보내 주세요. 30일 이내에 계정을 삭제하고 이메일로 알려 드려요.",
   "sup_delete_note": "계정을 삭제해도 구매가 취소되거나 환불되지는 않아요. 환불은 Apple 또는 Google에서 처리해요. 아래 내용을 확인하세요.",
   "sup_refund_h": "환불",
-  "sup_refund_p": "구매는 Apple 또는 Google을 통해 이루어지므로 환불도 그곳에서 처리돼요. iPhone과 iPad에서는 reportaproblem.apple.com에 접속하세요. Android에서는 Google Play를 열고 결제 및 정기 결제, 예산 및 기록 순으로 이동하세요.",
+  "sup_refund_p": "구매는 Apple 또는 Google을 통해 이루어지므로 환불도 그곳에서 처리돼요. iPhone과 iPad에서는 reportaproblem.apple.com에 접속하세요. Android에서는 Google Play를 열고 결제 및 정기 결제, 예산 및 내역 순으로 이동하세요.",
   "sup_name_h": "플레이어 이름 신고",
   "sup_name_p": "해당 이름을 이메일로 보내 주세요. <a href=\"/terms.html\">이용약관</a>을 위반하는 이름은 삭제해요.",
   "sup_faq_h": "자주 묻는 질문",

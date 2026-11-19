@@ -25,11 +25,13 @@
     s.async = true; s.src = (C.phAssets || 'https://eu-assets.i.posthog.com') + '/static/array.js';
     s.onload = function () {
       if (!window.posthog || !window.posthog.init) return;
-      var opts = { api_host: C.phHost || 'https://eu.i.posthog.com', autocapture: false, capture_pageview: true, capture_pageleave: true, disable_session_recording: true, disable_surveys: true, person_profiles: 'identified_only' };
+      var opts = { api_host: C.phHost || 'https://eu.i.posthog.com', autocapture: false, capture_pageview: false, capture_pageleave: true, disable_session_recording: true, disable_surveys: true, person_profiles: 'identified_only' };
       if (mode === 'yes') opts.persistence = 'localStorage+cookie';
       else { opts.cookieless_mode = 'always'; opts.persistence = 'memory'; }
       window.posthog.init(C.ph, opts);
       ph = window.posthog;
+      ph.register({ site: 'web', lang: C.lang || 'en' });
+      ph.capture('$pageview');
       queue.forEach(function (q) { ph.capture(q[0], q[1]); }); queue = [];
     };
     document.head.appendChild(s);

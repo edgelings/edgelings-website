@@ -89,14 +89,16 @@ def url_of(code, file):
 
 
 def badges(code, place):
+    # Official Apple and Google badge artwork, one file per language in img/badges/ (do not redraw or edit it).
     out = []
-    for key, icon, name, pre in (('ios', APPLE, 'App Store', 'badge_ios_pre'), ('android', PLAY, 'Google Play', 'badge_play_pre')):
+    for key, img, name in (('ios', f'/img/badges/apple-{code}.svg', 'App Store'), ('android', f'/img/badges/play-{code}.png', 'Google Play')):
         url = STORES.get(key, '')
+        cls = 'ios' if key == 'ios' else 'and'
         if url:
-            out.append(f'<a class="badge" href="{html.escape(url)}" rel="noopener" data-store="{key}" data-place="{place}">{icon}<span><small>{t(code, pre)}</small><b>{name}</b></span></a>')
+            out.append(f'<a class="sbadge" href="{html.escape(url)}" rel="noopener" data-store="{key}" data-place="{place}"><img class="{cls}" src="{img}" alt="{name}" loading="lazy" decoding="async"></a>')
         else:
             aria = html.escape(t(code, 'badge_soon_aria').replace('{store}', name))
-            out.append(f'<span class="badge soon" aria-label="{aria}">{icon}<span><small>{t(code, "badge_soon")}</small><b>{name}</b></span></span>')
+            out.append(f'<span class="sbadge soon" role="img" aria-label="{aria}"><small>{t(code, "badge_soon")}</small><img class="{cls}" src="{img}" alt="" loading="lazy" decoding="async"></span>')
     return '<div class="badges">' + ''.join(out) + '</div>'
 
 

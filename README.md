@@ -51,6 +51,7 @@ python _src/i18n/work/check.py _src/i18n/de.json
 
 Once the game is live, paste the links into `stores` in `_src/config.json`, set `smartBanner` to true, run the build and push.
 The badges switch from Coming soon to real links and /get starts redirecting.
+The badges are the official Apple and Google artwork per language in `img/badges/` (Apple has no Hindi badge, so Hindi uses the English one). Do not redraw or edit them.
 
 ## Social links
 

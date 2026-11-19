@@ -200,7 +200,7 @@
   "sup_delete_mail": "<b>在游戏外：</b>如果您的设备上已不再安装游戏，请发送邮件至 info@edgelings.com，邮件主题写“Delete my Edgelings account”，并附上您的玩家昵称。我们会在 30 天内删除账号，并通过邮件确认。",
   "sup_delete_note": "删除账号不会取消购买，也不会退款。退款由 Apple 或 Google 处理，详见下文。",
   "sup_refund_h": "退款",
-  "sup_refund_p": "购买通过 Apple 或 Google 进行，退款也同样如此。在 iPhone 和 iPad 上，请访问 reportaproblem.apple.com。在 Android 上，请打开 Google Play，依次进入“付款和订阅”和“预算和历史记录”。",
+  "sup_refund_p": "购买通过 Apple 或 Google 进行，退款也同样如此。在 iPhone 和 iPad 上，请访问 reportaproblem.apple.com。在 Android 上，请打开 Google Play，依次进入“付款和订阅”和“预算与历史记录”。",
   "sup_name_h": "举报玩家昵称",
   "sup_name_p": "请通过邮件告诉我们该昵称。违反<a href=\"/terms.html\">使用条款</a>的昵称将被删除。",
   "sup_faq_h": "常见问题",

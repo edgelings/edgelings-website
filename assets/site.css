@@ -334,3 +334,11 @@ footer .langs a[aria-current]{color:var(--gold)}
 .suggest button.x{background:none;border:0;color:var(--ink2);font:800 14px "Nunito",system-ui,sans-serif;cursor:pointer;text-decoration:underline}
 @media (max-width:620px){header.top .pill{white-space:nowrap;font-size:14px;padding:9px 13px}}
 .slime{min-width:0;overflow-wrap:break-word;hyphens:auto}
+.sbadge{display:inline-flex;flex-direction:column;align-items:center;gap:6px;text-decoration:none;transition:transform .15s}
+a.sbadge:hover{transform:translateY(-2px)}
+.sbadge img{display:block;width:auto}
+.sbadge img.ios{height:52px}
+.sbadge img.and{height:78px;margin:-13px -10px}
+.sbadge small{font:800 11px/1.2 var(--body);text-transform:uppercase;letter-spacing:.6px;color:var(--gold)}
+@media (max-width:620px){.sbadge img.ios{height:46px}.sbadge img.and{height:69px;margin:-11.5px -9px}}
+.page .sbadge small{color:var(--ink2)}
